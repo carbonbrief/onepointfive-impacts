@@ -317,12 +317,13 @@ li {
 
 .droplinks {
     margin-left: 20px;
-    margin-top: 80px;
+    margin-top: 30px;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
+    display: inline-block;
 }
 
 @keyframes fadein {
