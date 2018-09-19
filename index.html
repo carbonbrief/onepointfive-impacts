@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <script src="//d3js.org/d3.v4.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="//d3js.org/d3.v4.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    </head>
+    <body>
+        <video autoplay="true" muted="muted" loop id="intro-vid">
+            <source src="glacier.mp4" type="video/mp4">
+        </video>
+        <div id="lines-wrapper">
+            <div id="lines"></div>  
+        </div>
+        <div class="side-nav nav-moving">
+            <p class="nav-arrow up"><i class="fas fa-arrow-circle-up"></i></p>
+            <ul class="nav-circles">
+                <!-- <li class="nav-circle"><a href="#"></a></li> -->
+                <li class="nav-circle"><a href="#"></a></li>
+                <li class="nav-circle"><a href="#"></a></li>
+                <li class="nav-circle"><a href="#"></a></li>
+            </ul>
+            <p class="nav-arrow down" ><i class="fas fa-arrow-circle-down"></i></p>
+        </div>
+        <div class="map-wrapper">
+            <div class="map-container">
+                <div class="map"></div>
+                <p>Location: <span id="map-text">Oceania</span></p>
+            </div>
+        </div>
+        <div class="table-wrapper">
+            <div class="table"></div>
+        </div>
+        <div id="container" class="scrolly">
+            <div class="picture-mask"></div>
+            <div class="gradient-wrapper">
+                <div class="story-gradient"></div>
+            </div>
+        </div>
+        <div class="intro-wrapper">
+            <div class="intro">
+                <h1>Global warming: A 1.5C vs a 2C world</h1>
+                <p>Half a degree makes a big difference when judging how different parts of the world will feel the effects of climate change…</p>
+                <div class="droplinks">
+                    <ul>
+                        <li><a href="#" class="droplink"><i class='fas fa-frog'></i> Species</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-tint'></i> Rainfall</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-dollar-sign'></i> GDP</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-sun'></i> Heatwaves</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-snowflake'></i> Snow</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-thermometer'></i> Temperature</a></li>
+                        <li><a href="#" class="droplink"><i class='fas fa-ship'></i> Oceans</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='../onepointfive/img/wheat.svg'> Crops</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/onepointfive/img/river.svg'> Rivers</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='../img/bear.svg'> Arctic</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='./onepointfive/img/glacier.svg'> Glaciers</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/drought.svg'> Drought</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/cyclone.svg'> Cyclones</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/sea-level.svg'> Sea level rise</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/flooding.svg'> Flooding</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/china-icon.svg'> China</a></li>
+                        <li><a href="#" class="droplink"><img class='droplink-icon' src='/img/africa-icon.svg'> Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tooltip-wrapper">
+            <div class='arrow-tooltip'></div>
+            <div class="tooltip"></div>
+        </div>
+        <a href='https://www.carbonbrief.org/'><div class="logo"></div></a>
+        <div class='share-icons'>
+            <span class="fa-stack" id="twitter">
+                <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fcarbonbrief.org&text=This%20is%20a%20Quote" target="_blank">
+                    <i class="far fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=carbonbrief.org" target="_blank"><i class="fab fa-facebook-f fa-stack-1x"></i></a>
+            </span>
+            <span class="fa-stack">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://carbonbrief.org&title=Interactive:%201.5C%20vs%202C&summary=Half%20a%20degree%20makes%20a%20big%20difference%20when%20judging%20how%20the%20world%20will%20experience%20climate%20change.&source=Carbon%20Brief" target="_blank">
+                    <i class="far fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                </a>
+            </span>
+        </div>
+    </body>
+    <script src="js/table.js"></script>
+    <script src="js/lines.js"></script>
+    <script src="js/jquery.scrollstory.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Script needed for the popup share icon to work -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</html>
