@@ -325,7 +325,7 @@ $(function(){
 
                         var calc4 = (windowBottom - objectTop) / range;
 
-                        console.log(calc4);
+                        // console.log(calc4);
 
                         $(this).css({ 'opacity': calc4 });
 

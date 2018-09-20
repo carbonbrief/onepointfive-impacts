@@ -6,7 +6,7 @@
         name: "background2"
     },{
         name: "SPECIES",
-        icon: "<img class='title-icon' src='../img/river.svg'>",
+        icon: "<img class='title-icon' src='../img/ocean.svg'>",
         text: "Proportion of species losing >50% of their climatic range.",
         info: "Extra info 1 - Lorem ipsum dolor sit amet",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/04/Turtle-and-bleached-coral-on-Heron-Island-2.jpeg",
