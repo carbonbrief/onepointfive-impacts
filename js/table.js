@@ -4,7 +4,7 @@ var getHeader1 = {
     "name": "",
     "1.5C": "1.5C",
     "2C": "2C",
-    "3C": "3C"
+    "3C": "3C+"
 }
 
 var getHeader2 = {
@@ -21,10 +21,17 @@ var getHeader3 = {
     "3C": "3.5C"
 }
 
+var getHeader3 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "3C"
+}
+
 // objects
 
 // placeholder text to stop bug where from adding species data twice when scrolling up and down
-var background2 = [
+var instructions = [
     { "name": "", "1.5C": "", "2C": "", "3C": ""},
     { "name": "", "1.5C": "", "2C": "", "3C": ""},
     { "name": "", "1.5C": "", "2C": "", "3C": ""}
@@ -97,7 +104,7 @@ function tabulate(data, columns) {
 }
 
 // render the table
-var myTable = tabulate(background2, columns);
+var myTable = tabulate(instructions, columns);
 
 // bold the text of the first column
 myTable.selectAll('td:nth-child(1)')
@@ -139,14 +146,14 @@ function updateTable () {
     // update the column headers
     myTable.selectAll("thead th")
     .text(function(column) {
-        if (dataName =="background2") {
+        if (dataName =="instructions") {
             return getHeader1[column];
         } else if (dataName =="sealevel")  {
             return getHeader2[column];
         } else if (dataName =="marineheatwave")  {
             return getHeader3[column];
         } else if (dataName =="economy")  {
-            return getHeader1[column];
+            return getHeader4[column];
         }
     });
 

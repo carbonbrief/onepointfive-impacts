@@ -5,6 +5,12 @@
     },{
         name: "background2"
     },{
+        name: "instructions",
+        title: "",
+        icon: "<i class='fas fa-info-circle'></i>",
+        text: "All the research presented below compares impacts at 1.5C and 2C of warming above pre-industrial levels – the Paris Agreement’s temperature goals. These are shown in the first two columns, respectively.<br>If the research also includes a higher temperature level, such as 2.5C, 3C or 4C, this will be shown in a third column. But this will change from one impact to the next, depending on the study.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
+    },{
         name: "sealevel",
         title: "OCEANS",
         subtitle: "Sea level rise",
@@ -18,7 +24,7 @@
         name: "marineheatwaves",
         title: "",
         subtitle: "Marine heatwaves and ocean pH",
-        icon: "",
+        icon: "<img class='title-icon' src='../img/ocean.svg'>",
         text: "Lorem ipsum dolor sit amet, eligendi scriptorem et nam.",
         info: "Extra info 2 - Lorem ipsum dolor sit amet",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",

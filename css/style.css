@@ -31,13 +31,18 @@ video {
 }
 
 .story-intro1 {
-    height: 500px !important;
+    height: 600px !important;
     min-height: 300px !important;
 }
 
 .story-intro2 {
     height: 300px !important;
     min-height: 300px !important;
+}
+
+.instructions {
+    height: 500px;
+    min-height: 350px;
 }
 
 footer {
@@ -119,7 +124,7 @@ a {
 
 .gradient-wrapper {
     position: absolute;
-    top: 920px;
+    top: 1580px;
     left: calc((100% - 1000px)/2 + 313px);
     height: 2130px;
     padding: 0px !important;
@@ -230,7 +235,7 @@ td {
 
 .map-wrapper {
     position: absolute;
-    top: 1370px;
+    top: 1870px;
     /* work out once know how many stories have */
     height: 1580px;
     left: calc((100% - 1000px)/2);
@@ -283,6 +288,7 @@ p .fa-info-circle:hover {
     left: calc((100% - 1000px)/2);
     z-index: 4;
     position: absolute;
+    top: 150px;
 }
 
 
@@ -299,7 +305,7 @@ p .fa-info-circle:hover {
 }
 
 .intro-wrapper {
-    top: 160px;
+    top: 120px;
     left: calc((100% - 1000px)/2);
     margin-left: 165px;
     max-width: 550px;
