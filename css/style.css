@@ -197,6 +197,19 @@ td {
     padding-left: 0px;
     padding-right: 10px;
     font-size: 17px;
+    vertical-align: top;
+}
+
+.uncertainty {
+    font-size: 10.5px;
+    color: #a8a8a8;
+    font-style: italic;
+}
+
+.table-subtitle {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13.5px;
 }
 
 .arrow-down {

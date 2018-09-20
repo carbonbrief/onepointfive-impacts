@@ -1,24 +1,24 @@
 // headers
 
-var getSpeciesHeader = {
-    "name": "",
-    "1.5C": "1.5C",
-    "2C": "2C",
-    "3C": "3.2C"
-}
-
-var getRainfallHeader = {
-    "name": "",
-    "1.5C": "1.5C",
-    "2C": "2C",
-    "3C": ""
-}
-
-var getGDPHeader = {
+var getHeader1 = {
     "name": "",
     "1.5C": "1.5C",
     "2C": "2C",
     "3C": "3C"
+}
+
+var getHeader2 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "2.5C"
+}
+
+var getHeader3 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "3.5C"
 }
 
 // objects
@@ -30,19 +30,23 @@ var background2 = [
     { "name": "", "1.5C": "", "2C": "", "3C": ""}
 ];
 
-var species = [
-    { "name": "Insects", "1.5C": "6%", "2C": "18%", "3C": "49%"},
-    { "name": "Plants", "1.5C": "8%", "2C": "16%", "3C": "44%"},
-    { "name": "Vertebrates", "1.5C": "4%", "2C": "8%", "3C": "26%"}
+var sealevel = [
+    { "name": "By 2100", "1.5C": "<span class='arrow-up'>&#9650;</span> 48cm <br><span class='uncertainty'>(+28–+82cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56cm <br><span class='uncertainty'>(+28–+96cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 58cm <br><span class='uncertainty'>(+37–+93cm)</span>"},
+    { "name": "<br><span class='table-subtitle'>Contributions from</span>", "1.5C": "", "2C": "", "3C": ""},
+    { "name": "Antarctic ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+35cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+34cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+34cm)</span>"},
+    { "name": "Greenland ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 7cm <br><span class='uncertainty'>(+3–+19cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 8cm <br><span class='uncertainty'>(+2–+22cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 8cm <br><span class='uncertainty'>(+2–+22cm)</span>"},
+    { "name": "Thermal expansion", "1.5C": "<span class='arrow-up'>&#9650;</span> 19cm <br><span class='uncertainty'>(+10–+27cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 25cm <br><span class='uncertainty'>(+7–+42cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 26cm <br><span class='uncertainty'>(+16–+35cm)</span>"},
+    { "name": "Glaciers and ice caps", "1.5C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+6–+15cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+2–+21cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 13cm <br><span class='uncertainty'>(+9–+17cm)</span>"},
+    { "name": "Land water storage", "1.5C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8cm)</span>"}
 ];
 
-var rainfall = [
+var marineheatwaves = [
     { "name": "Extreme precipitation events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 26%", "3C": "<span class='arrow-up'>&#9650;</span> 28%"},
     { "name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": "<span class='arrow-up'>&#9650;</span> 14%"},
     { "name": "Consecutive dry days", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> -5%", "3C": "<span class='arrow-down'>&#9660;</span> -8%"}
 ];
 
-var gdp = [
+var economy = [
     { "name": "Global per capita GDP in 2100", "1.5C": "<span class='arrow-down one'>&#9660;</span> -8%", "2C": "<span class='arrow-down two'>&#9660;</span> -13%", "3C": ""},
 ];
 
@@ -69,7 +73,7 @@ function tabulate(data, columns) {
         .enter()
         .append("th")
         .text(function(column) { 
-            return getSpeciesHeader[column];
+            return getHeader1[column];
         });
 
     // create a row for each object in the data
@@ -135,14 +139,14 @@ function updateTable () {
     // update the column headers
     myTable.selectAll("thead th")
     .text(function(column) {
-        if (dataName =="rainfall") {
-            return getRainfallHeader[column];
-        } else if (dataName =="species")  {
-            return getSpeciesHeader[column];
-        } else if (dataName =="gdp")  {
-            return getGDPHeader[column];
-        } else if (dataName =="background2")  {
-            return getSpeciesHeader[column];
+        if (dataName =="background2") {
+            return getHeader1[column];
+        } else if (dataName =="sealevel")  {
+            return getHeader2[column];
+        } else if (dataName =="marineheatwave")  {
+            return getHeader3[column];
+        } else if (dataName =="economy")  {
+            return getHeader1[column];
         }
     });
 

@@ -93,7 +93,7 @@ $(function(){
         // UPDATE TABLE
         function triggerTableUpdate() {
 
-            dataName = (item.data.name).toLowerCase();
+            dataName = item.data.name;
 
             // change string into variable name
             newData = window[dataName];
@@ -139,17 +139,6 @@ $(function(){
 
     }
 
-    var blurEvents = function (ev, item) {
-
-        // better instead to make opacity of picture (or actually the mask) dependent on scroll?
-        
-        // don't apply to first two as have separate scroll based fade events for them
-        // if(item.index > 1){
-        //     item.el.addClass('blur');
-        // }
-
-    }
-
     // pass in the data
     // callbacks triggered on instantiation
     $("#container").scrollStory({
@@ -173,7 +162,7 @@ $(function(){
                     "<div class='story-mask'><div class='story-content main'><h2><span class='title-span'>"
                     + item.data.icon +
                     "   " 
-                    + item.data.name 
+                    + item.data.title 
                     + "</span></h2><p>" 
                     + item.data.text 
                     + " <i class='fas fa-info-circle'></i></p></div></div>"
@@ -203,7 +192,6 @@ $(function(){
             }
         },
         itemfocus: focusEvents,
-        itemblur: blurEvents,
         triggerOffset: halfViewportHeight, // seems to set the active story at a more sensible position
         itementerviewport: enterEvents,
         itemexitviewport: exitEvents,

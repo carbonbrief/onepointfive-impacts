@@ -5,24 +5,29 @@
     },{
         name: "background2"
     },{
-        name: "SPECIES",
+        name: "sealevel",
+        title: "OCEANS",
+        subtitle: "Sea level rise",
         icon: "<img class='title-icon' src='../img/ocean.svg'>",
-        text: "Proportion of species losing >50% of their climatic range.",
-        info: "Extra info 1 - Lorem ipsum dolor sit amet",
+        text: "",
+        info: "Relative to 2000; median and 5th-95th percentile range",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/04/Turtle-and-bleached-coral-on-Heron-Island-2.jpeg",
-        map: "australia",
-        location: "Australia"
+        map: "global",
+        location: "Global"
     },{
-        name: "RAINFALL",
-        icon: "<i class='fas fa-tint'></i>",
-        info: "Extra info 2 - Lorem ipsum dolor sit amet",
+        name: "marineheatwaves",
+        title: "",
+        subtitle: "Marine heatwaves and ocean pH",
+        icon: "",
         text: "Lorem ipsum dolor sit amet, eligendi scriptorem et nam.",
+        info: "Extra info 2 - Lorem ipsum dolor sit amet",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
         map: "latin-america",
         location: "Latin America"
     },{
-        name: "GDP",
-        icon: "fas fa-dollar-sign",
+        name: "economy",
+        title: "Economy",
+        icon: "<i class='fas fa-dollar-sign'></i>",
         info: "Extra info 3 - Lorem ipsum dolor sit amet",
         text: "Global per capita GDP in 2100 (relative to no additional warming).",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
