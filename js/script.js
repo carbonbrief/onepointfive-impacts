@@ -287,8 +287,6 @@ $(function(){
                             // do nothing
                         }
 
-                        console.log(calc4);
-
                     }
 
                 })

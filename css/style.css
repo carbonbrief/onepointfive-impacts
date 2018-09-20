@@ -286,7 +286,7 @@ p .fa-info-circle:hover {
 }
 
 #lines-wrapper {
-    height: 3495px;
+    height: 4175px;
     /* decided to make fixed for now with break points */
     width: 1000px;
     left: calc((100% - 1000px)/2);
@@ -300,7 +300,7 @@ p .fa-info-circle:hover {
     position: sticky;
     width: 100%;
     top: 150px;
-    height: 3400px;
+    height: 4110px;
 }
 
 .line {
