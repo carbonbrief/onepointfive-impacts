@@ -351,6 +351,10 @@
         font-size: 13.5px;
     }
 
+    .uncertainty {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 750px) {

@@ -102,7 +102,7 @@ $(function(){
 
         }
 
-        if(item.index > 0 && item.index < 5){
+        if(item.index > 1 && item.index < 6){
 
             triggerTableUpdate();
 
@@ -153,7 +153,7 @@ $(function(){
                 // don't append anything
                 item.el.addClass("story-intro2");
                 // item.el.height("300").css("min-height", "300px");
-            } else if (item.index > 1 && item.index < 5) {
+            } else if (item.index > 1 && item.index < 6) {
 
                 item.el.addClass("story-middle");
  
@@ -175,7 +175,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index === 5) {
+            } else if (item.index === 6) {
 
                 // change style via class so can make responsive
                 item.el.addClass("story-end");
@@ -263,21 +263,35 @@ $(function(){
                     // do nothing
                 }
 
-                // BRING IN GRADIENT BACKGROUND
-                $gradient.css({ 'opacity': calc1 });
-
-                // so doesn't continue increasing once move down page
-                if (calc2 > '1') {
-                    $gradient.css({ 'opacity': 0 });
-                } else if ( calc2 < '0' ) {
-                    $gradient.css({ 'opacity': 1 });
-                } else if (calc2 > '0') {
-                    // do nothing
-                }
-
                 // FADE STORY CONTENT AT BOTTOM OF PAGE
 
                 var windowBottom = scrollTop + $(this).innerHeight();
+
+                $gradient.each(function() {
+
+                    var range2 = 400;
+
+                     var objectTop = $(this).offset().top;
+
+                    if (objectTop < windowBottom) { //object comes into view (scrolling down)
+
+                        var calc4 = (windowBottom - objectTop) / range2;
+
+                        $(this).css({ 'opacity': calc4 });
+
+                        if (calc4 > '1') {
+                            $(this).css({ 'opacity': 1 });
+                        } else if ( calc4 < '0' ) {
+                            $(this).css({ 'opacity': 0 });
+                        } else if (calc4 > '0') {
+                            // do nothing
+                        }
+
+                        console.log(calc4);
+
+                    }
+
+                })
 
                 $('.story-content.main').each(function() {
 

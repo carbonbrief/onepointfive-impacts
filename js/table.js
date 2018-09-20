@@ -21,7 +21,7 @@ var getHeader3 = {
     "3C": "3.5C"
 }
 
-var getHeader3 = {
+var getHeader4 = {
     "name": "",
     "1.5C": "1.5C",
     "2C": "2C",

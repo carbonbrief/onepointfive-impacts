@@ -12,7 +12,7 @@ body {
 video {
     position: fixed;
     z-index: -5;
-    height: 920px;
+    height: 1020px;
     width: auto;
 }
 
@@ -31,12 +31,12 @@ video {
 }
 
 .story-intro1 {
-    height: 600px !important;
+    height: 500px !important;
     min-height: 300px !important;
 }
 
 .story-intro2 {
-    height: 300px !important;
+    height: 400px !important;
     min-height: 300px !important;
 }
 
@@ -109,6 +109,10 @@ a {
     opacity: 0;
 }
 
+#story0-2 .story-content {
+    max-width: 410px;
+}
+
 .story-content p {
     background-color: rgba(74, 106, 124, 0.9);
     padding: 10px;
@@ -124,7 +128,7 @@ a {
 
 .gradient-wrapper {
     position: absolute;
-    top: 1580px;
+    top: 1730px;
     left: calc((100% - 1000px)/2 + 313px);
     height: 2130px;
     padding: 0px !important;
@@ -156,11 +160,11 @@ a {
 }
 
 .table-wrapper {
-    top: 985px;
+    top: 1085px;
     left: calc((100% - 1000px)/2);
     margin-left: 330px;
     width: 670px;
-    height: 2080px;
+    height: 2790px;
     position: absolute;
     z-index: 5;
 }
@@ -235,7 +239,7 @@ td {
 
 .map-wrapper {
     position: absolute;
-    top: 1870px;
+    top: 2120px;
     /* work out once know how many stories have */
     height: 1580px;
     left: calc((100% - 1000px)/2);
@@ -282,7 +286,7 @@ p .fa-info-circle:hover {
 }
 
 #lines-wrapper {
-    height: 3610px;
+    height: 3495px;
     /* decided to make fixed for now with break points */
     width: 1000px;
     left: calc((100% - 1000px)/2);
@@ -295,7 +299,7 @@ p .fa-info-circle:hover {
 #lines {
     position: sticky;
     width: 100%;
-    top: 0;
+    top: 150px;
     height: 3400px;
 }
 
@@ -308,26 +312,17 @@ p .fa-info-circle:hover {
     top: 120px;
     left: calc((100% - 1000px)/2);
     margin-left: 165px;
-    max-width: 550px;
+    max-width: 600px;
     z-index: 999999;
     position: absolute;
-    height: 370px;
+    height: 670px;
 }
 
 .intro {
-    top: 190px;
+    top: 150px;
     position: sticky;
     /* margin-left: 20px; */
 }
-
-/* .fixed {
-    position: fixed;
-}
-
-.moving {
-    position: absolute;
-    top: calc(190px + 500px + 40px);
-} */
 
 li {
     list-style-type: none;
@@ -335,7 +330,7 @@ li {
 }
 
 .droplinks {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 30px;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -386,6 +381,8 @@ li {
     padding-right: 5px;
     border-radius: 3px;
     margin-right: 10px;
+    margin-top: 3px;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .droplinks li:hover {
