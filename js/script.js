@@ -76,7 +76,7 @@ $(function(){
         }
 
         // hide down arrow when at bottom
-        if (item.index > 3) {
+        if (item.index > 4) {
             $arrowDown.css("visibility", "hidden");
         } else {
             $arrowDown.css("visibility", "visible");
@@ -163,9 +163,11 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p>" 
+                    + "</span></h2><h3>" +
+                    item.data.subtitle + 
+                    "</h3><p>" 
                     + item.data.text 
-                    + " <i class='fas fa-info-circle'></i></p></div></div>"
+                    + "<i class='fas fa-info-circle'></i></p></div></div>"
                 );
 
                 // add their background images

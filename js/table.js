@@ -48,9 +48,14 @@ var sealevel = [
 ];
 
 var marineheatwaves = [
-    { "name": "Extreme precipitation events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 26%", "3C": "<span class='arrow-up'>&#9650;</span> 28%"},
-    { "name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": "<span class='arrow-up'>&#9650;</span> 14%"},
-    { "name": "Consecutive dry days", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> -5%", "3C": "<span class='arrow-down'>&#9660;</span> -8%"}
+    { "name": "<span class='table-subtitle'>Marine heatwaves</span>", "1.5C": "", "2C": "", "3C": ""},
+    { "name": "Increase in global marine heatwave days per year", "1.5C": "x16", "2C": "x23", "3C": "x41"},
+    { "name": "<br><span class='table-subtitle'>Ocean pH</span>", "1.5C": "", "2C": "", "3C": ""},
+    { "name": "By 2050", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.07 <br><span class='uncertainty'>(-0.08–+0.04)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0.11 <br><span class='uncertainty'>(-0.12–-0.01)</span>", "3C": ""},
+    { "name": "By 2050", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.04 <br><span class='uncertainty'>(-0.07–+0.05)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0.09 <br><span class='uncertainty'>(-0.16–-0.02)</span>", "3C": ""},
+    { "name": "By 2050", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.02 <br><span class='uncertainty'>(-0.09–+0.04)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0.06 <br><span class='uncertainty'>(-0.16–-0.02)</span>", "3C": ""},
+    { "name": "<br><span class='table-subtitle'>Atlantic meridional overturning circulation</span>", "1.5C": "", "2C": "", "3C": ""},
+    { "name": "AMOC strength in 2100", "1.5C": "<span class='arrow-down'>&#9660;</span> 11%", "2C": "<span class='arrow-down'>&#9660;</span> 34%", "3C": ""}
 ];
 
 var economy = [
@@ -150,7 +155,7 @@ function updateTable () {
             return getHeader1[column];
         } else if (dataName =="sealevel")  {
             return getHeader2[column];
-        } else if (dataName =="marineheatwave")  {
+        } else if (dataName =="marineheatwaves")  {
             return getHeader3[column];
         } else if (dataName =="economy")  {
             return getHeader4[column];
