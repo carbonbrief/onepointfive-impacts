@@ -163,13 +163,31 @@
 
 // Africa objects
 
-    // Create your own objects as above based on the spreadsheet
+    //temperature and warm spell
+
+    var africaTemp = [];
+
+    var africaTempExtremes = [];
+
+    // heat events
+
+    var africaHeat = [];
+
+    // season and dry spell
+
+    var africaRain = [];
+
+    // rain intensity and extremes
+
+    var africaRainIntensity = [];
+
+    var africaDrought = [];
+
+    var africaStorms = [];
+
+    var africaCrops = [];
 
 // Asia objects
-
-    // Create your own objects as above based on the spreadsheet
-
-// Africa objects
 
     // Create your own objects as above based on the spreadsheet
 
