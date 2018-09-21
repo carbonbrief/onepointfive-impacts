@@ -218,7 +218,48 @@ $(function(){
             // SET UP DROPLINKS
             $droplinks.on('click', 'li', function() {
                 // +2 since not counting title and first background
-                that.index($('li', $droplinks).index($(this)) + 2);
+                // that.index($('li', $droplinks).index($(this)) + 2);
+
+                var id = $(this).attr("id");
+
+                if (id == "temp") {
+                    that.index(4);
+                } else if (id == "heat") {
+                    that.index(6);
+                } else if (id =="rain") {
+                    //do nothing for moment
+                } else if (id =="drought") {
+                    //do nothing for moment
+                } else if (id =="storm") {
+                    //do nothing for moment
+                } else if (id =="ocean") {
+                    //do nothing for moment
+                } else if (id =="ice") {
+                    //do nothing for moment
+                } else if (id =="crops") {
+                    //do nothing for moment
+                } else if (id =="nature") {
+                    //do nothing for moment
+                } else if (id =="economy") {
+                    //do nothing for moment
+                } else if (id =="health") {
+                    //do nothing for moment
+                } else if (id =="europe") {
+                    //do nothing for moment
+                } else if (id =="asia") {
+                    //do nothing for moment
+                } else if (id =="china") {
+                    //do nothing for moment
+                } else if (id =="americas") {
+                    //do nothing for moment
+                } else if (id =="africa") {
+                    //do nothing for moment
+                } else if (id =="australasia") {
+                    //do nothing for moment
+                } else if (id =="sids") {
+                    //do nothing for moment
+                }
+
             });
 
             // SET UP SIDE NAV
