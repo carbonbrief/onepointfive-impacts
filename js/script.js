@@ -398,7 +398,7 @@ $("#twitter").on("click", function() {
     $('#tweet iframe').remove();
 
     var baseTweet = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fcarbonbrief.org&text=";
-    var text = "Interactive: How the world will look at 1.5C and 2C of warming";
+    var text = "Interactive: The impacts of climate change at 1.5C, 2C and beyond";
     var encoded = encodeURI(text);
     var customTweet = baseTweet += encoded;
 
