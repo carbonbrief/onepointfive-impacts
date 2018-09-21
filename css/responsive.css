@@ -124,7 +124,12 @@
     }
 
     .map-container {
-        width: 180px;
+        width: 160px;
+        height: 110px;
+    }
+
+    .map {
+        height: 90px;
     }
 
     .logo {

@@ -148,16 +148,34 @@ $(function(){
             // actually better to build all the items in the same way so that can manipulate the behaviour of all?
             if(item.index === 0) {
                 item.el.addClass("story-intro1");
-                // item.el.height("500").css("min-height", "300px");
             } else if (item.index === 1) {
                 // don't append anything
                 item.el.addClass("story-intro2");
-                // item.el.height("300").css("min-height", "300px");
-            } else if (item.index > 1 && item.index < 6) {
+            } else if (item.index === 2) {
+                // don't append anything
+                item.el.addClass("story-middle");
+
+                // build from data
+                item.el.append(
+                    "<div class='story-mask'><div class='story-content main'><h2><span class='title-span'>"
+                    + item.data.icon
+                    + "</span></h2><p>"
+                    + item.data.text
+                    + "</p></div></div>"
+                );
+
+                // add their background images
+                // might be better to do as a div so a mask can be added
+                item.el.css({
+                    "background-image": "url('" + item.data.background + "')",
+                    "background-repeat": "no-repeat",
+                    "background-size": "cover"
+                });
+            } else if (item.index > 2 && item.index < 6) {
 
                 item.el.addClass("story-middle");
  
-                // build impacts from data
+                // build from data
                 item.el.append(
                     "<div class='story-mask'><div class='story-content main'><h2><span class='title-span'>"
                     + item.data.icon +

@@ -256,7 +256,7 @@ td {
     height: 1580px;
     left: calc((100% - 1000px)/2);
     margin-left: 0px;
-    width: 200px;
+    width: 180px;
 }
 
 p .fa-info-circle {
@@ -293,7 +293,7 @@ p .fa-info-circle:hover {
 }
 
 .map img {
-    width: 200px;
+    width: 180px;
     height: 300px;
 }
 
