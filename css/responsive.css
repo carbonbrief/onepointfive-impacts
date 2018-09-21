@@ -12,12 +12,12 @@
 @media screen and (min-width: 1550px) {
 
     .story-gradient {
-        width: calc((1100px/6)*4);
+        width: calc((1100px/6)*4.5);
         
     }
 
     .gradient-wrapper {
-        left: calc((100% - 1100px)/2 + 347px);
+        left: calc((100% - 1100px)/2 + 255px);
     }
 
     #lines-wrapper {
@@ -37,8 +37,8 @@
 
     .table-wrapper {
         left: calc((100% - 1100px)/2);
-        margin-left: 364px;
-        width: 733px;
+        margin-left: 265px;
+        width: 843px;
     }
 
     .map-wrapper {
@@ -64,11 +64,11 @@
 @media screen and (max-width: 1250px) {
 
     .story-gradient {
-        width: calc((900px/6)*4);
+        width: calc((900px/6)*4.5);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 900px)/2 + 280px);
+        left: calc((100% - 900px)/2 + 205px);
     }
 
     #lines-wrapper {
@@ -88,8 +88,8 @@
 
     .table-wrapper {
         left: calc((100% - 900px)/2);
-        margin-left: 300px;
-        width: 600px;
+        margin-left: 215px;
+        width: 678px;
     }
 
     .map-wrapper {
@@ -112,7 +112,7 @@
 
     td {
         font-size: 18px;
-        padding-left: 17px;
+        /* padding-left: 17px; */
     }
 
     .story-content p {
@@ -145,11 +145,11 @@
 @media screen and (max-width: 1100px) {
 
     .story-gradient {
-        width: calc((800px/6)*4);
+        width: calc((800px/6)*4.5);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 800px)/2 + 247px);
+        left: calc((100% - 800px)/2 + 180px);
     }
 
     #lines-wrapper {
@@ -170,8 +170,8 @@
 
     .table-wrapper {
         left: calc((100% - 800px)/2);
-        margin-left: 266px;
-        width: 533px;
+        margin-left: 190px;
+        width: 613px;
     }
 
     .map-wrapper {
@@ -194,7 +194,7 @@
 
     td {
         font-size: 17px;
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
 
     .story-content p {
@@ -237,11 +237,11 @@
 @media screen and (max-width: 900px) {
 
     .story-gradient {
-        width: calc((700px/6)*4);
+        width: calc((700px/6)*4.5);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 700px)/2 + 213px);
+        left: calc((100% - 700px)/2 + 155px);
     }
 
     .story-content {
@@ -267,8 +267,8 @@
 
     .table-wrapper {
         left: calc((100% - 700px)/2);
-        margin-left: 233px;
-        width: 467px;
+        margin-left: 165px;
+        width: 538px;
     }
 
     .map-wrapper {
@@ -291,7 +291,7 @@
 
     td {
         font-size: 16px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
 
     .story-content p {
@@ -360,11 +360,11 @@
 @media screen and (max-width: 750px) {
 
     .story-gradient {
-        width: calc((600px/6)*4 - 10px);
+        width: calc((600px/6)*4.5 - 10px);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 600px)/2 + 190px);
+        left: calc((100% - 600px)/2 + 130px);
     }
 
     #lines-wrapper {
@@ -394,8 +394,8 @@
 
     .table-wrapper {
         left: calc((100% - 600px)/2);
-        margin-left: 200px;
-        width: 400px;
+        margin-left: 140px;
+        width: 463px;
     }
 
     .map-wrapper {
@@ -435,7 +435,7 @@
 
     td {
         font-size: 15px;
-        padding-left: 7px;
+        /* padding-left: 7px; */
     }
 
     h2 {
@@ -483,7 +483,7 @@
     }
 
     .story-gradient {
-        width: calc((500px/6)*4 + 30px);
+        width: calc((500px/6)*4.5 + 30px);
         padding-left: 10px;
     }
 
@@ -563,7 +563,7 @@
 
     td {
         font-size: 14px;
-        padding-left: 6px;
+        /* padding-left: 6px; */
     }
 
     .arrow-side {
@@ -667,7 +667,7 @@
 
     td {
         font-size: 12px;
-        padding-left: 5px;
+        /* padding-left: 5px; */
     }
 
 
@@ -815,8 +815,8 @@
 
     .table-wrapper {
         left: 0px;
-        width: 265px;
-        margin-left: 62px;
+        width: 275px;
+        margin-left: 72px;
     }
 
     h1 {

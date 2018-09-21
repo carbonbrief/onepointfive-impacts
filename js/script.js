@@ -163,9 +163,7 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p>" 
-                    + item.data.text 
-                    + "<i class='fas fa-info-circle'></i></p></div></div>"
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p></div></div>"
                 );
 
                 // add their background images

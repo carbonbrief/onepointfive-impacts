@@ -131,6 +131,8 @@
 
     // Caribbean objects
 
+        // Create your own objects as above based on the spreadsheet
+
     // Africa objects
 
         // Create your own objects as above based on the spreadsheet
@@ -237,7 +239,11 @@ var myTable = tabulate(instructions, columns);
 
 // bold the text of the first column
 myTable.selectAll('td:nth-child(1)')
-.style("font-weight", "bold");
+.style("width", "33.4%")
+.attr("class", "row-header");
+
+myTable.selectAll('th:nth-child(1)')
+.style("width", "33.4%")
 
 function updateTable () {
     
@@ -292,7 +298,11 @@ function updateTable () {
 
     // bold the text of the first column
     myTable.selectAll('td:nth-child(1)')
+    .style("width", "33.4%")
     .attr("class", "row-header");
+
+    myTable.selectAll('th:nth-child(1)')
+    .style("width", "33.4%");
 
     // change colour of column headers
     myTable.selectAll('th:nth-child(2)')
