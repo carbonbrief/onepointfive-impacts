@@ -463,11 +463,6 @@
         width: 170px;
     }
 
-    .arrow-tooltip {
-        /* move arrow to centre since changing position via Javascript */
-        right: calc(50% - 7px);
-    }
-
     .map-container {
         top: 400px;
     }
@@ -610,11 +605,6 @@
     .tooltip {
         font-size: 10.5px;
         width: 150px;
-    }
-
-    .arrow-tooltip {
-        /* move arrow to left */
-        right: calc(75% - 7px);
     }
 
     .credit {

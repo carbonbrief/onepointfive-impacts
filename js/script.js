@@ -114,9 +114,9 @@ $(function(){
 
             var x = function () {
                 if (windowWidth > 750) {
-                    return event.pageX - 150;
+                    return event.pageX - 50;
                 } else if (windowWidth < 749 && windowWidth > 650) {
-                    return event.pageX - 85;
+                    return event.pageX - 43;
                 } else {
                     return event.pageX - 38;
                 }
@@ -163,9 +163,7 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><h3>" +
-                    item.data.subtitle + 
-                    "</h3><p>" 
+                    + "</span></h2><p>" 
                     + item.data.text 
                     + "<i class='fas fa-info-circle'></i></p></div></div>"
                 );

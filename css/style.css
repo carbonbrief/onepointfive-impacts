@@ -210,10 +210,10 @@ td {
 }
 
 .row-header {
-    font-weight: bold;
+    font-style: italic;
     padding-left: 0px;
     padding-right: 10px;
-    font-size: 17px;
+    font-size: 15px;
     vertical-align: top;
 }
 
@@ -224,9 +224,9 @@ td {
 }
 
 .table-subtitle {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 13.5px;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: normal;
 }
 
 .arrow-down {
@@ -490,7 +490,7 @@ a:link {
     border-right: 7px solid transparent;
     border-bottom: 7px solid rgba(74, 106, 124, 0.95);
     position: absolute;
-    right: calc(25%);
+    right: calc(75% - 7px);;
     top: -2px;
 }
 

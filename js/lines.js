@@ -88,47 +88,6 @@ data.forEach(function(d) {
     });
 });
 
-// set scales
-
-var x = d3.scaleLinear()
-    .range([0, width]);
-
-var y = d3.scaleLinear()
-    .range([0, height]);
-
-x.domain([0, 600]);
-y.domain([0, 2000]);
-
-// second scale for smaller screen
-
-var x2 = d3.scaleLinear()
-    .range([0, width]);
-
-var y2 = d3.scaleLinear()
-    .range([0, height]);
-
-x2.domain([0, 500]);
-y2.domain([0, 2000]);
-
-// define the line
-var line = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x(d.across); })
-    .y(function(d) { return y(d.length); });
-
-// define the line
-var lineInitial = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x(0); })
-    .y(function(d) { return y(0); });
-
-// second lines for smaller screens
-
-var line2 = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x2(d.across); })
-    .y(function(d) { return y2(d.length); });
-
 // from https://bl.ocks.org/mbostock/5649592
 
 function transition(path) {
@@ -147,6 +106,43 @@ function tweenDash() {
 
 function drawLines () {
 
+    // get variables again
+    
+    width = parseInt(d3.select("#lines").style("width")) - margin.left - margin.right,
+    height = parseInt(d3.select("#lines").style("height")) - margin.top - margin.bottom;
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-1")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x = d3.scaleLinear()
+    .range([0, width]);
+
+    var y = d3.scaleLinear()
+    .range([0, height]);
+
+    x.domain([0, 600]);
+    y.domain([0, 2000]);
+
+    // define the line
+    var line = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x(d.across); })
+    .y(function(d) { return y(d.length); });
+
+    // define the line
+    var lineInitial = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x(0); })
+    .y(function(d) { return y(0); });
+
+    // remove old group
+    svg.selectAll('g').remove();
+
     let lines = svg.append('g')
     .attr('class', 'lines');
 
@@ -162,7 +158,40 @@ function drawLines () {
 
 }
 
-function drawLines2 () {
+function drawLinesMobile () {
+
+    // get variables again
+
+    width = parseInt(d3.select("#lines").style("width")) - margin.left - margin.right,
+    height = parseInt(d3.select("#lines").style("height")) - margin.top - margin.bottom;
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-1")
+    .attr("width", width)
+    .attr("height", height);
+
+    // second scale for smaller screen
+
+    var x2 = d3.scaleLinear()
+    .range([0, width]);
+
+    var y2 = d3.scaleLinear()
+    .range([0, height]);
+
+    x2.domain([0, 500]);
+    y2.domain([0, 2000]);
+
+
+    // second lines for smaller screens
+
+    var line2 = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x2(d.across); })
+    .y(function(d) { return y2(d.length); });
+
+    // remove old group
+    svg.selectAll('g').remove();
 
     let lines = svg.append('g')
     .attr('class', 'lines');
@@ -184,7 +213,15 @@ setTimeout(function(){
     if (screenWidth > 440) {
         drawLines();
     } else {
-        drawLines2();
+        drawLinesMobile();
     }
     
 }, 1000);
+
+window.addEventListener('resize', function() {
+    if (screenWidth > 440) {
+        drawLines();
+    } else {
+        drawLinesMobile();
+    }
+});
