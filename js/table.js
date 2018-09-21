@@ -85,6 +85,8 @@
 
     // Europe objects
 
+        // if hot days and nights don't fit as one then spilt this variable into two
+
         var europeHotDaysNights = [];
 
         var europeTemp = [];
