@@ -51,11 +51,19 @@
             { "name": "<br><span class='table-subtitle'>Maximum monthly snow storage</span>", "1.5C": "", "2C": "", "3C": ""},
         ];
 
+        // temperature, hot days and warm spell duration
+
         var temperature = [];
+
+        // heatwaves, warm and cold extremes
 
         var heatwaves = [];
 
+        // five rainfall rows
+
         var rainfall = [];
+
+        // change in river flows
 
         var rivers = [];
 
@@ -63,7 +71,11 @@
 
         var storms = [];
 
-        var crops = [];
+        var crops1 = [];
+
+        // crop yields over existing farmland
+
+        var crops2 = [];
 
         var nature = [];
 
@@ -131,7 +143,23 @@
 
     // Caribbean objects
 
-        // Create your own objects as above based on the spreadsheet
+        // put temeprature and heat in one for now
+    
+        var sidsTemp = [];
+
+        var sidsRain = [];
+
+        // unfortunately only one row has 2.5C as the third column, this will need to go into a section by itself:
+
+        var sidsDrought1 = [];
+
+        // drought length and half of the aridity data
+
+        var sidsDrought2 = [];
+
+        // the other half of the aridity data
+
+        var sidsDrought3 = [];
 
     // Africa objects
 
