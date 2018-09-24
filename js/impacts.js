@@ -30,7 +30,7 @@
         map: "latin-america",
         location: "Latin America"
     },{
-        name: "ice",
+        name: "europeHealth",
         title: "Economy",
         icon: "<i class='fas fa-dollar-sign'></i>",
         info: "Extra info 3 - Lorem ipsum dolor sit amet",
