@@ -690,10 +690,334 @@
 
 // Asia objects
 
-    // Create your own objects as above based on the spreadsheet
+    var asiaIce = [
+      {"name": "<span class='table-subtitle'>Glacier mass in the high mountains of Asia</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 36% <br><span class='uncertainty'>(-29--43)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 36% <br><span class='uncertainty'>(-28--44)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 64% <br><span class='uncertainty'>(-59--69)</span>"}
+    ];
 
+    var asiaTemp = [
+      {"name": "<span class='table-subtitle'>Average temperature</span>", "1.5C": "2.3C", "2C": "3C", "3C": "6C"},
+    ];
+
+    var asiaTempMax = [
+      {"name": "<span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.9C <br><span class='uncertainty'>(+0.4-+1.1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.5-+2)</span>", "3C": ""},
+      {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8C <br><span class='uncertainty'>(+0.6-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <br><span class='uncertainty'>(+1.1-+1.9)</span>", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8C <br><span class='uncertainty'>(+0.6-+1.1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <br><span class='uncertainty'>(+1.4-+1.9)</span>", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <br><span class='uncertainty'>(+0.8-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.8C <br><span class='uncertainty'>(+1.4-+2)</span>", "3C": ""},
+      {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.7C <br><span class='uncertainty'>(+0.6-+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.4C <br><span class='uncertainty'>(+1-+1.6)</span>", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+0.8-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.5-+2)</span>", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+6-+10)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 17 days <br><span class='uncertainty'>(+14-+19)</span>", "3C": ""},
+      {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 12 days <br><span class='uncertainty'>(+10-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 days <br><span class='uncertainty'>(+19-+25)</span>", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 15 days <br><span class='uncertainty'>(+11-+17)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+24-+34)</span>", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 12 days <br><span class='uncertainty'>(+11-+16)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 23 days <br><span class='uncertainty'>(+20-+25)</span>", "3C": ""},
+      {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 16 days <br><span class='uncertainty'>(+13-+24)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 46 days <br><span class='uncertainty'>(+41-+56)</span>", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 28 days <br><span class='uncertainty'>(+21-+40)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 55 days <br><span class='uncertainty'>(+43-+67)</span>", "3C": ""}
+    ];
+
+    var asiaTempExtremes = [
+      {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 76%", "2C": "<span class='arrow-up'>&#9650;</span> 187%", "3C": ""},
+      {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 235%", "2C": "<span class='arrow-up'>&#9650;</span> 673%", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 126%", "2C": "<span class='arrow-up'>&#9650;</span> 339%", "3C": ""},
+      {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-up'>&#9650;</span> 109%", "2C": "<span class='arrow-up'>&#9650;</span> 290%", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 86%", "2C": "<span class='arrow-up'>&#9650;</span> 217%", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 160%", "2C": "<span class='arrow-up'>&#9650;</span> 438%", "3C": ""},
+      {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 223%", "2C": "<span class='arrow-up'>&#9650;</span> 635%", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 58%", "2C": "<span class='arrow-down'>&#9660;</span> 86%", "3C": ""},
+      {"name": "Western Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 45%", "2C": "<span class='arrow-down'>&#9660;</span> 71%", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 41%", "2C": "<span class='arrow-down'>&#9660;</span> 67%", "3C": ""},
+      {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-down'>&#9660;</span> 39%", "2C": "<span class='arrow-down'>&#9660;</span> 65%", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 46%", "2C": "<span class='arrow-down>&#9660;</span> 74%", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 54%", "2C": "<span class='arrow-down'>&#9660;</span> 81%", "3C": ""},
+      {"name": "South East Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 65%", "2C": "<span class='arrow-down'>&#9660;</span> 90%", "3C": ""}
+    ];
+
+    var asiaIndiaHeatwaves = [
+      {"name": "<span class='table-subtitle'>Heatwaves in India by mid-century</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Total number of severe heat waves", "1.5C": "5x", "2C": "9x", "3C": ""},
+      {"name": "Duration of severe heat waves", "1.5C": "2x", "2C": "3x", "3C": ""},
+      {"name": "Maximum population exposure to heatwave days, MPEHWd", "1.5C": "9x", "2C": "15x", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Heatwaves in India by end of century</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Total number of severe heat waves", "1.5C": "8x", "2C": "32x", "3C": ""},
+      {"name": "Duration of severe heat waves", "1.5C": "3x", "2C": "5x", "3C": ""},
+      {"name": "Maximum population exposure to heatwave days, MPEHWd", "1.5C": "19x", "2C": "93x", "3C": ""}
+    ];
+
+    var asiaRainfallDry = [
+     {"name": "<span class='table-subtitle'>Average rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+     {"name": "Asia average", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": "<span class='arrow-up'>&#9650;</span> 10%"},
+     {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 9%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
+     {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
+     {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
+     {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
+     {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-down'>&#9660;</span> 3%", "3C": ""},
+     {"name": "Southeast Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+     {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+     {"name": "Northern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-2--1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <br><span class='uncertainty'>(-3--1)</span>", "3C": ""},
+     {"name": "Tibet", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <br><span class='uncertainty'>(-2--1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <br><span class='uncertainty'>(-6-+1)</span>", "3C": ""},
+     {"name": "Central Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-6-+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-4-+4)</span>", "3C": ""},
+     {"name": "Eastern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 3 days <br><span class='uncertainty'>(-5-0)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <br><span class='uncertainty'>(-5--1)</span>", "3C": ""},
+     {"name": "Southern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <br><span class='uncertainty'>(-9-+5)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <br><span class='uncertainty'>(-8-+5)</span>", "3C": ""},
+     {"name": "Southeast Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <br><span class='uncertainty'>(-4-+0)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-3-+1)</span>", "3C": ""}
+    ];
+
+    var asiaRainfallIntensities = [
+      {"name": "<span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3% <br><span class='uncertainty'>(+1-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(+2-+5)</span>", "3C": ""},
+      {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(+2-+5)</span>", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3% <br><span class='uncertainty'>(+0-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3% <br><span class='uncertainty'>(+1-+6)</span>", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(+4-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(+5-+8)</span>", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(+4-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(+6-+8)</span>", "3C": ""},
+      {"name": "Southeast Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(+2-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+4-+8)</span>", "3C": ""},
+      {"name": "<span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 42%", "3C": ""},
+      {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 10%", "2C": "<span class='arrow-up'>&#9650;</span> 22%", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 19%", "2C": "<span class='arrow-up'>&#9650;</span> 40%", "3C": ""},
+      {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 42%", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 22%", "2C": "<span class='arrow-up'>&#9650;</span> 46%", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 23%", "2C": "<span class='arrow-up'>&#9650;</span> 50%", "3C": ""},
+      {"name": "Southeast Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 22%", "2C": "<span class='arrow-up'>&#9650;</span> 47%", "3C": ""}
+    ];
+
+    var asiaMonsoon = [
+      {"name": "<span class='table-subtitle'>Indian monsoon extreme rainfall</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 25%", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Asian monsoon</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "South Asia: summer average", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
+      {"name": "South Asia: annual maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "South Asia: decadal maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
+      {"name": "", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "East Asia: summer average", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
+      {"name": "East Asia: annual maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 7%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "East Asia: decadal maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Length of tropical rain season</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 8 days", "2C": "<span class='arrow-up'>&#9650;</span> 4 days", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 3 days", "2C": "<span class='arrow-down'>&#9660;</span> 2 days", "3C": ""},
+      {"name": "Southeast Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 days", "2C": "<span class='arrow-up'>&#9650;</span> 5 days", "3C": ""}
+
+    ];
+
+    var asiaDrought = [
+      {"name": "<span class='table-subtitle'>Average drought length (months)</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Russian Federation", "1.5C": "<span class='arrow-down'>&#9650;</span> 1", "2C": "<span class='arrow-down'>&#9660;</span> 1", "3C": "<span class='arrow-down'>&#9660;</span> 1"},
+      {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 4", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": "<span class='arrow-up'>&#9650;</span> 20"},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 12"},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1", "2C": "<span class='arrow-up'>&#9650;</span> 3", "3C": "<span class='arrow-up'>&#9650;</span> 9"},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1", "2C": "<span class='arrow-up'>&#9650;</span> 2", "3C": "<span class='arrow-up'>&#9650;</span> 7"},
+      {"name": "Southeastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 2", "3C": "<span class='arrow-up'>&#9650;</span> 4"},
+      {"name": "<br><span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <br><span class='uncertainty'>(-11-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 13m <br><span class='uncertainty'>(-1-+27)</span>", "3C": ""},
+      {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 13m <br><span class='uncertainty'>(+8-+17)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16m <br><span class='uncertainty'>(+12-+20)</span>", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 13m <br><span class='uncertainty'>(+7-+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15m <br><span class='uncertainty'>(+9-+21)</span>", "3C": ""},
+      {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-up'>&#9650;</span> 3m <br><span class='uncertainty'>(+0-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5m <br><span class='uncertainty'>(+2-+7)</span>", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 48m <br><span class='uncertainty'>(+44-+52)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 63m <br><span class='uncertainty'>(+49-+76)</span>", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 20m <br><span class='uncertainty'>(+11-+29)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 31m <br><span class='uncertainty'>(+14-+48)</span>", "3C": ""},
+      {"name": "Southeastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 79m <br><span class='uncertainty'>(+62-+95)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 67m <br><span class='uncertainty'>(+31-+103)</span>", "3C": ""}
+    ];
+
+    var asiaStorms = [
+      {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Bangladesh", "1.5C": "<span class='arrow-up'>&#9650;</span> 227%", "2C": "<span class='arrow-up'>&#9650;</span> 546%", "3C": "<span class='arrow-up'>&#9650;</span> 3214%"},
+      {"name": "Bhutan", "1.5C": "<span class='arrow-up'>&#9650;</span> 261%", "2C": "<span class='arrow-up'>&#9650;</span> 436%", "3C": "<span class='arrow-up'>&#9650;</span> 2458%"},
+      {"name": "India", "1.5C": "<span class='arrow-up'>&#9650;</span> 326%", "2C": "<span class='arrow-up'>&#9650;</span> 571%", "3C": "<span class='arrow-up'>&#9650;</span> 2409%"},
+      {"name": "Kazakhstan", "1.5C": "<span class='arrow-up'>&#9650;</span> 163%", "2C": "<span class='arrow-up'>&#9650;</span> 251%", "3C": "<span class='arrow-up'>&#9650;</span> 496%"},
+      {"name": "Kyrgyz Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 71%", "2C": "<span class='arrow-up'>&#9650;</span> 108%", "3C": "<span class='arrow-up'>&#9650;</span> 255%"},
+      {"name": "Cambodia", "1.5C": "<span class='arrow-up'>&#9650;</span> 71%", "2C": "<span class='arrow-up'>&#9650;</span> 86%", "3C": "<span class='arrow-up'>&#9650;</span> 242%"},
+      {"name": "Lao PDR", "1.5C": "<span class='arrow-up'>&#9650;</span> 135%", "2C": "<span class='arrow-up'>&#9650;</span> 161%", "3C": "<span class='arrow-up'>&#9650;</span> 378%"},
+      {"name": "Myanmar", "1.5C": "<span class='arrow-up'>&#9650;</span> 47%", "2C": "<span class='arrow-up'>&#9650;</span> 89%", "3C": "<span class='arrow-up'>&#9650;</span> 301%"},
+      {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 220%", "2C": "<span class='arrow-up'>&#9650;</span> 291%", "3C": "<span class='arrow-up'>&#9650;</span> 532%"},
+      {"name": "Thailand", "1.5C": "<span class='arrow-up'>&#9650;</span> 129%", "2C": "<span class='arrow-up'>&#9650;</span> 167%", "3C": "<span class='arrow-up'>&#9650;</span> 936%"},
+      {"name": "Tajikistan", "1.5C": "<span class='arrow-up'>&#9650;</span> 29%", "2C": "<span class='arrow-up'>&#9650;</span> 46%", "3C": "<span class='arrow-up'>&#9650;</span> 95%"},
+      {"name": "Uzbekistan", "1.5C": "<span class='arrow-up'>&#9650;</span> 163%", "2C": "<span class='arrow-up'>&#9650;</span> 251%", "3C": "<span class='arrow-up'>&#9650;</span> 548%"},
+      {"name": "Vietnam", "1.5C": "<span class='arrow-up'>&#9650;</span> 139%", "2C": "<span class='arrow-up'>&#9650;</span> 177%", "3C": "<span class='arrow-up'>&#9650;</span> 449%"},
+    ];
+
+    var asiaFlooding = [
+      {"name": "<span class='table-subtitle'>Flooding in the Ganges-Brahmaputra-Meghna delta in Bangladesh</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Area", "1.5C": "980-1470km", "2C": "1150-1770km", "3C": "1620-2490km"},
+      {"name": "% of region", "1.5C": "5-8%", "2C": "6-10%", "3C": "9-13%"},
+      {"name": "Depth of flooding", "1.5C": "0.16-0.19m", "2C": "0.17-0.21m", "3C": "0.21-0.27m%"}
+      {"name": "<span class='table-subtitle'>Frequency of extreme high flows in major river basins</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Ganges", "1.5C": "1-in-67 years <br><span class='uncertainty'>(63-71)</span>", "2C": "1-in-41 years <br><span class='uncertainty'>(38-44)</span>", "3C": ""},
+      {"name": "Indus", "1.5C": "1-in-130 years <br><span class='uncertainty'>(124-136)</span>", "2C": "1-in-127 years <br><span class='uncertainty'>(121-133)</span>", "3C": ""},
+      {"name": "Ob'", "1.5C": "1-in-54 years <br><span class='uncertainty'>(45-63)</span>", "2C": "1-in-48 years <br><span class='uncertainty'>(39-57)</span>", "3C": ""}
+    ];
+
+    var asiaCrops = [
+      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 7 days <br><span class='uncertainty'>(+6-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+12-+17)</span>", "3C": ""},
+      {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 days <br><span class='uncertainty'>(+8-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 17 days <br><span class='uncertainty'>(+14-+22)</span>", "3C": ""},
+      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 9 days <br><span class='uncertainty'>(+7-+12)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 13 days <br><span class='uncertainty'>(+9-+15)</span>", "3C": ""},
+      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 13 days <br><span class='uncertainty'>(+9-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 18 days <br><span class='uncertainty'>(+14-+22)</span>", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 4 days <br><span class='uncertainty'>(+4-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6 days <br><span class='uncertainty'>(+5-+7)</span>", "3C": ""},
+      {"name": "Southeastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+1)</span>", "3C": ""}
+    ];
+
+    var asiaNature = [
+      {"name": "<span class='table-subtitle'>Change in area of \"sandy land\" in northern China</span>", "1.5C": "+16km2 per decade", "2C": "+20km2 per decade", "3C": ""}
+    ];
+
+    var asiaEconomy = [
+      {"name": "<span class='table-subtitle'>Economic damages from river flooding</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Bangladesh", "1.5C": "<span class='arrow-up'>&#9650;</span> 245%", "2C": "<span class='arrow-up'>&#9650;</span> 585%", "3C": "<span class='arrow-up'>&#9650;</span> 2933%"},
+      {"name": "Bhutan", "1.5C": "<span class='arrow-up'>&#9650;</span> 277%", "2C": "<span class='arrow-up'>&#9650;</span> 466%", "3C": "<span class='arrow-up'>&#9650;</span> 2704%"},
+      {"name": "India", "1.5C": "<span class='arrow-up'>&#9650;</span> 358%", "2C": "<span class='arrow-up'>&#9650;</span> 546%", "3C": "<span class='arrow-up'>&#9650;</span> 2071%"},
+      {"name": "Kazakhstan", "1.5C": "<span class='arrow-up'>&#9650;</span> 190%", "2C": "<span class='arrow-up'>&#9650;</span> 308%", "3C": "<span class='arrow-up'>&#9650;</span> 629%"},
+      {"name": "Kyrgyz Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 101%", "2C": "<span class='arrow-up'>&#9650;</span> 141%", "3C": "<span class='arrow-up'>&#9650;</span> 348%"},
+      {"name": "Cambodia", "1.5C": "<span class='arrow-up'>&#9650;</span> 70%", "2C": "<span class='arrow-up'>&#9650;</span> 88%", "3C": "<span class='arrow-up'>&#9650;</span> 235%"},
+      {"name": "Lao PDR", "1.5C": "<span class='arrow-up'>&#9650;</span> 143%", "2C": "<span class='arrow-up'>&#9650;</span> 172%", "3C": "<span class='arrow-up'>&#9650;</span> 400%"},
+      {"name": "Myanmar", "1.5C": "<span class='arrow-up'>&#9650;</span> 49%", "2C": "<span class='arrow-up'>&#9650;</span> 93%", "3C": "<span class='arrow-up'>&#9650;</span> 316%"},
+      {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 223%", "2C": "<span class='arrow-up'>&#9650;</span> 302%", "3C": "<span class='arrow-up'>&#9650;</span> 641%"},
+      {"name": "Thailand", "1.5C": "<span class='arrow-up'>&#9650;</span> 119%", "2C": "<span class='arrow-up'>&#9650;</span> 154%", "3C": "<span class='arrow-up'>&#9650;</span> 948%"},
+      {"name": "Tajikistan", "1.5C": "<span class='arrow-up'>&#9650;</span> 42%", "2C": "<span class='arrow-up'>&#9650;</span> 64%", "3C": "<span class='arrow-up'>&#9650;</span> 124%"},
+      {"name": "Uzbekistan", "1.5C": "<span class='arrow-up'>&#9650;</span> 80%", "2C": "<span class='arrow-up'>&#9650;</span> 114%", "3C": "<span class='arrow-up'>&#9650;</span> 218%"},
+      {"name": "Vietnam", "1.5C": "<span class='arrow-up'>&#9650;</span> 148%", "2C": "<span class='arrow-up'>&#9650;</span> 190%", "3C": "<span class='arrow-up'>&#9650;</span> 474%"}
+    ];
 // China objects
 
-    // Create your own objects as above based on the spreadsheet
+    var chinaTemp = [
+      {"name": "<span class='table-subtitle'>Temperature</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Annual temperature", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C <br><span class='uncertainty'>(1.4-2.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.5C <br><span class='uncertainty'>(2.0-3.0)</span>", "3C": ""},
+      {"name": "Spring temperature", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.6C <br><span class='uncertainty'>(0.9-2.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.2C <br><span class='uncertainty'>(1.6-3.0)</span>", "3C": ""},
+      {"name": "Summer temperature", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(1.0-2.1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.4C <br><span class='uncertainty'>(1.6-2.9)</span>", "3C": ""},
+      {"name": "Autumn temperature", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.9C <br><span class='uncertainty'>(1.5-2.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.6C <br><span class='uncertainty'>(2.2-3.3)</span>", "3C": ""},
+      {"name": "Winter temperature", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C <br><span class='uncertainty'>(1.3-2.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.9C <br><span class='uncertainty'>(2.0-3.6)</span>", "3C": ""}
+    ];
+
+    var chinaHeat = [
+    {"name": "<span class='table-subtitle'>Heat events</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Likelihood of hot summer equivalent to 2013 in eastern China", "1.5C": "42%", "2C": "86%", "3C": ""},
+    {"name": "Likelihood of hot spring equivalent to 2014 in northeastern China", "1.5C": "8%", "2C": "20%", "3C": ""}
+    {"name": "<br><span class='table-subtitle'>Extreme maximum temperature events</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "China", "1.5C": "<span class='arrow-up'>&#9650;</span> 39%", "2C": "<span class='arrow-up'>&#9650;</span> 48%", "3C": ""},
+    {"name": "Northeast China", "1.5C": "<span class='arrow-up'>&#9650;</span> 33%", "2C": "<span class='arrow-up'>&#9650;</span> 99%", "3C": ""},
+    {"name": "North China", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 79%", "3C": ""},
+    {"name": "East China", "1.5C": "<span class='arrow-up'>&#9650;</span> 13%", "2C": "<span class='arrow-up'>&#9650;</span> 24%", "3C": ""},
+    {"name": "Central China", "1.5C": "<span class='arrow-up'>&#9650;</span> 56%", "2C": "<span class='arrow-up'>&#9650;</span> 39%", "3C": ""},
+    {"name": "South China", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
+    {"name": "Southwest China", "1.5C": "<span class='arrow-up'>&#9650;</span> 213%", "2C": "<span class='arrow-up'>&#9650;</span> 322%", "3C": ""},
+    {"name": "Northwest China", "1.5C": "<span class='arrow-up'>&#9650;</span> 32%", "2C": "<span class='arrow-up'>&#9650;</span> 61%", "3C": ""}
+    ];
+
+    var chinaHeatExtremes = [
+    {"name": "<span class='table-subtitle'>Extreme temperatures</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Annual hottest day", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.0C", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C", "3C": ""},
+    {"name": "Annual coldest night", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.1C", "2C": "<span class='arrow-up'>&#9650;</span> 1.8C", "3C": ""},
+    {"name": "Annual warm days", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 14%", "3C": ""},
+    {"name": "Annual warm spell duration", "1.5C": "<span class='arrow-up'>&#9650;</span> 15 days", "2C": "<span class='arrow-up'>&#9650;</span> 30 days", "3C": ""}
+    ];
+
+    var chinaRain = [
+    {"name": "<span class='table-subtitle'>Annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Annual rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-1-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+1-+14)</span>", "3C": ""},
+    {"name": "Spring rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-2-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <br><span class='uncertainty'>(-1-+18)</span>", "3C": ""},
+    {"name": "Summer rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-3-+13)</span>", "3C": ""},
+    {"name": "Autumn rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-6-+22)</span>", "3C": ""},
+    {"name": "Winter rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(-3-+23)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15% <br><span class='uncertainty'>(0-+31)</span>", "3C": ""},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Frequency of days with trace rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": ""},
+    {"name": "Frequency of days with light rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
+    {"name": "Frequency of days with moderate rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
+    {"name": "Frequency of days with heavy rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": ""},
+    {"name": "Frequency of days with intense rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 16%", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Rainfall Extremes</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Annual number of extreme rainfall events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20% <br><span class='uncertainty'>(+20-+24)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26% <br><span class='uncertainty'>(+19-+37)</span>", "3C": ""},
+    {"name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(+9-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 12% <br><span class='uncertainty'>(+6-+14)</span>", "3C": ""},
+    {"name": "Consecutive dry days", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3-+19)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 5% <br><span class='uncertainty'>(-8-+18)</span>", "3C": ""}
+    ];
+
+    var chinaRainExtremes = [
+    {"name": "<span class='table-subtitle'>Heavy rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Rainfall amount on a very wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 27%", "3C": "<span class='arrow-up'>&#9650;</span> 57%"},
+    {"name": "Rainfall amount on an extremely wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 69%", "2C": "<span class='arrow-up'>&#9650;</span> 87%", "3C": "<span class='arrow-up'>&#9650;</span> 162%"}
+    ];
+
+    var chinaStorms = [
+    {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "<span class='table-subtitle'>Likelihood of flooding equivalent to summer of 2010 in southeastern China</span>", "1.5C": "26%", "2C": "30%", "3C": ""},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "<span class='table-subtitle'>Frequency of extreme high flows in Yangtze river</span>", "1.5C": "1-in-58 years <br><span class='uncertainty'>(50-66)</span>", "2C": "1-in-26 years <br><span class='uncertainty'>(17-35)</span>", "3C": ""}
+
+    ];
+
+    var chinaCrops = [
+    {"name": "<span class='table-subtitle'>Crop yields</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Wheat", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
+    {"name": "Rice", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
+    {"name": "Maize", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": ""}
+    ];
+
+    var chinaEconomy = [
+    {"name": "<span class='table-subtitle'>Economic damages from river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "<span class='table-subtitle'>Economic damages caused by tropical cyclones</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> $14-16m", "2C": "<span class='arrow-up'>&#9650;</span> $31-49m", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Annual days of temperature-related weight restrictions on flights</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Beijing", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 3", "3C": ""},
+    {"name": "Shanghai", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": ""},
+    {"name": "Lasa", "1.5C": "<span class='arrow-up'>&#9650;</span> 18", "2C": "<span class='arrow-up'>&#9650;</span> 39", "3C": ""},
+    {"name": "Urumqi", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0", "2C": "<span class='arrow-up'>&#9650;</span> 1", "3C": ""}
+    ];
+
+//Australasia objects
+
+    var ausOceans = [
+    {"name": "<span class='table-subtitle'>Likelihood of another 2016 Coral Sea marine heatwave</span>", "1.5C": "64% <br><span class='uncertainty'>(53-76)</span>", "2C": "87% <br><span class='uncertainty'>(79-93)</span>", "3C": ""}
+    ];
+
+    var ausHeat = [
+    {"name": "<span class='table-subtitle'>Extreme events</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Likelihood of another 2012-13 \"angry summer\" ", "1.5C": "57% <br><span class='uncertainty'>(50-65)</span>", "2C": "77% <br><span class='uncertainty'>(70-84)</span>", "3C": ""},
+    {"name": "Likelihood of high temperatures seen in 2006 drought in SE Australia", "1.5C": "52% <br><span class='uncertainty'>(45-59)</span>", "2C": "74% <br><span class='uncertainty'>(67-81)</span>", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.06C <br><span class='uncertainty'>(+0.4–+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3C <br><span class='uncertainty'>(+0.8–+1.8)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+0.3–+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <br><span class='uncertainty'>(+1–+2.7)</span>", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+9–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+18-+36)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 6 days <br><span class='uncertainty'>(+4–+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11 days <br><span class='uncertainty'>(+9-+14)</span>", "3C": ""}
+    ];
+
+    var ausHeatExtremes = [
+    {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
+    {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-down'>&#9660;</span> 62%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""}
+    ];
+
+    var ausRain = [
+    {"name": "<span class='table-subtitle'>Length of tropical rain season (Northern Australia)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 10 days", "2C": "<span class='arrow-down'>&#9660;</span> 7 days", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-11–+7)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <br><span class='uncertainty'>(-14-+8)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-3-+3)</span>", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <br><span class='uncertainty'>(-4-+4)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0% <br><span class='uncertainty'>(-2-+4)</span>", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
+    ];
+
+    var ausDrought = [
+    {"name": "<span class='table-subtitle'>Likelihood of another 2006 drought in SE Australia</span>", "1.5C": "3% <br><span class='uncertainty'>(1-4)</span>", "2C": "3% <br><span class='uncertainty'>(1-4)</span>", "3C": ""},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Average drought length in Oceania (months)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 4", "3C": "<span class='arrow-up'>&#9650;</span> 11"},
+    {"name": "", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-1–+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2m <br><span class='uncertainty'>(-0-+3)</span>", "3C": ""}
+    ];
+
+    var ausStorms = [
+    {"name": "<span class='table-subtitle'>Frequency of extreme high river flows in the Murray-Darling</span>", "1.5C": "1-in-143 years <br><span class='uncertainty'>(138-148)</span>", "2C": "1-in-96 years <br><span class='uncertainty'>(91-101)</span>", "3C": ""}
+    ];
+
+    var ausCrops = [
+    {"name": "Growing season length", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0–+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1–+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+2)</span>", "3C": ""}
+    ];
+
 
 // TABLE OBJECTS END
