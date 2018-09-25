@@ -530,47 +530,163 @@
 
     // put temeprature and heat in one for now
 
-    var sidsTemp = [];
+    var sidsTemp = [
+      {"name": "<span class='table-subtitle'>Average temperature</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+1.0-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <br><span class='uncertainty'>(+1.4-+1.9)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.0C <br><span class='uncertainty'>(+1.7-+2.3)</span>"},
+      {"name": "<span class='table-subtitle'>Warm spell duration (days)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> +7-+11", "2C": "<span class='arrow-up'>&#9650;</span> +9–+22", "3C": "<span class='arrow-up'>&#9650;</span> +17–+39"}
+    ];
 
-    var sidsRain = [];
+    var sidsRain = [
+      {"name": "<span class='table-subtitle'>Average annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Caribbean", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": "<span class='arrow-up'>&#9650;</span> 0%"},
+      {"name": "Barbados", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-down'>&#9660;</span> 7%", "3C": "<span class='arrow-down'>&#9660;</span> 11%"},
+      {"name": "Belize", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": "<span class='arrow-down'>&#9660;</span> 10%"},
+      {"name": "Cuba", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": "<span class='arrow-up'>&#9650;</span> 0%"},
+      {"name": "Jamaica", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": "<span class='arrow-down'>&#9660;</span> 3%"},
+      {"name": "Trinidad", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 18%", "3C": "<span class='arrow-down'>&#9660;</span> 21%"},
+      {"name": "<span class='table-subtitle'>Annual days where rainfall >10mm</span>", "1.5C": "-1-+2", "2C": "-4–+1", "3C": "-6–+0"}
+    ];
 
     // unfortunately only one row has 2.5C as the third column, this will need to go into a section by itself:
 
-    var sidsDrought1 = [];
+    var sidsDrought1 = [
+      {"name": "<span class='table-subtitle'>Percentage of time in moderate-to-severe drought</span>", "1.5C": "17%", "2C": "26%", "3C": "34%"},
+    ];
 
     // drought length and half of the aridity data
 
-    var sidsDrought2 = [];
+    var sidsDrought2 = [
+      {"name": "<span class='table-subtitle'>Average drought length (months)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 21"},
+      {"name": "<br><span class='table-subtitle'>Aridity</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "SIDS average", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(±3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(±5%)</span>", "3C": ""},
+      {"name": "Bahamas", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 2%", "3C": ""},
+      {"name": "Belize", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
+      {"name": "Cabo Verde", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
+      {"name": "Comoros", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+      {"name": "Cuba", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
+      {"name": "Dominican Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 13%", "3C": ""},
+      {"name": "Fiji", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
+      {"name": "Grenada", "1.5C": "<span class='arrow-up'>&#9650;</span> 7%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
+      {"name": "Guinea-Bissau", "1.5C": "<span class='arrow-up'>&#9650;</span> 11%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "Guyana", "1.5C": "<span class='arrow-up'>&#9650;</span> 7%", "2C": "<span class='arrow-up'>&#9650;</span> 8%", "3C": ""},
+      {"name": "Haiti", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "Jamaica", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
+    ];
 
     // the other half of the aridity data
 
-    var sidsDrought3 = [];
+    var sidsDrought3 = [
+      {"name": "Maldives", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-down'>&#9660;</span> 5%", "3C": ""},
+      {"name": "Mauritius", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
+      {"name": "Micronesia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> 1%", "3C": ""},
+      {"name": "Papua New Guinea", "1.5C": "<span class='arrow-down'>&#9660;</span> 1%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": ""},
+      {"name": "St. Lucia", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "St. Vincent and the Grenadines", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
+      {"name": "Samoa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
+      {"name": "Sao Tome and Principe", "1.5C": "<span class='arrow-down'>&#9660;</span> 3%", "2C": "<span class='arrow-down'>&#9660;</span> 3%", "3C": ""},
+      {"name": "Singapore", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
+      {"name": "Solomon Islands", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+      {"name": "Suriname", "1.5C": "<span class='arrow-up'>&#9650;</span> 7%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
+      {"name": "Timor-Leste", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
+      {"name": "Tonga", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+      {"name": "Trinidad and Tobago", "1.5C": "<span class='arrow-up'>&#9650;</span> 9%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
+      {"name": "Vanuatu", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""}
+    ];
 
 // Africa objects
 
     //temperature and warm spell
 
-    var africaTemp = [];
+    var africaTemp = [
+      {"name": "<span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.1C <br><span class='uncertainty'>(+0.8-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.8C <br><span class='uncertainty'>(+1.6-+2.1)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8C <br><span class='uncertainty'>(+0.6-+0.8)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.4C <br><span class='uncertainty'>(+1.3-+1.6)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.9C <br><span class='uncertainty'>(+0.8-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <br><span class='uncertainty'>(+1.3-+1.7)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.9C <br><span class='uncertainty'>(+0.8-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.4-+1.8)</span>", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+20-+30)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 49 days <br><span class='uncertainty'>(+44-+54)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 23 days <br><span class='uncertainty'>(+18-+25)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56 days <br><span class='uncertainty'>(+49-+64)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 25 days <br><span class='uncertainty'>(+22-+28)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 55 days <br><span class='uncertainty'>(+49-+63)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 19 days <br><span class='uncertainty'>(+14-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 41 days <br><span class='uncertainty'>(+36-+45)</span>", "3C": ""}
+    ];
 
-    var africaTempExtremes = [];
+    var africaTempExtremes = [
+      {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 332%", "2C": "<span class='arrow-up'>&#9650;</span> 930%", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 249%", "2C": "<span class='arrow-up'>&#9650;</span> 753%", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 282%", "2C": "<span class='arrow-up'>&#9650;</span> 822%", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 208%", "2C": "<span class='arrow-up'>&#9650;</span> 596%", "3C": ""},
+      {"name": "<span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 87%", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 70%", "2C": "<span class='arrow-down'>&#9660;</span> 94%", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 69%", "2C": "<span class='arrow-down'>&#9660;</span> 93%", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 59%", "2C": "<span class='arrow-down'>&#9660;</span> 86%", "3C": ""}
+    ];
 
     // heat events
 
-    var africaHeat = [];
+    var africaHeat = [
+      {"name": "<span class='table-subtitle'>Heat events</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Likelihood of exceeding record-hot year of 2015 in Africa", "1.5C": "91% <br><span class='uncertainty'>(88-93)</span>", "2C": "100% <br><span class='uncertainty'>(100-100)</span>", "3C": ""},
+      {"name": "Likelihood of exceeding Dec–Feb 2009-10 hot season in northern Africa", "1.5C": "11% <br><span class='uncertainty'>(9-14)</span>", "2C": "30% <br><span class='uncertainty'>(28-34)</span>", "3C": ""},
+      {"name": "Likelihood of exceeding temperature extremes during 1991-92 drought in southern Africa", "1.5C": "74% <br><span class='uncertainty'>(70-78)</span>", "2C": "98% <br><span class='uncertainty'>(97-100)</span>", "3C": ""}
+    ];
 
     // season and dry spell
 
-    var africaRain = [];
+    var africaRain = [
+      {"name": "<span class='table-subtitle'>Length of tropical rain season</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 7 days", "2C": "<span class='arrow-down'>&#9660;</span> 8 days", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 7 days", "2C": "<span class='arrow-down'>&#9660;</span> 5 days", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days", "2C": "<span class='arrow-down'>&#9660;</span> 7 days", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days <br><span class='uncertainty'>(-14-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-12-+5)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 4 days <br><span class='uncertainty'>(-8-0)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <br><span class='uncertainty'>(-6-+1)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-3-+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <br><span class='uncertainty'>(-7-+2)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-3-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-3-+5)</span>", "3C": ""}
+    ];
 
     // rain intensity and extremes
 
-    var africaRainIntensity = [];
+    var africaRainIntensity = [
+      {"name": "<span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <br><span class='uncertainty'>(-6-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-2-+5)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-1-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+4)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-1-+4)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-2-+1)</span>", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 322%", "2C": "<span class='arrow-up'>&#9650;</span> 930%", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 249%", "2C": "<span class='arrow-up'>&#9650;</span> 753%", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 282%", "2C": "<span class='arrow-up'>&#9650;</span> 822%", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 208%", "2C": "<span class='arrow-up'>&#9650;</span> 596%", "3C": ""}
+    ];
 
-    var africaDrought = [];
+    var africaDrought = [
+      {"name": "<span class='table-subtitle'>Average drought length (months)</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Northern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 7", "2C": "<span class='arrow-up'>&#9650;</span> 20", "3C": "<span class='arrow-up'>&#9650;</span> 60"},
+      {"name": "Western Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 6", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": "<span class='arrow-up'>&#9650;</span> 24"},
+      {"name": "Central Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 1", "2C": "<span class='arrow-up'>&#9650;</span> 2", "3C": "<span class='arrow-up'>&#9650;</span> 5"},
+      {"name": "Eastern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 12"},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 4", "2C": "<span class='arrow-up'>&#9650;</span> 6", "3C": "<span class='arrow-up'>&#9650;</span> 19"},
+      {"name": "<br><span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <br><span class='uncertainty'>(-2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 <br><span class='uncertainty'>(-1-+4)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 13m <br><span class='uncertainty'>(-34-+9)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 <br><span class='uncertainty'>(-31-+27)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <br><span class='uncertainty'>(-11-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 <br><span class='uncertainty'>(+0-+43)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 5m <br><span class='uncertainty'>(+0-+10)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 10 <br><span class='uncertainty'>(+3-+17)</span>", "3C": ""}
+    ];
 
-    var africaStorms = [];
+    var africaStorms = [
+      {"name": "<span class='table-subtitle'>Frequency of extreme high river flows</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Congo", "1.5C": "1-in-80 years <br><span class='uncertainty'>(74-86)</span>", "2C": "1-in-57 years <br><span class='uncertainty'>(52-62)</span>", "3C": ""},
+      {"name": "Nile", "1.5C": "1-in-92 years <br><span class='uncertainty'>(85-99)</span>", "2C": "1-in-55 years <br><span class='uncertainty'>(51-59)</span>", "3C": ""}
+    ];
 
-    var africaCrops = [];
+    var africaCrops = [
+      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""}
+    ];
 
 // Asia objects
 
