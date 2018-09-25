@@ -30,7 +30,15 @@
         map: "latin-america",
         location: "Latin America"
     },{
-        name: "europeHealth",
+        name: "americasCrops",
+        title: "OCEANS",
+        icon: "<img class='title-icon' src='../img/ocean.svg'>",
+        info: "Marine heatwaves: Relative to pre-industrial levels. Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range. AMOC: Relative to pre-industrial levels.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
+        map: "latin-america",
+        location: "Latin America"
+    },{
+        name: "americasMaxTemp",
         title: "Economy",
         icon: "<i class='fas fa-dollar-sign'></i>",
         info: "Extra info 3 - Lorem ipsum dolor sit amet",
