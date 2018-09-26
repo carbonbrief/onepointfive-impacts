@@ -10,7 +10,7 @@
 
     var sealevel = [
         { "name": "<span class='table-subtitle'>Sea level rise</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "By 2100", "1.5C": "<span class='arrow-up'>&#9650;</span> 48cm <br><span class='uncertainty'>(+28–+82cm)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56cm <br><span class='uncertainty'>(+28–+96cm)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 58cm <br><span class='uncertainty'>(+37–+93cm)</span>"},
+        { "name": "By 2100", "1.5C": "<span class='arrow-up'>&#9650;</span> 48cm <br><span class='uncertainty'>(+28–+82)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56cm <br><span class='uncertainty'>(+28–+96)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 58cm <br><span class='uncertainty'>(+37–+93)</span>"},
         { "name": "<br><span class='table-subtitle'>Contributions from</span>", "1.5C": "", "2C": "", "3C": ""},
         { "name": "Antarctic ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+35)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+34)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+34)</span>"},
         { "name": "Greenland ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 7cm <br><span class='uncertainty'>(+3–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 8cm <br><span class='uncertainty'>(+2–+22)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 8cm <br><span class='uncertainty'>(+2–+22)</span>"},
@@ -40,18 +40,18 @@
 
     var snow = [
         { "name": "<span class='table-subtitle'>Snow extent</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "Northern hemisphere snow extent in 2080s", "1.5C": "", "2C": "", "3C": ""},
+        { "name": "Northern hemisphere snow extent in 2080s:", "1.5C": "", "2C": "", "3C": ""},
         { "name": "Annual", "1.5C": "<span class='arrow-down'>&#9660;</span> 8%", "2C": "<span class='arrow-down'>&#9660;</span> 11%", "3C": ""},
         { "name": "Winter", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 7%", "3C": ""},
         { "name": "Spring", "1.5C": "<span class='arrow-down'>&#9660;</span> 7%", "2C": "<span class='arrow-down'>&#9660;</span> 10%", "3C": ""},
         { "name": "Summer", "1.5C": "<span class='arrow-down'>&#9660;</span> 20%", "2C": "<span class='arrow-down'>&#9660;</span> 26%", "3C": ""},
         { "name": "Autumn", "1.5C": "<span class='arrow-down'>&#9660;</span> 13%", "2C": "<span class='arrow-down'>&#9660;</span> 17%", "3C": ""},
         { "name": "<br><span class='table-subtitle'>Maximum monthly snow storage</span>", "1.5C": "", "2C": "", "3C": ""},
-        {"name": "-100 to -30%", "1.5C": "4% <br><span class='uncertainty'>(5-9)</span>", "2C": "8% <br><span class='uncertainty'>(5-12)</span>", "3C": ""},
-        {"name": "-30 to -10%", "1.5C": "9% <br><span class='uncertainty'>(7-9)</span>", "2C": "8% <br><span class='uncertainty'>(6-9)</span>", "3C": ""},
-        {"name": "-10 to 10%", "1.5C": "19% <br><span class='uncertainty'>(11-17)</span>", "2C": "16% <br><span class='uncertainty'>(10-14)</span>", "3C": ""},
-        {"name": "10 to 30%", "1.5C": "3% <br><span class='uncertainty'>(3-7)</span>", "2C": "3% <br><span class='uncertainty'>(3-7)</span>", "3C": ""},
-        {"name": ">=30%", "1.5C": "1% <br><span class='uncertainty'>(1-2)</span>", "2C": "0% <br><span class='uncertainty'>(0-3)</span>", "3C": ""},
+        {"name": "-100 to -30%", "1.5C": "4% <span class='uncertainty'>(5-9)</span>", "2C": "8% <span class='uncertainty'>(5-12)</span>", "3C": ""},
+        {"name": "-30 to -10%", "1.5C": "9% <span class='uncertainty'>(7-9)</span>", "2C": "8% <span class='uncertainty'>(6-9)</span>", "3C": ""},
+        {"name": "-10 to 10%", "1.5C": "19% <span class='uncertainty'>(11-17)</span>", "2C": "16% <span class='uncertainty'>(10-14)</span>", "3C": ""},
+        {"name": "10 to 30%", "1.5C": "3% <span class='uncertainty'>(3-7)</span>", "2C": "3% <span class='uncertainty'>(3-7)</span>", "3C": ""},
+        {"name": ">=30%", "1.5C": "1% <span class='uncertainty'>(1-2)</span>", "2C": "0% <span class='uncertainty'>(0-3)</span>", "3C": ""},
         {"name": "N/A", "1.5C": "65%", "2C": "65%", "3C": ""}
     ];
 
@@ -66,6 +66,7 @@
       {"name": "Population facing at least one severe heatwave every 5 years", "1.5C": "14% <br><span class='uncertainty'>(9-18)</span>", "2C": "37%<br><span class='uncertainty'>(32-45)</span>", "3C": ""},
       {"name": "Population facing at least one severe heatwave every 20 years", "1.5C": "50% <br><span class='uncertainty'>(43-56)</span>", "2C": "70%<br><span class='uncertainty'>(66-76)</span>", "3C": ""},
       {"name": "Population facing at least one extreme heatwave every 20 years", "1.5C": "9% <br><span class='uncertainty'>(6-14)</span>", "2C": "28%<br><span class='uncertainty'>(22-36)</span>", "3C": ""},
+      {"name": "", "1.5C": "", "2C": "", "3C": ""},
       {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 129%", "2C": "<span class='arrow-up'>&#9650;</span> 343%", "3C": ""},
       {"name": "<span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 54%", "2C": "<span class='arrow-down'>&#9660;</span> 82%", "3C": ""}
     ];
@@ -109,32 +110,33 @@
       {"name": "<span class='table-subtitle'>Average crop yield change by 2100</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Maize", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 9%", "3C": ""},
       {"name": "Wheat", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 4%", "3C": ""},
+      {"name": "<span class='table-subtitle'></span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(+4-+5)", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+7-+8)", "3C": ""}
     ];
 
     var crops2 = [
       {"name": "<span class='table-subtitle'>Crop yields over existing farmland</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-8-+21)", "3C": ""},
-      {"name": "Maize (Global)", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <br><span class='uncertainty'>(-26-+8)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <br><span class='uncertainty'>(-38-+2)", "3C": ""},
-      {"name": "Soy (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(-3-+28)", "2C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-12-+34)", "3C": ""},
-      {"name": "Rice (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(-17-+24)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(-4-+27)", "3C": ""},
-      {"name": "<span class='table-subtitle'></span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Wheat (Tropics)", "1.5C": "<span class='arrow-down'>&#9660;</span> 9% <br><span class='uncertainty'>(-25-+12)", "2C": "<span class='arrow-down'>&#9660;</span> 16% <br><span class='uncertainty'>(-42-+14)", "3C": ""},
-      {"name": "Maize (Tropics)", "1.5C": "<span class='arrow-down'>&#9660;</span> 3% <br><span class='uncertainty'>(-16-+2)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <br><span class='uncertainty'>(-19-+2)", "3C": ""},
-      {"name": "Soy (Tropics)", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-3-+23)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(-5-+27)", "3C": ""},
-      {"name": "Rice (Tropics)", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+0-+20)", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+0-+24)", "3C": ""}
+      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-8-+21)", "3C": ""},
+      {"name": "Maize (Global)", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-26-+8)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <span class='uncertainty'>(-38-+2)", "3C": ""},
+      {"name": "Soy (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-3-+28)", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-12-+34)", "3C": ""},
+      {"name": "Rice (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-17-+24)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-4-+27)", "3C": ""},
+      {"name": "Wheat (Tropics)", "1.5C": "<span class='arrow-down'>&#9660;</span> 9% <span class='uncertainty'>(-25-+12)", "2C": "<span class='arrow-down'>&#9660;</span> 16% <span class='uncertainty'>(-42-+14)", "3C": ""},
+      {"name": "Maize (Tropics)", "1.5C": "<span class='arrow-down'>&#9660;</span> 3% <span class='uncertainty'>(-16-+2)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <span class='uncertainty'>(-19-+2)", "3C": ""},
+      {"name": "Soy (Tropics)", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(-3-+23)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-5-+27)", "3C": ""},
+      {"name": "Rice (Tropics)", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(+0-+20)", "2C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(+0-+24)", "3C": ""}
     ];
 
     var nature = [
       {"name": "<span class='table-subtitle'>Proportion of species losing >50% of their climatic range</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Invertebrates", "1.5C": "6% <br><span class='uncertainty'>(1-18)</span>", "2C": "18% <br><span class='uncertainty'>(6-35)</span>", "3C": "68% <br><span class='uncertainty'>(52-80)</span>"},
-      {"name": "Vertebrates", "1.5C": "4% <br><span class='uncertainty'>(2-9)</span>", "2C": "8% <br><span class='uncertainty'>(4-16)</span>", "3C": "44% <br><span class='uncertainty'>(31-59)</span>"},
-      {"name": "Plants", "1.5C": "8% <br><span class='uncertainty'>(4-15)</span>", "2C": "16% <br><span class='uncertainty'>(9-28)</span>", "3C": "67% <br><span class='uncertainty'>(50-80)</span>"},
-      {"name": "Insects", "1.5C": "6% <br><span class='uncertainty'>(1-18)</span>", "2C": "18% <br><span class='uncertainty'>(6-35)</span>", "3C": "67% <br><span class='uncertainty'>(52-79)</span>"},
-      {"name": "Mammals", "1.5C": "4% <br><span class='uncertainty'>(2-7)</span>", "2C": "8% <br><span class='uncertainty'>(4-14)</span>", "3C": "41% <br><span class='uncertainty'>(29-57)</span>"},
-      {"name": "Birds", "1.5C": "2% <br><span class='uncertainty'>(1-6)</span>", "2C": "6% <br><span class='uncertainty'>(3-13)</span>", "3C": "4% <br><span class='uncertainty'>(28-54)</span>"},
-      {"name": "Butterflies & moths", "1.5C": "4% <br><span class='uncertainty'>(0-14)</span>", "2C": "10% <br><span class='uncertainty'>(2-29)</span>", "3C": "58% <br><span class='uncertainty'>(40-74)</span>"},
-      {"name": "Dragonflies & damselflies", "1.5C": "1% <br><span class='uncertainty'>(0-2)</span>", "2C": "2% <br><span class='uncertainty'>(1-6)</span>", "3C": "21% <br><span class='uncertainty'>(11-42)</span>"},
+      {"name": "Invertebrates", "1.5C": "6% <span class='uncertainty'>(1-18)</span>", "2C": "18% <span class='uncertainty'>(6-35)</span>", "3C": "68% <span class='uncertainty'>(52-80)</span>"},
+      {"name": "Vertebrates", "1.5C": "4% <span class='uncertainty'>(2-9)</span>", "2C": "8% <span class='uncertainty'>(4-16)</span>", "3C": "44% <span class='uncertainty'>(31-59)</span>"},
+      {"name": "Plants", "1.5C": "8% <span class='uncertainty'>(4-15)</span>", "2C": "16% <span class='uncertainty'>(9-28)</span>", "3C": "67% <span class='uncertainty'>(50-80)</span>"},
+      {"name": "Insects", "1.5C": "6% <span class='uncertainty'>(1-18)</span>", "2C": "18% <span class='uncertainty'>(6-35)</span>", "3C": "67% <span class='uncertainty'>(52-79)</span>"},
+      {"name": "Mammals", "1.5C": "4% <span class='uncertainty'>(2-7)</span>", "2C": "8% <span class='uncertainty'>(4-14)</span>", "3C": "41% <span class='uncertainty'>(29-57)</span>"},
+      {"name": "Birds", "1.5C": "2% <span class='uncertainty'>(1-6)</span>", "2C": "6% <span class='uncertainty'>(3-13)</span>", "3C": "4% <span class='uncertainty'>(28-54)</span>"},
+      {"name": "Butterflies & moths", "1.5C": "4% <span class='uncertainty'>(0-14)</span>", "2C": "10% <span class='uncertainty'>(2-29)</span>", "3C": "58% <span class='uncertainty'>(40-74)</span>"},
+      {"name": "Dragonflies & damselflies", "1.5C": "1% <span class='uncertainty'>(0-2)</span>", "2C": "2% <span class='uncertainty'>(1-6)</span>", "3C": "21% <span class='uncertainty'>(11-42)</span>"},
+      {"name": "<span class='table-subtitle'></span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "<span class='table-subtitle'>Average warming across drylands</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.4-3.0C", "2C": "<span class='arrow-up'>&#9650;</span> 3.2-4.0C", "3C": ""},
       {"name": "<span class='table-subtitle'>Average warming across humid lands</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8-2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.4-2.6C", "3C": ""}
     ];
