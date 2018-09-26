@@ -67,9 +67,31 @@ $(function(){
         $('li', $sideNav).removeClass('nav-active');
 
         // as don't need any styling on first story
-        if(item.index > 1){
-            // the .eq() method reduces the set of matched elements to the one at the specified index.
-            $('li', $sideNav).eq(item.index - 2).addClass('nav-active');
+        // if(item.index > 1){
+        //     // the .eq() method reduces the set of matched elements to the one at the specified index.
+        //     $('li', $sideNav).eq(item.index - 2).addClass('nav-active');
+        // }
+
+        if (item.index == 3 || item.index == 4) {
+            $('#ocean-nav').addClass('nav-active');
+        } else if (item.index == 5 || item.index == 6) {
+            $('#ice-nav').addClass('nav-active');
+        } else if (item.index == 7 || item.index == 8) {
+            $('#heat-nav').addClass('nav-active');
+        } else if (item.index == 9 || item.index == 10) {
+            $('#rain-nav').addClass('nav-active');
+        } else if (item.index == 11) {
+            $('#drought-nav').addClass('nav-active');
+        } else if (item.index == 12) {
+            $('#storm-nav').addClass('nav-active');
+        } else if (item.index == 13 || item.index == 14) {
+            $('#crops-nav').addClass('nav-active');
+        } else if (item.index == 15) {
+            $('#nature-nav').addClass('nav-active');
+        } else if (item.index == 16) {
+            $('#economy-nav').addClass('nav-active');
+        } else if (item.index == 17) {
+            $('#health-nav').addClass('nav-active');
         }
 
         // hide top arrow when at top
@@ -221,8 +243,6 @@ $(function(){
 
             // SET UP DROPLINKS
             $droplinks.on('click', 'li', function() {
-                // +2 since not counting title and first background
-                // that.index($('li', $droplinks).index($(this)) + 2);
 
                 var id = $(this).attr("id");
 
@@ -266,8 +286,45 @@ $(function(){
 
             // SET UP SIDE NAV
             $sideNav.on('click', 'li', function() {
-                // +1 since not counting title
-                that.index($('li', $sideNav).index($(this)) + 2);
+
+                var id = $(this).attr("id");
+
+                if (id == "heat-nav") {
+                    that.index(7);
+                } else if (id =="rain-nav") {
+                    that.index(9);
+                } else if (id =="drought-nav") {
+                    that.index(11);
+                } else if (id =="storm-nav") {
+                    that.index(12);
+                } else if (id =="ocean-nav") {
+                    that.index(3);
+                } else if (id =="ice-nav") {
+                    that.index(5);
+                } else if (id =="crops-nav") {
+                    that.index(13);
+                } else if (id =="nature-nav") {
+                    that.index(15);
+                } else if (id =="economy-nav") {
+                    that.index(16);
+                } else if (id =="health-nav") {
+                    that.index(17);
+                } else if (id =="europe-nav") {
+                    //do nothing for moment
+                } else if (id =="asia-nav") {
+                    //do nothing for moment
+                } else if (id =="china-nav") {
+                    //do nothing for moment
+                } else if (id =="americas-nav") {
+                    //do nothing for moment
+                } else if (id =="africa-nav") {
+                    //do nothing for moment
+                } else if (id =="australasia-nav") {
+                    //do nothing for moment
+                } else if (id =="sids-nav") {
+                    //do nothing for moment
+                }
+
             });
 
 

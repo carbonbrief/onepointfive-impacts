@@ -480,7 +480,7 @@ a:link {
 }
 
 .nav-icon:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;
     -o-transition: transform 0.5s;
