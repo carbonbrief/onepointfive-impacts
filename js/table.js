@@ -35,6 +35,20 @@ var getHeader5 = {
     "3C": ""
 }
 
+var getHeader6 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "4.5C"
+}
+
+var getHeader7 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "4C"
+}
+
 var newData;
 var dataName;
 
@@ -138,8 +152,28 @@ function updateTable () {
             return getHeader4[column];
         } else if (dataName =="snow")  {
             return getHeader5[column];
-        } else if (dataName =="economy")  {
+        } else if (dataName =="temperature")  {
+            return getHeader5[column];
+        } else if (dataName =="heatwaves")  {
+            return getHeader5[column];
+        } else if (dataName =="rainfall")  {
+            return getHeader5[column];
+        } else if (dataName =="rivers")  {
+            return getHeader5[column];
+        } else if (dataName =="drought")  {
             return getHeader4[column];
+        } else if (dataName =="storms")  {
+            return getHeader5[column];
+        } else if (dataName =="crops1")  {
+            return getHeader5[column];
+        } else if (dataName =="crops2")  {
+            return getHeader5[column];
+        } else if (dataName =="nature")  {
+            return getHeader6[column];
+        } else if (dataName =="economy")  {
+            return getHeader7[column];
+        } else if (dataName =="health")  {
+            return getHeader5[column];
         }
     });
 

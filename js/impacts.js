@@ -119,7 +119,7 @@
         location: "Global"
     },{
         name: "economy",
-        title: "Economy",
+        title: "ECONOMY",
         icon: "<i class='fas fa-dollar-sign'></i>",
         info: "GDP: Relative to no additional warming.<br>Flood damage: Annual flood damage losses from SLR by 2100; relative to 1986-2005; without adaptation.<br>Energy demand: In 2100; assumes SSP2; relative to no climate change.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
