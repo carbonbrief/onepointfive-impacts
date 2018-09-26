@@ -222,28 +222,26 @@ $(function(){
 
                 var id = $(this).attr("id");
 
-                if (id == "temp") {
-                    that.index(4);
-                } else if (id == "heat") {
-                    that.index(6);
+                if (id == "heat") {
+                    that.index(7);
                 } else if (id =="rain") {
-                    //do nothing for moment
+                    that.index(9);
                 } else if (id =="drought") {
-                    //do nothing for moment
+                    that.index(11);
                 } else if (id =="storm") {
-                    //do nothing for moment
+                    that.index(12);
                 } else if (id =="ocean") {
-                    //do nothing for moment
+                    that.index(3);
                 } else if (id =="ice") {
-                    //do nothing for moment
+                    that.index(5);
                 } else if (id =="crops") {
-                    //do nothing for moment
+                    that.index(13);
                 } else if (id =="nature") {
-                    //do nothing for moment
+                    that.index(15);
                 } else if (id =="economy") {
-                    //do nothing for moment
+                    that.index(16);
                 } else if (id =="health") {
-                    //do nothing for moment
+                    that.index(17);
                 } else if (id =="europe") {
                     //do nothing for moment
                 } else if (id =="asia") {
