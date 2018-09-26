@@ -35,7 +35,7 @@
         { "name": "Probability of an ice-free Arctic summer at least once", "1.5C": "10%", "2C": "80%", "3C": "100%"},
         { "name": "Probability of an ice-free Arctic summer in any one year", "1.5C": "3%", "2C": "16%", "3C": "63%"},
         { "name": "<br><span class='table-subtitle'>Permafrost</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "Area of thawed permafrost by 2300", "1.5C": "4.8m km2 <br><span class='uncertainty'>(2.6–6.8)</span>", "2C": "6.6m km2 <br><span class='uncertainty'>(4.4–8.6)</span>", "3C": ""}
+        { "name": "Area of thawed permafrost by 2300", "1.5C": "4.8m km<sup>2</sup> <br><span class='uncertainty'>(2.6–6.8)</span>", "2C": "6.6m km<sup>2</sup> <br><span class='uncertainty'>(4.4–8.6)</span>", "3C": ""}
     ];
 
     var snow = [

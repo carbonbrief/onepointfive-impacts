@@ -25,26 +25,18 @@
         name: "marineheatwaves",
         title: "OCEANS",
         icon: "<img class='title-icon' src='../img/ocean.svg'>",
-        info: "Marine heatwaves: Relative to pre-industrial levels. Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range. AMOC: Relative to pre-industrial levels.",
+        info: "Marine heatwaves: Relative to pre-industrial levels.<br> Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range. AMOC: Relative to pre-industrial levels.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
-        map: "asia",
-        location: "Americas"
+        map: "Global",
+        location: "Global"
     },{
-        name: "americasCrops",
-        title: "OCEANS",
-        icon: "<img class='title-icon' src='../img/ocean.svg'>",
-        info: "Marine heatwaves: Relative to pre-industrial levels. Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range. AMOC: Relative to pre-industrial levels.",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
-        map: "latin-america",
-        location: "Latin America"
-    },{
-        name: "americasMaxTemp",
-        title: "Economy",
-        icon: "<i class='fas fa-dollar-sign'></i>",
-        info: "Extra info 3 - Lorem ipsum dolor sit amet",
+        name: "ice",
+        title: "ICE",
+        icon: "<i class='fas fa-snowflake'></i>",
+        info: " Arctic sea ice: 'Ice-free' is defined as an average September sea ice extent of less than one million km2.<br>Permafrost: Relative to 1961-90; uncertainty is a one standard deviation range",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
-        map: "australasia",
-        location: "Australasia"
+        map: "Global",
+        location: "Global"
     },{
         icon: "fas fa-info-circle",
         text: "Extra info here.<br><br>Data compiled by <a href='https://www.carbonbrief.org/author/robertmcsweeney'target='_blank'>Robert McSweeney.</a> Interactive by <a href='https://www.carbonbrief.org/author/rospearce' >Rosamund Pearce.</a> Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode'>Creative Commons.</a>",
