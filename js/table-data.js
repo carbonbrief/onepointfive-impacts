@@ -39,8 +39,7 @@
     ];
 
     var snow = [
-        { "name": "<span class='table-subtitle'>Snow extent</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "Northern hemisphere snow extent in 2080s:", "1.5C": "", "2C": "", "3C": ""},
+        { "name": "<span class='table-subtitle'>Northern hemisphere snow extent in 2080s</span>", "1.5C": "", "2C": "", "3C": ""},
         { "name": "Annual", "1.5C": "<span class='arrow-down'>&#9660;</span> 8%", "2C": "<span class='arrow-down'>&#9660;</span> 11%", "3C": ""},
         { "name": "Winter", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 7%", "3C": ""},
         { "name": "Spring", "1.5C": "<span class='arrow-down'>&#9660;</span> 7%", "2C": "<span class='arrow-down'>&#9660;</span> 10%", "3C": ""},
@@ -72,20 +71,20 @@
     ];
 
     var rainfall = [
-      {"name": "<span class='table-subtitle'>Average rainfall</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(+2-+5)</span>", "3C": ""},
-      {"name": "<span class='table-subtitle'>Consecutive dry days</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 <br><span class='uncertainty'>(-5-+1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 <br><span class='uncertainty'>(-6-+1)</span>", "3C": ""},
-      {"name": "<span class='table-subtitle'>Maximum consecutive 5-day precipitation</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 4mm <br><span class='uncertainty'>(+1-+5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6mm <br><span class='uncertainty'>(+4-+7)</span>", "3C": ""},
-      {"name": "<span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+2-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(+3-+4)</span>", "3C": ""},
+      {"name": "<span class='table-subtitle'>Average rainfall</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(+1-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(+2-+5)</span>", "3C": ""},
+      {"name": "<span class='table-subtitle'>Consecutive dry days</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 <span class='uncertainty'>(-5-+1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 <span class='uncertainty'>(-6-+1)</span>", "3C": ""},
+      {"name": "<span class='table-subtitle'>Maximum consecutive 5-day precipitation</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 4mm <span class='uncertainty'>(+1-+5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6mm <span class='uncertainty'>(+4-+7)</span>", "3C": ""},
+      {"name": "<span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(+2-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(+3-+4)</span>", "3C": ""},
       {"name": "<span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 17%", "2C": "<span class='arrow-up'>&#9650;</span> 36%", "3C": ""}
     ];
 
     var rivers = [
       {"name": "<span class='table-subtitle'>Change in average river flows in 2100</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "-100 to -30%", "1.5C": "0% <br><span class='uncertainty'>(0-4)</span>", "2C": "0% <br><span class='uncertainty'>(1-3)</span>", "3C": ""},
-      {"name": "-30 to -10%", "1.5C": "6% <br><span class='uncertainty'>(5-19)</span>", "2C": "8% <br><span class='uncertainty'>(7-21)</span>", "3C": ""},
-      {"name": "-10 to 10%", "1.5C": "84% <br><span class='uncertainty'>(59-86)</span>", "2C": "73% <br><span class='uncertainty'>(47-75)</span>", "3C": ""},
-      {"name": "10 to 30%", "1.5C": "7% <br><span class='uncertainty'>(5-16)</span>", "2C": "15% <br><span class='uncertainty'>(13-23)</span>", "3C": ""},
-      {"name": ">=30%", "1.5C": "0% <br><span class='uncertainty'>(0-4)</span>", "2C": "1% <br><span class='uncertainty'>(1-7)</span>", "3C": ""},
+      {"name": "-100 to -30%", "1.5C": "0% <span class='uncertainty'>(0-4)</span>", "2C": "0% <span class='uncertainty'>(1-3)</span>", "3C": ""},
+      {"name": "-30 to -10%", "1.5C": "6% <span class='uncertainty'>(5-19)</span>", "2C": "8% <span class='uncertainty'>(7-21)</span>", "3C": ""},
+      {"name": "-10 to 10%", "1.5C": "84% <span class='uncertainty'>(59-86)</span>", "2C": "73% <span class='uncertainty'>(47-75)</span>", "3C": ""},
+      {"name": "10 to 30%", "1.5C": "7% <span class='uncertainty'>(5-16)</span>", "2C": "15% <span class='uncertainty'>(13-23)</span>", "3C": ""},
+      {"name": ">=30%", "1.5C": "0% <span class='uncertainty'>(0-4)</span>", "2C": "1% <span class='uncertainty'>(1-7)</span>", "3C": ""},
       {"name": "N/A", "1.5C": "4%", "2C": "4%", "3C": ""}
     ];
 
