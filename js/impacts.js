@@ -25,7 +25,7 @@
         name: "marineheatwaves",
         title: "OCEANS",
         icon: "<img class='title-icon' src='../img/ocean.svg'>",
-        info: "Marine heatwaves: Relative to pre-industrial levels.<br> Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range. AMOC: Relative to pre-industrial levels.",
+        info: "Marine heatwaves: Relative to pre-industrial levels.<br>Ocean pH: Relative to 1986-2005; median and 5th-95th percentile range.<br>AMOC: Relative to pre-industrial levels.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
         map: "Global",
         location: "Global"
@@ -34,6 +34,30 @@
         title: "ICE",
         icon: "<i class='fas fa-snowflake'></i>",
         info: " Arctic sea ice: 'Ice-free' is defined as an average September sea ice extent of less than one million km2.<br>Permafrost: Relative to 1961-90; uncertainty is a one standard deviation range",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        map: "Global",
+        location: "Global"
+    },{
+        name: "snow",
+        title: "ICE",
+        icon: "<i class='fas fa-snowflake'></i>",
+        info: "Snow extent: Relative to 1971-2000. <br>Snow storage: Percent of global land area (exc. Antarctica and Greenland) seeing changes in maximum monthly snow storage in calendar month with maximum storage in historical decade.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        map: "Global",
+        location: "Global"
+    },{
+        name: "temperature",
+        title: "HEAT EXTREMES",
+        icon: "<i class='fas fa-sun'></i>",
+        info: "Annual maximum daily temperature: Relative to 1981–2010; ensemble mean (min–max).<br> Hot days: Percentage of days above the 90th percentile of daily maximum temperature in the 1981–2010 average; ensemble mean (min–max).<br>Warm spell duration: Defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        map: "Global",
+        location: "Global"
+    },{
+        name: "heatwaves",
+        title: "HEAT EXTREMES",
+        icon: "<i class='fas fa-sun'></i>",
+        info: "Global exposure to heatwaves: Defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >40 on the Heat Wave Magnitude Index daily; median and interquartile range.<br> Warm extremes: Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br>Cold extremes: Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
         map: "Global",
         location: "Global"

@@ -55,7 +55,7 @@
         {"name": "N/A", "1.5C": "65%", "2C": "65%", "3C": ""}
     ];
 
-       var temperature = [
+    var temperature = [
       {"name": "<span class='table-subtitle'>Annual maximum daily temperature</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.6C <br><span class='uncertainty'>(+2.1-+2.9)</span>", "3C": ""},
       {"name": "<span class='table-subtitle'>Hot days</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 16% <br><span class='uncertainty'>(+10-+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 25% <br><span class='uncertainty'>(+20-+29)</span>", "3C": ""},
       {"name": "<span class='table-subtitle'>Warm spell duration</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 17 days <br><span class='uncertainty'>(+15-+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 35 days <br><span class='uncertainty'>(+33-+36)</span>", "3C": ""}  
