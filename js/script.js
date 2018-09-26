@@ -85,7 +85,7 @@ $(function(){
         console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
-        if (item.index < 5 && item.index > 1) {
+        if (item.index < 18 && item.index > 1) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }
@@ -102,7 +102,7 @@ $(function(){
 
         }
 
-        if(item.index > 1 && item.index < 6){
+        if(item.index > 1 && item.index < 18){
 
             triggerTableUpdate();
 
@@ -171,7 +171,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 6) {
+            } else if (item.index > 2 && item.index < 18) {
 
                 item.el.addClass("story-middle");
  
@@ -191,7 +191,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index === 6) {
+            } else if (item.index === 18) {
 
                 // change style via class so can make responsive
                 item.el.addClass("story-end");

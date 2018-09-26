@@ -141,7 +141,8 @@ a {
     position: absolute;
     top: 1730px;
     left: calc((100% - 1000px)/2 + 230px);
-    height: 2130px;
+    /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
+    height: 10650px;
     padding: 0px !important;
     
 }
@@ -175,7 +176,8 @@ a {
     left: calc((100% - 1000px)/2);
     margin-left: 240px;
     width: 758px;
-    height: 2790px;
+    /* (table stories + padding) x number + instructions height but not padding */
+    height: 11300px;
     position: absolute;
     z-index: 5;
 }
@@ -252,8 +254,8 @@ td {
 .map-wrapper {
     position: absolute;
     top: 2120px;
-    /* work out once know how many stories have */
-    height: 1580px;
+    /* (table stories + padding) x number - 1xpadding - 450px */
+    height: 10140px;
     left: calc((100% - 1000px)/2);
     margin-left: 0px;
     width: 180px;
@@ -298,7 +300,7 @@ p .fa-info-circle:hover {
 }
 
 #lines-wrapper {
-    height: 4175px;
+    height: 12665px;
     /* decided to make fixed for now with break points */
     width: 1000px;
     left: calc((100% - 1000px)/2);
@@ -312,7 +314,7 @@ p .fa-info-circle:hover {
     position: sticky;
     width: 100%;
     top: 150px;
-    height: 4110px;
+    height: 12600px;
 }
 
 .line {

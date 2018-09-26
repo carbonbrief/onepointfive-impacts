@@ -16,32 +16,32 @@ var svg = d3.select("#lines").append("svg")
 var data = [{
     name: "Line 2",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "300"},
-        {length: "1690", across: "300"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "300"},
+        {length: "1920", across: "300"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 },{
     name: "Line 3",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "400"},
-        {length: "1690", across: "400"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "400"},
+        {length: "1920", across: "400"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 },{
     name: "Line 4",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "500"},
-        {length: "1690", across: "500"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "500"},
+        {length: "1920", across: "500"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 }]
 
@@ -50,32 +50,32 @@ var data = [{
 var data2 = [{
     name: "Line 2",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "200"},
-        {length: "1690", across: "200"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "200"},
+        {length: "1920", across: "200"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 },{
     name: "Line 3",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "300"},
-        {length: "1690", across: "300"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "300"},
+        {length: "1920", across: "300"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 },{
     name: "Line 4",
     values: [
+        {length: "25", across: "100"},
         {length: "80", across: "100"},
-        {length: "230", across: "100"},
-        {length: "280", across: "400"},
-        {length: "1690", across: "400"},
-        {length: "1740", across: "100"},
-        {length: "1820", across: "100"}
+        {length: "100", across: "400"},
+        {length: "1920", across: "400"},
+        {length: "1950", across: "100"},
+        {length: "2000", across: "100"}
     ]
 }] 
 
