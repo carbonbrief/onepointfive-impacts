@@ -105,12 +105,15 @@
       {"name": "By 2295", "1.5C": "<span class='arrow-up'>&#9650;</span> 136m/yr <br><span class='uncertainty'(+82-+231)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 162m/yr <br><span class='uncertainty'(+99-+273)</span>", "3C": ""}
     ];
 
-    var crops = [
+    var crops1 = [
       {"name": "<span class='table-subtitle'>Average crop yield change by 2100</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Maize", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 9%", "3C": ""},
       {"name": "Wheat", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 4%", "3C": ""},
-      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(+4-+5)", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+7-+8)", "3C": ""},
-      {"name": "<br><span class='table-subtitle'>Crop yields over existing farmland</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(+4-+5)", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+7-+8)", "3C": ""}
+    ];
+
+    var crops2 = [
+      {"name": "<span class='table-subtitle'>Crop yields over existing farmland</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-8-+21)", "3C": ""},
       {"name": "Maize (Global)", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <br><span class='uncertainty'>(-26-+8)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <br><span class='uncertainty'>(-38-+2)", "3C": ""},
       {"name": "Soy (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(-3-+28)", "2C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-12-+34)", "3C": ""},
