@@ -25,9 +25,11 @@ $(function(){
             // play video after the second background enters
             playVid();
 
+        } else if (item.index === 2) {
+
             // STICKY SIDE NAV
             $sideNav.removeClass('nav-fixed').addClass('nav-moving');
-            
+
         } else if (item.index === 3) {
             // do nothing
             
@@ -45,12 +47,14 @@ $(function(){
 
         } else if (item.index === 1) {
 
+            // pause video after the second background exits
+            pauseVid();
+
+        } else if (item.index === 2) {
+
             // STICKY SIDE NAV
             $sideNav.removeClass('nav-moving').addClass('nav-fixed');
 
-            // pause video after the second background exits
-            pauseVid();
-            
         } else {
             // item.el.css('background-color', '#333333');
         }
