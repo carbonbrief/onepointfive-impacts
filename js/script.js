@@ -17,46 +17,20 @@ $(function(){
 
     var enterEvents = function (ev, item) {
         
-        if(item.index === 0){
-
-            
-            
-        } else if (item.index === 1) {
+        if (item.index === 1) {
             // play video after the second background enters
             playVid();
 
-        } else if (item.index === 2) {
-
-            // STICKY SIDE NAV
-            // $sideNav.removeClass('nav-fixed').addClass('nav-moving');
-
-        } else if (item.index === 3) {
-            // do nothing
-            
-        } else {
-            // item.el.css('background-color', '#333333');
-            // $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
         }
-
-        // console.log(item);
     }
 
     var exitEvents = function (ev, item) {
 
-        if(item.index === 0){
-
-        } else if (item.index === 1) {
+        if (item.index === 1) {
 
             // pause video after the second background exits
             pauseVid();
 
-        } else if (item.index === 2) {
-
-            // STICKY SIDE NAV
-            // $sideNav.removeClass('nav-moving').addClass('nav-fixed');
-
-        } else {
-            // item.el.css('background-color', '#333333');
         }
     }
 
@@ -91,6 +65,20 @@ $(function(){
             $('#economy-nav').addClass('nav-active');
         } else if (item.index == 17) {
             $('#health-nav').addClass('nav-active');
+        } else if (item.index > 17 && item.index < 36) {
+            $('#europe-nav').addClass('nav-active');
+        } else if (item.index > 35 && item.index < 51) {
+            $('#americas-nav').addClass('nav-active');
+        } else if (item.index > 50 && item.index < 57) {
+            $('#sids-nav').addClass('nav-active');
+        } else if (item.index > 56 && item.index < 66) {
+            $('#africa-nav').addClass('nav-active');
+        } else if (item.index > 65 && item.index < 81) {
+            $('#asia-nav').addClass('nav-active');
+        } else if (item.index > 80 && item.index < 90) {
+            $('#china-nav').addClass('nav-active');
+        } else if (item.index > 89 && item.index < 98) {
+            $('#australasia-nav').addClass('nav-active');
         }
 
         // hide top arrow when at top

@@ -426,7 +426,7 @@ a:link {
 .side-nav {
     position: sticky;
     z-index: 999999;
-    top: 15%;
+    top: calc((100% - 586px)/2);
 }
 
 .side-nav li {
@@ -469,18 +469,11 @@ a:link {
     opacity: 1;
 }
 
-.nav-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-
 .nav-icon {
     text-align: center;
     opacity: 0.65;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 35%;
 }
 
 .nav-icon i {
@@ -503,7 +496,7 @@ a:link {
     -o-transition: transform 0.5s;
     transition: transform 0.5s;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .tooltip-wrapper {
