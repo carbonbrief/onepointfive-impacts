@@ -150,7 +150,7 @@
         map: "global",
         location: "Global"
     },{
-        name: "europeTitle",
+        name: "placeholder",
         title: "EUROPE",
         icon: "<img class='title-icon' src='/img/europe-icon.svg'>",
         credit: ""
@@ -308,7 +308,7 @@
         map: "europe",
         location: "Europe"
     },{
-        name: "americasTitle",
+        name: "placeholder",
         title: "AMERICAS",
         icon: "<img class='title-icon' src='/img/americas-icon.svg'>",
         credit: ""
@@ -439,7 +439,7 @@
         map: "americas",
         location: "Americas"
     },{
-        name: "sidsTitle",
+        name: "placeholder",
         title: "CARIBBEAN AND SMALL ISLAND STATES",
         icon: "<img class='title-icon' src='/img/caribbean-icon.svg'>",
         credit: ""
@@ -489,7 +489,7 @@
         map: "caribbean",
         location: "Caribbean and small island states"
     },{
-        name: "africaTitle",
+        name: "placeholder",
         title: "AFRICA",
         icon: "<img class='title-icon' src='/img/africa-icon.svg'>",
         credit: ""
@@ -566,7 +566,7 @@
         map: "africa",
         location: "Africa"
     },{
-        name: "asiaTitle",
+        name: "placeholder",
         title: "ASIA",
         icon: "<img class='title-icon' src='/img/asia-icon.svg'>",
         credit: ""
@@ -697,7 +697,7 @@
         map: "asia",
         location: "Asia"
     },{
-        name: "chinaTitle",
+        name: "placeholder",
         title: "CHINA",
         icon: "<img class='title-icon' src='/img/china-icon.svg'>",
         credit: ""
@@ -774,7 +774,7 @@
         map: "china",
         location: "China"
     },{
-        name: "australasiaTitle",
+        name: "placeholder",
         title: "AUSTRALASIA",
         icon: "<img class='title-icon' src='/img/australasia-icon.svg'>",
         credit: ""

@@ -2,13 +2,21 @@
 
     // global objects
 
-    //placeholder object that can be used elsewhere
-
     var instructions = [
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
         { "name": "", "1.5C": "", "2C": "", "3C": ""}
     ];
+
+    // placeholder object for section titles
+
+    var placeholder = [
+      { "name": "", "1.5C": "", "2C": "", "3C": ""},
+      { "name": "", "1.5C": "", "2C": "", "3C": ""},
+      { "name": "", "1.5C": "", "2C": "", "3C": ""}
+    ];
+
+    // global objects
 
     var sealevel = [
         { "name": "<span class='table-subtitle'>Sea level rise</span>", "1.5C": "", "2C": "", "3C": ""},

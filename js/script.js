@@ -127,7 +127,7 @@ $(function(){
 
         }
 
-        if(item.index > 1 && item.index < 18){
+        if(item.index > 1 && item.index < 98){
 
             triggerTableUpdate();
 
