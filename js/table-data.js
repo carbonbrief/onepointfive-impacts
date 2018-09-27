@@ -699,17 +699,17 @@
 
     var asiaTemp = [
       {"name": "<span class='table-subtitle'>Average temperature</span>", "1.5C": "2.3C", "2C": "3C", "3C": "6C"},
-    ];
-
-    var asiaTempMax = [
       {"name": "<span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.9C <br><span class='uncertainty'>(+0.4-+1.1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.5-+2)</span>", "3C": ""},
       {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8C <br><span class='uncertainty'>(+0.6-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <br><span class='uncertainty'>(+1.1-+1.9)</span>", "3C": ""},
       {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8C <br><span class='uncertainty'>(+0.6-+1.1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <br><span class='uncertainty'>(+1.4-+1.9)</span>", "3C": ""},
       {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <br><span class='uncertainty'>(+0.8-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.8C <br><span class='uncertainty'>(+1.4-+2)</span>", "3C": ""},
       {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.7C <br><span class='uncertainty'>(+0.6-+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.4C <br><span class='uncertainty'>(+1-+1.6)</span>", "3C": ""},
-      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+0.8-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.5-+2)</span>", "3C": ""},
-      {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+0.8-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <br><span class='uncertainty'>(+1.5-+2)</span>", "3C": ""}
+    ];
+
+    var asiaWarmSpell = [
+      {"name": "<span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+6-+10)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 17 days <br><span class='uncertainty'>(+14-+19)</span>", "3C": ""},
       {"name": "Tibet", "1.5C": "<span class='arrow-up'>&#9650;</span> 12 days <br><span class='uncertainty'>(+10-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 days <br><span class='uncertainty'>(+19-+25)</span>", "3C": ""},
       {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 15 days <br><span class='uncertainty'>(+11-+17)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+24-+34)</span>", "3C": ""},

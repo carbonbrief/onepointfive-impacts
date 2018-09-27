@@ -571,6 +571,132 @@
         icon: "<img class='title-icon' src='/img/asia-icon.svg'>",
         credit: ""
     },{
+        name: "asiaIce",
+        title: "ICE",
+        icon: "<i class='fas fa-snowflake'></i>",
+        info: "Relative to 1996–2015; ensemble mean and standard deviation",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaTemp",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Average temperature: relative to 1861-1900.<br>Annual highest maximum temperature: by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaWarmSpell",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaTempExtremes",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Warm extremes: defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaIndiaHeatwaves",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Mid-century: by 2021−2050; relative to 1986−2015.<br>End of century: by 2071−2100; relative to 1986−2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaRainfallDry",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Average rainfall: relative to 1861-1900.<br>Dry spell duration: Defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaRainfallIntensities",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Rainfall intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br>Rainfall extremes: Defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaMonsoon",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Indian monsoon extreme rainfall: 3-day rainfall total in a 1-in-100 year event; relative to a baseline of 1969-2005.<br>Asian monsoon: relative to 2006–2015.<br>Length of tropical rain season: relative to 2006–2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaDrought",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Average drought length (months): defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br>Water scarcity: Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaStorms",
+        title: "STORMS AND FLOODING",
+        icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+        info: "Population held constant at 2015 levels; relative to 1976-2005",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaFlooding",
+        title: "STORMS AND FLOODING",
+        icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+        info: "Area inundated during an average flood, without flood defences, excluding cyclones.<br>Frequency of extreme high flows: return period for a 1-in-100 year extreme high flows in 2006-15.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaCrops",
+        title: "CROPS",
+        icon: "<img class='title-icon' src='../img/wheat.svg'>",
+        info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaNature",
+        title: "NATURE",
+        icon: "<i class='fas fa-frog'></i>",
+        info: "Relative to 1986-2005",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaEconomy",
+        title: "ECONOMY",
+        icon: "<i class='fas fa-dollar-sign'></i>",
+        info: "Damage in euros at Purchasing Power Parity in 2010 values; relative to 1976-2005",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
         name: "chinaTitle",
         title: "CHINA",
         icon: "<img class='title-icon' src='/img/china-icon.svg'>",
