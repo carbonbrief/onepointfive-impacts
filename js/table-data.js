@@ -167,7 +167,6 @@
     ];
       
     var europeHotNights = [
-
       {"name": "<br><span class='table-subtitle'>Increase in annual tropical nights</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "British Isles", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 night <br><span class='uncertainty'>(0-+12)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 night <br><span class='uncertainty'>(0-+16)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3 nights <br><span class='uncertainty'>(0-+19)</span>"},
       {"name": "Iberian Peninsula", "1.5C": "<span class='arrow-up'>&#9650;</span> 11 nights <br><span class='uncertainty'>(+5-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16 nights <br><span class='uncertainty'>(+7-+32)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 30 nights <br><span class='uncertainty'>(+14-+49)</span>"},
@@ -532,7 +531,7 @@
 
 // Caribbean objects
 
-    // put temeprature and heat in one for now
+    // put temperature and heat in one for now
 
     var sidsTemp = [
       {"name": "<span class='table-subtitle'>Average temperature</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+1.0-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <br><span class='uncertainty'>(+1.4-+1.9)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.0C <br><span class='uncertainty'>(+1.7-+2.3)</span>"},

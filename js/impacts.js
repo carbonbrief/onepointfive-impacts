@@ -430,10 +430,37 @@
         map: "americas",
         location: "Americas"
     },{
+        name: "americasHealth",
+        title: "HEALTH",
+        icon: "<i class='fas fa-briefcase-medical'></i>",
+        info: "Relative to 1961-90",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "americas",
+        location: "Americas"
+    },{
         name: "sidsTitle",
         title: "CARIBBEAN AND SMALL ISLAND STATES",
         icon: "<img class='title-icon' src='/img/caribbean-icon.svg'>",
         credit: ""
+    },{
+        name: "sidsTemp",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Average temperature: relative to pre-industrial.<br>Warm spell duration: annual count of days with at least 6 consecutive days when max temperature > 90th percentile; relative to 1971-2000.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "caribbean",
+        location: "Caribbean and small island states"
+    },{
+        name: "sidsRain",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Average temrpature: relative to pre-industrial.<br>Warm spell duration: annual count of days with at least 6 consecutive days when max temperature > 90th percentile; relative to 1971-2000.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "caribbean",
+        location: "Caribbean and small island states"
     },{
         name: "africaTitle",
         title: "AFRICA",
