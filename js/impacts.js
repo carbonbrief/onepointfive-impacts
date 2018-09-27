@@ -806,6 +806,42 @@
         map: "australasia",
         location: "Australasia"
     },{
+        name: "ausRain",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Length of tropical rain season: relative to 2006–2015.<br>Dry spell duration: defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br>Rainfall intensity: Defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
+        name: "ausDrought",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Likelihood = 1% without climate change.<br>Average drought length in Oceania: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
+        name: "ausStorms",
+        title: "STORMS AND FLOODING",
+        icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+        info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
+        name: "ausCrops",
+        title: "CROPS",
+        icon: "<img class='title-icon' src='../img/wheat.svg'>",
+        info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
         icon: "fas fa-info-circle",
         text: "Extra info here.<br><br>Data compiled by <a href='https://www.carbonbrief.org/author/robertmcsweeney'target='_blank'>Robert McSweeney.</a> Interactive by <a href='https://www.carbonbrief.org/author/rospearce' >Rosamund Pearce</a> with help from Tom Prater. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode'>Creative Commons.</a>",
     }];

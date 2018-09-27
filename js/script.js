@@ -196,7 +196,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 18) {
+            } else if (item.index > 2 && item.index < 98) {
 
                 item.el.addClass("story-middle");
  
@@ -216,7 +216,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index === 18) {
+            } else if (item.index === 98) {
 
                 // change style via class so can make responsive
                 item.el.addClass("story-end");
