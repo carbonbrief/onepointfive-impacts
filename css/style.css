@@ -415,9 +415,18 @@ a:link {
     text-decoration: none;
 }
 
+#side-nav-wrapper {
+    position: absolute;
+    top: 1800px;
+    /* (table stories + padding) x number - 60pxpadding */
+    height: 67360px;
+    right: 20px;
+}
+
 .side-nav {
-    right: 15px;
+    position: sticky;
     z-index: 999999;
+    top: 15%;
 }
 
 .side-nav li {
@@ -495,17 +504,6 @@ a:link {
     transition: transform 0.5s;
     opacity: 1;
     background: rgba(0, 0, 0, 0.3);
-}
-
-.nav-moving {
-    position: absolute;
-    /* intro1 + intro2 + instructions + 3xpadding */
-    top: calc(1730px + 15%);
-}
-
-.nav-fixed {
-    position: fixed;
-    top: calc(15%);
 }
 
 .tooltip-wrapper {

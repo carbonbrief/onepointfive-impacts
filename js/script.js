@@ -28,7 +28,7 @@ $(function(){
         } else if (item.index === 2) {
 
             // STICKY SIDE NAV
-            $sideNav.removeClass('nav-fixed').addClass('nav-moving');
+            // $sideNav.removeClass('nav-fixed').addClass('nav-moving');
 
         } else if (item.index === 3) {
             // do nothing
@@ -53,7 +53,7 @@ $(function(){
         } else if (item.index === 2) {
 
             // STICKY SIDE NAV
-            $sideNav.removeClass('nav-moving').addClass('nav-fixed');
+            // $sideNav.removeClass('nav-moving').addClass('nav-fixed');
 
         } else {
             // item.el.css('background-color', '#333333');
