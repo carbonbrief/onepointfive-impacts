@@ -266,19 +266,19 @@ $(function(){
                 } else if (id =="health") {
                     that.index(17);
                 } else if (id =="europe") {
-                    //do nothing for moment
+                    that.index(18);
                 } else if (id =="asia") {
-                    //do nothing for moment
+                    that.index(66);
                 } else if (id =="china") {
-                    //do nothing for moment
+                    that.index(81);
                 } else if (id =="americas") {
-                    //do nothing for moment
+                    that.index(36);
                 } else if (id =="africa") {
-                    //do nothing for moment
+                    that.index(57);
                 } else if (id =="australasia") {
-                    //do nothing for moment
+                    that.index(90);
                 } else if (id =="sids") {
-                    //do nothing for moment
+                    that.index(51);
                 }
 
             });
@@ -309,19 +309,19 @@ $(function(){
                 } else if (id =="health-nav") {
                     that.index(17);
                 } else if (id =="europe-nav") {
-                    //do nothing for moment
+                    that.index(18);
                 } else if (id =="asia-nav") {
-                    //do nothing for moment
+                    that.index(66);
                 } else if (id =="china-nav") {
-                    //do nothing for moment
+                    that.index(81);
                 } else if (id =="americas-nav") {
-                    //do nothing for moment
+                    that.index(36);
                 } else if (id =="africa-nav") {
-                    //do nothing for moment
+                    that.index(57);
                 } else if (id =="australasia-nav") {
-                    //do nothing for moment
+                    that.index(90);
                 } else if (id =="sids-nav") {
-                    //do nothing for moment
+                    that.index(51);
                 }
 
             });

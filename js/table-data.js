@@ -331,8 +331,8 @@
       {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 220%", "2C": "<span class='arrow-up'>&#9650;</span> 291%", "3C": "<span class='arrow-up'>&#9650;</span> 641%"},
       {"name": "Serbia", "1.5C": "<span class='arrow-up'>&#9650;</span> 139%", "2C": "<span class='arrow-up'>&#9650;</span> 155%", "3C": "<span class='arrow-up'>&#9650;</span> 228%"},
       {"name": "<br><span class='table-subtitle'>Frequency of extreme high flows in major river basins</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Rhine", "1.5C": "1-in-70 years <br><span class='uncertainty'>(62-78)</span>", "2C": "1-in-72 years <br><span class='uncertainty'>(65-79)</span>", "3C": ""},
-      {"name": "Danube", "1.5C": "1-in-54 years <br><span class='uncertainty'>(46-62)</span>", "2C": "1-in-63 years <br><span class='uncertainty'>(57-69)</span>", "3C": ""}
+      {"name": "Rhine", "1.5C": "1-in-70 years <span class='uncertainty'>(62-78)</span>", "2C": "1-in-72 years <span class='uncertainty'>(65-79)</span>", "3C": ""},
+      {"name": "Danube", "1.5C": "1-in-54 years <span class='uncertainty'>(46-62)</span>", "2C": "1-in-63 years <span class='uncertainty'>(57-69)</span>", "3C": ""}
     ];
 
     var europeCrops = [
