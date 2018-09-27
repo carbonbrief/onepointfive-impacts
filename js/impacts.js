@@ -779,6 +779,33 @@
         icon: "<img class='title-icon' src='/img/australasia-icon.svg'>",
         credit: ""
     },{
+        name: "ausOceans",
+        title: "OCEANS",
+        icon: "<img class='title-icon' src='../img/ocean.svg'>",
+        info: "Likelihood = 0% without climate change",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
+        name: "ausHeat",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Extreme events: likelihood = 3% without climate change; likelihood = 1% without climate change.<br>Annual highest maximum temperature: by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br>Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
+        name: "ausHeatExtremes",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Warm extremes: Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "australasia",
+        location: "Australasia"
+    },{
         icon: "fas fa-info-circle",
         text: "Extra info here.<br><br>Data compiled by <a href='https://www.carbonbrief.org/author/robertmcsweeney'target='_blank'>Robert McSweeney.</a> Interactive by <a href='https://www.carbonbrief.org/author/rospearce' >Rosamund Pearce</a> with help from Tom Prater. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode'>Creative Commons.</a>",
     }];
