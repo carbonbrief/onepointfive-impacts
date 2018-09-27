@@ -702,6 +702,78 @@
         icon: "<img class='title-icon' src='/img/china-icon.svg'>",
         credit: ""
     },{
+        name: "chinaTemp",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Relative to pre-industrial levels; ensemble mean (5th-95th percentile)",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaHeat",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Heat events: likelihood of 3% in 1976-2005; likelihood of 0% in 1976-2005.<br>Extreme maximum temperature events: population exposed to 5-day periods where temperatures >30C; relative to 1986-2005. Population at 2010 levels.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaHeatExtremes",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Hottest day and coldest night: relative to 1986-2005.<br>Annual warm days: percentage of days when maximum temperature >90th percentile; relative to 1986-2005.<br>Annual warm spell duration: Count of days with at least 6 consecutive days when maximum temperature >90th percentile; relative 1986-2005.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaRain",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Annual rainfall: relative to no model runs with no climate warming; ensemble mean (5th-95th percentile).<br>Trace rainfall: Defined as rainy days with <0.1mm of rain; relative to 1980–2009.<br>Light rainfall: days with <10mm of rain; relative to 1980–2009.<br>Moderate rainfall: days with <25mm of rain; relative to 1980–2009.<br>Heavy rainfall: days with <50mm of rain; relative to 1980–2009.<br>Intense rainfall: days with >50mm of rain; relative to 1980–2009.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaRainExtremes",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Relative to 1986-2005; ensemble median (min-max).<br>'Very wet day' = exceeds the 95th percentile of the period 1971–2000.<br>'Extremely wet day' = exceeds the 99th percentile of the period 1971–2000.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaStorms",
+        title: "STORMS AND FLOODING",
+        icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+        info: "Population held constant at 2015 levels; relative to 1976-2005.<br>Likelihood of 8% in 1976-2005.<br>Yangtze river: return period for a 1-in-100 year extreme high flows in 2006-15.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaCrops",
+        title: "CROPS",
+        icon: "<img class='title-icon' src='../img/wheat.svg'>",
+        info: "Relative to 2006-2015",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
+        name: "chinaEconomy",
+        title: "ECONOMY",
+        icon: "<i class='fas fa-dollar-sign'></i>",
+        info: "Economic damages from river flooding: population held constant at 2015 levels; relative to 1976-2005.<br>Increase in annual economic damages caused by tropical cyclones in China, relative to 1986-2005.<br>Annual days of temperature-related weight restrictions on flights: relative to 2006-2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "china",
+        location: "China"
+    },{
         name: "australasiaTitle",
         title: "AUSTRALASIA",
         icon: "<img class='title-icon' src='/img/australasia-icon.svg'>",

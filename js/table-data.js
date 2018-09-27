@@ -2,6 +2,8 @@
 
     // global objects
 
+    //placeholder object that can be used elsewhere
+
     var instructions = [
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
@@ -912,37 +914,36 @@
     ];
 
     var chinaRain = [
-    {"name": "<span class='table-subtitle'>Annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Annual rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-1-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+1-+14)</span>", "3C": ""},
-    {"name": "Spring rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-2-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <br><span class='uncertainty'>(-1-+18)</span>", "3C": ""},
-    {"name": "Summer rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-3-+13)</span>", "3C": ""},
-    {"name": "Autumn rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-6-+22)</span>", "3C": ""},
-    {"name": "Winter rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(-3-+23)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15% <br><span class='uncertainty'>(0-+31)</span>", "3C": ""},
-    {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Frequency of days with trace rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": ""},
-    {"name": "Frequency of days with light rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
-    {"name": "Frequency of days with moderate rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
-    {"name": "Frequency of days with heavy rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": ""},
-    {"name": "Frequency of days with intense rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 16%", "3C": ""},
-    {"name": "<br><span class='table-subtitle'>Rainfall Extremes</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Annual number of extreme rainfall events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20% <br><span class='uncertainty'>(+20-+24)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26% <br><span class='uncertainty'>(+19-+37)</span>", "3C": ""},
-    {"name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(+9-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 12% <br><span class='uncertainty'>(+6-+14)</span>", "3C": ""},
-    {"name": "Consecutive dry days", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3-+19)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 5% <br><span class='uncertainty'>(-8-+18)</span>", "3C": ""}
+      {"name": "<span class='table-subtitle'>Annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Annual rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-1-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+1-+14)</span>", "3C": ""},
+      {"name": "Spring rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-2-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <br><span class='uncertainty'>(-1-+18)</span>", "3C": ""},
+      {"name": "Summer rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-3-+13)</span>", "3C": ""},
+      {"name": "Autumn rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-6-+22)</span>", "3C": ""},
+      {"name": "Winter rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(-3-+23)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15% <br><span class='uncertainty'>(0-+31)</span>", "3C": ""},
+      {"name": "", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Frequency of days with trace rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": ""},
+      {"name": "Frequency of days with light rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
+      {"name": "Frequency of days with moderate rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
+      {"name": "Frequency of days with heavy rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": ""},
+      {"name": "Frequency of days with intense rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 16%", "3C": ""}
     ];
 
     var chinaRainExtremes = [
-    {"name": "<span class='table-subtitle'>Heavy rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Rainfall amount on a very wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 27%", "3C": "<span class='arrow-up'>&#9650;</span> 57%"},
-    {"name": "Rainfall amount on an extremely wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 69%", "2C": "<span class='arrow-up'>&#9650;</span> 87%", "3C": "<span class='arrow-up'>&#9650;</span> 162%"}
+      {"name": "<span class='table-subtitle'>Rainfall Extremes</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Annual number of extreme rainfall events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20% <br><span class='uncertainty'>(+20-+24)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26% <br><span class='uncertainty'>(+19-+37)</span>", "3C": ""},
+      {"name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(+9-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 12% <br><span class='uncertainty'>(+6-+14)</span>", "3C": ""},
+      {"name": "Consecutive dry days", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3-+19)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 5% <br><span class='uncertainty'>(-8-+18)</span>", "3C": ""},
+      {"name": "<br><span class='table-subtitle'>Heavy rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Rainfall amount on a very wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 27%", "3C": "<span class='arrow-up'>&#9650;</span> 57%"},
+      {"name": "Rainfall amount on an extremely wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 69%", "2C": "<span class='arrow-up'>&#9650;</span> 87%", "3C": "<span class='arrow-up'>&#9650;</span> 162%"}
     ];
 
     var chinaStorms = [
-    {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
-    {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "<span class='table-subtitle'>Likelihood of flooding equivalent to summer of 2010 in southeastern China</span>", "1.5C": "26%", "2C": "30%", "3C": ""},
-    {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "<span class='table-subtitle'>Frequency of extreme high flows in Yangtze river</span>", "1.5C": "1-in-58 years <br><span class='uncertainty'>(50-66)</span>", "2C": "1-in-26 years <br><span class='uncertainty'>(17-35)</span>", "3C": ""}
-
+      {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
+      {"name": "", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Likelihood of flooding equivalent to summer of 2010 in southeastern China</span>", "1.5C": "26%", "2C": "30%", "3C": ""},
+      {"name": "", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Frequency of extreme high flows in Yangtze river</span>", "1.5C": "1-in-58 years <br><span class='uncertainty'>(50-66)</span>", "2C": "1-in-26 years <br><span class='uncertainty'>(17-35)</span>", "3C": ""}
     ];
 
     var chinaCrops = [
