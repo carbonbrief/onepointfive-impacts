@@ -63,6 +63,13 @@ var getHeader9 = {
     "3C": "3.7C"
 }
 
+var getHeader10 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "4.2C"
+}
+
 var newData;
 var dataName;
 
@@ -156,103 +163,56 @@ function updateTable () {
     // update the column headers
     myTable.selectAll("thead th")
     .text(function(column) {
-        // could shorten the way writing this but making it chronological for now
         if (dataName =="instructions") {
             return getHeader1[column];
         } else if (dataName =="placeholder")  {
             return getHeader8[column];
+        // global headers
         } else if (dataName =="sealevel")  {
             return getHeader2[column];
         } else if (dataName =="marineheatwaves")  {
             return getHeader3[column];
-        } else if (dataName =="ice")  {
+        } else if (dataName =="ice" || dataName =="drought")  {
             return getHeader4[column];
-        } else if (dataName =="snow")  {
-            return getHeader5[column];
-        } else if (dataName =="temperature")  {
-            return getHeader5[column];
-        } else if (dataName =="heatwaves")  {
-            return getHeader5[column];
-        } else if (dataName =="rainfall")  {
-            return getHeader5[column];
-        } else if (dataName =="rivers")  {
-            return getHeader5[column];
-        } else if (dataName =="drought")  {
-            return getHeader4[column];
-        } else if (dataName =="storms")  {
-            return getHeader5[column];
-        } else if (dataName =="crops1")  {
-            return getHeader5[column];
-        } else if (dataName =="crops2")  {
+        } else if (dataName =="snow" || dataName =="temperature" || dataName =="heatwaves" || dataName =="rainfall" || dataName =="rivers" || dataName =="storms" || dataName =="crops1" || dataName =="crops2" || dataName =="health")  {
             return getHeader5[column];
         } else if (dataName =="nature")  {
             return getHeader6[column];
         } else if (dataName =="economy")  {
             return getHeader7[column];
-        } else if (dataName =="health")  {
+        // europe headers
+        } else if (dataName =="europeHotDays" || dataName =="europeHotNights" || dataName =="europeTemp" || dataName =="europeFrost" || dataName =="europeWinterTemp" || dataName =="europeHeatwave" || dataName =="europeRainfallWinterMaxDaily" || dataName =="europeRainfallSummerMaxDaily" || dataName =="europeDryDays" || dataName =="europeDrought" || dataName =="europeRivers1")  {
+            return getHeader4[column];
+        } else if (dataName =="europeHeatwave" || dataName =="europeColdwave" || dataName =="europeRainIntensity" || dataName =="europeCrops" || dataName =="europeHealth")  {
             return getHeader5[column];
-        } else if (dataName =="europeHotDays")  {
-            return getHeader4[column];
-        } else if (dataName =="europeHotNights")  {
-            return getHeader4[column];
-        } else if (dataName =="europeTemp")  {
-            return getHeader4[column];
-        } else if (dataName =="europeFrost")  {
-            return getHeader4[column];
-        } else if (dataName =="europeWinterTemp")  {
-            return getHeader4[column];
-        } else if (dataName =="europeHeatwave")  {
-            return getHeader5[column];
-        } else if (dataName =="europeColdwave")  {
-            return getHeader5[column];
-        } else if (dataName =="europeRainfallWinterMaxDaily")  {
-            return getHeader4[column];
-        } else if (dataName =="europeRainfallSummerMaxDaily")  {
-            return getHeader4[column];
-        } else if (dataName =="europeDryDays")  {
-            return getHeader4[column];
-        } else if (dataName =="europeRainIntensity")  {
-            return getHeader5[column];
-        } else if (dataName =="europeDrought")  {
-            return getHeader4[column];
-        } else if (dataName =="europeRivers1")  {
-            return getHeader4[column];
-        } else if (dataName =="europeRivers2")  {
+        } else if (dataName =="europeRivers2" || dataName =="europeEconomy")  {
             return getHeader7[column];
-        } else if (dataName =="europeCrops")  {
-            return getHeader5[column];
-        } else if (dataName =="europeEconomy")  {
-            return getHeader7[column];
-        } else if (dataName =="europeHealth")  {
-            return getHeader5[column];
-        } else if (dataName =="americasTemp")  {
-            return getHeader5[column];
-        } else if (dataName =="americasMaxTemp")  {
-            return getHeader5[column];
-        } else if (dataName =="americasWarmSpell")  {
-            return getHeader5[column];
-        } else if (dataName =="americasWarmExtremes")  {
-            return getHeader5[column];
-        } else if (dataName =="americasColdExtremes")  {
-            return getHeader5[column];
-        } else if (dataName =="americasRainfall")  {
-            return getHeader5[column];
-        } else if (dataName =="americasDrySpell")  {
-            return getHeader5[column];
-        } else if (dataName =="americasRainIntensity")  {
-            return getHeader5[column];
-        } else if (dataName =="americasRainExtremes")  {
-            return getHeader5[column];
-        } else if (dataName =="americasRainSeason")  {
+        // americas headers
+        } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops")  {
             return getHeader5[column];
         } else if (dataName =="americasDrought")  {
             return getHeader4[column];
-        } else if (dataName =="americasStorms")  {
-            return getHeader5[column];
-        } else if (dataName =="americasCrops")  {
-            return getHeader5[column];
         } else if (dataName =="americasHealth")  {
             return getHeader9[column];
+        // sids headers
+        } else if (dataName =="sidsTemp" || dataName =="sidsRain" || dataName =="sidsDrought1")  {
+            return getHeader2[column];
+        } else if (dataName =="sidsDrought2" || dataName =="sidsDrought3")  {
+            return getHeader4[column];
+        // africa headers
+        } else if (dataName =="africaTemp" || dataName =="africaTempExtremes" || dataName == "africaHeat" || dataName == "africaRainIntensity" || dataName == "africaStorms" || dataName == "africaCrops")  {
+            return getHeader5[column];
+        } else if (dataName =="africaRain" || dataName =="africaDrought")  {
+            return getHeader4[column];
+        // asia headers
+        } else if (dataName =="asiaIce")  {
+            return getHeader10[column];
+        } else if (dataName == "asiaTemp" || dataName == "asiaStorms" || dataName == "asiaEconomy")  {
+            return getHeader7[column];
+        } else if (dataName == "asiaWarmSpell" || dataName == "asiaTempExtremes" || dataName == "asiaIndiaHeatwaves" || dataName == "asiaRainfallIntensities" || dataName == "asiaMonsoon" || dataName == "asiaCrops" || dataName == "asiaNature")  {
+            return getHeader5[column];
+        } else if (dataName == "asiaRainfallDry" || dataName == "asiaDrought" || dataName == "asiaFlooding")  {
+            return getHeader4[column];
         }
     });
 
