@@ -47,16 +47,16 @@
         location: "Global"
     },{
         name: "temperature",
-        title: "HEAT EXTREMES",
-        icon: "<i class='fas fa-sun'></i>",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
         info: "Annual maximum daily temperature: Relative to 1981–2010; ensemble mean (min–max).<br> Hot days: Percentage of days above the 90th percentile of daily maximum temperature in the 1981–2010 average; ensemble mean (min–max).<br>Warm spell duration: Defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
         map: "Global",
         location: "Global"
     },{
         name: "heatwaves",
-        title: "HEAT EXTREMES",
-        icon: "<i class='fas fa-sun'></i>",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
         info: "Global exposure to heatwaves: Defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >40 on the Heat Wave Magnitude Index daily; median and interquartile range.<br> Warm extremes: Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br>Cold extremes: Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
         map: "Global",

@@ -62,15 +62,14 @@ $(function(){
 
     var focusEvents = function (ev, item) {
 
+        if (item.index < 2) {
+            // fixes bug of side nav appearing at the top
+            $sideNav.removeClass('nav-fixed').addClass('nav-moving');
+        }
+
         // SIDE NAV STYLING
         // remove previous styling
         $('li', $sideNav).removeClass('nav-active');
-
-        // as don't need any styling on first story
-        // if(item.index > 1){
-        //     // the .eq() method reduces the set of matched elements to the one at the specified index.
-        //     $('li', $sideNav).eq(item.index - 2).addClass('nav-active');
-        // }
 
         if (item.index == 3 || item.index == 4) {
             $('#ocean-nav').addClass('nav-active');
@@ -95,14 +94,14 @@ $(function(){
         }
 
         // hide top arrow when at top
-        if (item.index < 3) {
+        if (item.index < 4) {
             $arrowUp.css("visibility", "hidden");
         } else {
             $arrowUp.css("visibility", "visible");
         }
 
         // hide down arrow when at bottom
-        if (item.index > 4) {
+        if (item.index > 17) {
             $arrowDown.css("visibility", "hidden");
         } else {
             $arrowDown.css("visibility", "visible");
@@ -343,6 +342,8 @@ $(function(){
 
                 // find which nav circle is active
                 var active = $('li.nav-active').index();
+
+                that.index($('li', $droplinks).index($(this)) + 2);
 
                 // move the scrolly down one
                 that.index(active + 3);
