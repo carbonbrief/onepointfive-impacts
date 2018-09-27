@@ -2,7 +2,6 @@
 $(function(){
 
     // variables
-    var $intro = $('.intro')
     var $sideNav = $('.side-nav')
     var $arrowUp = $('.up')
     var $arrowDown = $('.down')
@@ -14,32 +13,29 @@ $(function(){
     var windowWidth = $(window).width();
     var viewportHeight = window.innerHeight
     var halfViewportHeight = Math.floor(viewportHeight / 2)
+    var activeIndex;
 
     var enterEvents = function (ev, item) {
         
         if (item.index === 1) {
             // play video after the second background enters
             playVid();
-
         }
     }
 
     var exitEvents = function (ev, item) {
 
         if (item.index === 1) {
-
             // pause video after the second background exits
             pauseVid();
-
         }
     }
 
     var focusEvents = function (ev, item) {
 
-        if (item.index < 2) {
-            // fixes bug of side nav appearing at the top
-            $sideNav.removeClass('nav-fixed').addClass('nav-moving');
-        }
+        activeIndex = item.index;
+
+        // console.log(activeIndex);
 
         // SIDE NAV STYLING
         // remove previous styling
@@ -89,7 +85,7 @@ $(function(){
         }
 
         // hide down arrow when at bottom
-        if (item.index > 17) {
+        if (item.index > 96) {
             $arrowDown.css("visibility", "hidden");
         } else {
             $arrowDown.css("visibility", "visible");
@@ -316,26 +312,13 @@ $(function(){
 
 
             $arrowUp.on('click', function() {
-
-                // find which nav circle is active
-                var active = $('li.nav-active').index();
-
                 // move the scrolly up one
-                // don't need to subtract since not counting title
-                that.index(active + 1);
-
+                that.index(activeIndex - 1);
             });
 
             $arrowDown.on('click', function() {
-
-                // find which nav circle is active
-                var active = $('li.nav-active').index();
-
-                that.index($('li', $droplinks).index($(this)) + 2);
-
                 // move the scrolly down one
-                that.index(active + 3);
-
+                that.index(activeIndex + 1);
             });
 
 
