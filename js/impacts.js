@@ -456,7 +456,34 @@
         name: "sidsRain",
         title: "RAINFALL",
         icon: "<i class='fas fa-tint'></i>",
-        info: "Average temrpature: relative to pre-industrial.<br>Warm spell duration: annual count of days with at least 6 consecutive days when max temperature > 90th percentile; relative to 1971-2000.",
+        info: "Average annual rainfall: relative to 1971–2000.<br>Annual count of days when rainfall >10 mm; relative to 1971-2000.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "caribbean",
+        location: "Caribbean and small island states"
+    },{
+        name: "sidsDrought1",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Defined as a Standardized Precipitation Index for 12 months of < -1 (moderate drought or worse)",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "caribbean",
+        location: "Caribbean and small island states"
+    },{
+        name: "sidsDrought2",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "caribbean",
+        location: "Caribbean and small island states"
+    },{
+        name: "sidsDrought3",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
         credit: "",
         map: "caribbean",
@@ -466,6 +493,78 @@
         title: "AFRICA",
         icon: "<img class='title-icon' src='/img/africa-icon.svg'>",
         credit: ""
+    },{
+        name: "africaTemp",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "By 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br>Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaTempExtremes",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Frequency of warm extremes (annual minimum daily maximum that would be a 1-in-20 year event in current climate).<br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaHeat",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Range is 10-90th percentile",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaRain",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Length of tropical rain season: relative to 2006–2015.<br>Dry spell duration: defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaRainIntensity",
+        title: "RAINFALL",
+        icon: "<i class='fas fa-tint'></i>",
+        info: "Rainfall intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br>Rainfall extremes: defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaDrought",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaStorms",
+        title: "STORMS AND FLOODING",
+        icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+        info: "Return period for a 1-in-100 year extreme high flows in 2006-15",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
+    },{
+        name: "africaCrops",
+        title: "CROPS",
+        icon: "<img class='title-icon' src='../img/wheat.svg'>",
+        info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "africa",
+        location: "Africa"
     },{
         name: "asiaTitle",
         title: "ASIA",
