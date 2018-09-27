@@ -110,7 +110,7 @@ $(function(){
         console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
-        if (item.index < 18 && item.index > 1) {
+        if (item.index < 98 && item.index > 2) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }
