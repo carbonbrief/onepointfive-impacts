@@ -190,7 +190,9 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p><i class='fas fa-info-circle'></i></p></div></div>"
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p>"
+                    + item.data.credit
+                    +"</p></div></div>"
                 );
 
                 // add their background images

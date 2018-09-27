@@ -20,7 +20,7 @@
         icon: "<img class='title-icon' src='../img/ocean.svg'>",
         info: "Relative to 2000; median and 5th-95th percentile range",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/04/Turtle-and-bleached-coral-on-Heron-Island-2.jpeg",
-        credit: "",
+        credit: "xxxxxxx",
         map: "global",
         location: "Global"
     },{
@@ -29,7 +29,7 @@
         icon: "<img class='title-icon' src='../img/ocean.svg'>",
         info: "Marine heatwaves: relative to pre-industrial levels.<br>Ocean pH: relative to 1986-2005; median and 5th-95th percentile range.<br>AMOC: relative to pre-industrial levels.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/01/C5T9H7-rainfall.jpg",
-        credit: "",
+        credit: "yyyyyy",
         map: "Global",
         location: "Global"
     },{
@@ -38,7 +38,7 @@
         icon: "<i class='fas fa-snowflake'></i>",
         info: " Arctic sea ice: 'ice-free' is defined as an average September sea ice extent of less than one million km2.<br>Permafrost: Relative to 1961-90; uncertainty is a one standard deviation range",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
-        credit: "",
+        credit: "zzzzzz",
         map: "Global",
         location: "Global"
     },{
