@@ -56,6 +56,13 @@ var getHeader8 = {
     "3C": ""
 }
 
+var getHeader9 = {
+    "name": "",
+    "1.5C": "1.5C",
+    "2C": "2C",
+    "3C": "3.7C"
+}
+
 var newData;
 var dataName;
 
@@ -149,6 +156,7 @@ function updateTable () {
     // update the column headers
     myTable.selectAll("thead th")
     .text(function(column) {
+        // could shorten the way writing this but making it chronological for now
         if (dataName =="instructions") {
             return getHeader1[column];
         } else if (dataName =="placeholder")  {
@@ -217,6 +225,34 @@ function updateTable () {
             return getHeader7[column];
         } else if (dataName =="europeHealth")  {
             return getHeader5[column];
+        } else if (dataName =="americasTemp")  {
+            return getHeader5[column];
+        } else if (dataName =="americasMaxTemp")  {
+            return getHeader5[column];
+        } else if (dataName =="americasWarmSpell")  {
+            return getHeader5[column];
+        } else if (dataName =="americasWarmExtremes")  {
+            return getHeader5[column];
+        } else if (dataName =="americasColdExtremes")  {
+            return getHeader5[column];
+        } else if (dataName =="americasRainfall")  {
+            return getHeader5[column];
+        } else if (dataName =="americasDrySpell")  {
+            return getHeader5[column];
+        } else if (dataName =="americasRainIntensity")  {
+            return getHeader5[column];
+        } else if (dataName =="americasRainExtremes")  {
+            return getHeader5[column];
+        } else if (dataName =="americasRainSeason")  {
+            return getHeader5[column];
+        } else if (dataName =="americasDrought")  {
+            return getHeader4[column];
+        } else if (dataName =="americasStorms")  {
+            return getHeader5[column];
+        } else if (dataName =="americasCrops")  {
+            return getHeader5[column];
+        } else if (dataName =="americasHealth")  {
+            return getHeader9[column];
         }
     });
 
