@@ -994,11 +994,11 @@
 
     var ausHeatExtremes = [
     {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""},
+    {"name": "Northern Australia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
+    {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-down'>&#9660;</span> 62%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""}
+    {"name": "Northern Australia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""},
+    {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-down'>&#9660;</span> 62%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""}
     ];
 
     var ausRain = [
@@ -1019,8 +1019,8 @@
     {"name": "", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Average drought length in Oceania (months)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 4", "3C": "<span class='arrow-up'>&#9650;</span> 11"},
     {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-1–+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2m <br><span class='uncertainty'>(-0-+3)</span>", "3C": ""}
+    {"name": "Northern Australia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
+    {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-1–+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2m <br><span class='uncertainty'>(-0-+3)</span>", "3C": ""}
     ];
 
     var ausStorms = [
@@ -1028,7 +1028,7 @@
     ];
 
     var ausCrops = [
-    {"name": "Growing season length", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0–+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1–+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+2)</span>", "3C": ""}
     ];
