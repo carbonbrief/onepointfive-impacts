@@ -49,6 +49,13 @@ var getHeader7 = {
     "3C": "4C"
 }
 
+var getHeader8 = {
+    "name": "",
+    "1.5C": "",
+    "2C": "",
+    "3C": ""
+}
+
 var newData;
 var dataName;
 
@@ -144,6 +151,8 @@ function updateTable () {
     .text(function(column) {
         if (dataName =="instructions") {
             return getHeader1[column];
+        } else if (dataName =="placeholder")  {
+            return getHeader8[column];
         } else if (dataName =="sealevel")  {
             return getHeader2[column];
         } else if (dataName =="marineheatwaves")  {
@@ -173,6 +182,40 @@ function updateTable () {
         } else if (dataName =="economy")  {
             return getHeader7[column];
         } else if (dataName =="health")  {
+            return getHeader5[column];
+        } else if (dataName =="europeHotDays")  {
+            return getHeader4[column];
+        } else if (dataName =="europeHotNights")  {
+            return getHeader4[column];
+        } else if (dataName =="europeTemp")  {
+            return getHeader4[column];
+        } else if (dataName =="europeFrost")  {
+            return getHeader4[column];
+        } else if (dataName =="europeWinterTemp")  {
+            return getHeader4[column];
+        } else if (dataName =="europeHeatwave")  {
+            return getHeader5[column];
+        } else if (dataName =="europeColdwave")  {
+            return getHeader5[column];
+        } else if (dataName =="europeRainfallWinterMaxDaily")  {
+            return getHeader4[column];
+        } else if (dataName =="europeRainfallSummerMaxDaily")  {
+            return getHeader4[column];
+        } else if (dataName =="europeDryDays")  {
+            return getHeader4[column];
+        } else if (dataName =="europeRainIntensity")  {
+            return getHeader5[column];
+        } else if (dataName =="europeDrought")  {
+            return getHeader4[column];
+        } else if (dataName =="europeRivers1")  {
+            return getHeader4[column];
+        } else if (dataName =="europeRivers2")  {
+            return getHeader7[column];
+        } else if (dataName =="europeCrops")  {
+            return getHeader5[column];
+        } else if (dataName =="europeEconomy")  {
+            return getHeader7[column];
+        } else if (dataName =="europeHealth")  {
             return getHeader5[column];
         }
     });
