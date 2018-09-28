@@ -209,7 +209,7 @@ function updateTable () {
             return getHeader10[column];
         } else if (dataName == "asiaTemp" || dataName == "asiaStorms" || dataName == "asiaEconomy")  {
             return getHeader7[column];
-        } else if (dataName == "asiaWarmSpell" || dataName == "asiaTempExtremes" || dataName == "asiaIndiaHeatwaves" || dataName == "asiaRainfallIntensities" || dataName == "asiaMonsoon" || dataName == "asiaCrops" || dataName == "asiaNature")  {
+        } else if (dataName == "asiaWarmSpell" || dataName == "asiaHotExtremes" || dataName == "asiaColdExtremes" || dataName == "asiaIndiaHeatwaves" || dataName == "asiaRainfallIntensities" || dataName == "asiaMonsoon" || dataName == "asiaCrops" || dataName == "asiaNature")  {
             return getHeader5[column];
         } else if (dataName == "asiaRainfallDry" || dataName == "asiaDrought" || dataName == "asiaFlooding")  {
             return getHeader4[column];

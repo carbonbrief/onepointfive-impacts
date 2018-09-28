@@ -22,7 +22,7 @@ body {
 }
 
 .story-middle {
-    min-height: 650px;
+    min-height: 700px;
 }
 
 .story-end {
@@ -146,10 +146,10 @@ a {
 
 .gradient-wrapper {
     position: absolute;
-    top: 1730px;
+    top: 1780px;
     left: calc((100% - 1000px)/2 + 230px + 15px);
     /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
-    height: 67450px;
+    height: 72960px;
     padding: 0px !important;
     
 }
@@ -184,7 +184,7 @@ a {
     margin-left: 255px;
     width: 740px;
     /* (table stories + padding) x number + instructions height but not top padding */
-    height: 68100px;
+    height: 73660px;
     position: absolute;
     z-index: 5;
 }
@@ -262,7 +262,7 @@ td {
     position: absolute;
     top: 2120px;
     /* (table stories + padding) x number - 1xpadding - 450px */
-    height: 66940px;
+    height: 72450px;
     left: calc((100% - 1000px)/2);
     margin-left: 0px;
     width: 180px;
@@ -425,7 +425,7 @@ a:link {
     position: absolute;
     top: 1800px;
     /* (table stories + padding) x number - 60pxpadding */
-    height: 67360px;
+    height: 72900px;
     right: 20px;
 }
 
@@ -624,31 +624,31 @@ a:link {
 }
 
 #europe-header {
-    top: 12380px;
+    top: 13180px;
 }
 
 #americas-header {
-    top: 25160px;
+    top: 26860px;
 }
 
 #sids-header {
-    top: 35810px;
+    top: 38260px;
 }
 
 #africa-header {
-    top: 40070px;
+    top: 42820px;
 }
 
 #asia-header {
-    top: 46460px;
+    top: 49660px;
 }
 
 #china-header {
-    top: 57110px;
+    top: 61820px;
 }
 
 #australasia-header {
-    top: 63500px;
+    top: 68660px;
 }
 
 .section-header-mask {

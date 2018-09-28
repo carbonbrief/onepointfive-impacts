@@ -69,11 +69,11 @@ $(function(){
             $('#sids-nav').addClass('nav-active');
         } else if (item.index > 56 && item.index < 66) {
             $('#africa-nav').addClass('nav-active');
-        } else if (item.index > 65 && item.index < 81) {
+        } else if (item.index > 65 && item.index < 82) {
             $('#asia-nav').addClass('nav-active');
-        } else if (item.index > 80 && item.index < 90) {
+        } else if (item.index > 81 && item.index < 91) {
             $('#china-nav').addClass('nav-active');
-        } else if (item.index > 89 && item.index < 98) {
+        } else if (item.index > 90 && item.index < 99) {
             $('#australasia-nav').addClass('nav-active');
         }
 
@@ -94,7 +94,7 @@ $(function(){
         console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
-        if (item.index < 98 && item.index > 2) {
+        if (item.index < 99 && item.index > 2) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }
@@ -111,7 +111,7 @@ $(function(){
 
         }
 
-        if(item.index > 1 && item.index < 98){
+        if(item.index > 1 && item.index < 99){
 
             triggerTableUpdate();
 
@@ -180,7 +180,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 98) {
+            } else if (item.index > 2 && item.index < 99) {
 
                 item.el.addClass("story-middle");
  
@@ -202,7 +202,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index === 98) {
+            } else if (item.index === 99) {
 
                 // change style via class so can make responsive
                 item.el.addClass("story-end");
@@ -256,13 +256,13 @@ $(function(){
                 } else if (id =="asia") {
                     that.index(66);
                 } else if (id =="china") {
-                    that.index(81);
+                    that.index(82);
                 } else if (id =="americas") {
                     that.index(36);
                 } else if (id =="africa") {
                     that.index(57);
                 } else if (id =="australasia") {
-                    that.index(90);
+                    that.index(91);
                 } else if (id =="sids") {
                     that.index(51);
                 }
@@ -314,7 +314,6 @@ $(function(){
 
             // ARROW ACTIONS
 
-
             $arrowUp.on('click', function() {
                 // move the scrolly up one
                 that.index(activeIndex - 1);
@@ -347,7 +346,6 @@ $(function(){
                 }
 
             }
-
 
             // SCROLL ACTIONS
 

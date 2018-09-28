@@ -570,9 +570,9 @@
     // drought length and half of the aridity data
 
     var sidsDrought2 = [
-      {"name": "<span class='table-subtitle'>Average drought length (months)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 21"},
+      {"name": "<span class='table-subtitle'>Average drought length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 months", "2C": "<span class='arrow-up'>&#9650;</span> 5 months", "3C": "<span class='arrow-up'>&#9650;</span> 21 months"},
       {"name": "<br><span class='table-subtitle'>Aridity</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "SIDS average", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(±3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(±5%)</span>", "3C": ""},
+      {"name": "SIDS average", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(±3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5% <span class='uncertainty'>(±5%)</span>", "3C": ""},
       {"name": "Bahamas", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 2%", "3C": ""},
       {"name": "Belize", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
       {"name": "Cabo Verde", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
@@ -730,7 +730,7 @@
       {"name": "Southern Asia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 28 days <span class='uncertainty'>(+21-+40)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 55 days <span class='uncertainty'>(+43-+67)</span>", "3C": ""}
     ];
 
-    var asiaTempExtremes = [
+    var asiaHotExtremes = [
       {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 76%", "2C": "<span class='arrow-up'>&#9650;</span> 187%", "3C": ""},
       {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 235%", "2C": "<span class='arrow-up'>&#9650;</span> 673%", "3C": ""},
@@ -738,8 +738,11 @@
       {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-up'>&#9650;</span> 109%", "2C": "<span class='arrow-up'>&#9650;</span> 290%", "3C": ""},
       {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 86%", "2C": "<span class='arrow-up'>&#9650;</span> 217%", "3C": ""},
       {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 160%", "2C": "<span class='arrow-up'>&#9650;</span> 438%", "3C": ""},
-      {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 223%", "2C": "<span class='arrow-up'>&#9650;</span> 635%", "3C": ""},
-      {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "South East Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 223%", "2C": "<span class='arrow-up'>&#9650;</span> 635%", "3C": ""}
+    ];
+
+    var asiaColdExtremes = [
+      {"name": "<span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Northern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 58%", "2C": "<span class='arrow-down'>&#9660;</span> 86%", "3C": ""},
       {"name": "Western Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 45%", "2C": "<span class='arrow-down'>&#9660;</span> 71%", "3C": ""},
       {"name": "Central Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 41%", "2C": "<span class='arrow-down'>&#9660;</span> 67%", "3C": ""},

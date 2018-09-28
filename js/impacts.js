@@ -151,8 +151,8 @@
         location: "Global"
     },{
         name: "placeholder",
-        title: "EUROPE",
-        icon: "<img class='title-icon' src='/img/europe-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "europeHotDays",
@@ -309,8 +309,8 @@
         location: "Europe"
     },{
         name: "placeholder",
-        title: "AMERICAS",
-        icon: "<img class='title-icon' src='/img/americas-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "americasTemp",
@@ -440,8 +440,8 @@
         location: "Americas"
     },{
         name: "placeholder",
-        title: "CARIBBEAN AND SMALL ISLAND STATES",
-        icon: "<img class='title-icon' src='/img/caribbean-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "sidsTemp",
@@ -490,8 +490,8 @@
         location: "Caribbean and small island states"
     },{
         name: "placeholder",
-        title: "AFRICA",
-        icon: "<img class='title-icon' src='/img/africa-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "africaTemp",
@@ -567,8 +567,8 @@
         location: "Africa"
     },{
         name: "placeholder",
-        title: "ASIA",
-        icon: "<img class='title-icon' src='/img/asia-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "asiaIce",
@@ -598,10 +598,19 @@
         map: "asia",
         location: "Asia"
     },{
-        name: "asiaTempExtremes",
+        name: "asiaHotExtremes",
         title: "TEMPERATURE",
         icon: "<i class='fas fa-thermometer'></i>",
-        info: "Warm extremes: defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br><br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
+        info: "Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br><br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
+        credit: "",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaColdExtremes",
+        title: "TEMPERATURE",
+        icon: "<i class='fas fa-thermometer'></i>",
+        info: "Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2015/07/Stock-wall-street-new-york-finance.jpg",
         credit: "",
         map: "asia",
@@ -698,8 +707,8 @@
         location: "Asia"
     },{
         name: "placeholder",
-        title: "CHINA",
-        icon: "<img class='title-icon' src='/img/china-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "chinaTemp",
@@ -775,8 +784,8 @@
         location: "China"
     },{
         name: "placeholder",
-        title: "AUSTRALASIA",
-        icon: "<img class='title-icon' src='/img/australasia-icon.svg'>",
+        title: "",
+        icon: "",
         credit: ""
     },{
         name: "ausOceans",
