@@ -66,15 +66,15 @@ h2 {
     font-weight: normal;
     color: #f1f1f1;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .title-span {
+    padding: 0.2em;
+    box-shadow: 0.2em 0 0 rgba(74, 106, 124, 0.95), -0.2em 0 0 rgba(74, 106, 124, 0.95);
+    box-decoration-break: clone;
+    background-color: rgb(74, 106, 124);
     background-color: rgba(74, 106, 124, 0.95);
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 h3 {
