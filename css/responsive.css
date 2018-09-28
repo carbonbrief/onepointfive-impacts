@@ -2,7 +2,7 @@
 @media screen and (min-width: 1650px) {
 
     /* To avoid grey bars on very large screens */
-    video {
+    #intro-vid {
         width: 100%;
         height: auto;
     }

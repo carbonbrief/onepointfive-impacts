@@ -9,7 +9,7 @@ body {
     /* background-color: #141414; */
 }
 
-video {
+#intro-vid {
     position: fixed;
     z-index: -5;
     height: 1020px;
@@ -80,10 +80,10 @@ h2 {
 }
 
 h3 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans Narrow';
     font-weight: normal;
-    color: #e6e6e6;
-    font-size: 22px;
+    color: #FFFFFF;
+    font-size: 50px;
 }
 
 p {
@@ -167,7 +167,7 @@ a {
 }
 
 .picture-mask {
-    background-color: #28282e;
+    background-color: #333333;
     position: fixed;
     /* height: 100%; */
     top: 0px;
@@ -310,7 +310,7 @@ p .fa-info-circle:hover {
     /* decided to make fixed for now with break points */
     width: 980px;
     left: calc((100% - 1000px)/2 + 20px);
-    z-index: 4;
+    z-index: 8;
     position: absolute;
     top: 150px;
 }
@@ -613,4 +613,68 @@ a:link {
     width: 15px;
     vertical-align: text-top;
     margin-top: 1px;
+}
+
+.section-header {
+    position: absolute;
+    width: 100%;
+    height: 710px;
+    z-index: 7;
+    overflow: hidden;
+}
+
+#europe-header {
+    top: 12380px;
+}
+
+#americas-header {
+    top: 25160px;
+}
+
+#sids-header {
+    top: 35810px;
+}
+
+#africa-header {
+    top: 40070px;
+}
+
+#asia-header {
+    top: 46460px;
+}
+
+#china-header {
+    top: 57110px;
+}
+
+#australasia-header {
+    top: 63500px;
+}
+
+.section-header-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.25);
+}
+
+.section-vid {
+    /* centers the video vertically a bit */
+    margin-top: -100px;
+}
+
+.section-header-mask h3 {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc((100% - 1000px)/2 + 17px + (1000px/6));
+}
+
+.section-span {
+    background-color: rgba(51, 51, 51, 0.4);
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
 }
