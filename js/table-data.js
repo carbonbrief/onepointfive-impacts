@@ -375,7 +375,7 @@
       {"name": "Northwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.9C", "2C": "<span class='arrow-up'>&#9650;</span> 2.6C", "3C": ""},
       {"name": "Southwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C", "2C": "<span class='arrow-up'>&#9650;</span> 2.5C", "3C": ""},
       {"name": "Rockies", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C", "2C": "<span class='arrow-up'>&#9650;</span> 2.8C", "3C": ""},
-      {"name": "GreatPlains", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C", "3C": ""},
+      {"name": "Great Plains", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C", "3C": ""},
       {"name": "Midwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.3C", "2C": "<span class='arrow-up'>&#9650;</span> 3.0C", "3C": ""},
       {"name": "South", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C", "2C": "<span class='arrow-up'>&#9650;</span> 2.4C", "3C": ""},
       {"name": "East", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C", "2C": "<span class='arrow-up'>&#9650;</span> 2.8C", "3C": ""},
