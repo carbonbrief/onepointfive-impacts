@@ -190,7 +190,7 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p id='image-credit'>Credit: "
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p id='image-credit'>Image credit: "
                     + item.data.credit
                     +"</p></div></div>"
                 );
@@ -312,6 +312,8 @@ $(function(){
 
             });
 
+            // ARROW ACTIONS
+
 
             $arrowUp.on('click', function() {
                 // move the scrolly up one
@@ -323,6 +325,28 @@ $(function(){
                 that.index(activeIndex + 1);
             });
 
+            // KEY ACTIONS
+
+            document.onkeydown = checkKey;
+
+            function checkKey(e) {
+
+                console.log("check key");
+
+                e = e || window.event;
+
+                console.log(e.keyCode);
+
+                if (e.keyCode == '38' && activeIndex > 2) {
+                    // move the scrolly up one
+                    that.index(activeIndex - 1);
+                }
+                else if (e.keyCode == '40' && activeIndex > 1) {
+                    // move the scrolly down one
+                    that.index(activeIndex + 1);
+                }
+
+            }
 
 
             // SCROLL ACTIONS
