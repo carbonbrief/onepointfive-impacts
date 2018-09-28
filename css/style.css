@@ -145,7 +145,7 @@ a {
 .gradient-wrapper {
     position: absolute;
     top: 1730px;
-    left: calc((100% - 1000px)/2 + 230px);
+    left: calc((100% - 1000px)/2 + 230px + 15px);
     /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
     height: 67450px;
     padding: 0px !important;
@@ -157,7 +157,7 @@ a {
     position: sticky;
     /* height: 100%; */
     top: 0px;
-    width: calc((1000px/6)*4.5);
+    width: calc((980px/6)*4.5);
     padding-left: 20px;
     opacity: 0;
     height: 1720px;
@@ -179,8 +179,8 @@ a {
 .table-wrapper {
     top: 1085px;
     left: calc((100% - 1000px)/2);
-    margin-left: 240px;
-    width: 758px;
+    margin-left: 255px;
+    width: 740px;
     /* (table stories + padding) x number + instructions height but not top padding */
     height: 68100px;
     position: absolute;
@@ -306,8 +306,8 @@ p .fa-info-circle:hover {
 #lines-wrapper {
     height: 12665px;
     /* decided to make fixed for now with break points */
-    width: 1000px;
-    left: calc((100% - 1000px)/2);
+    width: 980px;
+    left: calc((100% - 1000px)/2 + 20px);
     z-index: 4;
     position: absolute;
     top: 150px;
@@ -328,7 +328,7 @@ p .fa-info-circle:hover {
 
 .intro-wrapper {
     top: 120px;
-    left: calc((100% - 1000px)/2);
+    left: calc((100% - 1000px)/2 + 20px);
     margin-left: 165px;
     max-width: 600px;
     z-index: 999999;
