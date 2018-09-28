@@ -190,7 +190,7 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p>"
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p id='image-credit'>Credit: "
                     + item.data.credit
                     +"</p></div></div>"
                 );

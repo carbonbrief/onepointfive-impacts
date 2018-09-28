@@ -231,9 +231,6 @@ function updateTable () {
     .style("width", "33.4%")
     .attr("class", "row-header");
 
-    myTable.selectAll('th:nth-child(1)')
-    .style("width", "33.4%");
-
     // change colour of column headers
     myTable.selectAll('th:nth-child(2)')
     .style("color", "#B4C7D1");
