@@ -91,7 +91,7 @@ $(function(){
             $arrowDown.css("visibility", "visible");
         }
         
-        console.log(item.data.name + ", is now active!");
+        // console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
         if (item.index < 102 && item.index > 2) {

@@ -656,11 +656,7 @@
     // season and dry spell
 
     var africaRain = [
-      {"name": "<span class='table-subtitle'>Length of tropical rain season</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 7 days", "2C": "<span class='arrow-down'>&#9660;</span> 8 days", "3C": ""},
-      {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 7 days", "2C": "<span class='arrow-down'>&#9660;</span> 5 days", "3C": ""},
-      {"name": "Southern Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days", "2C": "<span class='arrow-down'>&#9660;</span> 7 days", "3C": ""},
-      {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days <span class='uncertainty'>(-14-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <span class='uncertainty'>(-12-+5)</span>", "3C": ""},
       {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-8-0)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <span class='uncertainty'>(-6-+1)</span>", "3C": ""},
       {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-3-+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-7-+2)</span>", "3C": ""},

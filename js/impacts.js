@@ -190,6 +190,7 @@
         info: "Number of days where min temp <0C; relative to 1981-2010; ensemble mean (min–max).",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/CE55GD.jpg",
         credit: "Rostislav Glinsky/Alamy Stock Photo",
+        map: "europe",
         location: "Europe"
     },{
         name: "europeWinterTemp",
