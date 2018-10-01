@@ -808,7 +808,6 @@
       {"name": "South Asia: summer average", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
       {"name": "South Asia: annual maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
       {"name": "South Asia: decadal maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
-      {"name": "", "1.5C": "", "2C": "", "3C": ""},
       {"name": "East Asia: summer average", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
       {"name": "East Asia: annual maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 7%", "2C": "<span class='arrow-up'>&#9650;</span> 10%", "3C": ""},
       {"name": "East Asia: decadal maximum", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 12%", "3C": ""},
