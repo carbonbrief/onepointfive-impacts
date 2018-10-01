@@ -4,9 +4,9 @@
     // to ensure that the intro is on a separate line to avoid formatting issues
     
     var impacts=[{
-        name: "background1",
+        name: "instructions",
     },{
-        name: "background2"
+        name: "instructions"
     },{
         name: "instructions",
         title: "",

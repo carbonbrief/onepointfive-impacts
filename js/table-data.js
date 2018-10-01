@@ -928,11 +928,11 @@
 
     var chinaRain = [
       {"name": "<span class='table-subtitle'>Annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Annual rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-1-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+1-+14)</span>", "3C": ""},
-      {"name": "Spring rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-2-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <br><span class='uncertainty'>(-1-+18)</span>", "3C": ""},
-      {"name": "Summer rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-3-+13)</span>", "3C": ""},
-      {"name": "Autumn rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(-6-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-6-+22)</span>", "3C": ""},
-      {"name": "Winter rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(-3-+23)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15% <br><span class='uncertainty'>(0-+31)</span>", "3C": ""},
+      {"name": "Annual rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(-1-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(+1-+14)</span>", "3C": ""},
+      {"name": "Spring rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(-2-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <span class='uncertainty'>(-1-+18)</span>", "3C": ""},
+      {"name": "Summer rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(-3-+13)</span>", "3C": ""},
+      {"name": "Autumn rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4% <span class='uncertainty'>(-6-+22)</span>", "3C": ""},
+      {"name": "Winter rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <span class='uncertainty'>(-3-+23)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15% <span class='uncertainty'>(0-+31)</span>", "3C": ""},
       {"name": "", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Frequency of days with trace rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": ""},
       {"name": "Frequency of days with light rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
@@ -985,14 +985,14 @@
 
     var ausHeat = [
     {"name": "<span class='table-subtitle'>Extreme events</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Likelihood of another 2012-13 \"angry summer\" ", "1.5C": "57% <br><span class='uncertainty'>(50-65)</span>", "2C": "77% <br><span class='uncertainty'>(70-84)</span>", "3C": ""},
-    {"name": "Likelihood of high temperatures seen in 2006 drought in SE Australia", "1.5C": "52% <br><span class='uncertainty'>(45-59)</span>", "2C": "74% <br><span class='uncertainty'>(67-81)</span>", "3C": ""},
+    {"name": "Likelihood of another 2012-13 \"angry summer\" ", "1.5C": "57% <span class='uncertainty'>(50-65)</span>", "2C": "77% <span class='uncertainty'>(70-84)</span>", "3C": ""},
+    {"name": "Likelihood of high temperatures seen in 2006 drought in SE Australia", "1.5C": "52% <span class='uncertainty'>(45-59)</span>", "2C": "74% <span class='uncertainty'>(67-81)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.06C <br><span class='uncertainty'>(+0.4–+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3C <br><span class='uncertainty'>(+0.8–+1.8)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <br><span class='uncertainty'>(+0.3–+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <br><span class='uncertainty'>(+1–+2.7)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.06C <span class='uncertainty'>(+0.4–+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3C <span class='uncertainty'>(+0.8–+1.8)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <span class='uncertainty'>(+0.3–+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <span class='uncertainty'>(+1–+2.7)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+9–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+18-+36)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 6 days <br><span class='uncertainty'>(+4–+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11 days <br><span class='uncertainty'>(+9-+14)</span>", "3C": ""}
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 14 days <span class='uncertainty'>(+9–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+18-+36)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 6 days <span class='uncertainty'>(+4–+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11 days <span class='uncertainty'>(+9-+14)</span>", "3C": ""}
     ];
 
     var ausHeatExtremes = [
@@ -1007,11 +1007,11 @@
     var ausRain = [
     {"name": "<span class='table-subtitle'>Length of tropical rain season (Northern Australia)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 10 days", "2C": "<span class='arrow-down'>&#9660;</span> 7 days", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-11–+7)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <br><span class='uncertainty'>(-14-+8)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <br><span class='uncertainty'>(-3-+3)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <span class='uncertainty'>(-11–+7)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-14-+8)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-3-+3)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <br><span class='uncertainty'>(-4-+4)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0% <br><span class='uncertainty'>(-2-+4)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-4-+4)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0% <span class='uncertainty'>(-2-+4)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
