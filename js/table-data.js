@@ -743,13 +743,13 @@
 
     var asiaColdExtremes = [
       {"name": "<span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Northern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 58%", "2C": "<span class='arrow-down'>&#9660;</span> 86%", "3C": ""},
-      {"name": "Western Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 45%", "2C": "<span class='arrow-down'>&#9660;</span> 71%", "3C": ""},
-      {"name": "Central Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 41%", "2C": "<span class='arrow-down'>&#9660;</span> 67%", "3C": ""},
-      {"name": "Tibetan Plateau", "1.5C": "<span class='arrow-down'>&#9660;</span> 39%", "2C": "<span class='arrow-down'>&#9660;</span> 65%", "3C": ""},
-      {"name": "Eastern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 46%", "2C": "<span class='arrow-down>&#9660;</span> 74%", "3C": ""},
-      {"name": "Southern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 54%", "2C": "<span class='arrow-down'>&#9660;</span> 81%", "3C": ""},
-      {"name": "South East Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 65%", "2C": "<span class='arrow-down'>&#9660;</span> 90%", "3C": ""}
+      {"name": "Northern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 58%", "2C": "<span class='arrow-down'>&#9660;</span> 86%", "3C": ""},
+      {"name": "Western Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 45%", "2C": "<span class='arrow-down'>&#9660;</span> 71%", "3C": ""},
+      {"name": "Central Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 41%", "2C": "<span class='arrow-down'>&#9660;</span> 67%", "3C": ""},
+      {"name": "Tibetan Plateau ", "1.5C": "<span class='arrow-down'>&#9660;</span> 39%", "2C": "<span class='arrow-down'>&#9660;</span> 65%", "3C": ""},
+      {"name": "Eastern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 46%", "2C": "<span class='arrow-down>&#9660;</span> 74%", "3C": ""},
+      {"name": "Southern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 54%", "2C": "<span class='arrow-down'>&#9660;</span> 81%", "3C": ""},
+      {"name": "South East Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 65%", "2C": "<span class='arrow-down'>&#9660;</span> 90%", "3C": ""}
     ];
 
     var asiaIndiaHeatwaves = [

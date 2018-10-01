@@ -82,7 +82,7 @@
         title: "RAINFALL",
         icon: "<i class='fas fa-tint'></i>",
         info: "Percentage of global land area seeing changes in average streamflows.",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/CPA579.jpg",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/F061GJ.jpg",
         credit: "rudi1976 / Alamy Stock Photo",
         map: "Global",
         location: "Global"
@@ -127,7 +127,7 @@
         title: "NATURE",
         icon: "<i class='fas fa-frog'></i>",
         info: "Proportions of taxa projected to lose over 50% of their climatic range in 2100 where species disperse at realistic rates to track their geographically shifting climate envelope; data indicate the mean and 10-90% range.<br><br>Drylands defined as areas where mean annual rainfall is <600 mm and ratio of mean rainfall to potential evapotranspiration is <0.65; relative to pre-industrial.<br><br>Humid lands defined as areas where mean annual rainfall is >600 mm and ratio of mean rainfall to potential evapotranspiration is >0.65; relative to pre-industrial.",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/J6P030.jpg",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/C03JDD.jpg",
         credit: "imageBROKER / Alamy Stock Photo",
         map: "global",
         location: "Global"
@@ -136,7 +136,7 @@
         title: "ECONOMY",
         icon: "<i class='fas fa-dollar-sign'></i>",
         info: "GDP: relative to no additional warming.<br><br>Flood damage: annual flood damage losses from SLR by 2100; relative to 1986-2005; without adaptation.<br><br>Energy demand: in 2100; assumes SSP2; relative to no climate change.",
-        background: "https://pixabay.com/en/wall-street-new-york-manhattan-595458/",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/wall-street-595458_1920.jpg",
         credit: "",
         map: "global",
         location: "Global"
@@ -145,7 +145,7 @@
         title: "HEALTH",
         icon: "<i class='fas fa-briefcase-medical'></i>",
         info: "Under SSP3.<br><br>Drylands defined as areas where mean annual rainfall is <600 mm and ratio of mean rainfall to potential evapotranspiration is <0.65; relative to pre-industrial.<br><br>Humid lands defined as areas where mean annual rainfall is >600 mm and ratio of mean rainfall to potential evapotranspiration is >0.65; relative to pre-industrial.",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/B2DDJ5.jpg",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/M696YE.jpg",
         credit: "Наталья Владимировна / Alamy Stock Photo",
         map: "global",
         location: "Global"
@@ -574,7 +574,7 @@
         title: "ICE",
         icon: "<i class='fas fa-snowflake'></i>",
         info: "Relative to 1996–2015; ensemble mean and standard deviation",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/B7HPM0.jpg",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/D1FDYE.jpg",
         credit: "robertharding / Alamy Stock Photo",
         map: "asia",
         location: "Asia"
@@ -628,7 +628,7 @@
         title: "RAINFALL",
         icon: "<i class='fas fa-tint'></i>",
         info: "Average rainfall: relative to 1861-1900.<br><br>Dry spell duration: Defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
-        background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/P7KX77.jpg",
+        background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/P7KX77.jpg",
         credit: "mauritius images GmbH / Alamy Stock Photo",
         map: "asia",
         location: "Asia"
