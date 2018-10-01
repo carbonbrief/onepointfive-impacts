@@ -147,6 +147,7 @@
     .story-content {
         max-width: 170px;
         left: calc((100% - 820px)/2);
+        margin-left: -30px;
     }
 
     #story0-2 .story-content {
@@ -172,6 +173,7 @@
     .map-wrapper {
         left: calc((100% - 820px)/2);
         height: 69780px;
+        margin-left: -30px;
     }
 
     .footer {
@@ -291,7 +293,6 @@
     }
 
     .story-content {
-        margin-left: -25px;
         left: calc((100% - 700px)/2);
         max-width: 170px;
     }
@@ -319,7 +320,6 @@
 
     .map-wrapper {
         left: calc((100% - 700px)/2);
-        margin-left: -25px;
     }
 
     .footer {
