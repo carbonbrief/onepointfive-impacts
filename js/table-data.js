@@ -53,11 +53,11 @@
         { "name": "Summer", "1.5C": "<span class='arrow-down'>&#9660;</span> 20%", "2C": "<span class='arrow-down'>&#9660;</span> 26%", "3C": ""},
         { "name": "Autumn", "1.5C": "<span class='arrow-down'>&#9660;</span> 13%", "2C": "<span class='arrow-down'>&#9660;</span> 17%", "3C": ""},
         { "name": "<br><span class='table-subtitle'>Maximum monthly snow storage</span>", "1.5C": "", "2C": "", "3C": ""},
-        {"name": "-100 to -30%", "1.5C": "4% <br><span class='uncertainty'>(5-9)</span>", "2C": "8% <br><span class='uncertainty'>(5-12)</span>", "3C": ""},
-        {"name": "-30 to -10%", "1.5C": "9% <br><span class='uncertainty'>(7-9)</span>", "2C": "8% <br><span class='uncertainty'>(6-9)</span>", "3C": ""},
-        {"name": "-10 to 10%", "1.5C": "19% <br><span class='uncertainty'>(11-17)</span>", "2C": "16% <br><span class='uncertainty'>(10-14)</span>", "3C": ""},
-        {"name": "10 to 30%", "1.5C": "3% <br><span class='uncertainty'>(3-7)</span>", "2C": "3% <br><span class='uncertainty'>(3-7)</span>", "3C": ""},
-        {"name": ">=30%", "1.5C": "1% <br><span class='uncertainty'>(1-2)</span>", "2C": "0% <br><span class='uncertainty'>(0-3)</span>", "3C": ""},
+        {"name": "-100 to -30%", "1.5C": "4% <span class='uncertainty'>(5-9)</span>", "2C": "8% <span class='uncertainty'>(5-12)</span>", "3C": ""},
+        {"name": "-30 to -10%", "1.5C": "9% <span class='uncertainty'>(7-9)</span>", "2C": "8% <span class='uncertainty'>(6-9)</span>", "3C": ""},
+        {"name": "-10 to 10%", "1.5C": "19% <span class='uncertainty'>(11-17)</span>", "2C": "16% <span class='uncertainty'>(10-14)</span>", "3C": ""},
+        {"name": "10 to 30%", "1.5C": "3% <span class='uncertainty'>(3-7)</span>", "2C": "3% <span class='uncertainty'>(3-7)</span>", "3C": ""},
+        {"name": ">=30%", "1.5C": "1% <span class='uncertainty'>(1-2)</span>", "2C": "0% <span class='uncertainty'>(0-3)</span>", "3C": ""},
         {"name": "N/A", "1.5C": "65%", "2C": "65%", "3C": ""}
     ];
 
