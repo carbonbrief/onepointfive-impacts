@@ -2,6 +2,12 @@
 
     // global objects
 
+    var placeholder = [
+      { "name": "", "1.5C": "", "2C": "", "3C": ""},
+      { "name": "", "1.5C": "", "2C": "", "3C": ""},
+      { "name": "", "1.5C": "", "2C": "", "3C": ""}
+    ];
+
     var instructions = [
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
         { "name": "", "1.5C": "", "2C": "", "3C": ""},
@@ -837,7 +843,7 @@
       {"name": "<span class='table-subtitle'>Flooding in the Ganges-Brahmaputra-Meghna delta in Bangladesh</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Area", "1.5C": "980-1470km", "2C": "1150-1770km", "3C": "1620-2490km"},
       {"name": "% of region", "1.5C": "5-8%", "2C": "6-10%", "3C": "9-13%"},
-      {"name": "Depth of flooding", "1.5C": "0.16-0.19m", "2C": "0.17-0.21m", "3C": "0.21-0.27m"}
+      {"name": "Depth of flooding", "1.5C": "0.16-0.19m", "2C": "0.17-0.21m", "3C": "0.21-0.27m"},
       {"name": "<span class='table-subtitle'>Frequency of extreme high flows in major river basins</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Ganges", "1.5C": "1-in-67 years <br><span class='uncertainty'>(63-71)</span>", "2C": "1-in-41 years <br><span class='uncertainty'>(38-44)</span>", "3C": ""},
       {"name": "Indus", "1.5C": "1-in-130 years <br><span class='uncertainty'>(124-136)</span>", "2C": "1-in-127 years <br><span class='uncertainty'>(121-133)</span>", "3C": ""},
@@ -888,7 +894,7 @@
     var chinaHeat = [
     {"name": "<span class='table-subtitle'>Heat events</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Likelihood of hot summer equivalent to 2013 in eastern China", "1.5C": "42%", "2C": "86%", "3C": ""},
-    {"name": "Likelihood of hot spring equivalent to 2014 in northeastern China", "1.5C": "8%", "2C": "20%", "3C": ""}
+    {"name": "Likelihood of hot spring equivalent to 2014 in northeastern China", "1.5C": "8%", "2C": "20%", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Extreme maximum temperature events</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "China", "1.5C": "<span class='arrow-up'>&#9650;</span> 39%", "2C": "<span class='arrow-up'>&#9650;</span> 48%", "3C": ""},
     {"name": "Northeast China", "1.5C": "<span class='arrow-up'>&#9650;</span> 33%", "2C": "<span class='arrow-up'>&#9650;</span> 99%", "3C": ""},
@@ -981,7 +987,7 @@
     var ausHeatExtremes = [
     {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-down'>&#9660;</span> 62%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""}
