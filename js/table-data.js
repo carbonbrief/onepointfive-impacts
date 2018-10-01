@@ -841,9 +841,9 @@
 
     var asiaStorms = [
       {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Bangladesh", "1.5C": "<span class='arrow-up'>&#9650;</span> 227%", "2C": "<span class='arrow-up'>&#9650;</span> 546%", "3C": "<span class='arrow-up'>&#9650;</span> 3214%"},
-      {"name": "Bhutan", "1.5C": "<span class='arrow-up'>&#9650;</span> 261%", "2C": "<span class='arrow-up'>&#9650;</span> 436%", "3C": "<span class='arrow-up'>&#9650;</span> 2458%"},
-      {"name": "India", "1.5C": "<span class='arrow-up'>&#9650;</span> 326%", "2C": "<span class='arrow-up'>&#9650;</span> 571%", "3C": "<span class='arrow-up'>&#9650;</span> 2409%"},
+      {"name": "Bangladesh", "1.5C": "<span class='arrow-up'>&#9650;</span> 227%", "2C": "<span class='arrow-up'>&#9650;</span> 546%", "3C": "<span class='arrow-up'>&#9650;</span> 3,214%"},
+      {"name": "Bhutan", "1.5C": "<span class='arrow-up'>&#9650;</span> 261%", "2C": "<span class='arrow-up'>&#9650;</span> 436%", "3C": "<span class='arrow-up'>&#9650;</span> 2,458%"},
+      {"name": "India", "1.5C": "<span class='arrow-up'>&#9650;</span> 326%", "2C": "<span class='arrow-up'>&#9650;</span> 571%", "3C": "<span class='arrow-up'>&#9650;</span> 2,409%"},
       {"name": "Kazakhstan", "1.5C": "<span class='arrow-up'>&#9650;</span> 163%", "2C": "<span class='arrow-up'>&#9650;</span> 251%", "3C": "<span class='arrow-up'>&#9650;</span> 496%"},
       {"name": "Kyrgyz Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 71%", "2C": "<span class='arrow-up'>&#9650;</span> 108%", "3C": "<span class='arrow-up'>&#9650;</span> 255%"},
       {"name": "Cambodia", "1.5C": "<span class='arrow-up'>&#9650;</span> 71%", "2C": "<span class='arrow-up'>&#9650;</span> 86%", "3C": "<span class='arrow-up'>&#9650;</span> 242%"},
