@@ -9,49 +9,6 @@
 
 }
 
-@media screen and (min-width: 1550px) {
-
-    .story-gradient {
-        width: calc((1100px/6)*4.5);
-        
-    }
-
-    .gradient-wrapper {
-        left: calc((100% - 1100px)/2 + 255px);
-    }
-
-    #lines-wrapper {
-        width: 1100px;
-        left: calc((100% - 1100px)/2);
-    }
-
-    .intro-wrapper {
-        left: calc((100% - 1100px)/2);
-        margin-left: 183px;
-    }
-
-    .story-content {
-        max-width: 273px;
-        left: calc((100% - 1100px)/2);
-    }
-
-    .table-wrapper {
-        left: calc((100% - 1100px)/2);
-        margin-left: 265px;
-        width: 843px;
-    }
-
-    .map-wrapper {
-        left: calc((100% - 1100px)/2);
-    }
-
-    .footer {
-        left: calc((100% - 1100px)/2);
-        margin-left: 183px;
-    }
-
-}
-
 @media screen and (max-width: 1350px) {
 
     .logo {
@@ -61,43 +18,48 @@
 }
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
 
     .story-gradient {
-        width: calc((900px/6)*4.5);
+        width: calc((950px/6)*4.5);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 900px)/2 + 205px);
+        left: calc((100% - 950px)/2 + 217px);
     }
 
     #lines-wrapper {
-        width: 900px;
-        left: calc((100% - 900px)/2);
+        width: 950px;
+        left: calc((100% - 950px)/2);
     }
 
     .intro-wrapper {
-        left: calc((100% - 900px)/2);
-        margin-left: 150px;
+        left: calc((100% - 950px)/2);
+        margin-left: 160px;
     }
 
     .story-content {
-        max-width: 240px;
-        left: calc((100% - 900px)/2);
+        max-width: 205px;
+        left: calc((100% - 950px)/2);
+        margin-top: 20px;
     }
 
     .table-wrapper {
-        left: calc((100% - 900px)/2);
-        margin-left: 215px;
-        width: 678px;
+        left: calc((100% - 950px)/2);
+        margin-left: 228px;
+        width: 716px;
+    }
+
+    .table {
+        top: 40px;
     }
 
     .map-wrapper {
-        left: calc((100% - 900px)/2);
+        left: calc((100% - 950px)/2);
     }
 
     .footer {
-        left: calc((100% - 900px)/2);
+        left: calc((100% - 950px)/2);
         margin-left: 150px;
     }
 
@@ -107,12 +69,16 @@
     }
 
     .row-header {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .table-subtitle {
+        font-size: 15.5px;
     }
 
     td {
-        font-size: 18px;
-        /* padding-left: 17px; */
+        font-size: 16.5px;
+        padding-left: 17px;
     }
 
     .story-content p {
@@ -120,15 +86,15 @@
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .map-container {
-        width: 160px;
+        width: 150px;
     }
 
     .map {
-        height: 90px;
+        height: 80px;
     }
 
     .logo {

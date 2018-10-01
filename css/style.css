@@ -330,7 +330,7 @@ p .fa-info-circle:hover {
 .intro-wrapper {
     top: 120px;
     left: calc((100% - 1050px)/2 + 20px);
-    margin-left: 165px;
+    margin-left: 175px;
     max-width: 600px;
     z-index: 999999;
     position: absolute;
