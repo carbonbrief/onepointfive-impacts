@@ -274,6 +274,10 @@
         top: 66340px;
     }
 
+    #lines {
+        height: 12780px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {

@@ -305,21 +305,20 @@ p .fa-info-circle:hover {
 }
 
 #lines-wrapper {
-    height: 12665px;
-    /* decided to make fixed for now with break points */
+    /* height: 13560px; */
     width: 1050px;
     left: calc((100% - 1050px)/2 + 20px);
     z-index: 8;
     position: absolute;
-    top: 150px;
+    top: 100px;
 }
 
 
 #lines {
-    position: sticky;
+    position: relative;
     width: 100%;
-    top: 150px;
-    height: 12600px;
+    top: 0px;
+    height: 13560px;
 }
 
 .line {
@@ -338,8 +337,8 @@ p .fa-info-circle:hover {
 }
 
 .intro {
-    top: 150px;
-    position: sticky;
+    top: 0px;
+    position: relative;
     /* margin-left: 20px; */
 }
 
