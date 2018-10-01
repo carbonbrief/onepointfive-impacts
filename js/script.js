@@ -161,37 +161,37 @@ $(function(){
             vid1.pause();
         }
 
-        if (item.index == 36) {
+        if (item.index == 37) {
             vid2.play();
         } else {
             vid2.pause();
         }
 
-        if (item.index == 51) {
+        if (item.index == 53) {
             vid3.play();
         } else {
             vid3.pause();
         }
 
-        if (item.index == 57) {
+        if (item.index == 59) {
             vid4.play();
         } else {
             vid4.pause();
         }
 
-        if (item.index == 66) {
+        if (item.index == 68) {
             vid5.play();
         } else {
             vid5.pause();
         }
 
-        if (item.index == 82) {
+        if (item.index == 85) {
             vid6.play();
         } else {
             vid6.pause();
         }
 
-        if (item.index == 91) {
+        if (item.index == 94) {
             vid7.play();
         } else {
             vid7.pause();
