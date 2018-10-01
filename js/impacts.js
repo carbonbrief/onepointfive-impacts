@@ -679,12 +679,21 @@
         map: "asia",
         location: "Asia"
     },{
-        name: "asiaDrought",
+        name: "asiaDrought1",
         title: "DROUGHT",
         icon: "<img class='title-icon' src='../img/drought.svg'>",
-        info: "Average drought length (months): defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
+        info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
         background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/DTHD0G.jpg",
         credit: "Florian Blümm/Alamy Stock Photo",
+        map: "asia",
+        location: "Asia"
+    },{
+        name: "asiaDrought2",
+        title: "DROUGHT",
+        icon: "<img class='title-icon' src='../img/drought.svg'>",
+        info: "Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
+        background: "",
+        credit: "",
         map: "asia",
         location: "Asia"
     },{

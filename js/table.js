@@ -183,14 +183,14 @@ function updateTable () {
         // europe headers
         } else if (dataName =="europeHotDays" || dataName =="europeHotNights" || dataName =="europeTemp" || dataName =="europeFrost" || dataName =="europeWinterTemp" || dataName =="europeHeatwave" || dataName =="europeRainfallWinterMaxDaily" || dataName =="europeRainfallSummerMaxDaily" || dataName =="europeDryDays" || dataName =="europeDrought" || dataName =="europeRivers1")  {
             return getHeader4[column];
-        } else if (dataName =="europeHeatwave" || dataName =="europeColdwave" || dataName =="europeRainIntensity" || dataName =="europeCrops" || dataName =="europeHealth")  {
+        } else if (dataName =="europeHeatwave" || dataName =="europeColdwave" || dataName =="europeRainIntensity" || dataName =="europeCrops" || dataName =="europeHealth" || dataName =="europeRivers3")  {
             return getHeader5[column];
         } else if (dataName =="europeRivers2" || dataName =="europeEconomy")  {
             return getHeader7[column];
         // americas headers
         } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops")  {
             return getHeader5[column];
-        } else if (dataName =="americasDrought")  {
+        } else if (dataName =="americasDrought1" || dataName =="americasDrought2")  {
             return getHeader4[column];
         } else if (dataName =="americasHealth")  {
             return getHeader9[column];
@@ -211,7 +211,7 @@ function updateTable () {
             return getHeader7[column];
         } else if (dataName == "asiaWarmSpell" || dataName == "asiaHotExtremes" || dataName == "asiaColdExtremes" || dataName == "asiaIndiaHeatwaves" || dataName == "asiaRainfallIntensities" || dataName == "asiaMonsoon" || dataName == "asiaCrops" || dataName == "asiaNature")  {
             return getHeader5[column];
-        } else if (dataName == "asiaRainfallDry" || dataName == "asiaDrought" || dataName == "asiaFlooding")  {
+        } else if (dataName == "asiaRainfallDry" || dataName == "asiaDrought1" || dataName == "asiaDrought2" || dataName == "asiaFlooding")  {
             return getHeader4[column];
         // china headers
         } else if (dataName =="chinaTemp" || dataName =="chinaHeat" || dataName =="chinaHeatExtremes" || dataName =="chinaRain")  {
