@@ -66,7 +66,7 @@ h2 {
     font-weight: normal;
     color: #f1f1f1;
     margin-bottom: 50px;
-    font-size: 28px;
+    font-size: 27px;
     /* to ensure in line with other story content */
     margin-left: 0.2em;
 }
@@ -105,8 +105,8 @@ a {
     position: relative;
     left: calc((100% - 1000px)/2);
     margin-left: 0px;
-    margin-top: 50px;
-    max-width: 263px;
+    margin-top: 30px;
+    max-width: 230px;
     margin-right: 20px;
     z-index: 6;
     opacity: 0;
@@ -190,7 +190,7 @@ a {
 }
 
 .table {
-    top: 70px;
+    top: 50px;
     width: 100%;
     height: 650px;
     color: #f3f3f3;
