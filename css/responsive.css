@@ -90,20 +90,28 @@
     }
 
     .map-container {
-        width: 150px;
+        width: 160px;
+    }
+
+    .map-container p {
+        font-size: 12.5px;
     }
 
     .map {
-        height: 80px;
+        height: 85px;
     }
 
     .logo {
         width: 100px;
     }
 
+    #story0-2 .story-content {
+        max-width: 390px;
+    }
+
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
 
     .logo {
         background-image:url(../img/logo-mobile.svg);
@@ -112,59 +120,74 @@
 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
 
     .story-gradient {
-        width: calc((800px/6)*4.5);
+        width: calc((820px/6)*4.5);
     }
 
     .gradient-wrapper {
-        left: calc((100% - 800px)/2 + 180px);
+        left: calc((100% - 820px)/2 + 185px);
+        top: 1730px;
+        height: 70290px;
     }
 
     #lines-wrapper {
-        width: 800px;
-        left: calc((100% - 800px)/2);
+        width: 820px;
+        left: calc((100% - 820px)/2);
     }
 
     .intro-wrapper {
-        left: calc((100% - 800px)/2);
+        left: calc((100% - 820px)/2);
         margin-left: 133px;
         max-width: 500px;
     }
 
     .story-content {
-        max-width: 210px;
-        left: calc((100% - 800px)/2);
+        max-width: 170px;
+        left: calc((100% - 820px)/2);
+    }
+
+    #story0-2 .story-content {
+        max-width: 370px;
     }
 
     .table-wrapper {
-        left: calc((100% - 800px)/2);
-        margin-left: 190px;
-        width: 613px;
+        left: calc((100% - 820px)/2);
+        margin-left: 196px;
+        width: 614px;
+        height: 70350px;
+    }
+
+    #side-nav-wrapper {
+        height: 70230px;
     }
 
     .map-wrapper {
-        left: calc((100% - 800px)/2);
+        left: calc((100% - 820px)/2);
+        height: 69780px;
     }
 
     .footer {
-        left: calc((100% - 800px)/2);
+        left: calc((100% - 820px)/2);
         margin-left: 133px;
     }
 
     th {
-        padding-left: 15px;
         font-size: 38px;
+        padding-bottom: 30px;
     }
 
     .row-header {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .table-subtitle {
+        font-size: 14.5px;
     }
 
     td {
-        font-size: 17px;
-        /* padding-left: 15px; */
+        font-size: 15.5px;
     }
 
     .story-content p {
@@ -172,7 +195,7 @@
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     h1 {
@@ -184,7 +207,15 @@
     }
 
     .map-container {
-        width: 160px;
+        width: 140px;
+    }
+
+    .map-container p {
+        font-size: 12px;
+    }
+
+    .map {
+        height: 75px;
     }
 
     .droplinks li {
@@ -197,9 +228,40 @@
         margin-bottom: 18px;
     }
 
-    .nav-circle {
-        width: 5.5px;
-        height: 5.5px;
+    .story-middle {
+        min-height: 650px;
+    }
+
+    .section-header {
+        height: 710px;
+    }
+
+    #europe-header {
+        top: 12380px;
+    }
+    
+    #americas-header {
+        top: 25870px;
+    }
+    
+    #sids-header {
+        top: 37230px;
+    }
+    
+    #africa-header {
+        top: 41490px;
+    }
+    
+    #asia-header {
+        top: 47880px;
+    }
+    
+    #china-header {
+        top: 59950px;
+    }
+    
+    #australasia-header {
+        top: 66340px;
     }
 
 }
@@ -311,10 +373,10 @@
         margin-left: 3.5px;
     }
 
-    .nav-circle {
+    /* .nav-circle {
         width: 5px;
         height: 5px;
-    }
+    } */
 
     .droplinks li {
         font-size: 13.5px;
