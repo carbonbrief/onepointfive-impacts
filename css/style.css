@@ -149,7 +149,7 @@ a {
     top: 1780px;
     left: calc((100% - 1000px)/2 + 230px + 15px);
     /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
-    height: 72960px;
+    height: 75240px;
     padding: 0px !important;
     
 }
@@ -184,7 +184,7 @@ a {
     margin-left: 255px;
     width: 740px;
     /* (table stories + padding) x number + instructions height but not top padding */
-    height: 73660px;
+    height: 75940px;
     position: absolute;
     z-index: 5;
 }
@@ -263,7 +263,7 @@ td {
     position: absolute;
     top: 2120px;
     /* (table stories + padding) x number - 1xpadding - 450px */
-    height: 72450px;
+    height: 74730px;
     left: calc((100% - 1000px)/2);
     margin-left: 0px;
     width: 180px;
@@ -426,7 +426,7 @@ a:link {
     position: absolute;
     top: 1800px;
     /* (table stories + padding) x number - 60pxpadding */
-    height: 72900px;
+    height: 75180px;
     right: 20px;
 }
 

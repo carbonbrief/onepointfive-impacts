@@ -61,19 +61,19 @@ $(function(){
             $('#economy-nav').addClass('nav-active');
         } else if (item.index == 17) {
             $('#health-nav').addClass('nav-active');
-        } else if (item.index > 17 && item.index < 36) {
+        } else if (item.index > 17 && item.index < 37) {
             $('#europe-nav').addClass('nav-active');
-        } else if (item.index > 35 && item.index < 51) {
+        } else if (item.index > 36 && item.index < 54) {
             $('#americas-nav').addClass('nav-active');
-        } else if (item.index > 50 && item.index < 57) {
+        } else if (item.index > 53 && item.index < 59) {
             $('#sids-nav').addClass('nav-active');
-        } else if (item.index > 56 && item.index < 66) {
+        } else if (item.index > 58 && item.index < 68) {
             $('#africa-nav').addClass('nav-active');
-        } else if (item.index > 65 && item.index < 82) {
+        } else if (item.index > 67 && item.index < 85) {
             $('#asia-nav').addClass('nav-active');
-        } else if (item.index > 81 && item.index < 91) {
+        } else if (item.index > 84 && item.index < 94) {
             $('#china-nav').addClass('nav-active');
-        } else if (item.index > 90 && item.index < 99) {
+        } else if (item.index > 93 && item.index < 102) {
             $('#australasia-nav').addClass('nav-active');
         }
 
@@ -94,7 +94,7 @@ $(function(){
         console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
-        if (item.index < 99 && item.index > 2) {
+        if (item.index < 102 && item.index > 2) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }
@@ -111,7 +111,7 @@ $(function(){
 
         }
 
-        if(item.index > 0 && item.index < 99){
+        if(item.index > 0 && item.index < 102){
 
             triggerTableUpdate();
 
@@ -232,7 +232,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 99) {
+            } else if (item.index > 2 && item.index < 102) {
 
                 item.el.addClass("story-middle");
  
@@ -254,7 +254,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index === 99) {
+            } else if (item.index === 102) {
 
                 // change style via class so can make responsive
                 item.el.addClass("story-end");
@@ -306,17 +306,17 @@ $(function(){
                 } else if (id =="europe") {
                     that.index(18);
                 } else if (id =="asia") {
-                    that.index(66);
+                    that.index(68);
                 } else if (id =="china") {
-                    that.index(82);
+                    that.index(85);
                 } else if (id =="americas") {
-                    that.index(36);
+                    that.index(37);
                 } else if (id =="africa") {
-                    that.index(57);
+                    that.index(59);
                 } else if (id =="australasia") {
-                    that.index(91);
+                    that.index(94);
                 } else if (id =="sids") {
-                    that.index(51);
+                    that.index(53);
                 }
 
             });
@@ -349,17 +349,17 @@ $(function(){
                 } else if (id =="europe-nav") {
                     that.index(18);
                 } else if (id =="asia-nav") {
-                    that.index(66);
+                    that.index(68);
                 } else if (id =="china-nav") {
-                    that.index(82);
+                    that.index(85);
                 } else if (id =="americas-nav") {
-                    that.index(36);
+                    that.index(37);
                 } else if (id =="africa-nav") {
-                    that.index(57);
+                    that.index(59);
                 } else if (id =="australasia-nav") {
-                    that.index(91);
+                    that.index(94);
                 } else if (id =="sids-nav") {
-                    that.index(51);
+                    that.index(53);
                 }
 
             });
