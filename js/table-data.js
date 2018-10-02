@@ -151,10 +151,6 @@
       {"name": "Birds", "1.5C": "2% <span class='uncertainty'>(1-6)</span>", "2C": "6% <span class='uncertainty'>(3-13)</span>", "3C": "4% <span class='uncertainty'>(28-54)</span>"},
       {"name": "Butterflies & moths", "1.5C": "4% <span class='uncertainty'>(0-14)</span>", "2C": "10% <span class='uncertainty'>(2-29)</span>", "3C": "58% <span class='uncertainty'>(40-74)</span>"},
       {"name": "Dragonflies & damselflies", "1.5C": "1% <span class='uncertainty'>(0-2)</span>", "2C": "2% <span class='uncertainty'>(1-6)</span>", "3C": "21% <span class='uncertainty'>(11-42)</span>"},
-<<<<<<< HEAD
-=======
-      {"name": "<span class='table-subtitle'></span>", "1.5C": "", "2C": "", "3C": ""},
->>>>>>> parent of c6970f3... Merge branch 'data-snags' of https://github.com/carbonbrief/onepointfive-impacts into data-snags
       {"name": "<span class='table-subtitle'>Average warming across drylands</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.4-3.0C", "2C": "<span class='arrow-up'>&#9650;</span> 3.2-4.0C", "3C": ""},
       {"name": "<span class='table-subtitle'>Average warming across humid lands</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8-2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.4-2.6C", "3C": ""}
     ];
@@ -869,11 +865,7 @@
       {"name": "<span class='table-subtitle'>Flooding in the Ganges-Brahmaputra-Meghna delta in Bangladesh</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Area", "1.5C": "980-1470km", "2C": "1150-1770km", "3C": "1620-2490km"},
       {"name": "% of region", "1.5C": "5-8%", "2C": "6-10%", "3C": "9-13%"},
-<<<<<<< HEAD
       {"name": "Depth of flooding", "1.5C": "0.16-0.19m", "2C": "0.17-0.21m", "3C": "0.21-0.27m"},
-=======
-      {"name": "Depth of flooding", "1.5C": "0.16-0.19m", "2C": "0.17-0.21m", "3C": "0.21-0.27m%"},
->>>>>>> parent of c6970f3... Merge branch 'data-snags' of https://github.com/carbonbrief/onepointfive-impacts into data-snags
       {"name": "<span class='table-subtitle'>Frequency of extreme high flows in major river basins</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Ganges", "1.5C": "1-in-67 years <br><span class='uncertainty'>(63-71)</span>", "2C": "1-in-41 years <br><span class='uncertainty'>(38-44)</span>", "3C": ""},
       {"name": "Indus", "1.5C": "1-in-130 years <br><span class='uncertainty'>(124-136)</span>", "2C": "1-in-127 years <br><span class='uncertainty'>(121-133)</span>", "3C": ""},
@@ -1015,13 +1007,8 @@
 
     var ausHeatExtremes = [
     {"name": "<span class='table-subtitle'>Frequency of warm extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-<<<<<<< HEAD
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""},
-=======
     {"name": "Northern Australia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
     {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""},
->>>>>>> parent of c6970f3... Merge branch 'data-snags' of https://github.com/carbonbrief/onepointfive-impacts into data-snags
     {"name": "<br><span class='table-subtitle'>Frequency of cold extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 61%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""},
     {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-down'>&#9660;</span> 62%", "2C": "<span class='arrow-down'>&#9660;</span> 89%", "3C": ""}
