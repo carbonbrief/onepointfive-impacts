@@ -129,7 +129,7 @@
 
     .gradient-wrapper {
         left: calc((100% - 820px)/2 + 185px);
-        top: 1730px;
+        top: 1630px;
         height: 70290px;
     }
 
@@ -159,11 +159,13 @@
         margin-left: 196px;
         width: 614px;
         height: 70350px;
+        top: 985px;
     }
 
     #side-nav-wrapper {
         height: 70230px;
         right: 15px;
+        top: 1700px;
     }
 
     .side-nav ul {
@@ -174,6 +176,7 @@
         left: calc((100% - 820px)/2);
         height: 69780px;
         margin-left: -30px;
+        top: 2020px;
     }
 
     .footer {
@@ -244,40 +247,48 @@
         min-height: 650px;
     }
 
+    .story-intro1 {
+        height: 450px !important;
+    }
+
+    .story-intro2 {
+        height: 350px !important;
+    }
+
     .section-header {
         height: 710px;
     }
 
     #europe-header {
-        top: 12380px;
+        top: 12280px;
     }
     
     #americas-header {
-        top: 25870px;
+        top: 25770px;
     }
     
     #sids-header {
-        top: 37230px;
+        top: 37130px;
     }
     
     #africa-header {
-        top: 41490px;
+        top: 41390px;
     }
     
     #asia-header {
-        top: 47880px;
+        top: 47780px;
     }
     
     #china-header {
-        top: 59950px;
+        top: 59850px;
     }
     
     #australasia-header {
-        top: 66340px;
+        top: 66240px;
     }
 
     #lines {
-        height: 12780px;
+        height: 12680px;
     }
 
 }

@@ -12,8 +12,12 @@ body {
 #intro-vid {
     position: fixed;
     z-index: -5;
-    height: 1020px;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
     width: auto;
+    height: auto;
 }
 
 .scrolly > div {
@@ -663,9 +667,12 @@ a:link {
 }
 
 .section-vid {
-    /* centers the video vertically a bit */
-    /* margin-top: -100px; */
-    width: 100%;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .section-header-mask h3 {

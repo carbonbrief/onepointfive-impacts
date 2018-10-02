@@ -12,7 +12,7 @@ var impacts=[{
     title: "",
     icon: "<i class='fas fa-info-circle'></i>",
     text: "All the research presented below compares impacts at 1.5C and 2C of warming above pre-industrial levels – the Paris Agreement’s temperature goals. These are shown in the first two columns, respectively.<br><br>If the research also includes a higher temperature level, such as 2.5C, 3C or 4C, this will be shown in a third column. But this will change from one impact to the next, depending on the study.<br>",
-    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BK8H7X.jpg",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BK8H7X-2.jpg",
     credit: "imageBROKER/Alamy Stock Photo"
 },{
     name: "sealevel",

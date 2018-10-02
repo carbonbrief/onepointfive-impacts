@@ -577,7 +577,7 @@ if (windowWidth > 1150) {
 
 } else if (windowWidth < 1151 && windowWidth > 555) {
 
-    $('#intro-vid source').attr('src', laptopPath + introVid);
+    $('#intro-vid source').attr('src', desktopPath + introVid);
     $("#intro-vid")[0].load();
 
     $("#europe-vid source").attr("src", laptopPath + europeVid);
@@ -602,8 +602,6 @@ if (windowWidth > 1150) {
     $("#australasia-vid")[0].load();
 
 } else {
-
-    // maybe actually load the medium one since taller?
 
     $('#intro-vid source').attr('src', laptopPath + introVid);
     $("#intro-vid")[0].load();
