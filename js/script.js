@@ -249,13 +249,18 @@ $(function(){
                     +"</p></div></div>"
                 );
 
-                // add their background images
-                // might be better to do as a div so a mask can be added
-                item.el.css({
-                    "background-image": "url('" + item.data.background + "')",
-                    "background-repeat": "no-repeat",
-                    "background-size": "cover"
-                });
+                if (windowWidth > 555) {
+                    // add their background images
+                    item.el.css({
+                        "background-image": "url('" + item.data.background + "')",
+                        "background-repeat": "no-repeat",
+                        "background-size": "cover"
+                    });
+                } else {
+                    // do nothing
+                }
+
+
             } else if (item.index === 102) {
 
                 // change style via class so can make responsive
