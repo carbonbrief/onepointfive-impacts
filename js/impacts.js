@@ -17,7 +17,7 @@ var impacts=[{
 },{
     name: "sealevel",
     title: "OCEANS",
-    icon: "<img class='title-icon' src='../img/ocean.svg'>",
+    icon: "<img class='title-icon' src='./img/ocean.svg'>",
     info: "Relative to 2000; median and 5th-95th percentile range",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/F7HYFH.jpg",
     credit: "Jan Wlodarczyk/Alamy Stock Photo",
@@ -26,7 +26,7 @@ var impacts=[{
 },{
     name: "marineheatwaves",
     title: "OCEANS",
-    icon: "<img class='title-icon' src='../img/ocean.svg'>",
+    icon: "<img class='title-icon' src='./img/ocean.svg'>",
     info: "Marine heatwaves: relative to pre-industrial levels.<br><br>Ocean pH: relative to 1986-2005; median and 5th-95th percentile range.<br><br>AMOC: relative to pre-industrial levels.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/JYDNWH.jpg",
     credit: "Seaphotoart/Alamy Stock Photo",
@@ -89,7 +89,7 @@ var impacts=[{
 },{
     name: "drought",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.<br><br>Severe drought: defined as a month where the Palmer Drought Severity Index drops below -3; relative to 1985-2005; uses SSP1 socioeconomic pathway.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/KHF95W.jpg",
     credit: "Ken Welsh/Alamy Stock Photo",
@@ -98,7 +98,7 @@ var impacts=[{
 },{
     name: "storms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Tropical cyclones: Relative to 1996–2015; baseline number = 73.4.<br><br>Coastal flooding: millions per year; populations constant after 2100; defences constant at 1995 levels.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/HG9FMD.jpg",
     credit: "John Sirlin/Alamy Stock Photo",
@@ -107,7 +107,7 @@ var impacts=[{
 },{
     name: "crops1",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Crop yield change: relative to 1995-2014; includes CO2 fertilisation effect.<br><br>Growing season length: defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/EYYFM6.jpg",
     credit: "blickwinkel/Alamy Stock Photo",
@@ -116,7 +116,7 @@ var impacts=[{
 },{
     name: "crops2",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Relative to 1986-2005; includes CO2 fertilisation effect.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/ERMH69.jpg",
     credit: "David Wall/Alamy Stock Photo",
@@ -258,7 +258,7 @@ var impacts=[{
 },{
     name: "europeDrought",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/CF2TTT.jpg",
     credit: "Granville Davies/Alamy Stock Photo",
@@ -267,7 +267,7 @@ var impacts=[{
 },{
     name: "europeRivers1",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "High river flows: defined as the streamflow exceeded 10% of the time (Q10); relative to 1971-2000.<br><br>River floods: defined as the annual maximum streamflow (Qmax); relative to 1971-2000.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/D31CFB.jpg",
     credit: "paul weston/Alamy Stock Photo",
@@ -276,7 +276,7 @@ var impacts=[{
 },{
     name: "europeRivers2",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Population held constant at 2015 levels; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/DAMCGN.jpg",
     credit: "blickwinkel/Alamy Stock Photo",
@@ -285,7 +285,7 @@ var impacts=[{
 },{
     name: "europeRivers3",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "",
     credit: "",
@@ -294,7 +294,7 @@ var impacts=[{
 },{
     name: "europeCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/DF6KC6.jpg",
     credit: "Luis Dafos/Alamy Stock Photo",
@@ -418,7 +418,7 @@ var impacts=[{
 },{
     name: "americasDrought1",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/BF83F0.jpg",
     credit: "Frans Lanting Studio/Alamy Stock Photo",
@@ -427,7 +427,7 @@ var impacts=[{
 },{
     name: "americasDrought2",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "",
     credit: "",
@@ -436,7 +436,7 @@ var impacts=[{
 },{
     name: "americasStorms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/PCMKG8.jpg",
     credit: "Tribune Content Agency LLC/Alamy Stock Photo",
@@ -445,7 +445,7 @@ var impacts=[{
 },{
     name: "americasCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "US maize yields reference period: 1986–2005.<br><br>Growing season length: defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/HWMMJ6.jpg",
     credit: "inga spence/Alamy Stock Photo",
@@ -488,7 +488,7 @@ var impacts=[{
 },{
     name: "sidsDrought1",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Defined as a Standardized Precipitation Index for 12 months of < -1 (moderate drought or worse)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/B69PWP.jpg",
     credit: "WorldFoto/Alamy Stock Photo",
@@ -497,7 +497,7 @@ var impacts=[{
 },{
     name: "sidsDrought2",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/ACBTN2.jpg",
     credit: "mediacolor's/Alamy Stock Photo",
@@ -506,7 +506,7 @@ var impacts=[{
 },{
     name: "sidsDrought3",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/ECJ549.jpg",
     credit: "Hilke Maunder/Alamy Stock Photo",
@@ -567,7 +567,7 @@ var impacts=[{
 },{
     name: "africaDrought",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/CP6WMY.jpg",
     credit: "Ashley Cooper/Alamy Stock Photo",
@@ -576,7 +576,7 @@ var impacts=[{
 },{
     name: "africaStorms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/A48RBD.jpg",
     credit: "Roger Hutchings/Alamy Stock Photo",
@@ -585,7 +585,7 @@ var impacts=[{
 },{
     name: "africaCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/D0X76Y.jpg",
     credit: "Jake Lyell/Alamy Stock Photo",
@@ -682,7 +682,7 @@ var impacts=[{
 },{
     name: "asiaDrought1",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/DTHD0G.jpg",
     credit: "Florian Blümm/Alamy Stock Photo",
@@ -691,7 +691,7 @@ var impacts=[{
 },{
     name: "asiaDrought2",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "",
     credit: "",
@@ -700,7 +700,7 @@ var impacts=[{
 },{
     name: "asiaStorms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Population held constant at 2015 levels; relative to 1976-2005",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/EA1EGT.jpg",
     credit: "Zoonar GmbH/Alamy Stock Photo",
@@ -709,7 +709,7 @@ var impacts=[{
 },{
     name: "asiaFlooding",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Area inundated during an average flood, without flood defences, excluding cyclones.<br><br>Frequency of extreme high flows: return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/MPFH5A.jpg",
     credit: "Rehman Asad/Alamy Stock Photo",
@@ -718,7 +718,7 @@ var impacts=[{
 },{
     name: "asiaCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/E4P05T.jpg",
     credit: "Jose More/VWPics/Alamy Stock Photo",
@@ -797,7 +797,7 @@ var impacts=[{
 },{
     name: "chinaStorms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Population held constant at 2015 levels; relative to 1976-2005.<br><br>Likelihood of 8% in 1976-2005.<br><br>Yangtze river: return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/F247K9.jpg",
     credit: "Xinhua/Alamy Stock Photo",
@@ -806,7 +806,7 @@ var impacts=[{
 },{
     name: "chinaCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Relative to 2006-2015",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/KC9XYX.jpg",
     credit: "Roberto Fumagalli/Alamy Stock Photo",
@@ -831,7 +831,7 @@ var impacts=[{
 },{
     name: "ausOceans",
     title: "OCEANS",
-    icon: "<img class='title-icon' src='../img/ocean.svg'>",
+    icon: "<img class='title-icon' src='./img/ocean.svg'>",
     info: "Likelihood = 0% without climate change",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/EDBCPB.jpg",
     credit: "imageBROKER/Alamy Stock Photo",
@@ -867,7 +867,7 @@ var impacts=[{
 },{
     name: "ausDrought",
     title: "DROUGHT",
-    icon: "<img class='title-icon' src='../img/drought.svg'>",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Likelihood = 1% without climate change.<br><br>Average drought length in Oceania: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/HHCKF1.jpg",
     credit: "Excitations/Alamy Stock Photo",
@@ -876,7 +876,7 @@ var impacts=[{
 },{
     name: "ausStorms",
     title: "STORMS AND FLOODING",
-    icon: "<img class='title-icon' src='../img/cyclone.svg'>",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/KBDT66.jpg",
     credit: "Auscape International Pty Ltd/Alamy Stock Photo",
@@ -885,7 +885,7 @@ var impacts=[{
 },{
     name: "ausCrops",
     title: "CROPS",
-    icon: "<img class='title-icon' src='../img/wheat.svg'>",
+    icon: "<img class='title-icon' src='./img/wheat.svg'>",
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/CN6B8D.jpg",
     credit: "John White Photos/Alamy Stock Photo",
