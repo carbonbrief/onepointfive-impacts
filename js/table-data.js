@@ -290,9 +290,9 @@
       {"name": "Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+4)</span>", "3C": ""},
       {"name": "Northern Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <br><span class='uncertainty'>(+1-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3% <br><span class='uncertainty'>(+2-+4)</span>", "3C": ""},
       {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Northern Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 73%", "2C": "<span class='arrow-up'>&#9650;</span> 179%", "3C": ""},
-      {"name": "Central Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 115%", "2C": "<span class='arrow-up'>&#9650;</span> 290%", "3C": ""},
-      {"name": "Southern Europe/Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 173%", "2C": "<span class='arrow-up'>&#9650;</span> 478%", "3C": ""}
+      {"name": "Northern Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 45%", "3C": ""},
+      {"name": "Central Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 18%", "2C": "<span class='arrow-up'>&#9650;</span> 37%", "3C": ""},
+      {"name": "Southern Europe/Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 10%", "2C": "<span class='arrow-up'>&#9650;</span> 21%", "3C": ""}
     ];
 
     var europeDrought = [
@@ -325,16 +325,16 @@
 
     var europeRivers2 = [
       {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Czech Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 564%", "2C": "<span class='arrow-up'>&#9650;</span> 688%", "3C": "<span class='arrow-up'>&#9650;</span> 705%"},
-      {"name": "Germany", "1.5C": "<span class='arrow-up'>&#9650;</span> 612%", "2C": "<span class='arrow-up'>&#9650;</span> 739%", "3C": "<span class='arrow-up'>&#9650;</span> 1,234%"},
-      {"name": "United Kingdom", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,106%", "2C": "<span class='arrow-up'>&#9650;</span> 1,062%", "3C": "<span class='arrow-up'>&#9650;</span> 6,543%"},
-      {"name": "Hungary", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,624%", "2C": "<span class='arrow-up'>&#9650;</span> 1,194%", "3C": "<span class='arrow-up'>&#9650;</span> 4,312%"},
-      {"name": "Latvia", "1.5C": "<span class='arrow-down'>&#9660;</span> 90%", "2C": "<span class='arrow-down'>&#9660;</span> 74%", "3C": "<span class='arrow-down'>&#9660;</span> 94%"},
-      {"name": "Moldova", "1.5C": "<span class='arrow-up'>&#9650;</span> 94%", "2C": "<span class='arrow-up'>&#9650;</span> 125%", "3C": "<span class='arrow-up'>&#9650;</span> 141%"},
-      {"name": "Poland", "1.5C": "<span class='arrow-up'>&#9650;</span> 3,390%", "2C": "<span class='arrow-up'>&#9650;</span> 3,727%", "3C": "<span class='arrow-up'>&#9650;</span> 1,523%"},
-      {"name": "Romania", "1.5C": "<span class='arrow-up'>&#9650;</span> 412%", "2C": "<span class='arrow-up'>&#9650;</span> 355%", "3C": "<span class='arrow-up'>&#9650;</span> 651%"},
-      {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 220%", "2C": "<span class='arrow-up'>&#9650;</span> 291%", "3C": "<span class='arrow-up'>&#9650;</span> 641%"},
-      {"name": "Serbia", "1.5C": "<span class='arrow-up'>&#9650;</span> 139%", "2C": "<span class='arrow-up'>&#9650;</span> 155%", "3C": "<span class='arrow-up'>&#9650;</span> 228%"}
+      {"name": "Czech Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 564%", "2C": "<span class='arrow-up'>&#9650;</span> 688%", "3C": "<span class='arrow-up'>&#9650;</span> 600%"},
+      {"name": "Germany", "1.5C": "<span class='arrow-up'>&#9650;</span> 612%", "2C": "<span class='arrow-up'>&#9650;</span> 739%", "3C": "<span class='arrow-up'>&#9650;</span> 1,154%"},
+      {"name": "United Kingdom", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,106%", "2C": "<span class='arrow-up'>&#9650;</span> 1,062%", "3C": "<span class='arrow-up'>&#9650;</span> 8,037%"},
+      {"name": "Hungary", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,624%", "2C": "<span class='arrow-up'>&#9650;</span> 1,194%", "3C": "<span class='arrow-up'>&#9650;</span> 2,011%"},
+      {"name": "Latvia", "1.5C": "<span class='arrow-down'>&#9660;</span> 90%", "2C": "<span class='arrow-down'>&#9660;</span> 74%", "3C": "<span class='arrow-down'>&#9660;</span> 96%"},
+      {"name": "Moldova", "1.5C": "<span class='arrow-up'>&#9650;</span> 94%", "2C": "<span class='arrow-up'>&#9650;</span> 125%", "3C": "<span class='arrow-up'>&#9650;</span> 138%"},
+      {"name": "Poland", "1.5C": "<span class='arrow-up'>&#9650;</span> 3,390%", "2C": "<span class='arrow-up'>&#9650;</span> 3,727%", "3C": "<span class='arrow-up'>&#9650;</span> 2,952%"},
+      {"name": "Romania", "1.5C": "<span class='arrow-up'>&#9650;</span> 412%", "2C": "<span class='arrow-up'>&#9650;</span> 355%", "3C": "<span class='arrow-up'>&#9650;</span> 599%"},
+      {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 220%", "2C": "<span class='arrow-up'>&#9650;</span> 291%", "3C": "<span class='arrow-up'>&#9650;</span> 532%"},
+      {"name": "Serbia", "1.5C": "<span class='arrow-up'>&#9650;</span> 139%", "2C": "<span class='arrow-up'>&#9650;</span> 155%", "3C": "<span class='arrow-up'>&#9650;</span> 204%"}
 
     ];
 
@@ -372,8 +372,8 @@
       {"name": "Probability of exceeding summer 2003 heat-mortality in London", "1.5C": "32%", "2C": "55%", "3C": ""},
       {"name": "Probability of exceeding summer 2003 heat-mortality in Paris", "1.5C": "11%", "2C": "27%", "3C": ""},
       {"name": "", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Average number of excess summer heatwave deaths in London", "1.5C": "<span class='arrow-up'>&#9650;</span> 65", "2C": "<span class='arrow-up'>&#9650;</span> 140", "3C": ""},
-      {"name": "Average number of excess summer heatwave deaths in Paris", "1.5C": "<span class='arrow-up'>&#9650;</span> 89", "2C": "<span class='arrow-up'>&#9650;</span> 176", "3C": ""}
+      {"name": "Annual average number of excess summer heatwave deaths in London", "1.5C": "<span class='arrow-up'>&#9650;</span> 65", "2C": "<span class='arrow-up'>&#9650;</span> 140", "3C": ""},
+      {"name": "Annual average number of excess summer heatwave deaths in Paris", "1.5C": "<span class='arrow-up'>&#9650;</span> 89", "2C": "<span class='arrow-up'>&#9650;</span> 176", "3C": ""}
     ];
 
 // Americas objects
@@ -483,16 +483,16 @@
 
     var americasRainExtremes = [
       {"name": "<span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Alaska and Northwestern Canada", "1.5C": "<span class='arrow-up'>&#9650;</span> 67%", "2C": "<span class='arrow-up'>&#9650;</span> 162%", "3C": ""},
-      {"name": "Eastern Canada, Greenland (and Iceland)", "1.5C": "<span class='arrow-up'>&#9650;</span> 79%", "2C": "<span class='arrow-up'>&#9650;</span> 196%", "3C": ""},
-      {"name": "Western North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 131%", "2C": "<span class='arrow-up'>&#9650;</span> 350%", "3C": ""},
-      {"name": "Central North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 103%", "2C": "<span class='arrow-up'>&#9650;</span> 258%", "3C": ""},
-      {"name": "Eastern North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 121%", "2C": "<span class='arrow-up'>&#9650;</span> 325%", "3C": ""},
-      {"name": "Central America/Mexico", "1.5C": "<span class='arrow-up'>&#9650;</span> 167%", "2C": "<span class='arrow-up'>&#9650;</span> 486%", "3C": ""},
-      {"name": "Amazon", "1.5C": "<span class='arrow-up'>&#9650;</span> 258%", "2C": "<span class='arrow-up'>&#9650;</span> 737%", "3C": ""},
-      {"name": "Northeastern Brazil", "1.5C": "<span class='arrow-up'>&#9650;</span> 310%", "2C": "<span class='arrow-up'>&#9650;</span> 920%", "3C": ""},
-      {"name": "West Coast South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 188%", "2C": "<span class='arrow-up'>&#9650;</span> 553%", "3C": ""},
-      {"name": "Southeastern South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 114%", "2C": "<span class='arrow-up'>&#9650;</span> 288%", "3C": ""}
+      {"name": "Alaska and Northwestern Canada", "1.5C": "<span class='arrow-up'>&#9650;</span> 23%", "2C": "<span class='arrow-up'>&#9650;</span> 49%", "3C": ""},
+      {"name": "Eastern Canada, Greenland (and Iceland)", "1.5C": "<span class='arrow-up'>&#9650;</span> 26%", "2C": "<span class='arrow-up'>&#9650;</span> 55%", "3C": ""},
+      {"name": "Western North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 16%", "2C": "<span class='arrow-up'>&#9650;</span> 34%", "3C": ""},
+      {"name": "Central North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 19%", "2C": "<span class='arrow-up'>&#9650;</span> 39%", "3C": ""},
+      {"name": "Eastern North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 24%", "2C": "<span class='arrow-up'>&#9650;</span> 52%", "3C": ""},
+      {"name": "Central America/Mexico", "1.5C": "<span class='arrow-up'>&#9650;</span> 13%", "2C": "<span class='arrow-up'>&#9650;</span> 28%", "3C": ""},
+      {"name": "Amazon", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 42%", "3C": ""},
+      {"name": "Northeastern Brazil", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 44%", "3C": ""},
+      {"name": "West Coast South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 16%", "2C": "<span class='arrow-up'>&#9650;</span> 34%", "3C": ""},
+      {"name": "Southeastern South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 19%", "2C": "<span class='arrow-up'>&#9650;</span> 40%", "3C": ""}
     ];
 
     var americasRainSeason = [
@@ -677,10 +677,10 @@
       {"name": "East Africa ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-1-+4)</span>", "3C": ""},
       {"name": "Southern Africa ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "3C": ""},
       {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Sahara ", "1.5C": "<span class='arrow-up'>&#9650;</span> 322%", "2C": "<span class='arrow-up'>&#9650;</span> 930%", "3C": ""},
-      {"name": "West Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 249%", "2C": "<span class='arrow-up'>&#9650;</span> 753%", "3C": ""},
-      {"name": "East Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 282%", "2C": "<span class='arrow-up'>&#9650;</span> 822%", "3C": ""},
-      {"name": "Southern Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 208%", "2C": "<span class='arrow-up'>&#9650;</span> 596%", "3C": ""}
+      {"name": "Sahara ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+      {"name": "West Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 17%", "2C": "<span class='arrow-up'>&#9650;</span> 37%", "3C": ""},
+      {"name": "East Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 23%", "2C": "<span class='arrow-up'>&#9650;</span> 50%", "3C": ""},
+      {"name": "Southern Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 15%", "2C": "<span class='arrow-up'>&#9650;</span> 30%", "3C": ""}
     ];
 
     var africaDrought = [
@@ -977,7 +977,7 @@
     ];
 
     var chinaEconomy = [
-    {"name": "<span class='table-subtitle'>Economic damages from river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
+    {"name": "<span class='table-subtitle'>Economic damages from river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 86%", "2C": "<span class='arrow-up'>&#9650;</span> 120%", "3C": "<span class='arrow-up'>&#9650;</span> 443%"},
     {"name": "", "1.5C": "", "2C": "", "3C": ""},
     {"name": "<span class='table-subtitle'>Economic damages caused by tropical cyclones</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> $14-16m", "2C": "<span class='arrow-up'>&#9650;</span> $31-49m", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Annual days of temperature-related weight restrictions on flights</span>", "1.5C": "", "2C": "", "3C": ""},
@@ -1023,8 +1023,8 @@
     {"name": "Northern Australia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-4-+4)</span>", "3C": ""},
     {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+4)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
-    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 17%", "3C": ""},
+    {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 11%", "2C": "<span class='arrow-up'>&#9650;</span> 22%", "3C": ""}
     ];
 
     var ausDrought = [
