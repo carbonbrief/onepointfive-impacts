@@ -287,8 +287,8 @@ var impacts=[{
     title: "STORMS AND FLOODING",
     icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/F061GJ.jpg",
+    credit: "rudi1976/Alamy Stock Photo",
     map: "europe",
     location: "Europe"
 },{

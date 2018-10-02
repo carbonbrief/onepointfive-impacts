@@ -1,3 +1,5 @@
+var windowWidth = $(window).width();
+
 // Instantiation
 $(function(){
 
@@ -10,7 +12,6 @@ $(function(){
     var $map = $('.map')
     var $mapText = $('#map-text')
     var windowHeight = $(window).height();
-    var windowWidth = $(window).width();
     var viewportHeight = window.innerHeight
     var halfViewportHeight = Math.floor(viewportHeight / 2)
     var activeIndex;
@@ -523,6 +524,112 @@ $(function(){
 
 
 });
+
+// POPULATE VIDEOS DEPENDING ON WINDOW WIDTH
+
+var desktopPath = "video/large/";
+
+var laptopPath = "video/medium/";
+
+var mobilePath = "video/small/";
+
+var introVid = "GettyImages-474551988.mp4";
+
+var europeVid = "GettyImages-664979740.mp4";
+
+var americasVid = "GettyImages-457295236.mp4";
+
+var sidsVid = "GettyImages-638715874.mp4";
+
+var africaVid = "GettyImages-473313525.mp4";
+
+var asiaVid = "GettyImages-473204581.mp4";
+
+var chinaVid = "GettyImages-162980082.mp4";
+
+var australasiaVid = "GettyImages-473300279.mp4";
+
+if (windowWidth > 1150) {
+
+    $('#intro-vid source').attr('src', desktopPath + introVid);
+    $("#intro-vid")[0].load();
+
+    $("#europe-vid source").attr("src", desktopPath + europeVid);
+    $("#europe-vid")[0].load();
+
+    $("#americas-vid source").attr("src", desktopPath + americasVid);
+    $("#americas-vid")[0].load();
+
+    $("#sids-vid source").attr("src", desktopPath + sidsVid);
+    $("#sids-vid")[0].load();
+
+    $("#africa-vid source").attr("src", desktopPath + africaVid);
+    $("#africa-vid")[0].load();
+
+    $("#asia-vid source").attr("src", desktopPath + asiaVid);
+    $("#asia-vid")[0].load();
+
+    $("#china-vid source").attr("src", desktopPath + chinaVid);
+    $("#china-vid")[0].load();
+
+    $("#australasia-vid source").attr("src", desktopPath + australasiaVid);
+    $("#australasia-vid")[0].load();
+
+} else if (windowWidth < 1151 && windowWidth > 555) {
+
+    $('#intro-vid source').attr('src', laptopPath + introVid);
+    $("#intro-vid")[0].load();
+
+    $("#europe-vid source").attr("src", laptopPath + europeVid);
+    $("#europe-vid")[0].load();
+
+    $("#americas-vid source").attr("src", laptopPath + americasVid);
+    $("#americas-vid")[0].load();
+
+    $("#sids-vid source").attr("src", laptopPath + sidsVid);
+    $("#sids-vid")[0].load();
+
+    $("#africa-vid source").attr("src", laptopPath + africaVid);
+    $("#africa-vid")[0].load();
+
+    $("#asia-vid source").attr("src", laptopPath + asiaVid);
+    $("#asia-vid")[0].load();
+
+    $("#china-vid source").attr("src", laptopPath + chinaVid);
+    $("#china-vid")[0].load();
+
+    $("#australasia-vid source").attr("src", laptopPath + australasiaVid);
+    $("#australasia-vid")[0].load();
+
+} else {
+
+    // maybe actually load the medium one since taller?
+
+    $('#intro-vid source').attr('src', laptopPath + introVid);
+    $("#intro-vid")[0].load();
+
+    $("#europe-vid source").attr("src", mobilePath + europeVid);
+    $("#europe-vid")[0].load();
+
+    $("#americas-vid source").attr("src", mobilePath + americasVid);
+    $("#americas-vid")[0].load();
+
+    $("#sids-vid source").attr("src", mobilePath + sidsVid);
+    $("#sids-vid")[0].load();
+
+    $("#africa-vid source").attr("src", mobilePath + africaVid);
+    $("#africa-vid")[0].load();
+
+    $("#asia-vid source").attr("src", mobilePath + asiaVid);
+    $("#asia-vid")[0].load();
+
+    $("#china-vid source").attr("src", mobilePath + chinaVid);
+    $("#china-vid")[0].load();
+
+    $("#australasia-vid source").attr("src", mobilePath + australasiaVid);
+    $("#australasia-vid")[0].load();
+
+}
 
 // SCROLL WINDOW TO TOP
 // so resets on refresh
