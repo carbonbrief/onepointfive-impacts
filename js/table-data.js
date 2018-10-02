@@ -115,10 +115,10 @@
       {"name": "Total tropical cyclones", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.9", "2C": "<span class='arrow-down'>&#9660;</span> 4.1", "3C": ""},
       {"name": "Category 4 cyclones", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1", "2C": "<span class='arrow-up'>&#9650;</span> 1.2", "3C": ""},
       {"name": "Category 5 cyclones", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.4", "2C": "<span class='arrow-up'>&#9650;</span> 1.2", "3C": ""},
-      {"name": "<br><span class='table-subtitle'>Global annual number of tropical cyclones</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "By 2055", "1.5C": "<span class='arrow-up'>&#9650;</span> 28m/yr <br><span class='uncertainty'(+16-+43)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 30m/yr <br><span class='uncertainty'(+19-+45)</span>", "3C": ""},
-      {"name": "By 2095", "1.5C": "<span class='arrow-up'>&#9650;</span> 60m/yr <br><span class='uncertainty'(+32-+113)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 72m/yr <br><span class='uncertainty'(+40-+127)</span>", "3C": ""},
-      {"name": "By 2295", "1.5C": "<span class='arrow-up'>&#9650;</span> 136m/yr <br><span class='uncertainty'(+82-+231)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 162m/yr <br><span class='uncertainty'(+99-+273)</span>", "3C": ""}
+      {"name": "<br><span class='table-subtitle'>Global population flooded in coastal areas</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "By 2055", "1.5C": "<span class='arrow-up'>&#9650;</span> 28m/yr <span class='uncertainty'>(+16-+43)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 30m/yr <span class='uncertainty'>(+19-+45)</span>", "3C": ""},
+      {"name": "By 2095", "1.5C": "<span class='arrow-up'>&#9650;</span> 60m/yr <span class='uncertainty'>(+32-+113)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 72m/yr <span class='uncertainty'>(+40-+127)</span>", "3C": ""},
+      {"name": "By 2295", "1.5C": "<span class='arrow-up'>&#9650;</span> 136m/yr <span class='uncertainty'>(+82-+231)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 162m/yr <span class='uncertainty'>(+99-+273)</span>", "3C": ""}
     ];
 
     var crops1 = [
@@ -131,7 +131,7 @@
 
     var crops2 = [
       {"name": "<span class='table-subtitle'>Crop yields over existing farmland</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-8-+21)", "3C": ""},
+      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-8-+21)", "3C": ""},
       {"name": "Maize (Global)", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-26-+8)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <span class='uncertainty'>(-38-+2)", "3C": ""},
       {"name": "Soy (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-3-+28)", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-12-+34)", "3C": ""},
       {"name": "Rice (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-17-+24)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-4-+27)", "3C": ""},
@@ -170,12 +170,12 @@
 // Europe objects
 
     var europeHotDays = [
-      {"name": "<span class='table-subtitle'>Increase in annual hot days</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Annual hot days</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "British Isles", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(0-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(0-+7)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(0-+10)</span>"},
       {"name": "Iberian Peninsula", "1.5C": "<span class='arrow-up'>&#9650;</span> 11 days <br><span class='uncertainty'>(+5-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16 days <br><span class='uncertainty'>(+7-+26)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 26 days <br><span class='uncertainty'>(+13-+40)</span>"},
       {"name": "France", "1.5C": "<span class='arrow-up'>&#9650;</span> 4 days <br><span class='uncertainty'>(+1-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6 days <br><span class='uncertainty'>(+2-+22)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 13 days <br><span class='uncertainty'>(+4-+31)</span>"},
       {"name": "Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+2-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 10 days <br><span class='uncertainty'>(+3-+25)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 18 days <br><span class='uncertainty'>(+5-+37)</span>"},
-      {"name": "Scandinavia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(0-+7)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(0-+8)</span>"},
+      {"name": "Scandinavia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(0-+7)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(0-+8)</span>"},
       {"name": "Alps", "1.5C": "<span class='arrow-up'>&#9650;</span> 6 days <br><span class='uncertainty'>(+1-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+2-+23)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+5-+31)</span>"},
       {"name": "Mid-Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 days <br><span class='uncertainty'>(0-+7)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3 days <br><span class='uncertainty'>(+1-+14)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7 days <br><span class='uncertainty'>(+3-+19)</span>"},
       {"name": "Eastern Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 7 days <br><span class='uncertainty'>(+3-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9 days <br><span class='uncertainty'>(+3-+17)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+7-+25)</span>"}
@@ -184,12 +184,12 @@
     // added spaces because there's a bug if the table updates with the exact same row names next to each other
       
     var europeHotNights = [
-      {"name": "<span class='table-subtitle'>Increase in annual tropical nights</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "<span class='table-subtitle'>Annual tropical nights</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "British Isles ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+12)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+16)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3 nights <span class='uncertainty'>(0-+19)</span>"},
       {"name": "Iberian Peninsula ", "1.5C": "<span class='arrow-up'>&#9650;</span> 11 nights <span class='uncertainty'>(+5-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16 nights <span class='uncertainty'>(+7-+32)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 30 nights <span class='uncertainty'>(+14-+49)</span>"},
       {"name": "France ", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 nights <span class='uncertainty'>(0-+18)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6 nights <span class='uncertainty'>(+1-+25)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 14 nights <span class='uncertainty'>(+3-+40)</span>"},
       {"name": "Mediterranean ", "1.5C": "<span class='arrow-up'>&#9650;</span> 17 nights <span class='uncertainty'>(+11-+26)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 24 nights <span class='uncertainty'>(+15-+37)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 38 nights <span class='uncertainty'>(+27-+54)</span>"},
-      {"name": "Scandinavia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 nights <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+11)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 nights <span class='uncertainty'>(0-+16)</span>"},
+      {"name": "Scandinavia ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 nights <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+11)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 nights <span class='uncertainty'>(0-+16)</span>"},
       {"name": "Alps ", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 nights <span class='uncertainty'>(+3-+20)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 13 nights <span class='uncertainty'>(+4-+28)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 19 nights <span class='uncertainty'>(+7-+38)</span>"},
       {"name": "Mid-Europe ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 night <span class='uncertainty'>(0-+11)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 4 nights <span class='uncertainty'>(0-+17)</span>"},
       {"name": "Eastern Europe ", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 nights <span class='uncertainty'>(+1-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6 nights <span class='uncertainty'>(+1-+19)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 11 nights <span class='uncertainty'>(+3-+30)</span>"}
@@ -264,7 +264,7 @@
     var europeRainfallSummerMaxDaily = [
       {"name": "<span class='table-subtitle'>Summer maximum daily rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "British Isles", "1.5C": "<span class='arrow-up'>&#9650;</span> 4% <br><span class='uncertainty'>(-2-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+1-+12)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7% <br><span class='uncertainty'>(+2-+13)</span>"},
-      {"name": "Iberian Peninsula", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-17-+18)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3% <br><span class='uncertainty'>(-25-+16)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 12% <br><span class='uncertainty'>(-29-+0)</span>"},
+      {"name": "Iberian Peninsula", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <br><span class='uncertainty'>(-17-+18)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3% <br><span class='uncertainty'>(-25-+16)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 12% <br><span class='uncertainty'>(-29-+0)</span>"},
       {"name": "France", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(+0-+10)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(-7-+15)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5% <br><span class='uncertainty'>(-5-+24)</span>"},
       {"name": "Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <br><span class='uncertainty'>(+2-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 9% <br><span class='uncertainty'>(+2-+21)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 13% <br><span class='uncertainty'>(+0-+29)</span>"},
       {"name": "Scandinavia", "1.5C": "<span class='arrow-up'>&#9650;</span> 8% <br><span class='uncertainty'>(+3-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 12% <br><span class='uncertainty'>(+6-+19)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 16% <br><span class='uncertainty'>(+9-+28)</span>"},
@@ -275,14 +275,14 @@
 
     var europeDryDays = [
       {"name": "<span class='table-subtitle'>Summer consecutive dry days</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "British Isles ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-2-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-2-+4)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-1-+4)</span>"},
-      {"name": "Iberian Peninsula ", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 days <br><span class='uncertainty'>(-6-+15)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <br><span class='uncertainty'>(-5-+18)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 7 days <br><span class='uncertainty'>(-3-+23)</span>"},
+      {"name": "British Isles ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-2-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-2-+4)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-1-+4)</span>"},
+      {"name": "Iberian Peninsula ", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 days <br><span class='uncertainty'>(-6-+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4 days <br><span class='uncertainty'>(-5-+18)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7 days <br><span class='uncertainty'>(-3-+23)</span>"},
       {"name": "France ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-1-+5)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 4 days <br><span class='uncertainty'>(+0-+7)</span>"},
-      {"name": "Mediterranean ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-1-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-1-+3)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+3)</span>"},
-      {"name": "Scandinavia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-1-+1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 days <br><span class='uncertainty'>(-2-+1)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-2-+1)</span>"},
+      {"name": "Mediterranean ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-1-+2)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-1-+3)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+3)</span>"},
+      {"name": "Scandinavia ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-1-+1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 days <br><span class='uncertainty'>(-2-+1)</span>", "3C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-2-+1)</span>"},
       {"name": "Alps ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+4)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-1-+5)</span>"},
       {"name": "Mid-Europe ", "1.5C": "<span class='arrow-up'>&#9650;</span> 2 days <br><span class='uncertainty'>(-8-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3 days <br><span class='uncertainty'>(-8-+8)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(-9-+13)</span>"},
-      {"name": "Eastern Europe ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-2-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(-2-+6)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+4)</span>"}
+      {"name": "Eastern Europe ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-2-+6)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(-2-+6)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(-1-+4)</span>"}
     ];
 
     var europeRainIntensity = [
@@ -316,8 +316,8 @@
       {"name": "Northern", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": "<span class='arrow-up'>&#9650;</span> 12%"},
       {"name": "Mediterranean", "1.5C": "<span class='arrow-down'>&#9660;</span> 11%", "2C": "<span class='arrow-down'>&#9660;</span> 13%", "3C": "<span class='arrow-down'>&#9660;</span> 31%"},
       {"name": "<br><span class='table-subtitle'>River floods</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Alpine", "1.5C": "<span class='arrow-down'>&#9660;</span> 4%", "2C": "<span class='arrow-down'>&#9660;</span> 6%", "3C": "<span class='arrow-down'>&#9650;</span> 9%"},
-      {"name": "Atlantic", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 3%", "3C": "<span class='arrow-up'>&#9660;</span> 1%"},
+      {"name": "Alpine", "1.5C": "<span class='arrow-down'>&#9660;</span> 4%", "2C": "<span class='arrow-down'>&#9660;</span> 6%", "3C": "<span class='arrow-down'>&#9660;</span> 9%"},
+      {"name": "Atlantic", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 3%", "3C": "<span class='arrow-up'>&#9650;</span> 1%"},
       {"name": "Continental", "1.5C": "<span class='arrow-down'>&#9660;</span> 3%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": "<span class='arrow-down'>&#9660;</span> 9%"},
       {"name": "Northern", "1.5C": "<span class='arrow-down'>&#9660;</span> 7%", "2C": "<span class='arrow-down'>&#9660;</span> 6%", "3C": "<span class='arrow-down'>&#9660;</span> 5%"},
       {"name": "Mediterranean", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 5%", "3C": "<span class='arrow-down'>&#9660;</span> 17%"},
@@ -512,15 +512,15 @@
 
     var americasDrought2 = [
       {"name": "<span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Alaska", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(0-0)</span>", "3C": ""},
+      {"name": "Alaska", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(0-0)</span>", "3C": ""},
       {"name": "Amazon", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <span class='uncertainty'>(-1-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6m <span class='uncertainty'>(-5-+17)</span>", "3C": ""},
       {"name": "Central America and Mexico", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <span class='uncertainty'>(+3-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 10m <span class='uncertainty'>(+1-+20)</span>", "3C": ""},
-      {"name": "Eastern Canada, Greenland (and Iceland)", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(0-0)</span>", "3C": ""},
+      {"name": "Eastern Canada, Greenland (and Iceland)", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(0-0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(0-0)</span>", "3C": ""},
       {"name": "Central North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 15m <span class='uncertainty'>(+10-+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 18m <span class='uncertainty'>(+10-+27)</span>", "3C": ""},
       {"name": "Eastern North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 8m <span class='uncertainty'>(+1-+16)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 17m <span class='uncertainty'>(+8-+25)</span>", "3C": ""},
       {"name": "Northeastern Brazil", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <span class='uncertainty'>(-5-+16)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7m <span class='uncertainty'>(+3-+11)</span>", "3C": ""},
       {"name": "Western North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 4m <span class='uncertainty'>(-1-+9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4m <span class='uncertainty'>(-3-+11)</span>", "3C": ""},
-      {"name": "West Coast South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(-2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <span class='uncertainty'>(-2-+3)</span>", "3C": ""}
+      {"name": "West Coast South America", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(-2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <span class='uncertainty'>(-2-+3)</span>", "3C": ""}
     ];
 
     var americasStorms = [
@@ -564,10 +564,10 @@
 
     var sidsRain = [
       {"name": "<span class='table-subtitle'>Average annual rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Caribbean", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": "<span class='arrow-up'>&#9650;</span> 0%"},
+      {"name": "Caribbean", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "3C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%"},
       {"name": "Barbados", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-down'>&#9660;</span> 7%", "3C": "<span class='arrow-down'>&#9660;</span> 11%"},
       {"name": "Belize", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": "<span class='arrow-down'>&#9660;</span> 10%"},
-      {"name": "Cuba", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": "<span class='arrow-up'>&#9650;</span> 0%"},
+      {"name": "Cuba", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "3C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%"},
       {"name": "Jamaica", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": "<span class='arrow-down'>&#9660;</span> 3%"},
       {"name": "Trinidad", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 18%", "3C": "<span class='arrow-down'>&#9660;</span> 21%"},
       {"name": "<span class='table-subtitle'>Annual days where rainfall >10mm</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 - <span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-down'>&#9660;</span> 4 - <span class='arrow-up'>&#9650;</span> 1", "3C": "<span class='arrow-down'>&#9660;</span> 6 - <span class='arrow-side'>&#9664;&#9654;</span> 0"}
@@ -588,7 +588,7 @@
       {"name": "Bahamas", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 2%", "3C": ""},
       {"name": "Belize", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
       {"name": "Cabo Verde", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
-      {"name": "Comoros", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+      {"name": "Comoros", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
       {"name": "Cuba", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
       {"name": "Dominican Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 13%", "3C": ""},
       {"name": "Fiji", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
@@ -662,7 +662,7 @@
 
     var africaRain = [
       {"name": "<span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days <span class='uncertainty'>(-14-+4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <span class='uncertainty'>(-12-+5)</span>", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-down'>&#9660;</span> 6 days <span class='uncertainty'>(-14-+4)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-12-+5)</span>", "3C": ""},
       {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-8-0)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <span class='uncertainty'>(-6-+1)</span>", "3C": ""},
       {"name": "East Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-3-+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-7-+2)</span>", "3C": ""},
       {"name": "Southern Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-3-+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(-3-+5)</span>", "3C": ""}
@@ -674,8 +674,8 @@
       {"name": "<span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Sahara ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-6-+6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-2-+5)</span>", "3C": ""},
       {"name": "West Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-1-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(+1-+4)</span>", "3C": ""},
-      {"name": "East Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-1-+4)</span>", "3C": ""},
-      {"name": "Southern Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "3C": ""},
+      {"name": "East Africa ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-1-+4)</span>", "3C": ""},
+      {"name": "Southern Africa ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+1)</span>", "3C": ""},
       {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Sahara ", "1.5C": "<span class='arrow-up'>&#9650;</span> 322%", "2C": "<span class='arrow-up'>&#9650;</span> 930%", "3C": ""},
       {"name": "West Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 249%", "2C": "<span class='arrow-up'>&#9650;</span> 753%", "3C": ""},
@@ -691,7 +691,7 @@
       {"name": "Eastern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 12"},
       {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 4", "2C": "<span class='arrow-up'>&#9650;</span> 6", "3C": "<span class='arrow-up'>&#9650;</span> 19"},
       {"name": "<br><span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <span class='uncertainty'>(-2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 <span class='uncertainty'>(-1-+4)</span>", "3C": ""},
+      {"name": "Sahara", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <span class='uncertainty'>(-2-+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 <span class='uncertainty'>(-1-+4)</span>", "3C": ""},
       {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 13m <span class='uncertainty'>(-34-+9)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 <span class='uncertainty'>(-31-+27)</span>", "3C": ""},
       {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 6m <span class='uncertainty'>(-11-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 <span class='uncertainty'>(+0-+43)</span>", "3C": ""},
       {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 5m <span class='uncertainty'>(+0-+10)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 10 <span class='uncertainty'>(+3-+17)</span>", "3C": ""}
@@ -755,7 +755,7 @@
       {"name": "Western Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 45%", "2C": "<span class='arrow-down'>&#9660;</span> 71%", "3C": ""},
       {"name": "Central Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 41%", "2C": "<span class='arrow-down'>&#9660;</span> 67%", "3C": ""},
       {"name": "Tibetan Plateau ", "1.5C": "<span class='arrow-down'>&#9660;</span> 39%", "2C": "<span class='arrow-down'>&#9660;</span> 65%", "3C": ""},
-      {"name": "Eastern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 46%", "2C": "<span class='arrow-down>&#9660;</span> 74%", "3C": ""},
+      {"name": "Eastern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 46%", "2C": "<span class='arrow-down'>&#9660;</span> 74%", "3C": ""},
       {"name": "Southern Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 54%", "2C": "<span class='arrow-down'>&#9660;</span> 81%", "3C": ""},
       {"name": "South East Asia ", "1.5C": "<span class='arrow-down'>&#9660;</span> 65%", "2C": "<span class='arrow-down'>&#9660;</span> 90%", "3C": ""}
     ];
@@ -778,8 +778,8 @@
      {"name": "Central Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
      {"name": "Eastern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
      {"name": "Western Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-up'>&#9650;</span> 4%", "3C": ""},
-     {"name": "Southern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 3%", "2C": "<span class='arrow-down'>&#9660;</span> 3%", "3C": ""},
-     {"name": "Southeast Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
+     {"name": "Southern Asia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> 3%", "3C": ""},
+     {"name": "Southeast Asia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
      {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
      {"name": "Northern Asia", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-2--1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-3--1)</span>", "3C": ""},
      {"name": "Tibet", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-2--1)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-6-+1)</span>", "3C": ""},
@@ -825,7 +825,7 @@
 
     var asiaDrought1 = [
       {"name": "<span class='table-subtitle'>Average drought length (months)</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Russian Federation ", "1.5C": "<span class='arrow-down'>&#9650;</span> 1", "2C": "<span class='arrow-down'>&#9660;</span> 1", "3C": "<span class='arrow-down'>&#9660;</span> 1"},
+      {"name": "Russian Federation ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1", "2C": "<span class='arrow-down'>&#9660;</span> 1", "3C": "<span class='arrow-down'>&#9660;</span> 1"},
       {"name": "Western Asia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 4", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": "<span class='arrow-up'>&#9650;</span> 20"},
       {"name": "Central Asia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 3", "2C": "<span class='arrow-up'>&#9650;</span> 5", "3C": "<span class='arrow-up'>&#9650;</span> 12"},
       {"name": "Eastern Asia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1", "2C": "<span class='arrow-up'>&#9650;</span> 3", "3C": "<span class='arrow-up'>&#9650;</span> 9"},
@@ -883,7 +883,7 @@
     ];
 
     var asiaNature = [
-      {"name": "<span class='table-subtitle'>Change in area of \"sandy land\" in northern China</span>", "1.5C": "+16km<sup>2</sup> per decade", "2C": "+20km<sup>2</sup> per decade", "3C": ""}
+      {"name": "<span class='table-subtitle'>Change in area of \"sandy land\" in northern China</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 16km<sup>2</sup> per decade", "2C": "<span class='arrow-up'>&#9650;</span> 20km<sup>2</sup> per decade", "3C": ""}
     ];
 
     var asiaEconomy = [
@@ -947,7 +947,7 @@
       {"name": "Frequency of days with trace rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 8%", "3C": ""},
       {"name": "Frequency of days with light rainfall", "1.5C": "<span class='arrow-down'>&#9660;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
       {"name": "Frequency of days with moderate rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 5%", "3C": ""},
-      {"name": "Frequency of days with heavy rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 0%", "3C": ""},
+      {"name": "Frequency of days with heavy rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "3C": ""},
       {"name": "Frequency of days with intense rainfall", "1.5C": "<span class='arrow-up'>&#9650;</span> 21%", "2C": "<span class='arrow-up'>&#9650;</span> 16%", "3C": ""}
     ];
 
@@ -955,7 +955,7 @@
       {"name": "<span class='table-subtitle'>Rainfall Extremes</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Annual number of extreme rainfall events", "1.5C": "<span class='arrow-up'>&#9650;</span> 20% <br><span class='uncertainty'>(+20-+24)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26% <br><span class='uncertainty'>(+19-+37)</span>", "3C": ""},
       {"name": "Maximum 5-day rainfall total", "1.5C": "<span class='arrow-up'>&#9650;</span> 11% <br><span class='uncertainty'>(+9-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 12% <br><span class='uncertainty'>(+6-+14)</span>", "3C": ""},
-      {"name": "Consecutive dry days", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <br><span class='uncertainty'>(-3-+19)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 5% <br><span class='uncertainty'>(-8-+18)</span>", "3C": ""},
+      {"name": "Consecutive dry days", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <br><span class='uncertainty'>(-3-+19)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 5% <br><span class='uncertainty'>(-8-+18)</span>", "3C": ""},
       {"name": "<br><span class='table-subtitle'>Heavy rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Rainfall amount on a very wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 20%", "2C": "<span class='arrow-up'>&#9650;</span> 27%", "3C": "<span class='arrow-up'>&#9650;</span> 57%"},
       {"name": "Rainfall amount on an extremely wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 69%", "2C": "<span class='arrow-up'>&#9650;</span> 87%", "3C": "<span class='arrow-up'>&#9650;</span> 162%"}
@@ -973,7 +973,7 @@
     {"name": "<span class='table-subtitle'>Crop yields</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Wheat", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
     {"name": "Rice", "1.5C": "<span class='arrow-up'>&#9650;</span> 4%", "2C": "<span class='arrow-up'>&#9650;</span> 9%", "3C": ""},
-    {"name": "Maize", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": ""}
+    {"name": "Maize", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0%", "2C": "<span class='arrow-down'>&#9660;</span> 2%", "3C": ""}
     ];
 
     var chinaEconomy = [
@@ -998,7 +998,7 @@
     {"name": "Likelihood of another 2012-13 \"angry summer\" ", "1.5C": "57% <span class='uncertainty'>(50-65)</span>", "2C": "77% <span class='uncertainty'>(70-84)</span>", "3C": ""},
     {"name": "Likelihood of high temperatures seen in 2006 drought in SE Australia", "1.5C": "52% <span class='uncertainty'>(45-59)</span>", "2C": "74% <span class='uncertainty'>(67-81)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.06C <span class='uncertainty'>(+0.4–+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3C <span class='uncertainty'>(+0.8–+1.8)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6C <span class='uncertainty'>(+0.4–+0.9)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3C <span class='uncertainty'>(+0.8–+1.8)</span>", "3C": ""},
     {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <span class='uncertainty'>(+0.3–+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <span class='uncertainty'>(+1–+2.7)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 14 days <span class='uncertainty'>(+9–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+18-+36)</span>", "3C": ""},
@@ -1018,10 +1018,10 @@
     {"name": "<span class='table-subtitle'>Length of tropical rain season (Northern Australia)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 10 days", "2C": "<span class='arrow-down'>&#9660;</span> 7 days", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <span class='uncertainty'>(-11–+7)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-14-+8)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-3-+3)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1 day <span class='uncertainty'>(-3-+3)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Rainfall intensity</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0% <span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-4-+4)</span>", "3C": ""},
-    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0% <span class='uncertainty'>(-2-+4)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-3–+3)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-4-+4)</span>", "3C": ""},
+    {"name": "Southern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-3–+2)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-2-+4)</span>", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Frequency of rainfall extremes over land</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 149%", "2C": "<span class='arrow-up'>&#9650;</span> 406%", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 234%", "3C": ""}
@@ -1030,9 +1030,9 @@
     var ausDrought = [
     {"name": "<span class='table-subtitle'>Likelihood of another 2006 drought in SE Australia</span>", "1.5C": "3% <br><span class='uncertainty'>(1-4)</span>", "2C": "3% <br><span class='uncertainty'>(1-4)</span>", "3C": ""},
     {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Average drought length in Oceania (months)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 4", "3C": "<span class='arrow-up'>&#9650;</span> 11"},
-    {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
+    {"name": "<span class='table-subtitle'>Average drought length in Oceania (months)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 4", "3C": "<span class='arrow-up'>&#9650;</span> 11"},
+    {"name": "<br><span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
+    {"name": "Northern Australia ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
     {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-1–+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2m <br><span class='uncertainty'>(-0-+3)</span>", "3C": ""}
     ];
 
