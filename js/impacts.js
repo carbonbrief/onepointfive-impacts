@@ -161,8 +161,8 @@ var impacts=[{
     title: "TEMPERATURE",
     icon: "<i class='fas fa-thermometer'></i>",
     info: "Defined as days per year where average max temp > 30C; relative to 1971-2000; ensemble mean (min–max).",
-    background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/GN872H.jpg",
-    credit: "Yegorovnick/Alamy Stock Photo",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F586WP.jpg",
+    credit: "Anna Berkut/Alamy Stock Photo",
     map: "europe",
     location: "Europe"
 },{

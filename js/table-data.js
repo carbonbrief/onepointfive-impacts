@@ -1034,7 +1034,7 @@
     {"name": "<br><span class='table-subtitle'>Population exposed to water scarcity</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0m <br><span class='uncertainty'>(-1–+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-0-+1)</span>", "3C": ""},
     {"name": "Southern Australia & New Zealand ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1m <br><span class='uncertainty'>(-1–+3)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2m <br><span class='uncertainty'>(-0-+3)</span>", "3C": ""}
-    ];
+    ]; 
 
     var ausStorms = [
     {"name": "<span class='table-subtitle'>Frequency of extreme high river flows in the Murray-Darling</span>", "1.5C": "1-in-143 years <br><span class='uncertainty'>(138-148)</span>", "2C": "1-in-96 years <br><span class='uncertainty'>(91-101)</span>", "3C": ""}
