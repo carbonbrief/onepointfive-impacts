@@ -222,6 +222,8 @@ $(function(){
                     + item.data.icon
                     + "</span></h2><p>"
                     + item.data.text
+                    + "</p><p id='image-credit'>Image credit: "
+                    + item.data.credit
                     + "</p></div></div>"
                 );
 
