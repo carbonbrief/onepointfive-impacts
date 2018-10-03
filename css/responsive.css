@@ -459,10 +459,10 @@
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
 
     .story-gradient {
-        width: calc((600px/6)*4.5 - 10px);
+        width: calc((600px/6)*4.5);
     }
 
     .gradient-wrapper {
@@ -472,22 +472,27 @@
     #lines-wrapper {
         width: 600px;
         left: calc((100% - 600px)/2);
+        top: 90px;
     }
 
     .intro-wrapper {
         left: calc((100% - 600px)/2);
         margin-left: 100px;
         max-width: 420px;
-        top: 100px;
+        top: 130px;
     }
 
-    .intro {
-        top: 130px;
+    .droplinks {
+        margin-top: 35px;
+    }
+
+    #story0-2 .story-content {
+        max-width: 280px;
     }
 
     .story-content {
         left: calc((100% - 600px)/2);
-        max-width: 150px;
+        max-width: 140px;
     }
 
     .story-content p {
@@ -497,12 +502,11 @@
     .table-wrapper {
         left: calc((100% - 600px)/2);
         margin-left: 140px;
-        width: 463px;
+        width: 455px;
     }
 
     .map-wrapper {
         left: calc((100% - 600px)/2);
-        top: 1320px;
     }
 
     .map-container {
@@ -527,21 +531,25 @@
     }
 
     th {
-        padding-left: 7px;
-        font-size: 33px;
+        font-size: 32px;
+        padding-left: 12px;
     }
 
     .row-header {
-        font-size: 13.5px;
+        font-size: 13px;
+    }
+
+    .table-subtitle {
+        font-size: 13px;
     }
 
     td {
-        font-size: 15px;
-        /* padding-left: 7px; */
+        font-size: 13.5px;
+        padding-left: 12px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 18.5px;
     }
 
     h1 {
@@ -553,7 +561,7 @@
     }
 
     .share-icons {
-        font-size: 11px;
+        font-size: 10.5px;
     }
 
     .droplinks li {
@@ -571,6 +579,32 @@
 
     .arrow-side {
         font-size: 11px;
+    }
+
+    .nav-arrow {
+        font-size: 18px;
+    }
+
+    #nav-arrows {
+        width: 20px;
+    }
+
+    .side-nav {
+        top: calc((100% - 520px)/2);
+        right: 10px;
+    }
+
+    .side-icon {
+        width: 13px;
+        height: 13px;
+    }
+
+    .nav-icons {
+        font-size: 13px;
+    }
+
+    .side-nav li {
+        margin-top: 5px;
     }
 
 
