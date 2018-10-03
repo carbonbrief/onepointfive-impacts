@@ -51,7 +51,7 @@ var impacts=[{
     info: "Snow extent: relative to 1971-2000. <br><br>Snow storage: percent of global land area (exc. Antarctica and Greenland) seeing changes in maximum monthly snow storage in calendar month with maximum storage in historical decade; ensemble mean (min-max); note: means are not always between min and max values because averaging the model combinations can prevent extreme values.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/M3N9MC.jpg",
     credit: "shoults/Alamy Stock Photo",
-    reference: "",
+    reference: "[14], [16]",
     map: "Global",
     location: "Global"
 },{
@@ -61,7 +61,7 @@ var impacts=[{
     info: "Annual maximum daily temperature: relative to 1981–2010; ensemble mean (min–max).<br><br> Hot days: percentage of days above the 90th percentile of daily maximum temperature in the 1981–2010 average; ensemble mean (min–max).<br><br>Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/FJBXTK.jpg",
     credit: "imageBROKER/Alamy Stock Photo",
-    reference: "",
+    reference: "[39], [37]",
     map: "global",
     location: "Global"
 },{
@@ -71,7 +71,7 @@ var impacts=[{
     info: "Global exposure to heatwaves: defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >20 on the Heat Wave Magnitude Index daily; mean and interquartile range, Defined as a level of >40 on the Heat Wave Magnitude Index daily; median and interquartile range.<br><br> Warm extremes: defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br><br>Cold extremes: Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/KCKNJH.jpg",
     credit: "Olaf Schuelke/Alamy Stock Photo",
-    reference: "",
+    reference: "[41], [59]",
     map: "global",
     location: "Global"
 },{
@@ -81,7 +81,7 @@ var impacts=[{
     info: "Rainfall: relative to 1981–2010; ensemble mean (min–max).<br><br>Rainfall intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Rainfall extremes: frequency of rainfall extremes (annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/C5T9H7.jpg",
     credit: "David Chapman/Alamy Stock Photo",
-    reference: "",
+    reference: "[37], [39]",
     map: "global",
     location: "Global"
 },{
@@ -91,7 +91,8 @@ var impacts=[{
     info: "Percentage of global land area seeing changes in average streamflows.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/F061GJ.jpg",
     credit: "rudi1976/Alamy Stock Photo",
-    map: "Global",
+    reference: "[16]",
+    map: "global",
     location: "Global"
 },{
     name: "drought",
@@ -100,7 +101,7 @@ var impacts=[{
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.<br><br>Severe drought: defined as a month where the Palmer Drought Severity Index drops below -3; relative to 1985-2005; uses SSP1 socioeconomic pathway.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/KHF95W.jpg",
     credit: "Ken Welsh/Alamy Stock Photo",
-    reference: "",
+    reference: "[45], [47], [17]",
     map: "global",
     location: "Global"
 },{
@@ -110,7 +111,7 @@ var impacts=[{
     info: "Tropical cyclones: Relative to 1996–2015; baseline number = 73.4.<br><br>Coastal flooding: millions per year; populations constant after 2100; defences constant at 1995 levels.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/HG9FMD.jpg",
     credit: "John Sirlin/Alamy Stock Photo",
-    reference: "",
+    reference: "[38], [60]",
     map: "global",
     location: "Global"
 },{
@@ -120,7 +121,7 @@ var impacts=[{
     info: "Crop yield change: relative to 1995-2014; includes CO2 fertilisation effect.<br><br>Growing season length: defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/EYYFM6.jpg",
     credit: "blickwinkel/Alamy Stock Photo",
-    reference: "",
+    reference: "[8], [39]",
     map: "global",
     location: "Global"
 },{
@@ -130,7 +131,7 @@ var impacts=[{
     info: "Relative to 1986-2005; includes CO2 fertilisation effect.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/ERMH69.jpg",
     credit: "David Wall/Alamy Stock Photo",
-    reference: "",
+    reference: "[64]",
     map: "global",
     location: "Global"
 },{
@@ -140,7 +141,7 @@ var impacts=[{
     info: "Proportions of taxa projected to lose over 50% of their climatic range in 2100 where species disperse at realistic rates to track their geographically shifting climate envelope; data indicate the mean and 10-90% range.<br><br>Drylands defined as areas where mean annual rainfall is <600 mm and ratio of mean rainfall to potential evapotranspiration is <0.65; relative to pre-industrial.<br><br>Humid lands defined as areas where mean annual rainfall is >600 mm and ratio of mean rainfall to potential evapotranspiration is >0.65; relative to pre-industrial.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/C03JDD.jpg",
     credit: "imageBROKER/Alamy Stock Photo",
-    reference: "",
+    reference: "[1], [40]",
     map: "global",
     location: "Global"
 },{
@@ -149,8 +150,8 @@ var impacts=[{
     icon: "<i class='fas fa-dollar-sign'></i>",
     info: "GDP: relative to no additional warming.<br><br>Flood damage: annual flood damage losses from SLR by 2100; relative to 1986-2005; without adaptation.<br><br>Energy demand: in 2100; assumes SSP2; relative to no climate change.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/wall-street-595458_1920.jpg",
-    credit: "",
-    reference: "",
+    credit: "grz3s/CC0 Creative Commons",
+    reference: "[6], [10], [35]",
     map: "global",
     location: "Global"
 },{
@@ -160,7 +161,7 @@ var impacts=[{
     info: "Under SSP3.<br><br>Drylands defined as areas where mean annual rainfall is <600 mm and ratio of mean rainfall to potential evapotranspiration is <0.65; relative to pre-industrial.<br><br>Humid lands defined as areas where mean annual rainfall is >600 mm and ratio of mean rainfall to potential evapotranspiration is >0.65; relative to pre-industrial.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/M696YE.jpg",
     credit: "Наталья Владимировна/Alamy Stock Photo",
-    reference: "",
+    reference: "[62], [40]",
     map: "global",
     location: "Global"
 },{
@@ -177,7 +178,7 @@ var impacts=[{
     info: "Defined as days per year where average max temp > 30C; relative to 1971-2000; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F586WP.jpg",
     credit: "Anna Berkut/Alamy Stock Photo",
-    reference: "",
+    reference: "[36]",
     map: "europe",
     location: "Europe"
 },{
@@ -187,7 +188,7 @@ var impacts=[{
     info: "Defined as nights per year where average min temp > 20C; relative to 1971-2000; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/GN872H.jpg",
     credit: "Yegorovnick/Alamy Stock Photo",
-    reference: "",
+    reference: "[36]",
     map: "europe",
     location: "Europe"
 },{
@@ -197,7 +198,7 @@ var impacts=[{
     info: "Relative to 1981-2010; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/JDKXM3.jpg",
     credit: "Guy Corbishley/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -207,7 +208,7 @@ var impacts=[{
     info: "Number of days where min temp <0C; relative to 1981-2010; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CE55GD.jpg",
     credit: "Rostislav Glinsky/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -217,7 +218,7 @@ var impacts=[{
     info: "Relative to 1981-2010; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EEWH3H.jpg",
     credit: "Mieczyslaw Wieliczko/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -227,7 +228,7 @@ var impacts=[{
     info: "'Unprecedented' summer heat: experienced by >100m people; relative to 1950-2017 observed record. Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max). Frequency of warm extremes: Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E5ECHM.jpg",
     credit: "Radharc Images/Alamy Stock Photo",
-    reference: "",
+    reference: "[12], [58], [39], [59]",
     map: "europe",
     location: "Europe"
 },{
@@ -237,7 +238,7 @@ var impacts=[{
     info: "Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/K7P0FD.jpg",
     credit: "Zelma Brezinska/Alamy Stock Photo",
-    reference: "",
+    reference: "[59]",
     map: "europe",
     location: "Europe"
 },{
@@ -247,7 +248,7 @@ var impacts=[{
     info: "Relative to 1981-2010; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/GDKYWD.jpg",
     credit: "Mark Waugh/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -257,7 +258,7 @@ var impacts=[{
     info: "Relative to 1981-2010; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E80BXA.jpg",
     credit: "Arnau Ramos Oviedo/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -267,7 +268,7 @@ var impacts=[{
     info: "Largest number of consecutive days where precipitation <1mm; relative to 1981-2010; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DTNEJD.jpg",
     credit: "Martin A. Doe/Alamy Stock Photo",
-    reference: "",
+    reference: "[65]",
     map: "europe",
     location: "Europe"
 },{
@@ -277,7 +278,7 @@ var impacts=[{
     info: "Precipitation intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Rainfall extremes: defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/GRCW33.jpg",
     credit: "CHROMORANGE/Ralph Peters/Alamy Stock Photo",
-    reference: "",
+    reference: "[39], [59]",
     map: "europe",
     location: "Europe"
 },{
@@ -287,7 +288,7 @@ var impacts=[{
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CF2TTT.jpg",
     credit: "Granville Davies/Alamy Stock Photo",
-    reference: "",
+    reference: "[45], [47]",
     map: "europe",
     location: "Europe"
 },{
@@ -297,7 +298,7 @@ var impacts=[{
     info: "High river flows: defined as the streamflow exceeded 10% of the time (Q10); relative to 1971-2000.<br><br>River floods: defined as the annual maximum streamflow (Qmax); relative to 1971-2000.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/D31CFB.jpg",
     credit: "paul weston/Alamy Stock Photo",
-    reference: "",
+    reference: "[13]",
     map: "europe",
     location: "Europe"
 },{
@@ -307,7 +308,7 @@ var impacts=[{
     info: "Population held constant at 2015 levels; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DAMCGN.jpg",
     credit: "blickwinkel/Alamy Stock Photo",
-    reference: "",
+    reference: "[49]",
     map: "europe",
     location: "Europe"
 },{
@@ -317,7 +318,7 @@ var impacts=[{
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F061GJ.jpg",
     credit: "rudi1976/Alamy Stock Photo",
-    reference: "",
+    reference: "[48]",
     map: "europe",
     location: "Europe"
 },{
@@ -327,7 +328,7 @@ var impacts=[{
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DF6KC6.jpg",
     credit: "Luis Dafos/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "europe",
     location: "Europe"
 },{
@@ -337,7 +338,7 @@ var impacts=[{
     info: "Damage in euros at Purchasing Power Parity in 2010 values; relative to 1976-2005",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BCDAKD.jpg",
     credit: "Alex Segre/Alamy Stock Photo",
-    reference: "",
+    reference: "[49]",
     map: "europe",
     location: "Europe"
 },{
@@ -347,7 +348,7 @@ var impacts=[{
     info: "Likelihood of London summer without heat-related deaths: currently 10%.<br><br>Average number of excess summer heatwave deaths: relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E4B398.jpg",
     credit: "Islandstock/Alamy Stock Photo",
-    reference: "",
+    reference: "[42]",
     map: "europe",
     location: "Europe"
 },{
@@ -364,7 +365,7 @@ var impacts=[{
     info: "Relative to a 1901-30 baseline",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/J7B83H.jpg",
     credit: "JG Photography/Alamy Stock Photo",
-    reference: "",
+    reference: "[50]",
     map: "americas",
     location: "Americas"
 },{
@@ -374,7 +375,7 @@ var impacts=[{
     info: "By 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/PDG80G.jpg",
     credit: "Richard Levine/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "americas",
     location: "Americas"
 },{
@@ -384,7 +385,7 @@ var impacts=[{
     info: "Defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F4XTPE.jpg",
     credit: "imageBROKER/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "americas",
     location: "Americas"
 },{
@@ -394,7 +395,7 @@ var impacts=[{
     info: "Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AFG4WN.jpg",
     credit: "Daniel Crowe/Alamy Stock Photo",
-    reference: "",
+    reference: "[59]",
     map: "americas",
     location: "Americas"
 },{
@@ -404,7 +405,7 @@ var impacts=[{
     info: "Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/FE8196.jpg",
     credit: "Michele Cornelius/Alamy Stock Photo",
-    reference: "",
+    reference: "[59]",
     map: "americas",
     location: "Americas"
 },{
@@ -414,7 +415,7 @@ var impacts=[{
     info: "Relative to a 1901-30 baseline",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/G400MY.jpg",
     credit: "John Sirlin/Alamy Stock Photo",
-    reference: "",
+    reference: "[50]",
     map: "americas",
     location: "Americas"
 },{
@@ -424,7 +425,7 @@ var impacts=[{
     info: "Defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BY3P63.jpg",
     credit: "Witold Skrypczak/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "americas",
     location: "Americas"
 },{
@@ -434,7 +435,7 @@ var impacts=[{
     info: "Defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F1APHM.jpg",
     credit: "CrowdSpark/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "americas",
     location: "Americas"
 },{
@@ -444,7 +445,7 @@ var impacts=[{
     info: "Defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AHJD19.jpg",
     credit: "Alex Cunningham/Alamy Stock Photo",
-    reference: "",
+    reference: "[59]",
     map: "americas",
     location: "Americas"
 },{
@@ -454,7 +455,7 @@ var impacts=[{
     info: "Relative to 2006–2015",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/B2G3W6.jpg",
     credit: "Amazon-Images/Alamy Stock Photo",
-    reference: "",
+    reference: "[7]",
     map: "americas",
     location: "Americas"
 },{
@@ -464,7 +465,7 @@ var impacts=[{
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BF83F0.jpg",
     credit: "Frans Lanting Studio/Alamy Stock Photo",
-    reference: "",
+    reference: "[45]",
     map: "americas",
     location: "Americas"
 },{
@@ -472,9 +473,9 @@ var impacts=[{
     title: "DROUGHT",
     icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
-    background: "",
-    credit: "",
-    reference: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EM2292.jpg",
+    credit: "Tom Fox / Alamy Stock Photo",
+    reference: "[47]",
     map: "americas",
     location: "Americas"
 },{
@@ -484,7 +485,7 @@ var impacts=[{
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/PCMKG8.jpg",
     credit: "Tribune Content Agency LLC/Alamy Stock Photo",
-    reference: "",
+    reference: "[48]",
     map: "americas",
     location: "Americas"
 },{
@@ -494,7 +495,7 @@ var impacts=[{
     info: "US maize yields reference period: 1986–2005.<br><br>Growing season length: defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/HWMMJ6.jpg",
     credit: "inga spence/Alamy Stock Photo",
-    reference: "",
+    reference: "[54], [39]",
     map: "americas",
     location: "Americas"
 },{
@@ -504,7 +505,7 @@ var impacts=[{
     info: "Relative to 1961-90",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DEMNET.jpg",
     credit: "Nacho Calonge/Alamy Stock Photo",
-    reference: "",
+    reference: "[9]",
     map: "americas",
     location: "Americas"
 },{
@@ -521,7 +522,7 @@ var impacts=[{
     info: "Average temperature: relative to pre-industrial.<br><br>Warm spell duration: annual count of days with at least 6 consecutive days when max temperature > 90th percentile; relative to 1971-2000.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E62DCF.jpg",
     credit: "Torontonian/Alamy Stock Photo",
-    reference: "",
+    reference: "[44]",
     map: "caribbean",
     location: "Caribbean and small island states"
 },{
@@ -531,7 +532,7 @@ var impacts=[{
     info: "Average annual rainfall: relative to 1971–2000.<br><br>Annual count of days when rainfall >10 mm; relative to 1971-2000.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CPN689.jpg",
     credit: "BSIP SA/Alamy Stock Photo",
-    reference: "",
+    reference: "[44]",
     map: "caribbean",
     location: "Caribbean and small island states"
 },{
@@ -541,7 +542,7 @@ var impacts=[{
     info: "Defined as a Standardized Precipitation Index for 12 months of < -1 (moderate drought or worse)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/B69PWP.jpg",
     credit: "WorldFoto/Alamy Stock Photo",
-    reference: "",
+    reference: "[44]",
     map: "caribbean",
     location: "Caribbean and small island states"
 },{
@@ -551,7 +552,7 @@ var impacts=[{
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/ACBTN2.jpg",
     credit: "mediacolor's/Alamy Stock Photo",
-    reference: "",
+    reference: "[45], [43]",
     map: "caribbean",
     location: "Caribbean and small island states"
 },{
@@ -561,7 +562,7 @@ var impacts=[{
     info: "Drought length: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/ECJ549.jpg",
     credit: "Hilke Maunder/Alamy Stock Photo",
-    reference: "",
+    reference: "[43]",
     map: "caribbean",
     location: "Caribbean and small island states"
 },{
@@ -578,7 +579,7 @@ var impacts=[{
     info: "By 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CF3FX2.jpg",
     credit: "Egypt Herrnstadt/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "africa",
     location: "Africa"
 },{
@@ -588,7 +589,7 @@ var impacts=[{
     info: "Frequency of warm extremes (annual minimum daily maximum that would be a 1-in-20 year event in current climate).<br><br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/HGEJJR.jpg",
     credit: "Cathy Withers-Clarke/Alamy Stock Photo",
-    reference: "",
+    reference: "[59]",
     map: "africa",
     location: "Africa"
 },{
@@ -596,9 +597,9 @@ var impacts=[{
     title: "TEMPERATURE",
     icon: "<i class='fas fa-thermometer'></i>",
     info: "Range is 10-90th percentile",
-    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/JF2JG0.jpg",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AFEXXG.jpg",
     credit: "Jennifer Chen/Alamy Stock Photo",
-    reference: "",
+    reference: "[61]",
     map: "africa",
     location: "Africa"
 },{
@@ -608,7 +609,7 @@ var impacts=[{
     info: "Length of tropical rain season: relative to 2006–2015.<br><br>Dry spell duration: defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BXTC9T.jpg",
     credit: "WorldFoto/Alamy Stock Photo",
-    reference: "",
+    reference: "[39]",
     map: "africa",
     location: "Africa"
 },{
@@ -618,7 +619,7 @@ var impacts=[{
     info: "Rainfall intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Rainfall extremes: defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/J8335X.jpg",
     credit: "Pierre Steenberg/Alamy Stock Photo",
-    reference: "",
+    reference: "[39], [59]",
     map: "africa",
     location: "Africa"
 },{
@@ -628,7 +629,7 @@ var impacts=[{
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CP6WMY.jpg",
     credit: "Ashley Cooper/Alamy Stock Photo",
-    reference: "",
+    reference: "[45], [47]",
     map: "africa",
     location: "Africa"
 },{
@@ -638,7 +639,7 @@ var impacts=[{
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/A48RBD.jpg",
     credit: "Roger Hutchings/Alamy Stock Photo",
-    reference: "",
+    reference: "[48]",
     map: "africa",
     location: "Africa"
 },{
@@ -655,6 +656,7 @@ var impacts=[{
     info: "Relative to 1996–2015; ensemble mean and standard deviation",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/D1FDYE.jpg",
     credit: "robertharding/Alamy Stock Photo",
+    reference: "[51]",
     map: "asia",
     location: "Asia"
 },{
@@ -664,6 +666,7 @@ var impacts=[{
     info: "Average temperature: relative to 1861-1900.<br><br>Annual highest maximum temperature: by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/PGT1ME.jpg",
     credit: "Perry Svensson/Alamy Stock Photo",
+    reference: "[24], [39]",
     map: "asia",
     location: "Asia"
 },{
@@ -673,6 +676,7 @@ var impacts=[{
     info: "Defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/M20JK4.jpg",
     credit: "Ivan Rwatschew/Alamy Stock Photo",
+    reference: "[39]",
     map: "asia",
     location: "Asia"
 },{
@@ -682,6 +686,7 @@ var impacts=[{
     info: "Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br><br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DMNH6T.jpg",
     credit: "manjeet & yograj jadeja/Alamy Stock Photo",
+    reference: "[59]",
     map: "asia",
     location: "Asia"
 },{
@@ -689,8 +694,9 @@ var impacts=[{
     title: "TEMPERATURE",
     icon: "<i class='fas fa-thermometer'></i>",
     info: "Defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/FB3YTK.jpg",
+    credit: "Keren Su/China Span/Alamy Stock Photo",
+    reference: "[59]",
     map: "asia",
     location: "Asia"
 },{
@@ -700,6 +706,7 @@ var impacts=[{
     info: "Mid-century: by 2021−2050; relative to 1986−2015.<br><br>End of century: by 2071−2100; relative to 1986−2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DCC1T6.jpg",
     credit: "Jack Hoyle/Alamy Stock Photo",
+    reference: "[15]",
     map: "asia",
     location: "Asia"
 },{
@@ -709,6 +716,7 @@ var impacts=[{
     info: "Average rainfall: relative to 1861-1900.<br><br>Dry spell duration: Defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/P7KX77.jpg",
     credit: "mauritius images GmbH/Alamy Stock Photo",
+    reference: "[24], [39]",
     map: "asia",
     location: "Asia"
 },{
@@ -718,6 +726,7 @@ var impacts=[{
     info: "Rainfall intensity: defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Rainfall extremes: Defined as annual maximum 1-day precipitation that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/FCM323.jpg",
     credit: "Reynold Sumayku/Alamy Stock Photo",
+    reference: "[39], [59]",
     map: "asia",
     location: "Asia"
 },{
@@ -727,6 +736,7 @@ var impacts=[{
     info: "Indian monsoon extreme rainfall: 3-day rainfall total in a 1-in-100 year event; relative to a baseline of 1969-2005.<br><br>Asian monsoon: relative to 2006–2015.<br><br>Length of tropical rain season: relative to 2006–2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/ET18DF.jpg",
     credit: "Dinodia Photos/Alamy Stock Photo",
+    reference: "[52], [53], [7]",
     map: "asia",
     location: "Asia"
 },{
@@ -736,6 +746,7 @@ var impacts=[{
     info: "Defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DTHD0G.jpg",
     credit: "Florian Blümm/Alamy Stock Photo",
+    reference: "[45]",
     map: "asia",
     location: "Asia"
 },{
@@ -743,8 +754,9 @@ var impacts=[{
     title: "DROUGHT",
     icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/B69PWP.jpg",
+    credit: "WorldFoto / Alamy Stock Photo",
+    reference: "[47]",
     map: "asia",
     location: "Asia"
 },{
@@ -754,6 +766,7 @@ var impacts=[{
     info: "Population held constant at 2015 levels; relative to 1976-2005",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EA1EGT.jpg",
     credit: "Zoonar GmbH/Alamy Stock Photo",
+    reference: "[49]",
     map: "asia",
     location: "Asia"
 },{
@@ -763,6 +776,7 @@ var impacts=[{
     info: "Area inundated during an average flood, without flood defences, excluding cyclones.<br><br>Frequency of extreme high flows: return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/MPFH5A.jpg",
     credit: "Rehman Asad/Alamy Stock Photo",
+    reference: "[21], [48]",
     map: "asia",
     location: "Asia"
 },{
@@ -772,6 +786,7 @@ var impacts=[{
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E4P05T.jpg",
     credit: "Jose More/VWPics/Alamy Stock Photo",
+    reference: "[39]",
     map: "asia",
     location: "Asia"
 },{
@@ -781,6 +796,7 @@ var impacts=[{
     info: "Relative to 1986-2005",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BPWK07.jpg",
     credit: "Aurora Photos/Alamy Stock Photo",
+    reference: "[29]",
     map: "asia",
     location: "Asia"
 },{
@@ -790,6 +806,7 @@ var impacts=[{
     info: "Damage in euros at Purchasing Power Parity in 2010 values; relative to 1976-2005",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/A5EKDW.jpg",
     credit: "NORMA JOSEPH/Alamy Stock Photo",
+    reference: "[49]",
     map: "asia",
     location: "Asia"
 },{
@@ -806,6 +823,7 @@ var impacts=[{
     info: "Relative to pre-industrial levels; ensemble mean (5th-95th percentile)",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/C5TH78.jpg",
     credit: "Tom Salyer/Alamy Stock Photo",
+    reference: "[33]",
     map: "china",
     location: "China"
 },{
@@ -815,6 +833,7 @@ var impacts=[{
     info: "Heat events: likelihood of 3% in 1976-2005; likelihood of 0% in 1976-2005.<br><br>Extreme maximum temperature events: population exposed to 5-day periods where temperatures >30C; relative to 1986-2005. Population at 2010 levels.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AFEXXG.jpg",
     credit: "ARISTIDIS VAFEIADAKIS/Alamy Stock Photo",
+    reference: "[22], [26]",
     map: "china",
     location: "China"
 },{
@@ -824,6 +843,7 @@ var impacts=[{
     info: "Hottest day and coldest night: relative to 1986-2005.<br><br>Annual warm days: percentage of days when maximum temperature >90th percentile; relative to 1986-2005.<br><br>Annual warm spell duration: Count of days with at least 6 consecutive days when maximum temperature >90th percentile; relative 1986-2005.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/E19M0X.jpg",
     credit: "Xinhua/Alamy Stock Photo",
+    reference: "[26]",
     map: "china",
     location: "China"
 },{
@@ -833,6 +853,7 @@ var impacts=[{
     info: "Annual rainfall: relative to no model runs with no climate warming; ensemble mean (5th-95th percentile).<br><br>Trace rainfall: Defined as rainy days with <0.1mm of rain; relative to 1980–2009.<br><br>Light rainfall: days with <10mm of rain; relative to 1980–2009.<br><br>Moderate rainfall: days with <25mm of rain; relative to 1980–2009.<br><br>Heavy rainfall: days with <50mm of rain; relative to 1980–2009.<br><br>Intense rainfall: days with >50mm of rain; relative to 1980–2009.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CTTYKN.jpg",
     credit: "Shanghai/Alamy Stock Photo",
+    reference: "[33]",
     map: "china",
     location: "China"
 },{
@@ -842,6 +863,7 @@ var impacts=[{
     info: "Relative to 1986-2005; ensemble median (min-max).<br><br>'Very wet day' = exceeds the 95th percentile of the period 1971–2000.<br><br>'Extremely wet day' = exceeds the 99th percentile of the period 1971–2000.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/JFKRN4.jpg",
     credit: "Xinhua/Alamy Stock Photo",
+    reference: "[28], [57]",
     map: "china",
     location: "China"
 },{
@@ -851,6 +873,7 @@ var impacts=[{
     info: "Population held constant at 2015 levels; relative to 1976-2005.<br><br>Likelihood of 8% in 1976-2005.<br><br>Yangtze river: return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F247K9.jpg",
     credit: "Xinhua/Alamy Stock Photo",
+    reference: "[49], [22], [48]",
     map: "china",
     location: "China"
 },{
@@ -860,6 +883,7 @@ var impacts=[{
     info: "Relative to 2006-2015",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/KC9XYX.jpg",
     credit: "Roberto Fumagalli/Alamy Stock Photo",
+    reference: "[31]",
     map: "china",
     location: "China"
 },{
@@ -869,6 +893,7 @@ var impacts=[{
     info: "Economic damages from river flooding: population held constant at 2015 levels; relative to 1976-2005.<br><br>Increase in annual economic damages caused by tropical cyclones in China, relative to 1986-2005.<br><br>Annual days of temperature-related weight restrictions on flights: relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/HKCB6J.jpg",
     credit: "Design Pics Inc/Alamy Stock Photo",
+    reference: "[49], [63], [30]",
     map: "china",
     location: "China"
 },{
@@ -885,6 +910,7 @@ var impacts=[{
     info: "Likelihood = 0% without climate change",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EDBCPB.jpg",
     credit: "imageBROKER/Alamy Stock Photo",
+    reference: "[34]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -894,6 +920,7 @@ var impacts=[{
     info: "Extreme events: likelihood = 3% without climate change; likelihood = 1% without climate change.<br><br>Annual highest maximum temperature: by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Warm spell duration: defined as the length of the longest streak of six or more days with the maximum temperature exceeding the 90th percentile of the baseline period (days); by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/G3DT9P.jpg",
     credit: "Taras Vyshnya/Alamy Stock Photo",
+    reference: "[34], [39]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -903,6 +930,7 @@ var impacts=[{
     info: "Warm extremes: Defined as annual maximum daily maximum that would be a 1-in-20 year event in current climate.<br><br>Cold extremes: defined as annual minimum daily maximum that would be a 1-in-20 year event in current climate.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BDJFDR.jpg",
     credit: "Radius Images/Alamy Stock Photo",
+    reference: "[59]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -912,6 +940,7 @@ var impacts=[{
     info: "Length of tropical rain season: relative to 2006–2015.<br><br>Dry spell duration: defined as number of consecutive days with less than 1 mm of rainfall; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).<br><br>Rainfall intensity: Defined as the total annual precipitation divided by the number of wet days in the year; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EYHY6H.jpg",
     credit: "Sue Cunningham Photographic/Alamy Stock Photo",
+    reference: "[7], [39], [59]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -921,6 +950,7 @@ var impacts=[{
     info: "Likelihood = 1% without climate change.<br><br>Average drought length in Oceania: defined as a Standardized Precipitation Index for 12 months of <-0.5; relative to 1976-2005.<br><br>Water scarcity: change in freshwater availability in below normal conditions (Q20); water demand threshold: 1000 m3 person-1 yr-1; population held constant at 2015 levels; relative to 2006-2015.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/HHCKF1.jpg",
     credit: "Excitations/Alamy Stock Photo",
+    reference: "[34], [45], [47]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -930,6 +960,7 @@ var impacts=[{
     info: "Return period for a 1-in-100 year extreme high flows in 2006-15.",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/KBDT66.jpg",
     credit: "Auscape International Pty Ltd/Alamy Stock Photo",
+    reference: "[48]",
     map: "australasia",
     location: "Australasia"
 },{
@@ -939,6 +970,7 @@ var impacts=[{
     info: "Defined as the maximum number of days between frost days; by 2081-2100; relative to 1996–2015; ensemble mean (min–max).",
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CN6B8D.jpg",
     credit: "John White Photos/Alamy Stock Photo",
+    reference: "[39]",
     map: "australasia",
     location: "Australasia"
 },{
