@@ -330,11 +330,17 @@ p .fa-info-circle:hover {
     top: 100px;
 }
 
-
-#lines {
+.line-group {
     position: relative;
     width: 100%;
-    top: 0px;
+}
+
+
+#lines1 {
+    height: 13560px;
+}
+
+#lines2 {
     height: 13560px;
 }
 

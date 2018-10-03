@@ -287,7 +287,7 @@
         top: 65530px;
     }
 
-    #lines {
+    #lines1 {
         height: 12680px;
     }
 
@@ -580,11 +580,10 @@
     #lines-wrapper {
         width: 500px;
         left: calc(100% - 530px);
-        height: 3280px;
     }
 
-    #lines {
-        height: 3100px;
+    #lines1 {
+        height: 3280px;
     }
 
     .intro-wrapper {
@@ -825,7 +824,6 @@
     #lines-wrapper {
         width: 350px;
         left: calc(100% - 397px);
-        height: 3130px;
     }
 
     .intro-wrapper {

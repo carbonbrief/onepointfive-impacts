@@ -1,13 +1,20 @@
 
 var margin = {top: 210, right: 0, bottom: 0, left: 0},
 // calculate the width of the chart from the width of the line-wrapper
-width = parseInt(d3.select("#lines").style("width")) - margin.left - margin.right,
-height = parseInt(d3.select("#lines").style("height")) - margin.top - margin.bottom;
+width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
+height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
 
 var screenWidth = $(window).width();
 
-var svg = d3.select("#lines").append("svg")
+var svg = d3.select("#lines1").append("svg")
     .attr("id", "svg-1")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var svg2 = d3.select("#lines2").append("svg")
+    .attr("id", "svg-2")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -48,36 +55,70 @@ var data = [{
 // alterntive layout for smaller screens
 
 var data2 = [{
-    name: "Line 2",
-    values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "200"},
-        {length: "1920", across: "200"},
-        {length: "1950", across: "100"},
-        {length: "2000", across: "100"}
-    ]
-},{
-    name: "Line 3",
-    values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "300"},
-        {length: "1920", across: "300"},
-        {length: "1950", across: "100"},
-        {length: "2000", across: "100"}
-    ]
-},{
-    name: "Line 4",
-    values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "400"},
-        {length: "1920", across: "400"},
-        {length: "1950", across: "100"},
-        {length: "2000", across: "100"}
-    ]
+        name: "Line 2",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "200"},
+            {length: "1920", across: "200"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
+    },{
+        name: "Line 3",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "300"},
+            {length: "1920", across: "300"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
+    },{
+        name: "Line 4",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "400"},
+            {length: "1920", across: "400"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
 }] 
+
+// data for lines below Europe
+
+var data3 = [{
+        name: "Line 2",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "300"},
+            {length: "1920", across: "300"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
+    },{
+        name: "Line 3",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "400"},
+            {length: "1920", across: "400"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
+    },{
+        name: "Line 4",
+        values: [
+            {length: "25", across: "100"},
+            {length: "80", across: "100"},
+            {length: "100", across: "500"},
+            {length: "1920", across: "500"},
+            {length: "1950", across: "100"},
+            {length: "2000", across: "100"}
+        ]
+}]
 
 // format data
 
@@ -108,8 +149,8 @@ function drawLines () {
 
     // get variables again
     
-    width = parseInt(d3.select("#lines").style("width")) - margin.left - margin.right,
-    height = parseInt(d3.select("#lines").style("height")) - margin.top - margin.bottom;
+    width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
+    height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
 
     // change dimensions of svg if window is resized
     
@@ -134,12 +175,6 @@ function drawLines () {
     .x(function(d) { return x(d.across); })
     .y(function(d) { return y(d.length); });
 
-    // define the line
-    var lineInitial = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x(0); })
-    .y(function(d) { return y(0); });
-
     // remove old group
     svg.selectAll('g').remove();
 
@@ -162,8 +197,8 @@ function drawLinesMobile () {
 
     // get variables again
 
-    width = parseInt(d3.select("#lines").style("width")) - margin.left - margin.right,
-    height = parseInt(d3.select("#lines").style("height")) - margin.top - margin.bottom;
+    width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
+    height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
 
     // change dimensions of svg if window is resized
     
@@ -208,10 +243,65 @@ function drawLinesMobile () {
 
 }
 
+function drawLines2 () {
+
+    // get variables again
+    
+    width = parseInt(d3.select("#lines2").style("width")) - margin.left - margin.right,
+    height = parseInt(d3.select("#lines2").style("height")) - margin.top - margin.bottom;
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-2")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x3 = d3.scaleLinear()
+    .range([0, width]);
+
+    var y3 = d3.scaleLinear()
+    .range([0, height]);
+
+    x3.domain([0, 600]);
+    y3.domain([0, 2000]);
+
+    // define the line
+    var line3 = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x3(d.across); })
+    .y(function(d) { return y3(d.length); });
+
+    // define the line
+    var lineInitial = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x3(0); })
+    .y(function(d) { return y3(0); });
+
+    // remove old group
+    svg2.selectAll('g').remove();
+
+    let lines = svg2.append('g')
+    .attr('class', 'lines');
+
+    lines.selectAll('.line-group')
+    .data(data3).enter()
+    .append('g')
+    .attr('class', 'line-group')
+    .append('path')
+    .attr('class', 'line')  
+    .attr("d", function(d) { return line3(d.values); })
+    .style('stroke', "#f3f3f3")
+    .call(transition);
+
+}
+
 setTimeout(function(){
     
     if (screenWidth > 440) {
         drawLines();
+        drawLines2();
     } else {
         drawLinesMobile();
     }
