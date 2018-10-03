@@ -288,7 +288,11 @@
     }
 
     #lines1 {
-        height: 12680px;
+        height: 12550px;
+    }
+
+    #lines2 {
+        height: 58720px;
     }
 
     .credit {

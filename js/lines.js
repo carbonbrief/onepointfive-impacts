@@ -16,7 +16,9 @@ var svg2 = d3.select("#lines2").append("svg")
     .attr("height", height)
     .append("g");
 
-var data = [{
+// global lines desktop
+
+var data1Desktop = [{
     name: "Line 2",
     values: [
         {length: "60", across: "100"},
@@ -48,9 +50,43 @@ var data = [{
     ]
 }]
 
-// alterntive layout for smaller screens
+// global lines laptop
 
-var data2 = [{
+var data1Laptop = [{
+    name: "Line 2",
+    values: [
+        {length: "55", across: "100"},
+        {length: "105", across: "100"},
+        {length: "125", across: "300"},
+        {length: "1955", across: "300"},
+        {length: "1975", across: "100"},
+        {length: "2000", across: "100"}
+    ]
+},{
+    name: "Line 3",
+    values: [
+        {length: "55", across: "100"},
+        {length: "105", across: "100"},
+        {length: "125", across: "400"},
+        {length: "1955", across: "400"},
+        {length: "1975", across: "100"},
+        {length: "2000", across: "100"}
+    ]
+},{
+    name: "Line 4",
+    values: [
+        {length: "55", across: "100"},
+        {length: "105", across: "100"},
+        {length: "125", across: "500"},
+        {length: "1955", across: "500"},
+        {length: "1975", across: "100"},
+        {length: "2000", across: "100"}
+    ]
+}]
+
+// global lines mobile
+
+var data1Mobile = [{
         name: "Line 2",
         values: [
             {length: "25", across: "100"},
@@ -234,7 +270,55 @@ function tweenDash() {
 
 // function to trigger at particular scroll point
 
-function drawLines () {
+function drawLinesDesktop () {
+
+    // get variables again
+    
+    width = parseInt(d3.select("#lines1").style("width")),
+    height = parseInt(d3.select("#lines1").style("height"));
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-1")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x = d3.scaleLinear()
+    .range([0, width]);
+
+    var y = d3.scaleLinear()
+    .range([0, height]);
+
+    x.domain([0, 600]);
+    y.domain([0, 2000]);
+
+    // define the line
+    var line = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x(d.across); })
+    .y(function(d) { return y(d.length); });
+
+    // remove old group
+    svg.selectAll('g').remove();
+
+    let lines = svg.append('g')
+    .attr('class', 'lines');
+
+    lines.selectAll('.line-group')
+    .data(data1Desktop).enter()
+    .append('g')
+    .attr('class', 'line-group')
+    .append('path')
+    .attr('class', 'line')  
+    .attr("d", function(d) { return line(d.values); })
+    .style('stroke', "#f3f3f3")
+    .call(transition);
+
+}
+
+function drawLinesLaptop () {
 
     // get variables again
     
@@ -382,9 +466,11 @@ function drawLines2 () {
 
 setTimeout(function(){
     
-    if (screenWidth > 440) {
+    if (screenWidth > 1150) {
         drawLines();
         drawLines2();
+    else if (screenWidth < 1150 && screenWidth > 440) {
+
     } else {
         drawLinesMobile();
     }
