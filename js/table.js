@@ -181,11 +181,11 @@ function updateTable () {
         } else if (dataName =="economy")  {
             return getHeader7[column];
         // europe headers
-        } else if (dataName =="europeHotDays" || dataName =="europeHotNights" || dataName =="europeTemp" || dataName =="europeFrost" || dataName =="europeWinterTemp" || dataName =="europeHeatwave" || dataName =="europeRainfallWinterMaxDaily" || dataName =="europeRainfallSummerMaxDaily" || dataName =="europeDryDays" || dataName =="europeDrought" || dataName =="europeRivers1")  {
+        } else if (dataName =="europeHotDays" || dataName =="europeNature" || dataName =="europeHotNights" || dataName =="europeTemp" || dataName =="europeFrost" || dataName =="europeWinterTemp" || dataName =="europeHeatwave" || dataName =="europeRainfallWinterMaxDaily" || dataName =="europeRainfallSummerMaxDaily" || dataName =="europeDryDays" || dataName =="europeDrought" || dataName =="europeRivers1")  {
             return getHeader4[column];
         } else if (dataName =="europeHeatwave" || dataName =="europeColdwave" || dataName =="europeRainIntensity" || dataName =="europeCrops" || dataName =="europeHealth" || dataName =="europeRivers3")  {
             return getHeader5[column];
-        } else if (dataName =="europeRivers2" || dataName =="europeEconomy")  {
+        } else if ( dataName =="europeEconomy")  {
             return getHeader7[column];
         // americas headers
         } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops")  {

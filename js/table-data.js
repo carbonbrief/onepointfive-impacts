@@ -323,21 +323,6 @@
       {"name": "Mediterranean", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 5%", "3C": "<span class='arrow-down'>&#9660;</span> 17%"},
     ];
 
-    var europeRivers2 = [
-      {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Czech Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 564%", "2C": "<span class='arrow-up'>&#9650;</span> 688%", "3C": "<span class='arrow-up'>&#9650;</span> 600%"},
-      {"name": "Germany", "1.5C": "<span class='arrow-up'>&#9650;</span> 612%", "2C": "<span class='arrow-up'>&#9650;</span> 739%", "3C": "<span class='arrow-up'>&#9650;</span> 1,154%"},
-      {"name": "United Kingdom", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,106%", "2C": "<span class='arrow-up'>&#9650;</span> 1,062%", "3C": "<span class='arrow-up'>&#9650;</span> 8,037%"},
-      {"name": "Hungary", "1.5C": "<span class='arrow-up'>&#9650;</span> 1,624%", "2C": "<span class='arrow-up'>&#9650;</span> 1,194%", "3C": "<span class='arrow-up'>&#9650;</span> 2,011%"},
-      {"name": "Latvia", "1.5C": "<span class='arrow-down'>&#9660;</span> 90%", "2C": "<span class='arrow-down'>&#9660;</span> 74%", "3C": "<span class='arrow-down'>&#9660;</span> 96%"},
-      {"name": "Moldova", "1.5C": "<span class='arrow-up'>&#9650;</span> 94%", "2C": "<span class='arrow-up'>&#9650;</span> 125%", "3C": "<span class='arrow-up'>&#9650;</span> 138%"},
-      {"name": "Poland", "1.5C": "<span class='arrow-up'>&#9650;</span> 3,390%", "2C": "<span class='arrow-up'>&#9650;</span> 3,727%", "3C": "<span class='arrow-up'>&#9650;</span> 2,952%"},
-      {"name": "Romania", "1.5C": "<span class='arrow-up'>&#9650;</span> 412%", "2C": "<span class='arrow-up'>&#9650;</span> 355%", "3C": "<span class='arrow-up'>&#9650;</span> 599%"},
-      {"name": "Russian Federation", "1.5C": "<span class='arrow-up'>&#9650;</span> 220%", "2C": "<span class='arrow-up'>&#9650;</span> 291%", "3C": "<span class='arrow-up'>&#9650;</span> 532%"},
-      {"name": "Serbia", "1.5C": "<span class='arrow-up'>&#9650;</span> 139%", "2C": "<span class='arrow-up'>&#9650;</span> 155%", "3C": "<span class='arrow-up'>&#9650;</span> 204%"}
-
-    ];
-
     var europeRivers3 = [
       {"name": "<span class='table-subtitle'>Frequency of extreme high flows in major river basins</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Rhine", "1.5C": "1-in-70 years <span class='uncertainty'>(62-78)</span>", "2C": "1-in-72 years <span class='uncertainty'>(65-79)</span>", "3C": ""},
@@ -348,6 +333,10 @@
       {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Mediterranean", "1.5C": "<span class='arrow-up'>&#9650;</span> 11 days <br><span class='uncertainty'>(+6-+17)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 15 days <br><span class='uncertainty'>(+13-+17)</span>", "3C": ""},
       {"name": "Northern Europe", "1.5C": "<span class='arrow-up'>&#9650;</span> 13 days <br><span class='uncertainty'>(+8-+17)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 20 days <br><span class='uncertainty'>(+14-+26)</span>", "3C": ""}
+    ];
+
+    var europeNature = [
+      {"name": "<span class='table-subtitle'>Area burned by wildfires in average Mediterranean summer</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 41% <br><span class='uncertainty'>(+29–+53%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 62% <br><span class='uncertainty'>(+38–+75%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 97% <br><span class='uncertainty'>(+77–+111%)</span>"}
     ];
 
     var europeEconomy = [
