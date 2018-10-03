@@ -1,24 +1,20 @@
-
-var margin = {top: 210, right: 0, bottom: 0, left: 0},
 // calculate the width of the chart from the width of the line-wrapper
-width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
-height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
+var width = parseInt(d3.select("#lines1").style("width")),
+height = parseInt(d3.select("#lines1").style("height"));
 
 var screenWidth = $(window).width();
 
 var svg = d3.select("#lines1").append("svg")
     .attr("id", "svg-1")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("width", width)
+    .attr("height", height)
+    .append("g");
 
 var svg2 = d3.select("#lines2").append("svg")
     .attr("id", "svg-2")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("width", width)
+    .attr("height", height)
+    .append("g");
 
 var data = [{
     name: "Line 2",
@@ -91,32 +87,32 @@ var data2 = [{
 var data3 = [{
         name: "Line 2",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "300"},
-            {length: "1920", across: "300"},
-            {length: "1950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "0", across: "100"},
+            {length: "20", across: "100"},
+            {length: "70", across: "300"},
+            {length: "7930", across: "300"},
+            {length: "7950", across: "100"},
+            {length: "6000", across: "100"}
         ]
     },{
         name: "Line 3",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "400"},
-            {length: "1920", across: "400"},
-            {length: "1950", across: "100"},
+            {length: "0", across: "100"},
+            {length: "20", across: "100"},
+            {length: "70", across: "400"},
+            {length: "7930", across: "400"},
+            {length: "7950", across: "100"},
             {length: "2000", across: "100"}
         ]
     },{
         name: "Line 4",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "500"},
-            {length: "1920", across: "500"},
-            {length: "1950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "0", across: "100"},
+            {length: "20", across: "100"},
+            {length: "70", across: "500"},
+            {length: "7930", across: "500"},
+            {length: "7950", across: "100"},
+            {length: "6000", across: "100"}
         ]
 }]
 
@@ -149,8 +145,8 @@ function drawLines () {
 
     // get variables again
     
-    width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
-    height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
+    width = parseInt(d3.select("#lines1").style("width")),
+    height = parseInt(d3.select("#lines1").style("height"));
 
     // change dimensions of svg if window is resized
     
@@ -197,8 +193,8 @@ function drawLinesMobile () {
 
     // get variables again
 
-    width = parseInt(d3.select("#lines1").style("width")) - margin.left - margin.right,
-    height = parseInt(d3.select("#lines1").style("height")) - margin.top - margin.bottom;
+    width = parseInt(d3.select("#lines1").style("width")),
+    height = parseInt(d3.select("#lines1").style("height"));
 
     // change dimensions of svg if window is resized
     
@@ -247,8 +243,8 @@ function drawLines2 () {
 
     // get variables again
     
-    width = parseInt(d3.select("#lines2").style("width")) - margin.left - margin.right,
-    height = parseInt(d3.select("#lines2").style("height")) - margin.top - margin.bottom;
+    width = parseInt(d3.select("#lines2").style("width")),
+    height = parseInt(d3.select("#lines2").style("height"));
 
     // change dimensions of svg if window is resized
     
@@ -265,19 +261,13 @@ function drawLines2 () {
     .range([0, height]);
 
     x3.domain([0, 600]);
-    y3.domain([0, 2000]);
+    y3.domain([0, 6000]);
 
     // define the line
     var line3 = d3.line()
     .curve(d3.curveLinear)
     .x(function(d) { return x3(d.across); })
     .y(function(d) { return y3(d.length); });
-
-    // define the line
-    var lineInitial = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x3(0); })
-    .y(function(d) { return y3(0); });
 
     // remove old group
     svg2.selectAll('g').remove();
