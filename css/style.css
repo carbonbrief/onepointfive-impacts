@@ -337,11 +337,11 @@ p .fa-info-circle:hover {
 
 
 #lines1 {
-    height: 13560px;
+    height: 13450px;
 }
 
 #lines2 {
-    height: 62720px;
+    height: 62670px;
 }
 
 .line {
@@ -710,8 +710,8 @@ footer p {
 
 .section-header-mask h3 {
     position: absolute;
-    top: calc(50% - 100px);
-    left: calc((100% - 1050px)/2 + 17px + (1050px/6));
+    top: calc(50% - 105px);
+    left: calc((100% - 1050px)/2 + 34px + (1050px/6));
 }
 
 .section-span {

@@ -88,16 +88,15 @@ $(function(){
         }
 
         // hide down arrow when at bottom
-        if (item.index > 96) {
+        if (item.index > 100) {
             $arrowDown.css("visibility", "hidden");
         } else {
             $arrowDown.css("visibility", "visible");
         }
         
-        // console.log(item.data.name + ", is now active!");
 
         // UPDATE MAP
-        if (item.index < 102 && item.index > 2) {
+        if (item.index < 101 && item.index > 2) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }

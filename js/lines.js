@@ -22,8 +22,8 @@ var data = [{
         {length: "60", across: "100"},
         {length: "110", across: "100"},
         {length: "130", across: "300"},
-        {length: "1920", across: "300"},
-        {length: "1950", across: "100"},
+        {length: "1955", across: "300"},
+        {length: "1975", across: "100"},
         {length: "2000", across: "100"}
     ]
 },{
@@ -32,8 +32,8 @@ var data = [{
         {length: "60", across: "100"},
         {length: "110", across: "100"},
         {length: "130", across: "400"},
-        {length: "1920", across: "400"},
-        {length: "1950", across: "100"},
+        {length: "1955", across: "400"},
+        {length: "1975", across: "100"},
         {length: "2000", across: "100"}
     ]
 },{
@@ -42,8 +42,8 @@ var data = [{
         {length: "60", across: "100"},
         {length: "110", across: "100"},
         {length: "130", across: "500"},
-        {length: "1920", across: "500"},
-        {length: "1950", across: "100"},
+        {length: "1955", across: "500"},
+        {length: "1975", across: "100"},
         {length: "2000", across: "100"}
     ]
 }]
@@ -88,30 +88,108 @@ var data3 = [{
         name: "Line 2",
         values: [
             {length: "0", across: "100"},
-            {length: "20", across: "100"},
-            {length: "70", across: "300"},
-            {length: "7930", across: "300"},
-            {length: "7950", across: "100"},
+            {length: "15", across: "100"},
+            {length: "30", across: "300"},
+            // americas
+            {length: "1353", across: "300"},
+            {length: "1368", across: "100"},
+            {length: "1398", across: "100"},
+            {length: "1413", across: "300"},
+            // sids
+            {length: "2517", across: "300"},
+            {length: "2532", across: "100"},
+            {length: "2562", across: "100"},
+            {length: "2577", across: "300"},
+            // africa
+            {length: "2952", across: "300"},
+            {length: "2967", across: "100"},
+            {length: "2997", across: "100"},
+            {length: "3012", across: "300"},
+            // asia
+            {length: "3535", across: "300"},
+            {length: "3550", across: "100"},
+            {length: "3580", across: "100"},
+            {length: "3595", across: "300"},
+            // china
+            {length: "4771", across: "300"},
+            {length: "4786", across: "100"},
+            {length: "4816", across: "100"},
+            {length: "4831", across: "300"},
+            //
+            {length: "5930", across: "300"},
+            {length: "5950", across: "100"},
             {length: "6000", across: "100"}
         ]
     },{
         name: "Line 3",
         values: [
             {length: "0", across: "100"},
-            {length: "20", across: "100"},
-            {length: "70", across: "400"},
-            {length: "7930", across: "400"},
-            {length: "7950", across: "100"},
+            {length: "15", across: "100"},
+            {length: "30", across: "400"},
+            // americas
+            {length: "1353", across: "400"},
+            {length: "1368", across: "100"},
+            {length: "1398", across: "100"},
+            {length: "1413", across: "400"},
+            // sids
+            {length: "2517", across: "400"},
+            {length: "2532", across: "100"},
+            {length: "2562", across: "100"},
+            {length: "2577", across: "400"},
+            // africa
+            {length: "2952", across: "400"},
+            {length: "2967", across: "100"},
+            {length: "2997", across: "100"},
+            {length: "3012", across: "400"},
+            // asia
+            {length: "3535", across: "400"},
+            {length: "3550", across: "100"},
+            {length: "3580", across: "100"},
+            {length: "3595", across: "400"},
+            // china
+            {length: "4771", across: "400"},
+            {length: "4786", across: "100"},
+            {length: "4816", across: "100"},
+            {length: "4831", across: "400"},
+            //
+            {length: "5930", across: "400"},
+            {length: "5950", across: "100"},
             {length: "6000", across: "100"}
         ]
     },{
         name: "Line 4",
         values: [
             {length: "0", across: "100"},
-            {length: "20", across: "100"},
-            {length: "70", across: "500"},
-            {length: "7930", across: "500"},
-            {length: "7950", across: "100"},
+            {length: "15", across: "100"},
+            {length: "30", across: "500"},
+            // americas
+            {length: "1353", across: "500"},
+            {length: "1368", across: "100"},
+            {length: "1398", across: "100"},
+            {length: "1413", across: "500"},
+            // sids
+            {length: "2517", across: "500"},
+            {length: "2532", across: "100"},
+            {length: "2562", across: "100"},
+            {length: "2577", across: "500"},
+            // africa
+            {length: "2952", across: "500"},
+            {length: "2967", across: "100"},
+            {length: "2997", across: "100"},
+            {length: "3012", across: "500"},
+            // asia
+            {length: "3535", across: "500"},
+            {length: "3550", across: "100"},
+            {length: "3580", across: "100"},
+            {length: "3595", across: "500"},
+            // china
+            {length: "4771", across: "500"},
+            {length: "4786", across: "100"},
+            {length: "4816", across: "100"},
+            {length: "4831", across: "500"},
+            //
+            {length: "5930", across: "500"},
+            {length: "5950", across: "100"},
             {length: "6000", across: "100"}
         ]
 }]
