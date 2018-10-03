@@ -36,8 +36,6 @@ $(function(){
 
         activeIndex = item.index;
 
-        // console.log(activeIndex);
-
         // SIDE NAV STYLING
         // remove previous styling
         $('li', $sideNav).removeClass('nav-active');
@@ -64,19 +62,19 @@ $(function(){
             $('#health-nav').addClass('nav-active');
         } else if (item.index > 17 && item.index < 37) {
             $('#europe-nav').addClass('nav-active');
-        } else if (item.index > 36 && item.index < 54) {
+        } else if (item.index > 36 && item.index < 53) {
             $('#americas-nav').addClass('nav-active');
-        } else if (item.index > 53 && item.index < 59) {
+        } else if (item.index > 52 && item.index < 59) {
             $('#sids-nav').addClass('nav-active');
-        } else if (item.index > 58 && item.index < 68) {
+        } else if (item.index > 58 && item.index < 67) {
             $('#africa-nav').addClass('nav-active');
-        } else if (item.index > 67 && item.index < 85) {
+        } else if (item.index > 66 && item.index < 84) {
             $('#asia-nav').addClass('nav-active');
-        } else if (item.index > 84 && item.index < 94) {
+        } else if (item.index > 83 && item.index < 93) {
             $('#china-nav').addClass('nav-active');
-        } else if (item.index > 93 && item.index < 102) {
+        } else if (item.index > 92 && item.index < 101) {
             $('#australasia-nav').addClass('nav-active');
-        } else if (item.index > 101) {
+        } else if (item.index > 100) {
             $('#footer-nav').addClass('nav-active');
         } else if (item.index == 2) {
             $('#home-nav').addClass('nav-active');
@@ -184,19 +182,19 @@ $(function(){
             vid4.pause();
         }
 
-        if (item.index == 68) {
+        if (item.index == 67) {
             vid5.play();
         } else {
             vid5.pause();
         }
 
-        if (item.index == 85) {
+        if (item.index == 84) {
             vid6.play();
         } else {
             vid6.pause();
         }
 
-        if (item.index == 94) {
+        if (item.index == 93) {
             vid7.play();
         } else {
             vid7.pause();
@@ -237,7 +235,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 102) {
+            } else if (item.index > 2 && item.index < 101) {
 
                 item.el.addClass("story-middle");
  
@@ -266,7 +264,7 @@ $(function(){
                 }
 
 
-            } else if (item.index === 102) {
+            } else if (item.index === 101) {
 
                 // change style via class so can make responsive
                 item.el.addClass("methodology");
@@ -280,7 +278,7 @@ $(function(){
                     + "</p></div></div>"
                 );
 
-            } else if (item.index === 103) {
+            } else if (item.index === 102) {
 
                 item.el.addClass("story-end");
 
@@ -329,15 +327,15 @@ $(function(){
                 } else if (id =="europe") {
                     that.index(18);
                 } else if (id =="asia") {
-                    that.index(68);
+                    that.index(67);
                 } else if (id =="china") {
-                    that.index(85);
+                    that.index(84);
                 } else if (id =="americas") {
                     that.index(37);
                 } else if (id =="africa") {
                     that.index(59);
                 } else if (id =="australasia") {
-                    that.index(94);
+                    that.index(93);
                 } else if (id =="sids") {
                     that.index(53);
                 }
@@ -372,19 +370,19 @@ $(function(){
                 } else if (id =="europe-nav") {
                     that.index(18);
                 } else if (id =="asia-nav") {
-                    that.index(68);
+                    that.index(67);
                 } else if (id =="china-nav") {
-                    that.index(85);
+                    that.index(84);
                 } else if (id =="americas-nav") {
                     that.index(37);
                 } else if (id =="africa-nav") {
                     that.index(59);
                 } else if (id =="australasia-nav") {
-                    that.index(94);
+                    that.index(93);
                 } else if (id =="sids-nav") {
                     that.index(53);
                 } else if (id =="footer-nav") {
-                    that.index(102);
+                    that.index(101);
                 } else if (id =="home-nav") {
                     that.index(2);
                 }

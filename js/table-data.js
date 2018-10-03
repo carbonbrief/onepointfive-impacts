@@ -703,14 +703,6 @@
       {"name": "Nile", "1.5C": "1-in-92 years <br><span class='uncertainty'>(85-99)</span>", "2C": "1-in-55 years <br><span class='uncertainty'>(51-59)</span>", "3C": ""}
     ];
 
-    var africaCrops = [
-      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Sahara", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
-      {"name": "West Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "3C": ""},
-      {"name": "East Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
-      {"name": "Southern Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""}
-    ];
-
 // Asia objects
 
     var asiaIce = [

@@ -166,7 +166,7 @@ a {
     top: 1780px;
     left: calc((100% - 1050px)/2 + 260px);
     /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
-    height: 75240px;
+    height: 74480px;
     padding: 0px !important;
     
 }
@@ -199,7 +199,7 @@ a {
     margin-left: 275px;
     width: 790px;
     /* (table stories + padding) x number + instructions height but not top padding */
-    height: 75940px;
+    height: 75180px;
     position: absolute;
     z-index: 5;
 }
@@ -278,7 +278,7 @@ td {
     position: absolute;
     top: 2120px;
     /* (table stories + padding) x number - 1xpadding - 450px */
-    height: 74730px;
+    height: 73970px;
     left: calc((100% - 1050px)/2);
     margin-left: -20px;
     width: 180px;
@@ -440,7 +440,7 @@ a:link {
     position: absolute;
     top: 1120px;
     /* (table stories + padding) x number - 60pxpadding */
-    height: 78000px;
+    height: 76240px;
     right: 20px;
 }
 
@@ -599,6 +599,8 @@ a:link {
     background-color: rgba(74, 106, 124, 0.3);
     padding: 5px;
     padding-top: 2px;
+    font-size: 12px;
+
 }
 
 .reference-span:hover {
@@ -671,15 +673,15 @@ footer p {
 }
 
 #asia-header {
-    top: 51180px;
+    top: 50420px;
 }
 
 #china-header {
-    top: 64100px;
+    top: 63340px;
 }
 
 #australasia-header {
-    top: 70940px;
+    top: 70180px;
 }
 
 .section-header-mask {
