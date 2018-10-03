@@ -223,9 +223,7 @@ $(function(){
 
                 // build from data
                 item.el.append(
-                    "<div class='story-mask'><div class='story-content main'><h2><span class='title-span'>"
-                    + item.data.icon
-                    + "</span></h2><p>"
+                    "<div class='story-mask'><div class='story-content main'><p>"
                     + item.data.text
                     + "</p><p id='image-credit'>Image credit: "
                     + item.data.credit
