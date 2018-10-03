@@ -18,7 +18,7 @@ var svg2 = d3.select("#lines2").append("svg")
 
 // global lines desktop
 
-var data1Desktop = [{
+var data = [{
     name: "Line 2",
     values: [
         {length: "60", across: "100"},
@@ -55,7 +55,7 @@ var data1Desktop = [{
 var data1Laptop = [{
     name: "Line 2",
     values: [
-        {length: "55", across: "100"},
+        {length: "65", across: "100"},
         {length: "105", across: "100"},
         {length: "125", across: "300"},
         {length: "1955", across: "300"},
@@ -65,7 +65,7 @@ var data1Laptop = [{
 },{
     name: "Line 3",
     values: [
-        {length: "55", across: "100"},
+        {length: "65", across: "100"},
         {length: "105", across: "100"},
         {length: "125", across: "400"},
         {length: "1955", across: "400"},
@@ -75,7 +75,7 @@ var data1Laptop = [{
 },{
     name: "Line 4",
     values: [
-        {length: "55", across: "100"},
+        {length: "65", across: "100"},
         {length: "105", across: "100"},
         {length: "125", across: "500"},
         {length: "1955", across: "500"},
@@ -120,7 +120,7 @@ var data1Mobile = [{
 
 // data for lines below Europe
 
-var data3 = [{
+var data2 = [{
         name: "Line 2",
         values: [
             {length: "0", across: "100"},
@@ -270,55 +270,7 @@ function tweenDash() {
 
 // function to trigger at particular scroll point
 
-function drawLinesDesktop () {
-
-    // get variables again
-    
-    width = parseInt(d3.select("#lines1").style("width")),
-    height = parseInt(d3.select("#lines1").style("height"));
-
-    // change dimensions of svg if window is resized
-    
-    d3.select("#svg-1")
-    .attr("width", width)
-    .attr("height", height);
-
-    // set scales again
-
-    var x = d3.scaleLinear()
-    .range([0, width]);
-
-    var y = d3.scaleLinear()
-    .range([0, height]);
-
-    x.domain([0, 600]);
-    y.domain([0, 2000]);
-
-    // define the line
-    var line = d3.line()
-    .curve(d3.curveLinear)
-    .x(function(d) { return x(d.across); })
-    .y(function(d) { return y(d.length); });
-
-    // remove old group
-    svg.selectAll('g').remove();
-
-    let lines = svg.append('g')
-    .attr('class', 'lines');
-
-    lines.selectAll('.line-group')
-    .data(data1Desktop).enter()
-    .append('g')
-    .attr('class', 'line-group')
-    .append('path')
-    .attr('class', 'line')  
-    .attr("d", function(d) { return line(d.values); })
-    .style('stroke', "#f3f3f3")
-    .call(transition);
-
-}
-
-function drawLinesLaptop () {
+function drawLines1Desktop () {
 
     // get variables again
     
@@ -366,7 +318,55 @@ function drawLinesLaptop () {
 
 }
 
-function drawLinesMobile () {
+function drawLines1Laptop () {
+
+    // get variables again
+    
+    width = parseInt(d3.select("#lines1").style("width")),
+    height = parseInt(d3.select("#lines1").style("height"));
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-1")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x = d3.scaleLinear()
+    .range([0, width]);
+
+    var y = d3.scaleLinear()
+    .range([0, height]);
+
+    x.domain([0, 600]);
+    y.domain([0, 2000]);
+
+    // define the line
+    var line = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x(d.across); })
+    .y(function(d) { return y(d.length); });
+
+    // remove old group
+    svg.selectAll('g').remove();
+
+    let lines = svg.append('g')
+    .attr('class', 'lines');
+
+    lines.selectAll('.line-group')
+    .data(data1Laptop).enter()
+    .append('g')
+    .attr('class', 'line-group')
+    .append('path')
+    .attr('class', 'line')  
+    .attr("d", function(d) { return line(d.values); })
+    .style('stroke', "#f3f3f3")
+    .call(transition);
+
+}
+
+function drawLines1Mobile () {
 
     // get variables again
 
@@ -405,7 +405,7 @@ function drawLinesMobile () {
     .attr('class', 'lines');
 
     lines.selectAll('.line-group')
-    .data(data2).enter()
+    .data(data1Mobile).enter()
     .append('g')
     .attr('class', 'line-group')
     .append('path')
@@ -416,7 +416,7 @@ function drawLinesMobile () {
 
 }
 
-function drawLines2 () {
+function drawLines2Desktop () {
 
     // get variables again
     
@@ -464,23 +464,78 @@ function drawLines2 () {
 
 }
 
+function drawLines2Desktop () {
+
+    // get variables again
+    
+    width = parseInt(d3.select("#lines2").style("width")),
+    height = parseInt(d3.select("#lines2").style("height"));
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-2")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x3 = d3.scaleLinear()
+    .range([0, width]);
+
+    var y3 = d3.scaleLinear()
+    .range([0, height]);
+
+    x3.domain([0, 600]);
+    y3.domain([0, 6000]);
+
+    // define the line
+    var line3 = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x3(d.across); })
+    .y(function(d) { return y3(d.length); });
+
+    // remove old group
+    svg2.selectAll('g').remove();
+
+    let lines = svg2.append('g')
+    .attr('class', 'lines');
+
+    lines.selectAll('.line-group')
+    .data(data2Laptop).enter()
+    .append('g')
+    .attr('class', 'line-group')
+    .append('path')
+    .attr('class', 'line')  
+    .attr("d", function(d) { return line3(d.values); })
+    .style('stroke', "#f3f3f3")
+    .call(transition);
+
+}
+
 setTimeout(function(){
     
     if (screenWidth > 1150) {
-        drawLines();
-        drawLines2();
-    else if (screenWidth < 1150 && screenWidth > 440) {
-
+        drawLines1Desktop();
+        drawLines2Desktop();
+    } else if (screenWidth < 1150 && screenWidth > 440) {
+        drawLines1Laptop();
+        drawLines2Laptop();
     } else {
-        drawLinesMobile();
+        drawLines1Mobile();
+        drawLines2Mobile();
     }
-    
+
 }, 1000);
 
 window.addEventListener('resize', function() {
-    if (screenWidth > 440) {
-        drawLines();
+    if (screenWidth > 1150) {
+        drawLines1Desktop();
+        drawLines2Desktop();
+    } else if (screenWidth < 1150 && screenWidth > 440) {
+        drawLines1Laptop();
+        drawLines2Laptop();
     } else {
-        drawLinesMobile();
+        drawLines1Mobile();
+        drawLines2Mobile();
     }
 });
