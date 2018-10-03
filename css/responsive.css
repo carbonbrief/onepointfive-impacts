@@ -130,7 +130,7 @@
     .gradient-wrapper {
         left: calc((100% - 820px)/2 + 185px);
         top: 1630px;
-        height: 70290px;
+        height: 69580px;
     }
 
     #lines-wrapper {
@@ -158,12 +158,12 @@
         left: calc((100% - 820px)/2);
         margin-left: 196px;
         width: 614px;
-        height: 70350px;
+        height: 69640px;
         top: 985px;
     }
 
     #side-nav-wrapper {
-        height: 73000px;
+        height: 71290px;
         right: 15px;
         top: 1020px;
     }
@@ -174,7 +174,7 @@
 
     .map-wrapper {
         left: calc((100% - 820px)/2);
-        height: 69780px;
+        height: 69070px;
         margin-left: -30px;
         top: 2020px;
     }
@@ -276,15 +276,15 @@
     }
     
     #asia-header {
-        top: 47780px;
+        top: 47070px;
     }
     
     #china-header {
-        top: 59850px;
+        top: 59140px;
     }
     
     #australasia-header {
-        top: 66240px;
+        top: 65530px;
     }
 
     #lines {
