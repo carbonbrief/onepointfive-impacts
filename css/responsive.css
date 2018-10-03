@@ -162,7 +162,7 @@
         left: calc((100% - 820px)/2);
         margin-left: 196px;
         width: 614px;
-        height: 69640px;
+        height: 70350px;
         top: 985px;
     }
 
@@ -450,6 +450,11 @@
 
     .nav-icons {
         font-size: 14px;
+    }
+
+    .section-header-mask h3 {
+        left: calc((100% - 700px)/2 + (700px/6));
+        font-size: 43px;
     }
 
 }

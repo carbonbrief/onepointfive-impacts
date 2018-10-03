@@ -199,7 +199,7 @@ a {
     margin-left: 275px;
     width: 790px;
     /* (table stories + padding) x number + instructions height but not top padding */
-    height: 75180px;
+    height: 75940px;
     position: absolute;
     z-index: 5;
 }
