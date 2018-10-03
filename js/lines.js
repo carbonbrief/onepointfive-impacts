@@ -89,9 +89,9 @@ var data1Laptop = [{
 var data1Mobile = [{
         name: "Line 2",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "200"},
+            {length: "55", across: "100"},
+            {length: "110", across: "100"},
+            {length: "130", across: "200"},
             {length: "1920", across: "200"},
             {length: "1950", across: "100"},
             {length: "2000", across: "100"}
@@ -99,9 +99,9 @@ var data1Mobile = [{
     },{
         name: "Line 3",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "300"},
+            {length: "55", across: "100"},
+            {length: "110", across: "100"},
+            {length: "130", across: "300"},
             {length: "1920", across: "300"},
             {length: "1950", across: "100"},
             {length: "2000", across: "100"}
@@ -109,9 +109,9 @@ var data1Mobile = [{
     },{
         name: "Line 4",
         values: [
-            {length: "25", across: "100"},
-            {length: "80", across: "100"},
-            {length: "100", across: "400"},
+            {length: "55", across: "100"},
+            {length: "110", across: "100"},
+            {length: "130", across: "400"},
             {length: "1920", across: "400"},
             {length: "1950", across: "100"},
             {length: "2000", across: "100"}
@@ -642,7 +642,7 @@ setTimeout(function(){
     if (screenWidth > 1150) {
         drawLines1Desktop();
         drawLines2Desktop();
-    } else if (screenWidth < 1150 && screenWidth > 440) {
+    } else if (screenWidth < 1150 && screenWidth > 650) {
         drawLines1Laptop();
         drawLines2Laptop();
     } else {
@@ -656,7 +656,7 @@ window.addEventListener('resize', function() {
     if (screenWidth > 1150) {
         drawLines1Desktop();
         drawLines2Desktop();
-    } else if (screenWidth < 1150 && screenWidth > 440) {
+    } else if (screenWidth < 1150 && screenWidth > 650) {
         drawLines1Laptop();
         drawLines2Laptop();
     } else {

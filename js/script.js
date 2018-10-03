@@ -251,7 +251,7 @@ $(function(){
                     +"</p></div></div>"
                 );
 
-                if (windowWidth > 555) {
+                if (windowWidth > 650) {
                     // add their background images
                     item.el.css({
                         "background-image": "url('" + item.data.background + "')",
