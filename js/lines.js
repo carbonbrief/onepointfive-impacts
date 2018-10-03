@@ -19,9 +19,9 @@ var svg2 = d3.select("#lines2").append("svg")
 var data = [{
     name: "Line 2",
     values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "300"},
+        {length: "60", across: "100"},
+        {length: "110", across: "100"},
+        {length: "130", across: "300"},
         {length: "1920", across: "300"},
         {length: "1950", across: "100"},
         {length: "2000", across: "100"}
@@ -29,9 +29,9 @@ var data = [{
 },{
     name: "Line 3",
     values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "400"},
+        {length: "60", across: "100"},
+        {length: "110", across: "100"},
+        {length: "130", across: "400"},
         {length: "1920", across: "400"},
         {length: "1950", across: "100"},
         {length: "2000", across: "100"}
@@ -39,9 +39,9 @@ var data = [{
 },{
     name: "Line 4",
     values: [
-        {length: "25", across: "100"},
-        {length: "80", across: "100"},
-        {length: "100", across: "500"},
+        {length: "60", across: "100"},
+        {length: "110", across: "100"},
+        {length: "130", across: "500"},
         {length: "1920", across: "500"},
         {length: "1950", across: "100"},
         {length: "2000", across: "100"}
@@ -102,7 +102,7 @@ var data3 = [{
             {length: "70", across: "400"},
             {length: "7930", across: "400"},
             {length: "7950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "6000", across: "100"}
         ]
     },{
         name: "Line 4",

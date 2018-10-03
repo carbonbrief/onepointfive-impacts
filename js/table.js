@@ -216,7 +216,7 @@ function updateTable () {
         // china headers
         } else if (dataName =="chinaTemp" || dataName =="chinaHeat" || dataName =="chinaHeatExtremes" || dataName =="chinaRain")  {
             return getHeader5[column];
-        } else if (dataName =="chinaRainExtremes" || dataName =="chinaCrops" || dataName =="chinaEconomy")  {
+        } else if (dataName =="chinaRainExtremes" || dataName =="chinaStorms" || dataName =="chinaCrops" || dataName =="chinaEconomy")  {
             return getHeader7[column];
         // aus headers
         } else if (dataName =="ausOceans" || dataName =="ausHeat" || dataName =="ausHeatExtremes" || dataName =="ausRain" || dataName =="ausStorms" || dataName =="ausCrops")  {
