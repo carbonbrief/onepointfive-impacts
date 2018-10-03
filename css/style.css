@@ -30,8 +30,22 @@ body {
 }
 
 .story-end {
-    height: 500px;
-    min-height: 350px;
+    height: 3000px;
+}
+
+ol li {
+    list-style-type: decimal;
+    font-family: "PT Serif", serif;
+    color: #FFFFFF;
+    font-size: 12.5px;
+    margin-top: 1em;
+    line-height: 1.6em;
+}
+
+ol li a {
+    background-color: rgba(74, 106, 124, 0.5);
+    padding: 2px;
+    border-radius: 2px;
 }
 
 .story-intro1 {
@@ -429,16 +443,16 @@ a:link {
 
 #side-nav-wrapper {
     position: absolute;
-    top: 1800px;
+    top: 1120px;
     /* (table stories + padding) x number - 60pxpadding */
-    height: 75180px;
+    height: 78000px;
     right: 20px;
 }
 
 .side-nav {
     position: sticky;
     z-index: 999999;
-    top: calc((100% - 586px)/2);
+    top: calc((100% - 650px)/2);
 }
 
 .side-nav li {
@@ -577,24 +591,36 @@ a:link {
 }
 
 .credit {
-    width: 320px;
-    background-color: rgba(74, 106, 124, 0) !important;
+    width: 600px;
     padding-left: 0px !important;
 }
 
-/* .credit p {
-    background-color: rgba(74, 106, 124, 0) !important;
-} */
+.references {
+    width: 580px;
+    padding-left: 20px;
+}
+
+.reference-link {
+    background-color: rgba(74, 106, 124, 0.3);
+    padding: 5px;
+    padding-top: 2px;
+}
+
+.reference-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .footer {
     left: calc((100% - 1050px)/2);
     margin-left: 166px;
-    margin-top: 280px !important;
+    margin-top: 180px !important;
     opacity: 1 !important;
 }
 
 .footer h2 {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .credit a {

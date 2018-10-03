@@ -76,6 +76,10 @@ $(function(){
             $('#china-nav').addClass('nav-active');
         } else if (item.index > 93 && item.index < 102) {
             $('#australasia-nav').addClass('nav-active');
+        } else if (item.index > 101) {
+            $('#footer-nav').addClass('nav-active');
+        } else if (item.index == 2) {
+            $('#home-nav').addClass('nav-active');
         }
 
         // hide top arrow when at top
@@ -245,7 +249,9 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p id='image-credit'>Image credit: "
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p><span class='reference-link'>"
+                    + item.data.reference
+                    + "</span></p><p id='image-credit'>Image credit: "
                     + item.data.credit
                     +"</p></div></div>"
                 );
@@ -368,6 +374,10 @@ $(function(){
                     that.index(94);
                 } else if (id =="sids-nav") {
                     that.index(53);
+                } else if (id =="footer-nav") {
+                    that.index(102);
+                } else if (id =="home-nav") {
+                    that.index(2);
                 }
 
             });

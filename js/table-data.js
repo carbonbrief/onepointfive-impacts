@@ -148,7 +148,7 @@
       {"name": "Plants", "1.5C": "8% <span class='uncertainty'>(4-15)</span>", "2C": "16% <span class='uncertainty'>(9-28)</span>", "3C": "67% <span class='uncertainty'>(50-80)</span>"},
       {"name": "Insects", "1.5C": "6% <span class='uncertainty'>(1-18)</span>", "2C": "18% <span class='uncertainty'>(6-35)</span>", "3C": "67% <span class='uncertainty'>(52-79)</span>"},
       {"name": "Mammals", "1.5C": "4% <span class='uncertainty'>(2-7)</span>", "2C": "8% <span class='uncertainty'>(4-14)</span>", "3C": "41% <span class='uncertainty'>(29-57)</span>"},
-      {"name": "Birds", "1.5C": "2% <span class='uncertainty'>(1-6)</span>", "2C": "6% <span class='uncertainty'>(3-13)</span>", "3C": "4% <span class='uncertainty'>(28-54)</span>"},
+      {"name": "Birds", "1.5C": "2% <span class='uncertainty'>(1-6)</span>", "2C": "6% <span class='uncertainty'>(3-13)</span>", "3C": "40% <span class='uncertainty'>(28-54)</span>"},
       {"name": "Butterflies & moths", "1.5C": "4% <span class='uncertainty'>(0-14)</span>", "2C": "10% <span class='uncertainty'>(2-29)</span>", "3C": "58% <span class='uncertainty'>(40-74)</span>"},
       {"name": "Dragonflies & damselflies", "1.5C": "1% <span class='uncertainty'>(0-2)</span>", "2C": "2% <span class='uncertainty'>(1-6)</span>", "3C": "21% <span class='uncertainty'>(11-42)</span>"},
       {"name": "<span class='table-subtitle'>Average warming across drylands</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.4-3.0C", "2C": "<span class='arrow-up'>&#9650;</span> 3.2-4.0C", "3C": ""},
@@ -705,10 +705,10 @@
 
     var africaCrops = [
       {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Sahara", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
-      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "3C": ""},
-      {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
-      {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""}
+      {"name": "Sahara", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+1)</span>", "3C": ""},
+      {"name": "East Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+      {"name": "Southern Africa", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""}
     ];
 
 // Asia objects
@@ -1042,7 +1042,7 @@
 
     var ausCrops = [
     {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "Northern Australia", "1.5C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0–+0)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
+    {"name": "Northern Australia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0–+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1–+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+2)</span>", "3C": ""}
     ];
 

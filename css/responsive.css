@@ -163,9 +163,9 @@
     }
 
     #side-nav-wrapper {
-        height: 70230px;
+        height: 73000px;
         right: 15px;
-        top: 1700px;
+        top: 1020px;
     }
 
     .side-nav ul {
@@ -291,6 +291,14 @@
         height: 12680px;
     }
 
+    .credit {
+        width: 550px;
+    }
+
+    .references {
+        width: 530px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -411,7 +419,7 @@
     }
 
     .side-nav {
-        top: calc((100% - 527px)/2);
+        top: calc((100% - 560px)/2);
     }
 
     .side-nav li {
