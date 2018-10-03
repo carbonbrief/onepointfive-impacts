@@ -249,9 +249,9 @@ $(function(){
                     + item.data.icon +
                     "   " 
                     + item.data.title 
-                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p><span class='reference-link'>"
+                    + "</span></h2><p><i class='fas fa-info-circle'></i></p><p><span class='reference-span'><a href='#reference-list'>"
                     + item.data.reference
-                    + "</span></p><p id='image-credit'>Image credit: "
+                    + "</a></span></p><p id='image-credit'>Image credit: "
                     + item.data.credit
                     +"</p></div></div>"
                 );
@@ -271,15 +271,26 @@ $(function(){
             } else if (item.index === 102) {
 
                 // change style via class so can make responsive
-                item.el.addClass("story-end");
+                item.el.addClass("methodology");
 
-                // build credit
+                // build methodology
                 item.el.append(
-                    "<div class='story-mask'><div class='story-content footer'><h2><span class='title-span'><i class='"
+                    "<div class='story-mask'><div class='story-content footer' style='margin-top: 180px !important;'><h2><span class='title-span'><i class='"
                     + item.data.icon +
                     "'></i></span></h2><p class='credit'>" 
                     + item.data.text 
                     + "</p></div></div>"
+                );
+
+            } else if (item.index === 103) {
+
+                item.el.addClass("story-end");
+
+                // build methodology
+                item.el.append(
+                    "<div class='story-mask'><div class='story-content footer'>" 
+                    + item.data.text 
+                    + "</div></div>"
                 );
 
             }

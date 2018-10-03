@@ -29,6 +29,10 @@ body {
     min-height: 700px;
 }
 
+.methodology {
+    height: 1000px;
+}
+
 .story-end {
     height: 3000px;
 }
@@ -61,15 +65,6 @@ ol li a {
 .instructions {
     height: 500px;
     min-height: 350px;
-}
-
-footer {
-    display: block;
-    background-color: #333333;
-}
-
-footer p {
-    margin-left: 20px;
 }
 
 h1 {
@@ -600,13 +595,13 @@ a:link {
     padding-left: 20px;
 }
 
-.reference-link {
+.reference-span {
     background-color: rgba(74, 106, 124, 0.3);
     padding: 5px;
     padding-top: 2px;
 }
 
-.reference-link:hover {
+.reference-span:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -614,13 +609,17 @@ a:link {
 .footer {
     left: calc((100% - 1050px)/2);
     margin-left: 166px;
-    margin-top: 180px !important;
     opacity: 1 !important;
+    display: block;
 }
 
 .footer h2 {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+footer p {
+    margin-left: 20px;
 }
 
 .credit a {
