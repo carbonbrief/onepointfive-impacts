@@ -711,7 +711,7 @@ footer p {
 .section-header-mask h3 {
     position: absolute;
     top: calc(50% - 105px);
-    left: calc((100% - 1050px)/2 + 34px + (1050px/6));
+    left: calc((100% - 1050px)/2 + 20px + (1050px/6));
 }
 
 .section-span {

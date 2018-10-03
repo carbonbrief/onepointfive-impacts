@@ -110,6 +110,10 @@
         max-width: 390px;
     }
 
+    .section-header-mask h3 {
+        left: calc((100% - 950px)/2 + (950px/6));
+    }
+
 }
 
 @media screen and (max-width: 1200px) {

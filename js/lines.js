@@ -578,7 +578,7 @@ function drawLines2Desktop () {
     .attr('class', 'lines');
 
     lines.selectAll('.line-group')
-    .data(data3).enter()
+    .data(data2).enter()
     .append('g')
     .attr('class', 'line-group')
     .append('path')
