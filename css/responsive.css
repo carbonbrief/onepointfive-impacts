@@ -457,6 +457,18 @@
         font-size: 43px;
     }
 
+    .references {
+        width: 540px;
+    }
+
+    .credit {
+        width: 560px;
+    }
+
+    ol li {
+        font-size: 11.5px;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -591,6 +603,9 @@
 
     .side-nav {
         top: calc((100% - 520px)/2);
+    }
+
+    #side-nav-wrapper {
         right: 10px;
     }
 
@@ -607,6 +622,84 @@
         margin-top: 5px;
     }
 
+    .references {
+        width: 440px;
+    }
+
+    .credit {
+        width: 460px;
+    }
+
+    ol li {
+        font-size: 11px;
+    }
+
+    .story-end {
+        height: 3900px;
+    }
+
+    .section-header-mask h3 {
+        left: calc((100% - 600px)/2 + (600px/6));
+        font-size: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #nav-icons-wrapper {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .story-gradient {
+        width: calc((550px/6)*4.5);
+    }
+
+    .gradient-wrapper {
+        width: calc((550px/6)*4);
+        left: calc((100% - 550px)/2 + 118px + 20px);
+    }
+
+    #lines-wrapper {
+        width: 550px;
+        left: calc((100% - 550px)/2 + 20px);
+    }
+
+    .table-wrapper {
+        left: calc((100% - 550px)/2 + 20px);
+        margin-left: 125px;
+        width: 418px;
+    }
+
+    .map-wrapper {
+        left: calc((100% - 550px)/2 + 20px);
+    }
+
+    .story-content {
+        left: calc((100% - 550px)/2 + 20px);
+        max-width: 130px;
+    }
+
+    .intro-wrapper {
+        left: calc((100% - 550px)/2 + 10px);
+        max-width: 390px;
+    }
+
+    th {
+        font-size: 28px;
+        padding-left: 15px;
+    }
+
+    td {
+        padding-left: 15px;
+    }
+
+    .section-header-mask h3 {
+        left: calc((100% - 550px)/2 + (550px/6) + 20px);
+        font-size: 37px;
+    }
 
 }
 
