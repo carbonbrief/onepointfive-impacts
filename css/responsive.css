@@ -303,6 +303,12 @@
         width: 530px;
     }
 
+    .section-header-mask h3 {
+        left: calc((100% - 820px)/2 + (820px/6));
+        top: calc(50% - 95px);
+        font-size: 47px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
