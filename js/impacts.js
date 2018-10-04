@@ -52,7 +52,7 @@ var impacts=[{
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/M3N9MC.jpg",
     credit: "shoults/Alamy Stock Photo",
     reference: "[14], [16]",
-    map: "Global",
+    map: "global",
     location: "Global"
 },{
     name: "temperature",
