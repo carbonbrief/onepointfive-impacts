@@ -220,7 +220,7 @@ $(function(){
 
                 // build from data
                 item.el.append(
-                    "<div class='story-mask'><div class='story-content main'><p>"
+                    "<div class='story-mask'><div class='story-content' style='opacity: 1;'><p>"
                     + item.data.text
                     + "</p><p id='image-credit'>Image credit: "
                     + item.data.credit
