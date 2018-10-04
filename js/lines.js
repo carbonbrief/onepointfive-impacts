@@ -370,6 +370,131 @@ var data2Laptop = [{
     ]
 }]
 
+var data2Mobile = [{
+    name: "Line 2",
+    values: [
+        {length: "0", across: "0"},
+        {length: "15", across: "0"},
+        {length: "30", across: "100"},
+        // americas
+        {length: "1342", across: "100"},
+        {length: "1357", across: "0"},
+        {length: "1387", across: "0"},
+        {length: "1402", across: "100"},
+        // sids
+        {length: "2501", across: "100"},
+        {length: "2516", across: "0"},
+        {length: "2546", across: "0"},
+        {length: "2561", across: "100"},
+        // africa
+        {length: "2935", across: "100"},
+        {length: "2950", across: "0"},
+        {length: "2980", across: "0"},
+        {length: "2995", across: "100"},
+        // asia
+        {length: "3517", across: "100"},
+        {length: "3532", across: "0"},
+        {length: "3562", across: "0"},
+        {length: "3577", across: "100"},
+        // china
+        {length: "4748", across: "100"},
+        {length: "4763", across: "0"},
+        {length: "4793", across: "0"},
+        {length: "4808", across: "100"},
+        // australasia
+        {length: "5402", across: "100"},
+        {length: "5417", across: "0"},
+        {length: "5447", across: "0"},
+        {length: "5462", across: "100"},
+        // end
+        {length: "5975", across: "100"},
+        {length: "5985", across: "0"},
+        {length: "5990", across: "0"}
+    ]
+},{
+    name: "Line 3",
+    values: [
+        {length: "0", across: "0"},
+        {length: "15", across: "0"},
+        {length: "30", across: "200"},
+        // americas
+        {length: "1342", across: "200"},
+        {length: "1357", across: "0"},
+        {length: "1387", across: "0"},
+        {length: "1402", across: "200"},
+        // sids
+        {length: "2501", across: "200"},
+        {length: "2516", across: "0"},
+        {length: "2546", across: "0"},
+        {length: "2561", across: "200"},
+        // africa
+        {length: "2935", across: "200"},
+        {length: "2950", across: "0"},
+        {length: "2980", across: "0"},
+        {length: "2995", across: "200"},
+        // asia
+        {length: "3517", across: "200"},
+        {length: "3532", across: "0"},
+        {length: "3562", across: "0"},
+        {length: "3577", across: "200"},
+        // china
+        {length: "4748", across: "200"},
+        {length: "4763", across: "0"},
+        {length: "4793", across: "0"},
+        {length: "4808", across: "200"},
+        // australasia
+        {length: "5402", across: "200"},
+        {length: "5417", across: "0"},
+        {length: "5447", across: "0"},
+        {length: "5462", across: "200"},
+        // end
+        {length: "5975", across: "200"},
+        {length: "5985", across: "0"},
+        {length: "5990", across: "0"}
+    ]
+},{
+    name: "Line 4",
+    values: [
+        {length: "0", across: "0"},
+        {length: "15", across: "0"},
+        {length: "30", across: "300"},
+        // americas
+        {length: "1342", across: "300"},
+        {length: "1357", across: "0"},
+        {length: "1387", across: "0"},
+        {length: "1402", across: "300"},
+        // sids
+        {length: "2501", across: "300"},
+        {length: "2516", across: "0"},
+        {length: "2546", across: "0"},
+        {length: "2561", across: "300"},
+        // africa
+        {length: "2935", across: "300"},
+        {length: "2950", across: "0"},
+        {length: "2980", across: "0"},
+        {length: "2995", across: "300"},
+        // asia
+        {length: "3517", across: "300"},
+        {length: "3532", across: "0"},
+        {length: "3562", across: "0"},
+        {length: "3577", across: "300"},
+        // china
+        {length: "4748", across: "300"},
+        {length: "4763", across: "0"},
+        {length: "4793", across: "0"},
+        {length: "4808", across: "300"},
+        // australasia
+        {length: "5402", across: "300"},
+        {length: "5417", across: "0"},
+        {length: "5447", across: "0"},
+        {length: "5462", across: "300"},
+        // end
+        {length: "5975", across: "300"},
+        {length: "5985", across: "0"},
+        {length: "5990", across: "0"}
+    ]
+}] 
+
 // format data
 
 data.forEach(function(d) { 
@@ -627,6 +752,54 @@ function drawLines2Laptop () {
 
     lines.selectAll('.line-group')
     .data(data2Laptop).enter()
+    .append('g')
+    .attr('class', 'line-group')
+    .append('path')
+    .attr('class', 'line')  
+    .attr("d", function(d) { return line3(d.values); })
+    .style('stroke', "#f3f3f3")
+    .call(transition);
+
+}
+
+function drawLines2Mobile () {
+
+    // get variables again
+    
+    width = parseInt(d3.select("#lines2").style("width")),
+    height = parseInt(d3.select("#lines2").style("height"));
+
+    // change dimensions of svg if window is resized
+    
+    d3.select("#svg-2")
+    .attr("width", width)
+    .attr("height", height);
+
+    // set scales again
+
+    var x3 = d3.scaleLinear()
+    .range([0, width]);
+
+    var y3 = d3.scaleLinear()
+    .range([0, height]);
+
+    x3.domain([0, 400]);
+    y3.domain([0, 6000]);
+
+    // define the line
+    var line3 = d3.line()
+    .curve(d3.curveLinear)
+    .x(function(d) { return x3(d.across); })
+    .y(function(d) { return y3(d.length); });
+
+    // remove old group
+    svg2.selectAll('g').remove();
+
+    let lines = svg2.append('g')
+    .attr('class', 'lines');
+
+    lines.selectAll('.line-group')
+    .data(data2Mobile).enter()
     .append('g')
     .attr('class', 'line-group')
     .append('path')
