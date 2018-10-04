@@ -169,7 +169,7 @@ function updateTable () {
             return getHeader8[column];
         // global headers
         } else if (dataName =="sealevel")  {
-            return getHeader2[column];
+            return getHeader5[column];
         } else if (dataName =="marineheatwaves")  {
             return getHeader3[column];
         } else if (dataName =="ice" || dataName =="drought")  {

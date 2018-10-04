@@ -565,7 +565,7 @@ var chinaVid = "GettyImages-162980082.mp4";
 
 var australasiaVid = "GettyImages-473300279.mp4";
 
-if (windowWidth > 1150) {
+if (windowWidth > 1200) {
 
     $('#intro-vid source').attr('src', desktopPath + introVid);
     $("#intro-vid")[0].load();
@@ -591,7 +591,7 @@ if (windowWidth > 1150) {
     $("#australasia-vid source").attr("src", desktopPath + australasiaVid);
     $("#australasia-vid")[0].load();
 
-} else if (windowWidth < 1151 && windowWidth > 555) {
+} else if (windowWidth < 1201 && windowWidth > 555) {
 
     $('#intro-vid source').attr('src', desktopPath + introVid);
     $("#intro-vid")[0].load();
@@ -673,10 +673,12 @@ $("#twitter").on("click", function() {
     // Remove existing iframe
     $('#tweet iframe').remove();
 
-    var baseTweet = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fcarbonbrief.org&text=";
+    var credit = "%20—%20via%20@CarbonBrief";
+
+    var baseTweet = "https://twitter.com/intent/tweet?url=https%3A%2F%2Finteractive.carbonbrief.org/impacts-climate-change-one-point-five-degrees-two-degrees/?utm_source=ShareIconTwitter&utm_campaign=megagraphic&text=";
     var text = "Interactive: The impacts of climate change at 1.5C, 2C and beyond";
     var encoded = encodeURI(text);
-    var customTweet = baseTweet += encoded;
+    var customTweet = baseTweet += encoded += credit;
 
     $('#twitter > a').attr('href', customTweet);
 
