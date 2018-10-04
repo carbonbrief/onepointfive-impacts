@@ -700,11 +700,14 @@ footer p {
 }
 
 .section-vid {
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
     height: auto;
 }
 
