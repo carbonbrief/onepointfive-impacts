@@ -89,32 +89,32 @@ var data1Laptop = [{
 var data1Mobile = [{
         name: "Line 2",
         values: [
-            {length: "55", across: "100"},
-            {length: "110", across: "100"},
-            {length: "130", across: "200"},
-            {length: "1920", across: "200"},
-            {length: "1950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "95", across: "0"},
+            {length: "110", across: "0"},
+            {length: "130", across: "100"},
+            {length: "1920", across: "100"},
+            {length: "1950", across: "0"},
+            {length: "2000", across: "0"}
         ]
     },{
         name: "Line 3",
         values: [
-            {length: "55", across: "100"},
-            {length: "110", across: "100"},
-            {length: "130", across: "300"},
-            {length: "1920", across: "300"},
-            {length: "1950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "95", across: "000"},
+            {length: "110", across: "000"},
+            {length: "130", across: "200"},
+            {length: "1920", across: "200"},
+            {length: "1950", across: "000"},
+            {length: "2000", across: "000"}
         ]
     },{
         name: "Line 4",
         values: [
-            {length: "55", across: "100"},
-            {length: "110", across: "100"},
-            {length: "130", across: "400"},
-            {length: "1920", across: "400"},
-            {length: "1950", across: "100"},
-            {length: "2000", across: "100"}
+            {length: "95", across: "000"},
+            {length: "110", across: "000"},
+            {length: "130", across: "300"},
+            {length: "1920", across: "300"},
+            {length: "1950", across: "000"},
+            {length: "2000", across: "000"}
         ]
 }] 
 
@@ -512,7 +512,7 @@ function drawLines1Mobile () {
     var y2 = d3.scaleLinear()
     .range([0, height]);
 
-    x2.domain([0, 500]);
+    x2.domain([0, 400]);
     y2.domain([0, 2000]);
 
 

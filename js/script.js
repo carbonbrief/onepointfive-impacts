@@ -246,7 +246,7 @@ $(function(){
                     + item.data.title 
                     + "</span></h2><p><i class='fas fa-info-circle'></i></p><p><span class='reference-span'><a href='#reference-list'>"
                     + item.data.reference
-                    + "</a></span></p><p id='image-credit'>Image credit: "
+                    + "</a></span></p><p id='image-credit' class='image-credit-main'>Image credit: "
                     + item.data.credit
                     +"</p></div></div>"
                 );
