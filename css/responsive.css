@@ -779,7 +779,10 @@
     #story0-2 .story-content {
         max-width: 350px;
         z-index: 10;
-        background: rgba(51, 51, 51, 0.5);
+        background: rgba(51, 51, 51, 0.7);
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .image-credit-main {
