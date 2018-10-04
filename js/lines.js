@@ -408,8 +408,8 @@ var data2Mobile = [{
         {length: "5462", across: "100"},
         // end
         {length: "5975", across: "100"},
-        {length: "5985", across: "0"},
-        {length: "5990", across: "0"}
+        {length: "5985", across: "0"}
+        // {length: "5990", across: "0"}
     ]
 },{
     name: "Line 3",
@@ -449,8 +449,8 @@ var data2Mobile = [{
         {length: "5462", across: "200"},
         // end
         {length: "5975", across: "200"},
-        {length: "5985", across: "0"},
-        {length: "5990", across: "0"}
+        {length: "5985", across: "0"}
+        // {length: "5990", across: "0"}
     ]
 },{
     name: "Line 4",
@@ -490,8 +490,8 @@ var data2Mobile = [{
         {length: "5462", across: "300"},
         // end
         {length: "5975", across: "300"},
-        {length: "5985", across: "0"},
-        {length: "5990", across: "0"}
+        {length: "5985", across: "0"}
+        // {length: "5990", across: "0"}
     ]
 }] 
 
