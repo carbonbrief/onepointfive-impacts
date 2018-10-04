@@ -1063,14 +1063,47 @@
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .intro-wrapper {
+        left: 10%;
+        max-width: 270px;
+    }
+
+    .intro p {
+        font-size: 12px;
+    }
+
+    #lines-wrapper {
+        left: 50px;
+        width: 250px;
+    }
+
+    .table-wrapper {
+        left: 10px;
+        width: 280px;
+    }
+
+    .story-content {
+        left: 10px; 
+    }
+
+    #story0-2 .story-content {
+        max-width: 280px;
+    }
 
 
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 350px) {
 
-
+    #side-nav-wrapper {
+        display: none;
+    }
 
 }
