@@ -656,10 +656,10 @@
 
 @media screen and (max-width: 750px) {
 
-    #nav-icons-wrapper {
+    /* #nav-icons-wrapper {
         visibility: hidden;
         width: 0px;
-    }
+    } */
 
     .story-gradient {
         width: calc((550px/6)*4.5);
