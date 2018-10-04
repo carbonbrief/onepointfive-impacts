@@ -188,9 +188,9 @@ function updateTable () {
         } else if ( dataName =="europeEconomy")  {
             return getHeader7[column];
         // americas headers
-        } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops")  {
+        } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops" || dataName =="americasDrought2")  {
             return getHeader5[column];
-        } else if (dataName =="americasDrought1" || dataName =="americasDrought2")  {
+        } else if (dataName =="americasDrought1")  {
             return getHeader4[column];
         } else if (dataName =="americasHealth")  {
             return getHeader9[column];

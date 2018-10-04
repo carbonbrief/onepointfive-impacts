@@ -33,7 +33,7 @@
         { "name": "Thermal expansion", "1.5C": "<span class='arrow-up'>&#9650;</span> 19cm <br><span class='uncertainty'>(+10–+27)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 25cm <br><span class='uncertainty'>(+7–+42)</span>", "3C": ""},
         { "name": "Glaciers and ice caps", "1.5C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+6–+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+2–+21)</span>", "3C": ""},
         { "name": "Land water storage", "1.5C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8)</span>", "3C": ""},
-        { "name": "<br><span class='table-subtitle'>By 2300</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 59cm <br><span class='uncertainty'>(+37–+88)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 81cm <br><span class='uncertainty'>(+59–+105)</span>", "3C": ""}
+        { "name": "<span class='table-subtitle'>By 2300 </span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 59cm <br><span class='uncertainty'>(+37–+88)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 81cm <br><span class='uncertainty'>(+59–+105)</span>", "3C": ""}
     ];
 
     var marineheatwaves = [
