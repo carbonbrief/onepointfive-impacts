@@ -647,6 +647,10 @@
         font-size: 40px;
     }
 
+    .methodology {
+        height: 1050px;
+    }
+
 
 }
 
@@ -703,6 +707,22 @@
     .section-header-mask h3 {
         left: calc((100% - 550px)/2 + (550px/6) + 20px);
         font-size: 37px;
+    }
+
+    #story0-2 .story-content {
+        max-width: 260px;
+    }
+
+    .footer {
+        left: calc((100% - 550px)/2);
+    }
+
+    .references {
+        width: 400px;
+    }
+
+    .credit {
+        width: 420px;
     }
 
 }
