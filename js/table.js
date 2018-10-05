@@ -185,7 +185,7 @@ function updateTable () {
             return getHeader4[column];
         } else if (dataName =="europeHeatwave" || dataName =="europeColdwave" || dataName =="europeRainIntensity" || dataName =="europeCrops" || dataName =="europeHealth" || dataName =="europeRivers3")  {
             return getHeader5[column];
-        } else if ( dataName =="europeEconomy")  {
+        } else if ( dataName =="europeEconomy" || dataName =="europeHeatDeath" || dataName =="europeColdDeath")  {
             return getHeader7[column];
         // americas headers
         } else if (dataName =="americasTemp" || dataName =="americasMaxTemp" || dataName =="americasWarmSpell" || dataName =="americasWarmExtremes" || dataName =="americasColdExtremes" || dataName =="americasRainfall" || dataName =="americasDrySpell" || dataName =="americasRainIntensity" || dataName =="americasRainExtremes" || dataName =="americasRainSeason" || dataName =="americasStorms" || dataName =="americasCrops" || dataName =="americasDrought2")  {
@@ -194,6 +194,8 @@ function updateTable () {
             return getHeader4[column];
         } else if (dataName =="americasHealth")  {
             return getHeader9[column];
+        } else if (dataName =="americasHeatDeath")  {
+            return getHeader7[column];
         // sids headers
         } else if (dataName =="sidsTemp" || dataName =="sidsRain" || dataName =="sidsDrought1")  {
             return getHeader2[column];
@@ -202,27 +204,29 @@ function updateTable () {
         // africa headers
         } else if (dataName =="africaTemp" || dataName =="africaTempExtremes" || dataName == "africaHeat" || dataName == "africaRainIntensity" || dataName == "africaStorms" || dataName == "africaCrops")  {
             return getHeader5[column];
-        } else if (dataName =="africaRain" || dataName =="africaDrought")  {
+        } else if (dataName =="africaRain" || dataName =="africaDrought" || dataName =="africaHotNights" || dataName =="africaRainSeason1" || dataName =="africaRainSeason2")  {
             return getHeader4[column];
         // asia headers
         } else if (dataName =="asiaIce")  {
             return getHeader10[column];
-        } else if (dataName == "asiaTemp" || dataName == "asiaStorms" || dataName == "asiaEconomy")  {
+        } else if (dataName == "asiaTemp" || dataName == "asiaStorms" || dataName == "asiaEconomy" || dataName =="asiaFlooding2" || dataName =="asiaHealth")  {
             return getHeader7[column];
         } else if (dataName == "asiaWarmSpell" || dataName == "asiaHotExtremes" || dataName == "asiaColdExtremes" || dataName == "asiaIndiaHeatwaves" || dataName == "asiaRainfallIntensities" || dataName == "asiaMonsoon" || dataName == "asiaCrops" || dataName == "asiaNature")  {
             return getHeader5[column];
         } else if (dataName == "asiaRainfallDry" || dataName == "asiaDrought1" || dataName == "asiaDrought2" || dataName == "asiaFlooding")  {
             return getHeader4[column];
         // china headers
-        } else if (dataName =="chinaTemp" || dataName =="chinaHeat" || dataName =="chinaHeatExtremes" || dataName =="chinaRain")  {
+        } else if (dataName =="chinaTemp" || dataName =="chinaHeat" || dataName =="chinaDrought" || dataName =="chinaHeatExtremes" || dataName =="chinaRain")  {
             return getHeader5[column];
-        } else if (dataName =="chinaRainExtremes" || dataName =="chinaStorms" || dataName =="chinaCrops" || dataName =="chinaEconomy")  {
+        } else if (dataName =="chinaRainExtremes" || dataName =="chinaStorms" || dataName =="chinaCrops" || dataName =="chinaEconomy" || dataName =="chinaHealth")  {
             return getHeader7[column];
         // aus headers
         } else if (dataName =="ausOceans" || dataName =="ausHeat" || dataName =="ausHeatExtremes" || dataName =="ausRain" || dataName =="ausStorms" || dataName =="ausCrops")  {
             return getHeader5[column];
         } else if (dataName =="ausDrought")  {
             return getHeader4[column];
+        } else if (dataName =="ausHealth")  {
+            return getHeader7[column];
         }
     });
 

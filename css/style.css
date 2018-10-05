@@ -166,7 +166,7 @@ a {
     top: 1780px;
     left: calc((100% - 1050px)/2 + 260px);
     /* (height of story + 60px of padding) x number of stories. Credit and intro not included. */
-    height: 74480px;
+    height: 82080px;
     padding: 0px !important;
     
 }
@@ -200,7 +200,7 @@ a {
     margin-left: 275px;
     width: 790px;
     /* (table stories + padding) x number + instructions height but not top padding */
-    height: 75180px;
+    height: 82780px;
     position: absolute;
     z-index: 5;
 }
@@ -280,7 +280,7 @@ td {
     position: absolute;
     top: 2120px;
     /* (table stories + padding) x number - 1xpadding - 450px */
-    height: 73970px;
+    height: 81570px;
     left: calc((100% - 1050px)/2);
     margin-left: -20px;
     width: 180px;
@@ -344,7 +344,7 @@ p .fa-info-circle:hover {
 }
 
 #lines2 {
-    height: 62820px;
+    height: 70420px;
 }
 
 .line {
@@ -449,7 +449,7 @@ a:link {
     position: absolute;
     top: 1120px;
     /* (table stories + padding) x number - 60pxpadding */
-    height: 76240px;
+    height: 84800px;
     right: 20px;
 }
 
@@ -671,27 +671,27 @@ footer p {
 }
 
 #americas-header {
-    top: 27620px;
+    top: 29140px;
 }
 
 #sids-header {
-    top: 39780px;
+    top: 42060px;
 }
 
 #africa-header {
-    top: 44340px;
+    top: 46620px;
 }
 
 #asia-header {
-    top: 50420px;
+    top: 54980px;
 }
 
 #china-header {
-    top: 63340px;
+    top: 69420px;
 }
 
 #australasia-header {
-    top: 70180px;
+    top: 77780px;
 }
 
 .section-header-mask {
