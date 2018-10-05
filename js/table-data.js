@@ -655,7 +655,6 @@
 
 // Africa objects
 
-    //temperature and warm spell
 
     var africaTemp = [
       {"name": "<span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
@@ -668,6 +667,19 @@
       {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 23 days <span class='uncertainty'>(+18-+25)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56 days <span class='uncertainty'>(+49-+64)</span>", "3C": ""},
       {"name": "East Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 25 days <span class='uncertainty'>(+22-+28)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 55 days <span class='uncertainty'>(+49-+63)</span>", "3C": ""},
       {"name": "Southern Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 19 days <span class='uncertainty'>(+14-+22)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 41 days <span class='uncertainty'>(+36-+45)</span>", "3C": ""}
+    ];
+
+    var africaHotNights = [
+      {"name": "<span class='table-subtitle'>Annual hot nights</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 52 days <span class='uncertainty'>(+28–91 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 78 days <span class='uncertainty'>(+49–124 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 132 days <span class='uncertainty'>(+88–170 days)</span>"},
+      {"name": "Equatorial Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 86 days <span class='uncertainty'>(+43–118 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 142 days <span class='uncertainty'>(+93–180 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 238 days <span class='uncertainty'>(+182–277 days)</span>"},
+      {"name": "Greater Horn of Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 65 days <span class='uncertainty'>(+46–81 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 107 days <span class='uncertainty'>(+86–128 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 170 days <span class='uncertainty'>(+139–202 days)</span>"},
+      {"name": "South Africa Western Cape", "1.5C": "<span class='arrow-up'>&#9650;</span> 22 days <span class='uncertainty'>(+17–27 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 35 days <span class='uncertainty'>(+27–44 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 58 days <span class='uncertainty'>(+52–74 days)</span>"},
+      {"name": "<span class='table-subtitle'>Periods of 3 consecutive heatwave days</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 periods <span class='uncertainty'>(+2–5 periods)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5 periods <span class='uncertainty'>(+3–6 periods)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7 periods <span class='uncertainty'>(+5–9 periods)</span>"},
+      {"name": "Equatorial Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 3 periods <span class='uncertainty'>(+1–4 periods)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5 periods <span class='uncertainty'>(+2–6 periods)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 8 periods <span class='uncertainty'>(+4–9 periods)</span>"},
+      {"name": "Greater Horn of Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 periods <span class='uncertainty'>(+4–6 periods)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7 periods <span class='uncertainty'>(+5–8 periods)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 10 periods <span class='uncertainty'>(+7–11 periods)</span>"},
+      {"name": "South Africa Western Cape", "1.5C": "<span class='arrow-up'>&#9650;</span> 2 periods <span class='uncertainty'>(+1–2 periods)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3 periods <span class='uncertainty'>(+2–3 periods)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 periods <span class='uncertainty'>(+4–6 periods)</span>"}
     ];
 
     var africaTempExtremes = [
@@ -1072,6 +1084,11 @@
     {"name": "Shanghai", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": ""},
     {"name": "Lasa", "1.5C": "<span class='arrow-up'>&#9650;</span> 18", "2C": "<span class='arrow-up'>&#9650;</span> 39", "3C": ""},
     {"name": "Urumqi", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0", "2C": "<span class='arrow-up'>&#9650;</span> 1", "3C": ""}
+    ];
+
+    var chinaHealth = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6% <br><span class='uncertainty'>(-0.6–+1.8%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <br><span class='uncertainty'>(-0.6–+2.5%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3.7% <br><span class='uncertainty'>(-0.4–+6.8%)</span>"},
+      {"name": "<span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.9% <br><span class='uncertainty'>(-4.8–+2.5%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.6% <br><span class='uncertainty'>(-5.3–+1.7%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.7% <br><span class='uncertainty'>(-6.8–-1%)</span>"}
     ];
 
 //Australasia objects

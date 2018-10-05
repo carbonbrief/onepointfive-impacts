@@ -352,6 +352,26 @@ var impacts=[{
     map: "europe",
     location: "Europe"
 },{
+    name: "europeHeatDeath",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "The change, in percentage points, of excess deaths due to heat; relative to 1986-2005; ensemble mean (min-max)",
+    background: "",
+    credit: "",
+    reference: "[67]",
+    map: "europe",
+    location: "Europe"
+},{
+    name: "europeColdDeath",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "The change, in percentage points, of excess deaths due to cold; relative to 1986-2005; ensemble mean (min-max)",
+    background: "",
+    credit: "",
+    reference: "[67]",
+    map: "europe",
+    location: "Europe"
+},{
     name: "placeholder",
     title: "",
     icon: "",
@@ -509,6 +529,16 @@ var impacts=[{
     map: "americas",
     location: "Americas"
 },{
+    name: "americasHeatDeath",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "Relative to 1961-90",
+    background: "",
+    credit: "",
+    reference: "[67]",
+    map: "americas",
+    location: "Americas"
+},{
     name: "placeholder",
     title: "",
     icon: "",
@@ -583,6 +613,16 @@ var impacts=[{
     map: "africa",
     location: "Africa"
 },{
+    name: "africaHotNights",
+    title: "TEMPERATURE",
+    icon: "<i class='fas fa-thermometer'></i>",
+    info: "Annual hot nights: Defined as 90th percentile of daily minimum temperature in 1971–2000; ensemble median (min–max).<br><br>Defined as number of periods of 3 or more consecutive days with daily max temperature above the 95th percentile in 1971–2000 (but with at least 25C); ensemble median (min–max).",
+    background: "",
+    credit: "",
+    reference: "[66]",
+    map: "africa",
+    location: "Africa"
+},{
     name: "africaTempExtremes",
     title: "TEMPERATURE",
     icon: "<i class='fas fa-thermometer'></i>",
@@ -600,6 +640,26 @@ var impacts=[{
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AFEXXG.jpg",
     credit: "Jennifer Chen/Alamy Stock Photo",
     reference: "[61]",
+    map: "africa",
+    location: "Africa"
+},{
+    name: "africaRainSeason1",
+    title: "RAINFALL",
+    icon: "<i class='fas fa-tint'></i>",
+    info: "Rain season length: Relative to 1971–2000 (in days); ensemble median (min–max).<br><br>Total rainfall in rain season: Average sum of rainfall during wet seasons; relative to 1971–2000 (in %); ensemble median (min–max).",
+    background: "",
+    credit: "",
+    reference: "[66]",
+    map: "africa",
+    location: "Africa"
+},{
+    name: "africaRainSeason2",
+    title: "RAINFALL",
+    icon: "<i class='fas fa-tint'></i>",
+    info: "Dry days during rain season: Defined as days with rainfall <1 mm within rainy season; relative to 1971–2000; ensemble median (min–max).<br><br>Rainfall total on extremely wet days: Defined as 99th percentile daily rainfall; relative to 1971–2000 (in mm/day); ensemble median (min–max).",
+    background: "",
+    credit: "",
+    reference: "[66]",
     map: "africa",
     location: "Africa"
 },{
@@ -780,6 +840,16 @@ var impacts=[{
     map: "asia",
     location: "Asia"
 },{
+    name: "asiaFlooding2",
+    title: "STORMS AND FLOODING",
+    icon: "<img class='title-icon' src='./img/cyclone.svg'>",
+    info: "Change in 100-year return period flood flows; relative to 1986-2005",
+    background: "",
+    credit: "",
+    reference: "[68]",
+    map: "asia",
+    location: "Asia"
+},{
     name: "asiaCrops",
     title: "CROPS",
     icon: "<img class='title-icon' src='./img/wheat.svg'>",
@@ -807,6 +877,16 @@ var impacts=[{
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/A5EKDW.jpg",
     credit: "NORMA JOSEPH/Alamy Stock Photo",
     reference: "[49]",
+    map: "asia",
+    location: "Asia"
+},{
+    name: "asiaHealth",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
+    background: "",
+    credit: "",
+    reference: "[67]",
     map: "asia",
     location: "Asia"
 },{
@@ -897,6 +977,16 @@ var impacts=[{
     map: "china",
     location: "China"
 },{
+    name: "chinaHealth",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
+    background: "",
+    credit: "",
+    reference: "[67]",
+    map: "asia",
+    location: "Asia"
+},{
     name: "placeholder",
     title: "",
     icon: "",
@@ -971,6 +1061,16 @@ var impacts=[{
     background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/CN6B8D.jpg",
     credit: "John White Photos/Alamy Stock Photo",
     reference: "[39]",
+    map: "australasia",
+    location: "Australasia"
+},{
+    name: "ausHealth",
+    title: "HEALTH",
+    icon: "<i class='fas fa-briefcase-medical'></i>",
+    info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
+    background: "",
+    credit: "",
+    reference: "[67]",
     map: "australasia",
     location: "Australasia"
 },{
