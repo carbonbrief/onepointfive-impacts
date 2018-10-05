@@ -52,7 +52,8 @@
         { "name": "Probability of ice-free Arctic summer at least once before hitting temperature limit", "1.5C": "10%", "2C": "80%", "3C": "100%"},
         { "name": "Probability of an ice-free Arctic summer in any one year", "1.5C": "3%", "2C": "16%", "3C": "63%"},
         { "name": "<br><span class='table-subtitle'>Permafrost</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "Area of thawed permafrost by 2300", "1.5C": "4.8m km<sup>2</sup> <br><span class='uncertainty'>(2.6–6.8)</span>", "2C": "6.6m km<sup>2</sup> <br><span class='uncertainty'>(4.4–8.6)</span>", "3C": ""}
+        { "name": "Area of thawed permafrost by 2300", "1.5C": "4.8m km<sup>2</sup> <span class='uncertainty'>(2.6–6.8)</span>", "2C": "6.6m km<sup>2</sup> <span class='uncertainty'>(4.4–8.6)</span>", "3C": ""},
+        { "name": "<br><span class='table-subtitle'>Global glacier mass loss during the 21st century</span>", "1.5C": "76mm <span class='uncertainty'>(54–97mm)</span>", "2C": "89mm <span class='uncertainty'>(63–112mm)</span>", "3C": ""}
     ];
 
     var snow = [
@@ -365,6 +366,35 @@
       {"name": "Annual average number of excess summer heatwave deaths in Paris", "1.5C": "<span class='arrow-up'>&#9650;</span> 89", "2C": "<span class='arrow-up'>&#9650;</span> 176", "3C": ""}
     ];
 
+    var europeHeatDeath = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Finland", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(-0.2–+1.3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.9% <span class='uncertainty'>(-0.1–+1.8%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.7% <span class='uncertainty'>(+0.4–+4.6%)</span>"},
+      {"name": "Ireland", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.2% <span class='uncertainty'>(-0.4–+0.7%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.3% <span class='uncertainty'>(+0.4–+1%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 0.8% <span class='uncertainty'>(-1.4–+2.6%)</span>"},
+      {"name": "Sweden", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.4% <span class='uncertainty'>(-0.5–+1.4%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(-0.6–+1.8%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1.6% <span class='uncertainty'>(-0.9–+3.8%)</span>"},
+      {"name": "UK", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <span class='uncertainty'>(+0–+0.6%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(+0.1–+1%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(+0.8–+3.2%)</span>"},
+      {"name": "Czech Republic", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(0–+1.3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.9% <span class='uncertainty'>(+0.2–+1.8%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3.6% <span class='uncertainty'>(+1.7–+5.7%)</span>"},
+      {"name": "France", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.8% <span class='uncertainty'>(+0.2–+1.6%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5% <span class='uncertainty'>(+0.7–+2.5%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5.7% <span class='uncertainty'>(+3.9–+7.1%)</span>"},
+      {"name": "Moldova", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(+0.2–+1.6%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5% <span class='uncertainty'>(+0.6–+2.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5.4% <span class='uncertainty'>(+3.4–+7%)</span>"},
+      {"name": "Switzerland", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(-0.2–+1.5%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.1% <span class='uncertainty'>(0–+2.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 4.2% <span class='uncertainty'>(+1.2–+7.1%)</span>"},
+      {"name": "Italy", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(+0.4–+1.8%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1% <span class='uncertainty'>(+1.3–+2.9%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(+5–+8.6%)</span>"},
+      {"name": "Spain", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(+0.2–+1.8%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1% <span class='uncertainty'>(+0.9–+3.6%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7.3% <span class='uncertainty'>(+5–+9.7%)</span>"}
+    ];
+
+    var europeColdDeath = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Finland ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.3% <span class='uncertainty'>(-4.5–+1.7%)", "2C": "<span class='arrow-down'>&#9660;</span> 1.7% <span class='uncertainty'><span class='uncertainty'>(-4.8–+1.3%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.3% <span class='uncertainty'>(-5.9–-0.7%)</span>"},
+      {"name": "Ireland ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.2% <span class='uncertainty'>(-4.3–+1.6%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <span class='uncertainty'><span class='uncertainty'>(-4.7–+0.9%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.3% <span class='uncertainty'>(-5.8–-1%)</span>"},
+      {"name": "Sweden ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.2% <span class='uncertainty'>(-4.5–+1.8%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.6% <span class='uncertainty'><span class='uncertainty'>(-4.8–+1.4%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.9% <span class='uncertainty'>(-5.5–-0.2%)</span>"},
+      {"name": "UK ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.3% <span class='uncertainty'>(-3.3–+0.7%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <span class='uncertainty'>(-3.7–+0.1%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.1% <span class='uncertainty'>(-4.9–-1.4%)</span>"},
+      {"name": "Czech Republic ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-4.1–+1.7%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.5% <span class='uncertainty'><span class='uncertainty'>(-4.4–+1.2%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.8% <span class='uncertainty'>(-5.4–-0.5%)</span>"},
+      {"name": "France ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-4.1–+1.6%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.6% <span class='uncertainty'><span class='uncertainty'>(-4.5–+1%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.9% <span class='uncertainty'>(-5.4–-0.6%)</span>"},
+      {"name": "Moldova ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.3% <span class='uncertainty'>(-5–+2.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.7% <span class='uncertainty'><span class='uncertainty'>(-5.3–+1.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.4% <span class='uncertainty'>(-6.6–-0.5%)</span>"},
+      {"name": "Switzerland ", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.9% <span class='uncertainty'>(-4.7–+2.6%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.2% <span class='uncertainty'><span class='uncertainty'>(-4.9–+2.2%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.2% <span class='uncertainty'>(-5.3–+0.7%)</span>"},
+      {"name": "Italy ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-4–+1.8%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.6% <span class='uncertainty'><span class='uncertainty'>(-4.4–+1.2%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3% <span class='uncertainty'>(-5.4–-0.5%)</span>"},
+      {"name": "Spain ", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.9% <span class='uncertainty'>(-4–+2.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.3% <span class='uncertainty'><span class='uncertainty'>(-4.2–+1.5%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.6% <span class='uncertainty'>(-5–-0.3%)</span>"}
+
+    ];
+
 // Americas objects
 
     var americasTemp = [
@@ -542,6 +572,21 @@
       {"name": "2100", "1.5C": "<span class='arrow-up'>&#9650;</span> 4.5m <br><span class='uncertainty'>(+1.6-+7.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5.0m <br><span class='uncertainty'>(+3.1-+8.6)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7.8m <br><span class='uncertainty'>(+3.9-+16.0)</span>"}
     ];
 
+    var americasHeatDeath = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Canada", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.4% <span class='uncertainty'>(-0.2–+0.9% )</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.7% <span class='uncertainty'>(-0.1–+1.4%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.8% <span class='uncertainty'>(+0.6–+4.7%)</span>"},
+      {"name": "USA", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <span class='uncertainty'>(-0.3–+0.9%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(-0.4–+1.4%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.2% <span class='uncertainty'>(-0.7–+4.6%)</span>"},
+      {"name": "Mexico", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <span class='uncertainty'>(-0.2–+0.8%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.8% <span class='uncertainty'>(-0.1–+1.7%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3.8% <span class='uncertainty'>(+0.1–+7.5%)</span>"},
+      {"name": "Brazil", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.9% <span class='uncertainty'>(-0.2–+1.9%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6% <span class='uncertainty'>(-0.7–+3.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5.2% <span class='uncertainty'>(-7.8–+13.1%)</span>"},
+      {"name": "Chile", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.4% <span class='uncertainty'>(-0.2–+1.1%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.7% <span class='uncertainty'>(-0.1–+1.6%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.6% <span class='uncertainty'>(+0.3–+4.8%)</span>"},
+      {"name": "<br><span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Canada", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.5% <span class='uncertainty'>(-3.3–+2.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0.8% <span class='uncertainty'>(-3.5–+1.7%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 1.8% <span class='uncertainty'>(-4.1–+0.3%)</span>"},
+      {"name": "USA", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.5% <span class='uncertainty'>(-3–+1.8%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 0.8% <span class='uncertainty'>(-3.2–+1.4%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 1.8% <span class='uncertainty'>(-3.7–+0.1%)</span>"},
+      {"name": "Mexico", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.5% <span class='uncertainty'>(-3.4–+0.3%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2.3% <span class='uncertainty'>(-3.9–-0.7%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.9% <span class='uncertainty'>(-4.9–-3%)</span>"},
+      {"name": "Brazil", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-2.2–+0.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.6% <span class='uncertainty'>(-2.4–-0.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.4% <span class='uncertainty'>(-2.8–-2%)</span>"},
+      {"name": "Chile", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.8% <span class='uncertainty'>(-3.9–+2.2%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-4–+1.8%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.5% <span class='uncertainty'>(-4.9–-0.2%)</span>"}
+    ];
+
 // Caribbean objects
 
     // put temperature and heat in one for now
@@ -647,7 +692,39 @@
       {"name": "Likelihood of exceeding temperature extremes during 1991-92 drought in southern Africa", "1.5C": "74% <br><span class='uncertainty'>(70-78)</span>", "2C": "98% <br><span class='uncertainty'>(97-100)</span>", "3C": ""}
     ];
 
-    // season and dry spell
+    var africaRainSeason1 = [
+      {"name": "<span class='table-subtitle'>Rain season length</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-9–+5 days)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-8–+10 days)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-11–+7 days)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(1st rain season)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 3 days <span class='uncertainty'>(-6–+4 days)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <span class='uncertainty'>(-6–+2 days)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-9–+5 days)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(2nd rain season)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-5–+5 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-6–+6 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(-9–+7 days)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(1st rain season)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-13–+4 days)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3 days <span class='uncertainty'>(-9–+4 days)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 6 days <span class='uncertainty'>(-21–+4 days)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(2nd rain season)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 6 days <span class='uncertainty'>(+3–+14 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0 days <span class='uncertainty'>(-4–+15 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 days <span class='uncertainty'>(+0–+26 days)</span>"},
+      {"name": "South Africa Western Cape", "1.5C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-21–+10 days)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-15–+13 days)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 5 days <span class='uncertainty'>(-21–+17 days)</span>"},
+      {"name": "<br><span class='table-subtitle'>Total rainfall in rain season</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa", "1.5C": "<span class='arrow-up'>&#9650;</span> 8% <span class='uncertainty'>(-8–+18%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 10% <span class='uncertainty'>(-4–+22%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-12–+34%)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(1st rain season)</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 4% <span class='uncertainty'>(-11–+4%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2% <span class='uncertainty'>(-9–0%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 5% <span class='uncertainty'>(-17–+6%)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(2nd rain season)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-9–+5%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-10–+6%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-12–+10%)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(1st rain season)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <span class='uncertainty'>(-24–+51%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2% <span class='uncertainty'>(-21–+41%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 4% <span class='uncertainty'>(-15–+72%)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(2nd rain season)</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 17% <span class='uncertainty'>(-3–+102%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 23% <span class='uncertainty'>(-8–+106%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 42% <span class='uncertainty'>(-12–+258%)</span>"},
+      {"name": "South Africa Western Cape", "1.5C": "<span class='arrow-down'>&#9660;</span> 2% <span class='uncertainty'>(-12–+2%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 8% <span class='uncertainty'>(-20–+4%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 20% <span class='uncertainty'>(-31–-1%)</span>"}
+    ];
+
+    var africaRainSeason2 = [
+      {"name": "<span class='table-subtitle'>Dry days during rain season</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 days <span class='uncertainty'>(-3–+5 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-4–+7 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-4–+6 days)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(1st rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-1–+3 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(-1–+5 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(0–+6 days)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(2nd rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(0–+3 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(0–+5 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 days <span class='uncertainty'>(+0–+7 days)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(1st rain season) ", "1.5C": "<span class='arrow-down'>&#9660;</span> 1 days <span class='uncertainty'>(-5–+2 days)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2 days <span class='uncertainty'>(-8–+2 days)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 4 days <span class='uncertainty'>(-10–+1 days)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(2nd rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(-1–+7 days)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 days <span class='uncertainty'>(-3–+5 days)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2 days <span class='uncertainty'>(-1–+10 days)</span>"},
+      {"name": "South Africa Western Cape ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-14–+6 days)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-8–+12 days)</span>", "3C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <span class='uncertainty'>(-8–+12 days)</span>"},
+      {"name": "<br><span class='table-subtitle'>Rainfall total on extremely wet days</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "West Africa ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 mm/day <span class='uncertainty'>(-6–+28 mm/day)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 4 mm/day <span class='uncertainty'>(-2–+40 mm/day)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 3 mm/day <span class='uncertainty'>(-5–+63 mm/day)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(1st rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 2 mm/day <span class='uncertainty'>(0–+5 mm/day)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3 mm/day <span class='uncertainty'>(+1–+8 mm/day)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 mm/day <span class='uncertainty'>(+2–+13 mm/day)</span>"},
+      {"name": "Equatorial Africa <span class='uncertainty'>(2nd rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 mm/day <span class='uncertainty'>(0–+8 mm/day)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3 mm/day <span class='uncertainty'>(+1–+9 mm/day)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 5 mm/day <span class='uncertainty'>(+1–+18 mm/day)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(1st rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 7 mm/day <span class='uncertainty'>(0–+13 mm/day)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5 mm/day <span class='uncertainty'>(+0–+19 mm/day)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 11 mm/day <span class='uncertainty'>(+1–+31 mm/day)</span>"},
+      {"name": "Greater Horn of Africa <span class='uncertainty'>(2nd rain season) ", "1.5C": "<span class='arrow-up'>&#9650;</span> 4 mm/day <span class='uncertainty'>(-1–+14 mm/day)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7 mm/day <span class='uncertainty'>(+1–+15 mm/day)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 14 mm/day <span class='uncertainty'>(+1–+30 mm/day)</span>"},
+      {"name": "South Africa Western Cape ", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 mm/day <span class='uncertainty'>(-2–+3 mm/day)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 mm/day <span class='uncertainty'>(-3–+3 mm/day)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 1 mm/day <span class='uncertainty'>(-5–+1 mm/day)</span>"}
+    ];
 
     var africaRain = [
       {"name": "<span class='table-subtitle'>Dry spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
@@ -853,6 +930,13 @@
       {"name": "Ob'", "1.5C": "<span class='arrow-up'>&#9650;</span> 85% <br><span class='uncertainty'>(+59-+122)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 108% <br><span class='uncertainty'>(+75-+156)</span>", "3C": ""}
     ];
 
+    var asiaFlooding2 = [
+      {"name": "<span class='table-subtitle'>100-yr flood flows in Ganges–Brahmaputra–Meghna delta in Bangladesh</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Ganges ", "1.5C": "<span class='arrow-up'>&#9650;</span> 27%", "2C": "<span class='arrow-up'>&#9650;</span> 29%", "3C": " <span class='arrow-up'>&#9650;</span>54%"},
+      {"name": "Brahmaputra ", "1.5C": "<span class='arrow-up'>&#9650;</span> 8%", "2C": "<span class='arrow-up'>&#9650;</span> 24%", "3C": "<span class='arrow-up'>&#9650;</span> 63%"},
+      {"name": "Meghna ", "1.5C": "<span class='arrow-up'>&#9650;</span> 15%", "2C": "<span class='arrow-up'>&#9650;</span> 38%", "3C": "<span class='arrow-up'>&#9650;</span> 81%"}
+    ];
+
     var asiaCrops = [
       {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
       {"name": "Northern Asia", "1.5C": "<span class='arrow-up'>&#9650;</span> 7 days <br><span class='uncertainty'>(+6-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 14 days <br><span class='uncertainty'>(+12-+17)</span>", "3C": ""},
@@ -883,6 +967,24 @@
       {"name": "Uzbekistan", "1.5C": "<span class='arrow-up'>&#9650;</span> 80%", "2C": "<span class='arrow-up'>&#9650;</span> 114%", "3C": "<span class='arrow-up'>&#9650;</span> 218%"},
       {"name": "Vietnam", "1.5C": "<span class='arrow-up'>&#9650;</span> 148%", "2C": "<span class='arrow-up'>&#9650;</span> 190%", "3C": "<span class='arrow-up'>&#9650;</span> 474%"}
     ];
+
+    var asiaHealth = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Japan", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.2% <span class='uncertainty'>(-0.1–+0.5%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.4% <span class='uncertainty'>(+0.1–+0.8%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1.6% <span class='uncertainty'>(+0.7–+2.5%)</span>"},
+      {"name": "South Korea", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <span class='uncertainty'>(-0.2–+0.7%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.6% <span class='uncertainty'>(0–+1.2%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 2.3% <span class='uncertainty'>(+0.6–+4%)</span>"},
+      {"name": "Philippines", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(+0.3–+1.7%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.5% <span class='uncertainty'>(+0.8–+4.2%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 12% <span class='uncertainty'>(+2.4–+21.4%)</span>"},
+      {"name": "Taiwan", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.7% <span class='uncertainty'>(-0.3–+1.8%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.3% <span class='uncertainty'>(-0.1–+2.7%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 4.2% <span class='uncertainty'>(+0.1–+7.6%)</span>"},
+      {"name": "Thailand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.9% <span class='uncertainty'>(-0.5–+3.9%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3.4% <span class='uncertainty'>(-0.5–+6.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 10.8% <span class='uncertainty'>(-3.1–+19.6%)</span>"},
+      {"name": "Vietnam", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.4% <span class='uncertainty'>(+0.4–+2.3%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3.5% <span class='uncertainty'>(+1.4–+6%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 16.2% <span class='uncertainty'>(+7.7–+22.5%)</span>"},
+      {"name": "<span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "", "2C": "", "3C": ""},
+      {"name": "Japan", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.8% <span class='uncertainty'>(-3.6–+1.8%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.4% <span class='uncertainty'>(-4–+1.1%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.9% <span class='uncertainty'>(-5.2–-0.8%)</span>"},
+      {"name": "South Korea", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.6% <span class='uncertainty'>(-3.7–+2.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-4–+1.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.3% <span class='uncertainty'>(-4.8–-0.1%)</span>"},
+      {"name": "Philippines", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.9% <span class='uncertainty'>(-3.3–-0.2%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 2.7% <span class='uncertainty'>(-3.7–-1.4%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 4% <span class='uncertainty'>(-4.2–-3.6%)</span>"},
+      {"name": "Taiwan", "1.5C": "<span class='arrow-down'>&#9660;</span> 0.7% <span class='uncertainty'>(-2.4–+0.9%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-2.7–+0.4%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.6% <span class='uncertainty'>(-3.8–-1.4%)</span>"},
+      {"name": "Thailand", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <span class='uncertainty'>(-2.1–-0.1%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <span class='uncertainty'>(-2.5–-1%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 2.7% <span class='uncertainty'>(-3–-2.2%)</span>"},
+      {"name": "Vietnam", "1.5C": "<span class='arrow-down'>&#9660;</span> 2.2% <span class='uncertainty'>(-3.6–-0.7%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 3.2% <span class='uncertainty'>(-4.2–-2.1%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 4.6% <span class='uncertainty'>(-4.8–-4.3%)</span>"}
+    ]
+
 // China objects
 
     var chinaTemp = [
@@ -942,6 +1044,10 @@
       {"name": "Rainfall amount on an extremely wet day", "1.5C": "<span class='arrow-up'>&#9650;</span> 69%", "2C": "<span class='arrow-up'>&#9650;</span> 87%", "3C": "<span class='arrow-up'>&#9650;</span> 162%"}
     ];
 
+    var chinaDrought = [
+      {"name": "<span class='table-subtitle'>Average drought area</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 2 – <span class='arrow-up'>&#9650;</span> 17%", "2C": "<span class='arrow-up'>&#9650;</span> 9 – <span class='arrow-up'>&#9650;</span>45%", "3C": ""}
+    ];
+
     var chinaStorms = [
       {"name": "<span class='table-subtitle'>Population affected by river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 93%", "2C": "<span class='arrow-up'>&#9650;</span> 134%", "3C": "<span class='arrow-up'>&#9650;</span> 442%"},
       {"name": "", "1.5C": "", "2C": "", "3C": ""},
@@ -959,8 +1065,8 @@
 
     var chinaEconomy = [
     {"name": "<span class='table-subtitle'>Economic damages from river flooding</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 86%", "2C": "<span class='arrow-up'>&#9650;</span> 120%", "3C": "<span class='arrow-up'>&#9650;</span> 443%"},
-    {"name": "", "1.5C": "", "2C": "", "3C": ""},
-    {"name": "<span class='table-subtitle'>Economic damages caused by tropical cyclones</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> $14-16m", "2C": "<span class='arrow-up'>&#9650;</span> $31-49m", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Average annual drought losses</span>", "1.5C": "<span class='arrow-up'>&#9650;</span $19.0–19.4bn", "2C": "<span class='arrow-up'>&#9650;</span $20.2–21.8bn", "3C": ""},
+    {"name": "<br><span class='table-subtitle'>Economic damages caused by tropical cyclones</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> $14-16m", "2C": "<span class='arrow-up'>&#9650;</span> $31-49m", "3C": ""},
     {"name": "<br><span class='table-subtitle'>Annual days of temperature-related weight restrictions on flights</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Beijing", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 3", "3C": ""},
     {"name": "Shanghai", "1.5C": "<span class='arrow-up'>&#9650;</span> 2", "2C": "<span class='arrow-up'>&#9650;</span> 9", "3C": ""},
@@ -1025,6 +1131,11 @@
     {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "", "2C": "", "3C": ""},
     {"name": "Northern Australia", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0–+0)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0 days <br><span class='uncertainty'>(+0-+0)</span>", "3C": ""},
     {"name": "Southern Australia & New Zealand", "1.5C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1–+2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1 day <br><span class='uncertainty'>(+1-+2)</span>", "3C": ""}
+    ];
+
+    var ausHealth = [
+      {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <br><span class='uncertainty'>(-0.3–+0.9%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.5% <br><span class='uncertainty'>(-0.2–+1.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1.8% <br><span class='uncertainty'>(+0.1–+3.9%)</span>"},
+      {"name": "<span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <br><span class='uncertainty'>(-4.9–+2.3%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <br><span class='uncertainty'>(-5.5–+1.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.8% <br><span class='uncertainty'>(-6.8–-1.1%)</span>"}
     ];
 
 
