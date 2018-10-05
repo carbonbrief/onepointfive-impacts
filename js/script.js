@@ -60,21 +60,21 @@ $(function(){
             $('#economy-nav').addClass('nav-active');
         } else if (item.index == 17) {
             $('#health-nav').addClass('nav-active');
-        } else if (item.index > 17 && item.index < 37) {
+        } else if (item.index > 17 && item.index < 39) {
             $('#europe-nav').addClass('nav-active');
-        } else if (item.index > 36 && item.index < 53) {
+        } else if (item.index > 38 && item.index < 56) {
             $('#americas-nav').addClass('nav-active');
-        } else if (item.index > 52 && item.index < 59) {
+        } else if (item.index > 55 && item.index < 62) {
             $('#sids-nav').addClass('nav-active');
-        } else if (item.index > 58 && item.index < 67) {
+        } else if (item.index > 61 && item.index < 73) {
             $('#africa-nav').addClass('nav-active');
-        } else if (item.index > 66 && item.index < 84) {
+        } else if (item.index > 72 && item.index < 92) {
             $('#asia-nav').addClass('nav-active');
-        } else if (item.index > 83 && item.index < 93) {
+        } else if (item.index > 91 && item.index < 103) {
             $('#china-nav').addClass('nav-active');
-        } else if (item.index > 92 && item.index < 101) {
+        } else if (item.index > 102 && item.index < 112) {
             $('#australasia-nav').addClass('nav-active');
-        } else if (item.index > 100) {
+        } else if (item.index > 111) {
             $('#footer-nav').addClass('nav-active');
         } else if (item.index == 2) {
             $('#home-nav').addClass('nav-active');
@@ -88,7 +88,7 @@ $(function(){
         }
 
         // hide down arrow when at bottom
-        if (item.index > 100) {
+        if (item.index > 111) {
             $arrowDown.css("visibility", "hidden");
         } else {
             $arrowDown.css("visibility", "visible");
@@ -96,7 +96,7 @@ $(function(){
         
 
         // UPDATE MAP
-        if (item.index < 101 && item.index > 2) {
+        if (item.index < 112 && item.index > 2) {
             $map.css( "background-image", "url('img/" + item.data.map + ".svg')");
             $mapText.text(item.data.location);
         }
@@ -113,7 +113,7 @@ $(function(){
 
         }
 
-        if(item.index > 0 && item.index < 101){
+        if(item.index > 0 && item.index < 112){
 
             triggerTableUpdate();
 
@@ -234,7 +234,7 @@ $(function(){
                     "background-repeat": "no-repeat",
                     "background-size": "cover"
                 });
-            } else if (item.index > 2 && item.index < 101) {
+            } else if (item.index > 2 && item.index < 112) {
 
                 item.el.addClass("story-middle");
  
@@ -263,7 +263,7 @@ $(function(){
                 }
 
 
-            } else if (item.index === 101) {
+            } else if (item.index === 112) {
 
                 // change style via class so can make responsive
                 item.el.addClass("methodology");
@@ -277,7 +277,7 @@ $(function(){
                     + "</p></div></div>"
                 );
 
-            } else if (item.index === 102) {
+            } else if (item.index === 113) {
 
                 item.el.addClass("story-end");
 
@@ -326,17 +326,17 @@ $(function(){
                 } else if (id =="europe") {
                     that.index(18);
                 } else if (id =="asia") {
-                    that.index(67);
+                    that.index(73);
                 } else if (id =="china") {
-                    that.index(84);
+                    that.index(92);
                 } else if (id =="americas") {
-                    that.index(37);
+                    that.index(39);
                 } else if (id =="africa") {
-                    that.index(59);
+                    that.index(62);
                 } else if (id =="australasia") {
-                    that.index(93);
+                    that.index(103);
                 } else if (id =="sids") {
-                    that.index(53);
+                    that.index(56);
                 }
 
             });
@@ -369,19 +369,19 @@ $(function(){
                 } else if (id =="europe-nav") {
                     that.index(18);
                 } else if (id =="asia-nav") {
-                    that.index(67);
+                    that.index(73);
                 } else if (id =="china-nav") {
-                    that.index(84);
+                    that.index(92);
                 } else if (id =="americas-nav") {
-                    that.index(37);
+                    that.index(39);
                 } else if (id =="africa-nav") {
-                    that.index(59);
+                    that.index(62);
                 } else if (id =="australasia-nav") {
-                    that.index(93);
+                    that.index(103);
                 } else if (id =="sids-nav") {
-                    that.index(53);
+                    that.index(56);
                 } else if (id =="footer-nav") {
-                    that.index(101);
+                    that.index(112);
                 } else if (id =="home-nav") {
                     that.index(2);
                 }

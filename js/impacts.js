@@ -947,6 +947,16 @@ var impacts=[{
     map: "china",
     location: "China"
 },{
+    name: "chinaDrought",
+    title: "DROUGHT",
+    icon: "<img class='title-icon' src='./img/drought.svg'>",
+    info: "Drought defined as Standardized Precipitation Evapotranspiration Index (SPEI) < -1 or Palmer Drought Severity Index (PDSI) < -2; relative to 1986-2005; range encompasses SPEI and PDSI mean results.",
+    background: "",
+    credit: "",
+    reference: "[69]",
+    map: "china",
+    location: "China"
+},{
     name: "chinaStorms",
     title: "STORMS AND FLOODING",
     icon: "<img class='title-icon' src='./img/cyclone.svg'>",
@@ -984,8 +994,8 @@ var impacts=[{
     background: "",
     credit: "",
     reference: "[67]",
-    map: "asia",
-    location: "Asia"
+    map: "china",
+    location: "China"
 },{
     name: "placeholder",
     title: "",
