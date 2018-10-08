@@ -1152,7 +1152,7 @@
 
     var ausHealth = [
       {"name": "<span class='table-subtitle'>Excess deaths due to heat</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.3% <br><span class='uncertainty'>(-0.3–+0.9%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 0.5% <br><span class='uncertainty'>(-0.2–+1.3%)</span>", "3C": "<span class='arrow-up'>&#9650;</span> 1.8% <br><span class='uncertainty'>(+0.1–+3.9%)</span>"},
-      {"name": "<span class='table-subtitle'>Excess deaths due to cold</span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <br><span class='uncertainty'>(-4.9–+2.3%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <br><span class='uncertainty'>(-5.5–+1.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.8% <br><span class='uncertainty'>(-6.8–-1.1%)</span>"}
+      {"name": "<span class='table-subtitle'>Excess deaths due to cold </span>", "1.5C": "<span class='arrow-down'>&#9660;</span> 1.1% <br><span class='uncertainty'>(-4.9–+2.3%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1.8% <br><span class='uncertainty'>(-5.5–+1.6%)</span>", "3C": "<span class='arrow-down'>&#9660;</span> 3.8% <br><span class='uncertainty'>(-6.8–-1.1%)</span>"}
     ];
 
 

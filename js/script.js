@@ -113,7 +113,7 @@ $(function(){
 
         }
 
-        if(item.index > 0 && item.index < 112){
+        if(item.index > 0 && item.index < 113){
 
             triggerTableUpdate();
 

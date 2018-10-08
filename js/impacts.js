@@ -356,8 +356,8 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "The change, in percentage points, of excess deaths due to heat; relative to 1986-2005; ensemble mean (min-max)",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/JCF7X8.jpg",
+    credit: "Credit: M.Ramirez/Alamy Live News",
     reference: "[67]",
     map: "europe",
     location: "Europe"
@@ -366,8 +366,8 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "The change, in percentage points, of excess deaths due to cold; relative to 1986-2005; ensemble mean (min-max)",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/AB2JHY.jpg",
+    credit: "Profimedia.CZ a.s./Alamy Stock Photo",
     reference: "[67]",
     map: "europe",
     location: "Europe"
@@ -533,8 +533,8 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "Relative to 1961-90",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/KC9584.jpg",
+    credit: "dbimages/Alamy Stock Photo",
     reference: "[67]",
     map: "americas",
     location: "Americas"
@@ -617,8 +617,8 @@ var impacts=[{
     title: "TEMPERATURE",
     icon: "<i class='fas fa-thermometer'></i>",
     info: "Annual hot nights: Defined as 90th percentile of daily minimum temperature in 1971–2000; ensemble median (min–max).<br><br>Defined as number of periods of 3 or more consecutive days with daily max temperature above the 95th percentile in 1971–2000 (but with at least 25C); ensemble median (min–max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/F45XEB.jpg",
+    credit: "Nature Picture Library/Alamy Stock Photo",
     reference: "[66]",
     map: "africa",
     location: "Africa"
@@ -647,8 +647,8 @@ var impacts=[{
     title: "RAINFALL",
     icon: "<i class='fas fa-tint'></i>",
     info: "Rain season length: Relative to 1971–2000 (in days); ensemble median (min–max).<br><br>Total rainfall in rain season: Average sum of rainfall during wet seasons; relative to 1971–2000 (in %); ensemble median (min–max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/HFJE6X.jpg",
+    credit: "Mike Goldwater/Alamy Stock Photo",
     reference: "[66]",
     map: "africa",
     location: "Africa"
@@ -657,8 +657,8 @@ var impacts=[{
     title: "RAINFALL",
     icon: "<i class='fas fa-tint'></i>",
     info: "Dry days during rain season: Defined as days with rainfall <1 mm within rainy season; relative to 1971–2000; ensemble median (min–max).<br><br>Rainfall total on extremely wet days: Defined as 99th percentile daily rainfall; relative to 1971–2000 (in mm/day); ensemble median (min–max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/09/C5T9H7.jpg",
+    credit: "David Chapman/Alamy Stock Photo",
     reference: "[66]",
     map: "africa",
     location: "Africa"
@@ -844,8 +844,8 @@ var impacts=[{
     title: "STORMS AND FLOODING",
     icon: "<img class='title-icon' src='./img/cyclone.svg'>",
     info: "Change in 100-year return period flood flows; relative to 1986-2005",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/DHFRXN.jpg",
+    credit: "Daniel J. Rao/Alamy Stock Photo",
     reference: "[68]",
     map: "asia",
     location: "Asia"
@@ -884,8 +884,8 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/PH5XJ3.jpg",
+    credit: "Prasit Rodphan/Alamy Stock Photo",
     reference: "[67]",
     map: "asia",
     location: "Asia"
@@ -951,8 +951,8 @@ var impacts=[{
     title: "DROUGHT",
     icon: "<img class='title-icon' src='./img/drought.svg'>",
     info: "Drought defined as Standardized Precipitation Evapotranspiration Index (SPEI) < -1 or Palmer Drought Severity Index (PDSI) < -2; relative to 1986-2005; range encompasses SPEI and PDSI mean results.",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/BKF4BN.jpg",
+    credit: "Ashley Cooper pics/Alamy Stock Photo",
     reference: "[69]",
     map: "china",
     location: "China"
@@ -991,8 +991,8 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/H47FEN.jpg",
+    credit: "Bob Henry/Alamy Stock Photo",
     reference: "[67]",
     map: "china",
     location: "China"
@@ -1078,12 +1078,13 @@ var impacts=[{
     title: "HEALTH",
     icon: "<i class='fas fa-briefcase-medical'></i>",
     info: "The change, in percentage points, of excess deaths due to heat/cold; relative to 1986-2005; ensemble mean (min-max).",
-    background: "",
-    credit: "",
+    background: "https://www.carbonbrief.org/wp-content/uploads/2018/10/EXB0DY.jpg",
+    credit: "martin berry/Alamy Stock Photo",
     reference: "[67]",
     map: "australasia",
     location: "Australasia"
 },{
+    name: "placeholder",
     icon: "fas fa-info-circle",
     text: "Data compiled by <a href='https://www.carbonbrief.org/author/robertmcsweeney'target='_blank'>Robert McSweeney.</a> Interactive by <a href='https://www.carbonbrief.org/author/rospearce' >Rosamund Pearce</a> with help from Tom Prater. Licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode'>Creative Commons.</a> Videos courtesy of Getty Images.<br><h2>Methodology</h2><p class='credit'>Relevant peer-reviewed journal papers were initially identified and collated by including those from Carbon Brief <a href='https://www.carbonbrief.org/tag/1-5c' target='_blank'>articles</a> and <a href='https://www.carbonbrief.org/daily-weekly-briefing-sign-up' target='_blank'>Daily Briefings</a>. This was then extended by identifying special journal issues and collections focused on 1.5C. Next, using Scopus – the world’s <a href='https://www.elsevier.com/solutions/scopus' target='_blank'>largest abstract and citation database</a> of peer-reviewed literature – a search was carried out for any journal paper that mentions “1.5” in its title, abstract or keywords.</p><p class='credit'>In total, around 150 journal papers were identified. The vast majority were published in 2018, but some were also from 2017 and 2016.</p><p class='credit'>These were then read to extract useful data. Not all studies could be used. For example, the basic requirements to include a study in this article is that it considers at least one impact of climate change at 1.5C and 2C of warming. Some papers, for example, only looked at 1.5C. If a study also included an additional temperature level, that information is also used. If more than one study covered the same impact, then the study that covered the widest range of regions and/or warming levels was used. In total, results were used from just under half of the papers identified.</p><p class='credit'>To be used in this article, each impact of climate change needed to be able to be summarised as numbers – rather than, say, charts or maps. If numbers were not available in a paper or its supplementary data then Carbon Brief contacted the corresponding author to ask for the data directly. If an uncertainty range is given, then this was used as well and presented in the article (in brackets alongside the main result).</p><p class='credit'>All the findings were then divided up across 10 categories and seven regions of the world, plus global data. China was given its own category because there were a number of studies specific to the country.</p><p class='credit'>The data presented in this article can also be accessed in this <a href='https://docs.google.com/spreadsheets/d/1X86iRUekuaUVmMv1MeyC6wne-23ebgjilqM7eenqR50/edit#gid=885161542' target='_blank'>spreadsheet</a>.</p>"
 },{
