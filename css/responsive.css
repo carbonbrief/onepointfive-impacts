@@ -134,7 +134,7 @@
     .gradient-wrapper {
         left: calc((100% - 820px)/2 + 185px);
         top: 1630px;
-        height: 69580px;
+        height: 77390px;
     }
 
     #lines-wrapper {
@@ -162,12 +162,12 @@
         left: calc((100% - 820px)/2);
         margin-left: 196px;
         width: 614px;
-        height: 70230px;
+        height: 78040px;
         top: 985px;
     }
 
     #side-nav-wrapper {
-        height: 71290px;
+        height: 79100px;
         right: 15px;
         top: 1020px;
     }
@@ -178,7 +178,7 @@
 
     .map-wrapper {
         left: calc((100% - 820px)/2);
-        height: 69070px;
+        height: 76880px;
         margin-left: -30px;
         top: 2020px;
     }
@@ -268,27 +268,27 @@
     }
     
     #americas-header {
-        top: 25770px;
+        top: 27190px;
     }
     
     #sids-header {
-        top: 37130px;
+        top: 39260px;
     }
     
     #africa-header {
-        top: 41390px;
+        top: 43520px;
     }
     
     #asia-header {
-        top: 47070px;
+        top: 51330px;
     }
     
     #china-header {
-        top: 59140px;
+        top: 64820px;
     }
     
     #australasia-header {
-        top: 65530px;
+        top: 72630px;
     }
 
     #lines1 {
@@ -296,7 +296,7 @@
     }
 
     #lines2 {
-        height: 58720px;
+        height: 66530px;
     }
 
     .credit {
@@ -309,7 +309,7 @@
 
     .section-header-mask h3 {
         left: calc((100% - 820px)/2 + (820px/6));
-        top: calc(50% - 95px);
+        top: calc(50% - 75px);
         font-size: 47px;
     }
 
@@ -754,7 +754,7 @@
         left: 0;
         width: 100%;
         top: 1430px;
-        height: 59780px;
+        height: 66490px;
     }
 
     .map-wrapper {
@@ -765,7 +765,7 @@
         left: 10%;
         margin-left: 0px;
         width: 450px;
-        height: 59780px;
+        height: 66490px;
         top: 1460px;
     }
 
@@ -813,11 +813,12 @@
     }
 
     #lines2 {
-        height: 50520px;
+        height: 57230px;
     }
 
     #side-nav-wrapper {
         top: 920px;
+        height: 68300px;
     }
 
     .story-content {
@@ -933,27 +934,27 @@
     }
     
     #americas-header {
-        top: 22170px;
+        top: 23390px;
     }
     
     #sids-header {
-        top: 31930px;
+        top: 33760px;
     }
     
     #africa-header {
-        top: 35590px;
+        top: 37420px;
     }
     
     #asia-header {
-        top: 40470px;
+        top: 44130px;
     }
     
     #china-header {
-        top: 50840px;
+        top: 55720px;
     }
     
     #australasia-header {
-        top: 56330px;
+        top: 62430px;
     }
 
 }
