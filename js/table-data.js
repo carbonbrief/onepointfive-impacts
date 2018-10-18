@@ -25,15 +25,14 @@
     // global objects
 
     var sealevel = [
-        { "name": "<span class='table-subtitle'>Sea level rise</span>", "1.5C": "", "2C": "", "3C": ""},
-        { "name": "By 2100 ", "1.5C": "<span class='arrow-up'>&#9650;</span> 48cm <br><span class='uncertainty'>(+28–+82)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56cm <br><span class='uncertainty'>(+28–+96)</span>", "3C": ""},
+        { "name": "<span class='table-subtitle'>Sea level rise by 2100</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 48cm <br><span class='uncertainty'>(+28–+82)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 56cm <br><span class='uncertainty'>(+28–+96)</span>", "3C": ""},
         { "name": "<br><span class='table-subtitle'>Contributions from</span>", "1.5C": "", "2C": "", "3C": ""},
         { "name": "Antarctic ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+35)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6cm <br><span class='uncertainty'>(-8–+34)</span>", "3C": ""},
         { "name": "Greenland ice sheet", "1.5C": "<span class='arrow-up'>&#9650;</span> 7cm <br><span class='uncertainty'>(+3–+19)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 8cm <br><span class='uncertainty'>(+2–+22)</span>", "3C": ""},
         { "name": "Thermal expansion", "1.5C": "<span class='arrow-up'>&#9650;</span> 19cm <br><span class='uncertainty'>(+10–+27)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 25cm <br><span class='uncertainty'>(+7–+42)</span>", "3C": ""},
         { "name": "Glaciers and ice caps", "1.5C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+6–+15)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 11cm <br><span class='uncertainty'>(+2–+21)</span>", "3C": ""},
         { "name": "Land water storage", "1.5C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 5cm <br><span class='uncertainty'>(+2–+8)</span>", "3C": ""},
-        { "name": "<span class='table-subtitle'>By 2300 </span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 59cm <br><span class='uncertainty'>(+37–+88)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 81cm <br><span class='uncertainty'>(+59–+105)</span>", "3C": ""}
+        { "name": "<span class='table-subtitle'>Sea level rise by 2300 </span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 59cm <br><span class='uncertainty'>(+37–+88)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 81cm <br><span class='uncertainty'>(+59–+105)</span>", "3C": ""}
     ];
 
     var marineheatwaves = [
@@ -53,7 +52,8 @@
         { "name": "Probability of an ice-free Arctic summer in any one year", "1.5C": "3%", "2C": "16%", "3C": "63%"},
         { "name": "<br><span class='table-subtitle'>Permafrost</span>", "1.5C": "", "2C": "", "3C": ""},
         { "name": "Area of thawed permafrost by 2300", "1.5C": "4.8m km<sup>2</sup> <span class='uncertainty'>(2.6–6.8)</span>", "2C": "6.6m km<sup>2</sup> <span class='uncertainty'>(4.4–8.6)</span>", "3C": ""},
-        { "name": "<br><span class='table-subtitle'>Global glacier mass loss during the 21st century</span>", "1.5C": "76mm <span class='uncertainty'>(54–97mm)</span>", "2C": "89mm <span class='uncertainty'>(63–112mm)</span>", "3C": ""}
+        { "name": "<span class='table-subtitle'>Glaciers</span>", "1.5C": "", "2C": "", "3C": ""},
+        { "name": "Global glacier mass loss during the 21st century", "1.5C": "76mm <span class='uncertainty'>(54–97mm)</span>", "2C": "89mm <span class='uncertainty'>(63–112mm)</span>", "3C": ""}
     ];
 
     var snow = [
@@ -128,12 +128,12 @@
       {"name": "Maize", "1.5C": "<span class='arrow-down'>&#9660;</span> 6%", "2C": "<span class='arrow-down'>&#9660;</span> 9%", "3C": ""},
       {"name": "Wheat", "1.5C": "<span class='arrow-down'>&#9660;</span> 5%", "2C": "<span class='arrow-down'>&#9660;</span> 4%", "3C": ""},
       {"name": "<span class='table-subtitle'></span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(+4-+5)", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+7-+8)", "3C": ""}
+      {"name": "<span class='table-subtitle'>Growing season length</span>", "1.5C": "<span class='arrow-up'>&#9650;</span> 5 days <br><span class='uncertainty'>(+4-+5)", "2C": "<span class='arrow-up'>&#9650;</span> 8 days <br><span class='uncertainty'>(+7-+8)</span>", "3C": ""}
     ];
 
     var crops2 = [
       {"name": "<span class='table-subtitle'>Crop yields over existing farmland</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+17)", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-8-+21)", "3C": ""},
+      {"name": "Wheat (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-6-+17)</span>", "2C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-8-+21)</span>", "3C": ""},
       {"name": "Maize (Global)", "1.5C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-26-+8)", "2C": "<span class='arrow-down'>&#9660;</span> 6% <span class='uncertainty'>(-38-+2)", "3C": ""},
       {"name": "Soy (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-3-+28)", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-12-+34)", "3C": ""},
       {"name": "Rice (Global)", "1.5C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-17-+24)", "2C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-4-+27)", "3C": ""},
@@ -399,40 +399,40 @@
 
     var americasTemp = [
       {"name": "<span class='table-subtitle'>US average temperature</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Contiguous US", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C", "3C": ""},
-      {"name": "Northwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.9C", "2C": "<span class='arrow-up'>&#9650;</span> 2.6C", "3C": ""},
-      {"name": "Southwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C", "2C": "<span class='arrow-up'>&#9650;</span> 2.5C", "3C": ""},
-      {"name": "Rockies", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C", "2C": "<span class='arrow-up'>&#9650;</span> 2.8C", "3C": ""},
-      {"name": "Great Plains", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.0C", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C", "3C": ""},
-      {"name": "Midwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.3C", "2C": "<span class='arrow-up'>&#9650;</span> 3.0C", "3C": ""},
-      {"name": "South", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C", "2C": "<span class='arrow-up'>&#9650;</span> 2.4C", "3C": ""},
-      {"name": "East", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C", "2C": "<span class='arrow-up'>&#9650;</span> 2.8C", "3C": ""},
-      {"name": "Northeast", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.4C", "2C": "<span class='arrow-up'>&#9650;</span> 3.1C", "3C": ""}
+      {"name": "Contiguous US", "1.5C": "<span class='arrow-up'>&#9650;</span> 2C <span class='uncertainty'>(1–+2.7C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C <span class='uncertainty'>(+1.5–+3.7C)", "3C": ""},
+      {"name": "Northwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.9C <span class='uncertainty'>(0.7–+3C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.6C <span class='uncertainty'>(+1–+3.7C)</span>", "3C": ""},
+      {"name": "Southwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C <span class='uncertainty'>(0.9–+2.5C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.5C <span class='uncertainty'>(+1.2–+3.5C)</span>", "3C": ""},
+      {"name": "Rockies", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(0.9–+2.9C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> +2.8C <span class='uncertainty'>(+1.3–+3.9C)</span>", "3C": ""},
+      {"name": "Great Plains", "1.5C": "<span class='arrow-up'>&#9650;</span> 2C <span class='uncertainty'>(0.8–+2.9C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.7C <span class='uncertainty'>(+1.3–+3.7C)</span>", "3C": ""},
+      {"name": "Midwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.3C <span class='uncertainty'>(0.8–+3.4C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3C <span class='uncertainty'>(+1.6–+4.4C)</span>", "3C": ""},
+      {"name": "South", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.8C <span class='uncertainty'>(+1–+2.4C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.4C <span class='uncertainty'>(+1.3–+3.4C)</span>", "3C": ""},
+      {"name": "East", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(+1–+3C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.8C <span class='uncertainty'>(+1.5–+4C)</span>", "3C": ""},
+      {"name": "Northeast", "1.5C": "<span class='arrow-up'>&#9650;</span> 2.4C <span class='uncertainty'>(+1.2–+3.5C)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3.1C  <span class='uncertainty'>(+1.6–+4.6C)</span>", "3C": ""}
     ];
 
     var americasMaxTemp = [
       {"name": "<span class='table-subtitle'>Annual highest maximum temperature</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Amazonia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <span class='uncertainty'>(+1.1-+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2C <span class='uncertainty'>(+1.9-+2.2)", "3C": ""},
-      {"name": "Southern South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.7-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <span class='uncertainty'>(+1.4-+2.1)", "3C": ""},
-      {"name": "Central America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.7-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <span class='uncertainty'>(+1.3-+1.7)", "3C": ""},
-      {"name": "Western North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.4-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.9C <span class='uncertainty'>(+1.4-+2.2)", "3C": ""},
-      {"name": "Central North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6C <span class='uncertainty'>(-0.8-+1.6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <span class='uncertainty'>(+0.3-+2.4)", "3C": ""},
-      {"name": "Eastern North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.4-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <span class='uncertainty'>(+1.3-+2.1)", "3C": ""},
-      {"name": "Alaska", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.1C <span class='uncertainty'>(+0.6-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(+1.4-+2.8)", "3C": ""},
-      {"name": "Greenland", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.3C <span class='uncertainty'>(+0.8-+1.7)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(+1.8-+2.5)", "3C": ""}
+      {"name": "Amazonia", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.2C <span class='uncertainty'>(+1.1-+1.5)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2C <span class='uncertainty'>(+1.9-+2.2)</span>", "3C": ""},
+      {"name": "Southern South America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.7-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.6C <span class='uncertainty'>(+1.4-+2.1)</span>", "3C": ""},
+      {"name": "Central America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.7-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.5C <span class='uncertainty'>(+1.3-+1.7)</span>", "3C": ""},
+      {"name": "Western North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.4-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.9C <span class='uncertainty'>(+1.4-+2.2)</span>", "3C": ""},
+      {"name": "Central North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 0.6C <span class='uncertainty'>(-0.8-+1.6)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <span class='uncertainty'>(+0.3-+2.4)</span>", "3C": ""},
+      {"name": "Eastern North America", "1.5C": "<span class='arrow-up'>&#9650;</span> 1C <span class='uncertainty'>(+0.4-+1.2)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1.7C <span class='uncertainty'>(+1.3-+2.1)</span>", "3C": ""},
+      {"name": "Alaska", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.1C <span class='uncertainty'>(+0.6-+1.4)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(+1.4-+2.8)</span>", "3C": ""},
+      {"name": "Greenland", "1.5C": "<span class='arrow-up'>&#9650;</span> 1.3C <span class='uncertainty'>(+0.8-+1.7)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2.1C <span class='uncertainty'>(+1.8-+2.5)</span>", "3C": ""}
       ];
 
 
     var americasWarmSpell = [
       {"name": "<span class='table-subtitle'>Warm spell duration</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Amazonia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 28 days <span class='uncertainty'>(+17-+43)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 71 days <span class='uncertainty'>(+67-+80)", "3C": ""},
-      {"name": "Southern South America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 days <span class='uncertainty'>(+7-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16 days <span class='uncertainty'>(+15-+18)", "3C": ""},
-      {"name": "Central America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 22 days <span class='uncertainty'>(+16-+25)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 45 days <span class='uncertainty'>(+32-+46)", "3C": ""},
-      {"name": "Western North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 15 days <span class='uncertainty'>(+11-+20)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+22-+30)", "3C": ""},
-      {"name": "Central North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 days <span class='uncertainty'>(+6-+16)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 21 days <span class='uncertainty'>(+13-+25)", "3C": ""},
-      {"name": "Eastern North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 9 days <span class='uncertainty'>(+6-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 18 days <span class='uncertainty'>(+14-+20)", "3C": ""},
-      {"name": "Alaska ", "1.5C": "<span class='arrow-up'>&#9650;</span> 12 days <span class='uncertainty'>(+11-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 days <span class='uncertainty'>(+18-+25)", "3C": ""},
-      {"name": "Greenland ", "1.5C": "<span class='arrow-up'>&#9650;</span> 16 days <span class='uncertainty'>(+14-+20)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+23-+31)", "3C": ""}
+      {"name": "Amazonia ", "1.5C": "<span class='arrow-up'>&#9650;</span> 28 days <span class='uncertainty'>(+17-+43)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 71 days <span class='uncertainty'>(+67-+80)</span>", "3C": ""},
+      {"name": "Southern South America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 days <span class='uncertainty'>(+7-+13)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 16 days <span class='uncertainty'>(+15-+18)</span>", "3C": ""},
+      {"name": "Central America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 22 days <span class='uncertainty'>(+16-+25)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 45 days <span class='uncertainty'>(+32-+46)</span>", "3C": ""},
+      {"name": "Western North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 15 days <span class='uncertainty'>(+11-+20)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+22-+30)</span>", "3C": ""},
+      {"name": "Central North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 10 days <span class='uncertainty'>(+6-+16)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 21 days <span class='uncertainty'>(+13-+25)</span>", "3C": ""},
+      {"name": "Eastern North America ", "1.5C": "<span class='arrow-up'>&#9650;</span> 9 days <span class='uncertainty'>(+6-+11)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 18 days <span class='uncertainty'>(+14-+20)</span>", "3C": ""},
+      {"name": "Alaska ", "1.5C": "<span class='arrow-up'>&#9650;</span> 12 days <span class='uncertainty'>(+11-+14)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 22 days <span class='uncertainty'>(+18-+25)</span>", "3C": ""},
+      {"name": "Greenland ", "1.5C": "<span class='arrow-up'>&#9650;</span> 16 days <span class='uncertainty'>(+14-+20)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 26 days <span class='uncertainty'>(+23-+31)</span>", "3C": ""}
     ];
 
     var americasWarmExtremes = [
@@ -465,15 +465,15 @@
 
     var americasRainfall = [
       {"name": "<span class='table-subtitle'>Average rainfall</span>", "1.5C": "", "2C": "", "3C": ""},
-      {"name": "Contigious US", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 3%", "3C": ""},
-      {"name": "Northwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 3%", "3C": ""},
-      {"name": "Southwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
-      {"name": "Rockies", "1.5C": "<span class='arrow-up'>&#9650;</span> 1%", "2C": "<span class='arrow-up'>&#9650;</span> 2%", "3C": ""},
-      {"name": "GreatPlains", "1.5C": "<span class='arrow-up'>&#9650;</span> 0%", "2C": "<span class='arrow-up'>&#9650;</span> 1%", "3C": ""},
-      {"name": "Midwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 6%", "3C": ""},
-      {"name": "South", "1.5C": "<span class='arrow-up'>&#9650;</span> 2%", "2C": "<span class='arrow-up'>&#9650;</span> 3%", "3C": ""},
-      {"name": "East", "1.5C": "<span class='arrow-up'>&#9650;</span> 5%", "2C": "<span class='arrow-up'>&#9650;</span> 7%", "3C": ""},
-      {"name": "Northeast", "1.5C": "<span class='arrow-up'>&#9650;</span> 6%", "2C": "<span class='arrow-up'>&#9650;</span> 8%", "3C": ""}
+      {"name": "Contigious US", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-4–+10%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3% <span class='uncertainty'>(-6–+11%)</span>", "3C": ""},
+      {"name": "Northwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-12–+13%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3% <span class='uncertainty'>(-9–+11%)</span>", "3C": ""},
+      {"name": "Southwest", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-15–+22%)</span>", "2C": "<span class='arrow-down'>&#9660;</span> 1% <span class='uncertainty'>(-21–+24%)</span>", "3C": ""},
+      {"name": "Rockies", "1.5C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-10–+13%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-9–+16%)</span>", "3C": ""},
+      {"name": "Great Plains", "1.5C": "<span class='arrow-side'>&#9664;&#9654;</span> 0% <span class='uncertainty'>(-10–+13%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 1% <span class='uncertainty'>(-14–+11%)</span>", "3C": ""},
+      {"name": "Midwest", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <span class='uncertainty'>(-6–+16%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(-7–+16%)</span>", "3C": ""},
+      {"name": "South", "1.5C": "<span class='arrow-up'>&#9650;</span> 2% <span class='uncertainty'>(-5–+12%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 3% <span class='uncertainty'>(-8–+14%)</span>", "3C": ""},
+      {"name": "East", "1.5C": "<span class='arrow-up'>&#9650;</span> 5% <span class='uncertainty'>(-2–+16%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 7% <span class='uncertainty'>(-4–+16%)</span>", "3C": ""},
+      {"name": "Northeast", "1.5C": "<span class='arrow-up'>&#9650;</span> 6% <span class='uncertainty'>(-1–+13%)</span>", "2C": "<span class='arrow-up'>&#9650;</span> 8% <span class='uncertainty'>(-2–+17%)</span>", "3C": ""}
     ];
 
     var americasDrySpell = [
